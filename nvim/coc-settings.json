@@ -1,0 +1,42 @@
+{
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.hoverTarget": "float",
+  "coc.preferences.jumpCommand": "drop",
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.errorSign": "!!",
+  "diagnostic.hintSign": "??",
+  "diagnostic.infoSign": "**",
+  "diagnostic.maxWindowHeight": 20,
+  "diagnostic.refreshOnInsertMode": true,
+  "diagnostic.warningSign": "!!",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "html.format.enable": true,
+  "prettier.disableSuccessMessage": true,
+  "prettier.requireConfig": false,
+  "prettier.eslintIntegration": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.arrowParens": "avoid",
+  "signature.maxWindowHeight": 20,
+  "snippets.extends": {
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"]
+  },
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "suggest.acceptSuggestionOnCommitCharacter": true,
+  "suggest.enablePreselect": true,
+  "suggest.enablePreview": true,
+  "suggest.floatEnable": true,
+  "suggest.noselect": false,
+  "tsserver.enableJavascript": true
+}

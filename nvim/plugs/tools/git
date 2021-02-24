@@ -1,0 +1,19 @@
+" Fugitive - Vim meets git. Gstatus, Gdiff, etc.
+Plug 'tpope/vim-fugitive'
+
+nmap <leader>gb :G branch<Space>
+nmap <leader>gC :G commit -m "<Space>
+nmap <leader>gco :G checkout<Space>
+nmap <leader>gds :Gdiffsplit!<CR>
+nmap <leader>gf :diffget //2<CR>
+nmap <leader>gj :diffget //3<CR>
+nmap <leader>gp :G pull<CR>
+nmap <leader>gP :G push<CR>
+nmap <leader>gs :G<CR>
+nmap <leader>gS :G stash<CR>
+
+" Conflicted - Enhancements build on fugitive to handle git conflicts
+Plug 'christoomey/vim-conflicted'
+nnoremap <leader>gnc :GitNextConflict<cr>
+
+" vim:ft=vim

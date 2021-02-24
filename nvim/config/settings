@@ -1,0 +1,50 @@
+" Settings
+
+set autoindent
+set autowrite "Automatically :write before running commands
+set backspace=2 " Backspace deletes like most programs in insert mode
+set colorcolumn=+1
+set complete+=kspell
+set diffopt+=iwhite
+set diffopt+=vertical
+set diffopt+=vertical
+set expandtab
+set foldenable
+set foldlevel=999
+set foldmethod=indent
+set hidden
+set history=50
+set hlsearch
+set ignorecase
+set incsearch
+set incsearch "do incremental searching
+set laststatus=2 "Always display the status line
+set list listchars=tab:»·,trail:·,nbsp:·
+set nobackup
+set noerrorbells
+set nojoinspaces
+set noswapfile
+set nowrap
+set nowritebackup
+set number
+set numberwidth=5
+set relativenumber
+set ruler "show the cursor position all the time
+set shiftround
+set shiftwidth=2
+set showcmd "display incomplete commands
+set smartcase
+set smartindent
+set spellfile=$HOME/.vim-spell-en.utf-8.add
+set splitbelow
+set splitright
+set tabstop=2
+set textwidth=80 "Make it obvious where 80 characters is
+set timeoutlen=150
+set undodir=~/.vim/undodir
+set undofile
+
+filetype plugin indent on
+let g:is_posix = 1 "When the type of shell script is /bin/sh, assume a POSIX-compatible shell for syntax highlighting
+
+" vim:ft=vim

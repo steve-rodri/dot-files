@@ -1,0 +1,33 @@
+
+"Buffers
+nnoremap <leader>w :w<cr>
+nnoremap <leader>Q ZZ<cr>
+nnoremap <leader>wq :w<cr> :bd<cr>
+nnoremap <leader>vs :vs<cr>
+nnoremap <leader>buf :ls<cr>
+nnoremap <leader>bb <C-^><cr>
+nnoremap <leader>bd :bd<cr>
+nnoremap <leader>dab :%bd<cr>
+nnoremap <leader>q :bd<cr>
+nnoremap <Tab> :bn<cr>
+nnoremap <leader>bp :bp<cr>
+nnoremap <leader>bf :bf<cr>
+nnoremap <leader>bl :bl<cr>
+" zoom a vim pane, <C-w>= to re-balance
+nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
+nnoremap <leader>= :wincmd =<cr>
+
+"Chrome
+nnoremap gl :OpenAndReloadTab<cr>
+nnoremap gL :OpenTabDetached<cr>
+
+"Tab Completion
+inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
+inoremap <S-Tab> <c-n>
+
+"Todo
+nnoremap <leader>dn :ToggleCompletion<cr>
+nnoremap <Plug>MakeTodo :MakeTodo<cr>
+map <leader>td <Plug>MakeTodo
+
+" vim:ft=vim

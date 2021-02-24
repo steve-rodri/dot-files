@@ -1,0 +1,18 @@
+#       ______   ______   __  __   ______   ______
+#      /\___  \ /\  ___\ /\ \_\ \ /\  == \ /\  ___\
+#   ___\/_/  /__\ \___  \\ \  __ \\ \  __< \ \ \____
+#  /\__\ /\_____\\/\_____\\ \_\ \_\\ \_\ \_\\ \_____\
+#  \/__/ \/_____/ \/_____/ \/_/\/_/ \/_/ /_/ \/_____/
+#
+
+for zsh_source in $HOME/.dotfiles/zsh/configs/*.zsh; do
+  source $zsh_source
+done
+
+source $HOME/.zplug/init.zsh
+zplug "denysdovhan/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
+zplug 'mafredri/zsh-async'
+zplug 'zsh-users/zsh-syntax-highlighting'
+zplug 'zsh-users/zsh-completions'
+zplug load
+export ZPLUG_HOME=/usr/local/opt/zplug

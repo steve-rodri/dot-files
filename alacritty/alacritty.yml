@@ -1,0 +1,86 @@
+# Window Customizations
+window:
+  dimensions:
+    columns: 140
+    lines: 38
+  padding:
+    x: 10
+    y: 10
+  decorations: buttonless
+scrolling:
+  history: 10000
+  multiplier: 3
+background_opacity: 0.99
+
+# Font configuration
+font:
+  normal:
+    family: Input Mono Condensed
+    style: Regular
+  bold:
+    family: Input Mono Condensed
+    style: Bold
+  italic:
+    family: Input Mono Condensed
+    style: Italic
+  size: 17.0
+offset:
+  x: 0
+  y: 0
+# Glyph offset determines the locations of the glyphs within their cells with
+# the default being at the bottom. Increasing `x` moves the glyph to the
+# right, increasing `y` moves the glyph upward.
+glyph_offset:
+  x: 0
+  y: 0
+# Thin stroke font rendering (macOS only)
+#
+# Thin strokes are suitable for retina displays, but for non-retina screens
+# it is recommended to set `use_thin_strokes` to `false`.
+use_thin_strokes: true
+# If `true`, bold text is drawn using the bright color variants.
+#
+draw_bold_text_with_bright_colors: true
+colors:
+  primary:
+    background: "#121F31"
+    foreground: "#FFFFFF"
+
+  normal:
+    black: "#000000"
+    red: "#C51E14"
+    green: "#1DC121"
+    yellow: "#C7C329"
+    blue: "#0A2FC4"
+    magenta: "#C839C5"
+    cyan: "#20C5C6"
+    white: "#C7C7C7"
+
+  # Bright colors
+  bright:
+    black: "#000000"
+    red: "#C51E14"
+    green: "#1DC121"
+    yellow: "#C7C329"
+    blue: "#0A2FC4"
+    magenta: "#C839C5"
+    cyan: "#20C5C6"
+    white: "#C7C7C7"
+
+  dim:
+    black: "#686868"
+    red: "#FD6F6B"
+    green: "#67F86F"
+    yellow: "#FFFA72"
+    blue: "#6A76FB"
+    magenta: "#FD7CFC"
+    cyan: "#68FDFE"
+    white: "#FFFFFF"
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+  # Keybindings
+  key_bindings:
+    - { key: N, mods: Control|Shift, action: SpawnNewInstance }

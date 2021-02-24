@@ -1,0 +1,4 @@
+# Configure home directory
+export ZDOTDIR=$HOME/.config/zsh
+# Add homebrew binaries
+export PATH="/usr/local/bin:$PATH"

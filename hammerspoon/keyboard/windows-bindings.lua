@@ -1,0 +1,27 @@
+return {
+  modifiers = {'ctrl'},
+  showHelp  = false,
+  trigger   = 's',
+  mappings  = {
+    { {},         'return', 'maximize' },
+    { {},         'c',      'center' },
+    { {},         'h',      'left' },
+    { {},         'j',      'down' },
+    { {},         'k',      'up' },
+    { {},         'l',      'right' },
+    { {},         'i',      'leftThird' },
+    { {},         'o',      'midThird' },
+    { {},         'p',      'rightThird' },
+    { {},         'u',      'leftTwoThirds' },
+    { {},         '[',      'rightTwoThirds' },
+    { {},         'y',      'upLeft' },
+    { {},         ']',      'upRight' },
+    { {},         'n',      'downLeft' },
+    { {},         '/',      'downRight' },
+    { {},         'n',      'nextScreen' },
+    { {"shift"},  'k',      'moveOneScreenNorth' },
+    { {"shift"},  'j',      'moveOneScreenSouth' },
+    { {"shift"},  'l',      'moveOneScreenEast' },
+    { {"shift"},  'h',      'moveOneScreenWest' },
+  }
+}

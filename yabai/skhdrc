@@ -1,0 +1,171 @@
+# Restart Yabai
+fn + ctrl + lalt + lcmd - y :
+    /usr/bin/env osascript <<< \
+    "display notification \"Restarting Yabai\" with title \"Yabai\""; \
+    launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+
+# Set window insertion point
+fn + ctrl + lalt + lcmd - h : yabai -m window --insert west
+fn + ctrl + lalt + lcmd - j : yabai -m window --insert south
+fn + ctrl + lalt + lcmd - k : yabai -m window --insert north
+fn + ctrl + lalt + lcmd - l : yabai -m window --insert east
+
+# Focus display
+fn - 0x29 : yabai -m display --focus recent # semi colon
+fn - h    : yabai -m display --focus prev || yabai -m display --focus last
+fn - j    : yabai -m display --focus next || yabai -m display --focus first
+fn - k    : yabai -m display --focus prev || yabai -m display --focus last
+fn - l    : yabai -m display --focus next || yabai -m display --focus first
+fn - p    : yabai -m display --focus prev || yabai -m display --focus last
+fn - n    : yabai -m display --focus next || yabai -m display --focus first
+fn - u    : yabai -m display --focus 3
+fn - i    : yabai -m display --focus 1
+fn - o    : yabai -m display --focus 2
+
+# Focus space
+fn + ctrl - 0x29 : yabai -m space --focus recent # semi colon
+fn + ctrl - h    : yabai -m space --focus prev || yabai -m space --focus last
+fn + ctrl - j    : yabai -m space --focus prev || yabai -m space --focus last
+fn + ctrl - k    : yabai -m space --focus next || yabai -m space --focus first
+fn + ctrl - l    : yabai -m space --focus next || yabai -m space --focus first
+fn + ctrl - p    : yabai -m space --focus prev || yabai -m space --focus last
+fn + ctrl - n    : yabai -m space --focus next || yabai -m space --focus first
+
+# Move space
+fn + ctrl + lalt - h : yabai -m space --move prev || yabai -m space --move last
+fn + ctrl + lalt - j : yabai -m space --move prev || yabai -m space --move last
+fn + ctrl + lalt - k : yabai -m space --move next || yabai -m space --move first
+fn + ctrl + lalt - l : yabai -m space --move next || yabai -m space --move first
+fn + ctrl + lalt - p : yabai -m space --move prev || yabai -m space --move last
+fn + ctrl + lalt - n : yabai -m space --move next || yabai -m space --move first
+fn + ctrl + lalt - u : yabai -m space --display 3
+fn + ctrl + lalt - i : yabai -m space --display 1
+fn + ctrl + lalt - o : yabai -m space --display 2
+
+# Manage space
+alt - 0x18      : yabai -m space --balance # equalize size of all windows - =
+alt - c         : yabai -m space --create
+alt - d         : yabai -m space --destroy
+alt - r         : yabai -m space --rotate 270 # rotate clockwise
+alt + shift - r : yabai -m space --rotate 90 # rotate counter clockwise
+alt - x         : yabai -m space --mirror x-axis # rotate on X axis
+alt - y         : yabai -m space --mirror y-axis # rotate on Y axis
+alt - g         : yabai -m space --toggle gap; \
+                  yabai -m space --toggle padding # toggle gaps
+
+# Manage window
+alt - s : yabai -m window --toggle split # toggle h or v split
+alt - b : yabai -m window --toggle border # toggle active window border
+
+# Focus window
+alt - h     : yabai -m window --focus west
+alt - j     : yabai -m window --focus south
+alt - k     : yabai -m window --focus north
+alt - l     : yabai -m window --focus east
+alt - p     : yabai -m window --focus prev || yabai -m window --focus last
+alt - n     : yabai -m window --focus next || yabai -m window --focus first
+alt - i     : yabai -m window --focus prev || yabai -m window --focus last
+alt - o     : yabai -m window --focus next || yabai -m window --focus first
+alt - 0x29  : yabai -m window --focus recent # semi colon
+
+# Swap windows
+alt + cmd - h    : yabai -m window --swap west
+alt + cmd - j    : yabai -m window --swap south
+alt + cmd - k    : yabai -m window --swap north
+alt + cmd - l    : yabai -m window --swap east
+alt + cmd - p    : yabai -m window --swap prev
+alt + cmd - n    : yabai -m window --swap next
+alt + cmd - i    : yabai -m window --swap first
+alt + cmd - o    : yabai -m window --swap last
+alt + cmd - 0x29 : yabai -m window --swap recent # semi colon
+alt + cmd - 0x24 : yabai -m window --toggle zoom-fullscreen # maximize - return
+
+# Warp windows
+alt + cmd + shift - h    : yabai -m window --warp west
+alt + cmd + shift - j    : yabai -m window --warp south
+alt + cmd + shift - k    : yabai -m window --warp north
+alt + cmd + shift - l    : yabai -m window --warp east
+alt + cmd + shift - p    : yabai -m window --warp prev
+alt + cmd + shift - n    : yabai -m window --warp next
+alt + cmd + shift - i    : yabai -m window --warp first
+alt + cmd + shift - o    : yabai -m window --warp last
+alt + cmd + shift - 0x29 : yabai -m window --warp recent # semi colon
+alt + cmd + shift - 0x24 : yabai -m window --toggle zoom-fullscreen # maximize - return
+
+# Resize windows
+alt + shift - h    : yabai -m window --resize left:-20:0 ; \
+                     yabai -m window --resize right:-20:0
+alt + shift - j    : yabai -m window --resize bottom:0:20 ; \
+                     yabai -m window --resize top:0:20
+alt + shift - k    : yabai -m window --resize top:0:-20 ; \
+                     yabai -m window --resize bottom:0:-20
+alt + shift - l    : yabai -m window --resize right:20:0 ; \
+                     yabai -m window --resize left:20:0
+alt + shift - 0x18 : yabai -m space --balance # equalize size of all windows - =
+
+# Move window to display
+alt + ctrl - 0x29 : yabai -m window  --display recent || yabai -m display --focus   recent; \
+alt + ctrl - h    : yabai -m window  --display prev   || yabai -m window  --display last; \
+                    yabai -m display --focus   prev   || yabai -m display --focus   last;
+alt + ctrl - j    : yabai -m window  --display next   || yabai -m window  --display first; \
+                    yabai -m display --focus   next   || yabai -m display --focus   first;
+alt + ctrl - k    : yabai -m window  --display prev   || yabai -m window  --display last; \
+                    yabai -m display --focus   prev   || yabai -m display --focus   last;
+alt + ctrl - l    : yabai -m window  --display next   || yabai -m window  --display first; \
+                    yabai -m display --focus   next   || yabai -m display --focus   first;
+alt + ctrl - p    : yabai -m window  --display prev   || yabai -m window  --display last; \
+                    yabai -m display --focus   prev   || yabai -m display --focus   last;
+alt + ctrl - n    : yabai -m window  --display next   || yabai -m window  --display first; \
+                    yabai -m display --focus   next   || yabai -m display --focus   first;
+
+# Move window to space
+alt + ctrl + shift - 0x29 : yabai -m window --space recent || yabai -m space  --focus recent; \
+alt + ctrl + shift - h    : yabai -m window --space prev   || yabai -m window --space last; \
+                            yabai -m space  --focus prev   || yabai -m space  --focus last;
+alt + ctrl + shift - j    : yabai -m window --space next   || yabai -m window --space first; \
+                            yabai -m space  --focus next   || yabai -m space  --focus first;
+alt + ctrl + shift - k    : yabai -m window --space prev   || yabai -m window --space last; \
+                            yabai -m space  --focus prev   || yabai -m space  --focus last;
+alt + ctrl + shift - l    : yabai -m window --space next   || yabai -m window --space first; \
+                            yabai -m space  --focus next   || yabai -m space  --focus first;
+alt + ctrl + shift - p    : yabai -m window --space prev   || yabai -m window --space last; \
+                            yabai -m space  --focus prev   || yabai -m space  --focus last;
+alt + ctrl + shift - n    : yabai -m window --space next   || yabai -m window --space first; \
+                            yabai -m space  --focus next   || yabai -m space  --focus first;
+
+# Move and resize floated window
+ctrl + lcmd - space   : yabai -m window --toggle float
+ctrl + rshift - space : yabai -m window --toggle float
+
+ctrl + lcmd - h       : yabai -m window --grid 1:2:0:0:1:1 # left half
+ctrl + lcmd - j       : yabai -m window --grid 2:1:0:1:1:1 # bottom half
+ctrl + lcmd - k       : yabai -m window --grid 2:1:0:0:1:1 # top half
+ctrl + lcmd - l       : yabai -m window --grid 1:2:1:0:1:1 # right half
+
+ctrl + lcmd - y       : yabai -m window --grid 2:2:0:0:1:1 # top left
+ctrl + lcmd - p       : yabai -m window --grid 2:2:1:0:1:1 # top right - left square bracket
+ctrl + lcmd - n       : yabai -m window --grid 2:2:0:1:1:1 # bottom left
+ctrl + lcmd - 0x2C    : yabai -m window --grid 2:2:1:1:1:1 # bottom right - backslash
+
+ctrl + lcmd - u       : yabai -m window --grid 1:3:0:0:1:1 # left third
+ctrl + lcmd - i       : yabai -m window --grid 1:3:1:0:1:1 # center third
+ctrl + lcmd - o       : yabai -m window --grid 1:3:2:0:1:1 # right third
+
+ctrl + lcmd - m       : yabai -m window --grid 1:3:0:0:2:1 # left two thirds - right square bracket
+ctrl + lcmd - 0x2B    : yabai -m window --grid 1:6:1:0:4:1 # center two thirds - comma
+ctrl + lcmd - 0x2F    : yabai -m window --grid 1:3:1:0:2:1 # right two thirds - period
+
+ctrl + rshift - t     : yabai -m window --grid 3:1:0:0:1:1 # top third
+ctrl + rshift - g     : yabai -m window --grid 3:1:0:1:1:1 # middle third
+ctrl + rshift - b     : yabai -m window --grid 3:1:0:2:1:1 # bottom third
+
+ctrl + lcmd - c       : yabai -m window --grid 6:6:1:1:4:4 # center
+ctrl + lcmd - 0x24    : yabai -m window --grid 1:1:0:0:1:1 # maximize - return
+# <rows>:<cols>:<start-column>:<start-row>:<width>:<height>
+
+# Show system statistics
+ctrl + rshift - c : "${HOME}"/.config/yabai/scripts/show_cpu.sh
+ctrl + rshift - m : "${HOME}"/.config/yabai/scripts/show_mem.sh
+ctrl + rshift - b : "${HOME}"/.config/yabai/scripts/show_bat.sh
+ctrl + rshift - d : "${HOME}"/.config/yabai/scripts/show_disk.sh
+ctrl + rshift - s : "${HOME}"/.config/yabai/scripts/show_song.sh

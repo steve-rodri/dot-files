@@ -1,0 +1,44 @@
+Plug 'mhinz/vim-startify'
+let g:startify_session_dir  = '~/.config/nvim/session'
+let g:startify_session_autoload = 1
+let g:startify_session_delete_buffers = 1
+let g:startify_change_to_vcs_root = 1
+let g:startify_fortune_use_unicode = 1
+let g:startify_session_persistence = 1
+let g:startify_enable_special = 0
+let g:startify_files_number = 5
+let g:startify_lists = [
+  \ { 'type': 'files',     'header': ['Recent']     },
+  \ { 'type': 'sessions',  'header': ['Session']    },
+  \ { 'type': 'bookmarks', 'header': ['Bookmarks']  },
+  \ ]
+let g:startify_bookmarks = [
+  \ { 'a': '~/.config/alacritty/alacritty.yml' },
+  \ { 'c': '~/.config' },
+  \ { 'e': '~/.eslintrc.json' },
+  \ { 'h': '~/.hammerspoon/keyboard' },
+  \ { 'v': '~/.config/nvim' },
+  \ { 'y': '~/.config/yabai/yabai/skhdrc' },
+  \ { 'z': '~/.config/zsh' },
+  \ { 's': '~/.config/nvim/snips' },
+  \ { 't': '~/Documents/Development/tmp.nosync' },
+  \ '~/Documents/Development/Training.nosync',
+  \ '~/Documents/Development/Training.nosync/v-school.nosync',
+  \ '~/Documents/Development/Projects.nosync/apps.nosync',
+  \ '~/Documents/Development/Projects.nosync/chrome-extensions.nosync',
+  \ '~/Documents/Development/Projects.nosync/websites.nosync',
+  \ '~/Documents/Development/Projects.nosync/scriptable.nosync'
+  \ ]
+let g:ascii = [
+  \ '.',
+  \ '.     _   __         _    ___         *',
+  \ '     / | / /__  ____| |  / (_)___ ___',
+  \ '    /  |/ / _ \/ __ \ | / / / __ `__ \',
+  \ '   / /|  /  __/ /_/ / |/ / / / / / / /',
+  \ '  /_/ |_/\___/\____/|___/_/_/ /_/ /_/',
+  \ '.',
+  \ '.'
+  \ ]
+let g:startify_custom_header =
+  \ 'startify#pad(g:ascii + startify#fortune#boxed())'
+" vim:ft=vim

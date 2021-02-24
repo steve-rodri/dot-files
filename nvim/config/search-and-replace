@@ -1,0 +1,6 @@
+" Search / Substitute related configurations
+
+nnoremap <leader>sar :%s///g<left><left>
+vnoremap <leader>sar :s///g<left><left>
+
+" vim:ft=vim
