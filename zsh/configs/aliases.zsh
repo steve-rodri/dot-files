@@ -1,7 +1,7 @@
 # Zsh
 alias zc="cd  ~/.config/zsh/configs && nvim"
-alias zca="nvim ~/.config/zsh/configs/aliases.zsh"
-alias zu="source ~/.zshrc"
+alias za="nvim ~/.config/zsh/configs/aliases.zsh"
+alias zu="source ~/.config/zsh/.zshrc"
 
 # Hyper
 alias hc="nvim ~/.hyper.js"
