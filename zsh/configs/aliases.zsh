@@ -21,7 +21,6 @@ alias gc='git commit'
 alias gco='git checkout'
 alias gd='git diff'
 alias get='git'
-alias gh='git hist'
 alias gitconfig="vi ~/.config/git/config"
 alias gk='gitk --all&'
 alias got='git'

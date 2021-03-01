@@ -31,7 +31,6 @@
   fadd = !git fadd
   fall = fetch --all
   glog = log -E -i --grep
-  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
   iu = !git rebase -i $(git rev-parse --abbrev-ref --symbolic-full-name @{u})
   mup = !git checkout master && git fetch origin && echo && git sl master..origin/master && echo && git pull --quiet && git checkout -
   pl = pull
