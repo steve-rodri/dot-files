@@ -1,7 +1,7 @@
-" Ruby - More up to date Ruby filetype settings
+" " Ruby - More up to date Ruby filetype settings
 
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-rake'
+" Plug 'vim-ruby/vim-ruby'
+" Plug 'tpope/vim-rails'
+" Plug 'tpope/vim-rake'
 
-" vim:ft=vim
+" " vim:ft=vim

@@ -13,21 +13,15 @@ let g:startify_lists = [
   \ { 'type': 'bookmarks', 'header': ['Bookmarks']  },
   \ ]
 let g:startify_bookmarks = [
-  \ { 'a': '~/.config/alacritty/alacritty.yml' },
-  \ { 'c': '~/.config' },
-  \ { 'e': '~/.eslintrc.json' },
-  \ { 'h': '~/.hammerspoon/keyboard' },
-  \ { 'v': '~/.config/nvim' },
-  \ { 'y': '~/.config/yabai/yabai/skhdrc' },
-  \ { 'z': '~/.config/zsh' },
-  \ { 's': '~/.config/nvim/snips' },
+  \ '~/Documents/Development',
   \ { 't': '~/Documents/Development/tmp.nosync' },
-  \ '~/Documents/Development/Training.nosync',
-  \ '~/Documents/Development/Training.nosync/v-school.nosync',
-  \ '~/Documents/Development/Projects.nosync/apps.nosync',
-  \ '~/Documents/Development/Projects.nosync/chrome-extensions.nosync',
-  \ '~/Documents/Development/Projects.nosync/websites.nosync',
-  \ '~/Documents/Development/Projects.nosync/scriptable.nosync'
+  \ { 'v': '~/.dotfiles/nvim' },
+  \ { 's': '~/.dotfiles/nvim/snips' },
+  \ { 'e': '~/.dotfiles/nvim/plugs/tools/startify' },
+  \ { 'y': '~/.dotfiles/yabai/skhdrc' },
+  \ { 'z': '~/.dotfiles/zsh' },
+  \ { 'a': '~/.dotfiles/alacritty/alacritty.yml' },
+  \ { 'h': '~/.dotfiles/hammerspoon/keyboard' },
   \ ]
 let g:ascii = [
   \ '.',

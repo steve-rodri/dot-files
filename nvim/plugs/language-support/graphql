@@ -1,5 +1,5 @@
 " GraphQL - filetype settings for GraphQL
 
-Plug 'jparise/vim-graphql'
+" Plug 'jparise/vim-graphql'
 
 " vim:ft=vim

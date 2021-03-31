@@ -67,7 +67,7 @@ const PORT = 4000;
 app.listen(PORT, console.log(`server running on ${PORT}`));
 endsnippet
 
-snippet emii "Express - Mongoose - Initialize index.js"
+snippet eiim "Express - Mongo - Initialize index.js"
 const express = require("express");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
@@ -95,7 +95,7 @@ app.use((err, _, res) => {
 app.listen(${2:PORT}, () => console.log("server running on port $2"));
 endsnippet
 
-snippet ecr "Express - CRUD Route"
+snippet ecr "Express - CRUD Routes"
 const { Router } = require("express");
 const ${1:Model} = require("../models/${2:model}");
 const router = Router();
@@ -123,9 +123,9 @@ router
 	});
 
 router
-	.route("/:_id")
+	.route("/:id")
 	.get((req, res, next) => {
-		$1.findOne({ _id: req.params._id }, (err, $2) => {
+		$1.findOne({ _id: req.params.id }, (err, $2) => {
 			if (err) {
 				res.status(500);
 				return next(err);
@@ -134,7 +134,7 @@ router
 		});
 	})
 	.delete((req, res, next) => {
-		$1.findOneAndDelete({ _id: req.params._id }, err => {
+		$1.findOneAndDelete({ _id: req.params.id }, err => {
 			if (err) {
 				res.status(500);
 				return next(err);
@@ -144,7 +144,7 @@ router
 	})
 	.put((req, res, next) => {
 		$1.findOneAndUpdate(
-			{ _id: req.params._id },
+			{ _id: req.params.id },
 			req.body,
 			{ new: true },
 			(err, updated$1) => {
