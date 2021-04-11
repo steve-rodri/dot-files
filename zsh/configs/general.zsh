@@ -1,6 +1,7 @@
 # General ZSH configurations
 
 export EDITOR="nvim"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 sz() { source ~/.zshrc }
 
