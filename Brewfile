@@ -1,3 +1,4 @@
+tap "eth-p/software"
 tap "goles/battery"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -21,8 +22,6 @@ brew "coreutils"
 brew "libtool"
 # YAML Parser
 brew "libyaml"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # Library for command-line editing
 brew "readline"
 # ODBC 3 connectivity for UNIX
@@ -109,8 +108,6 @@ brew "luarocks"
 brew "mas"
 # Scalable distributed version control system
 brew "mercurial"
-# Platform built on V8 to build network applications
-brew "node", link: false
 # Highly capable, feature-rich programming language
 brew "perl"
 # CLI for Postgres with auto-completion and syntax highlighting
@@ -171,6 +168,8 @@ brew "zlib"
 brew "zplug"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 brew "goles/battery/battery"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
@@ -225,6 +224,7 @@ cask "qlimagesize"
 cask "qlprettypatch"
 cask "quicklook-csv"
 cask "quicklook-json"
+# Standalone app for debugging React Native apps
 cask "react-native-debugger"
 # Screen recording and video editing software
 cask "screenflow"
@@ -243,6 +243,7 @@ mas "Extractor", id: 971826370
 mas "Flow", id: 1423210932
 mas "Flowstate", id: 1051600144
 mas "Harvest", id: 506189836
+mas "Home Assistant", id: 1099568401
 mas "HotKey", id: 975890633
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
@@ -262,4 +263,3 @@ mas "Time Out", id: 402592703
 mas "Toolbox for Pages - Templates", id: 571654652
 mas "Trello", id: 1278508951
 mas "WhatsApp", id: 1147396723
-mas "Xcode", id: 497799835
