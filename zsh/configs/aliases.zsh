@@ -33,6 +33,9 @@ alias gx='gitx --all'
 # LazyGit
 alias lg="lazygit"
 
+# React Native
+alias rni="kill $(lsof -t -i:8081) && rm -rf ios/build/ && y run ios"
+
 # Yarn
 alias cra='yarn create react-app'
 alias y='yarn'
