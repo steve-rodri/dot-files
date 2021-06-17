@@ -7,7 +7,7 @@
 	required = true
 	smudge = git-lfs smudge -- %f
 [core]
-	autocrlf = input
+	autocrlf = false
 	safecrlf = true
 [cor]
 	safecrlf = true
