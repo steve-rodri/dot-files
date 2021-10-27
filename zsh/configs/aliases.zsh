@@ -47,6 +47,7 @@ alias ys='yarn start'
 
 # NPM
 alias nodepackages='cd ~/.asdf/installs/node/'
+alias uap= 'npx npm-check-updates -u'
 
 # ColorLS
 alias ls='colorls --group-directories-first'

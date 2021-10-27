@@ -38,5 +38,12 @@
   "suggest.enablePreview": true,
   "suggest.floatEnable": true,
   "suggest.noselect": false,
-  "tsserver.enableJavascript": true
+  "tsserver.enableJavascript": true,
+  "yaml.customTags": [
+    "!secret",
+    "!include_dir_list",
+    "!include_dir_merge_list",
+    "!include_dir_named",
+    "!include_dir_merge_named"
+  ]
 }
