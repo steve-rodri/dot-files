@@ -15,13 +15,13 @@ background_opacity: 0.99
 # Font configuration
 font:
   normal:
-    family: Input Mono Condensed
+    family: Input
     style: Regular
   bold:
-    family: Input Mono Condensed
+    family: Input
     style: Bold
   italic:
-    family: Input Mono Condensed
+    family: Input
     style: Italic
   size: 17.0
 offset:

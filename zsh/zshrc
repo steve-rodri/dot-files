@@ -5,7 +5,7 @@
 #  \/__/ \/_____/ \/_____/ \/_/\/_/ \/_/ /_/ \/_____/
 #
 
-for zsh_source in $HOME/.dotfiles/zsh/configs/*.zsh; do
+for zsh_source in $HOME/.dotfiles/zsh/config/*.zsh; do
   source $zsh_source
 done
 
@@ -17,5 +17,3 @@ zplug 'mafredri/zsh-async'
 zplug 'zsh-users/zsh-syntax-highlighting'
 zplug 'zsh-users/zsh-completions'
 zplug load
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
