@@ -17,5 +17,3 @@ zplug 'mafredri/zsh-async'
 zplug 'zsh-users/zsh-syntax-highlighting'
 zplug 'zsh-users/zsh-completions'
 zplug load
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
