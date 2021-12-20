@@ -41,6 +41,7 @@
   "tsserver.enableJavascript": true,
   "yaml.customTags": [
     "!secret",
+    "!include_dir_*",
     "!include_dir_list",
     "!include_dir_merge_list",
     "!include_dir_named",
