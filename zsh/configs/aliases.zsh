@@ -59,6 +59,8 @@ alias lst='colorls --group-directories-first --almost-all --tree'
 alias scriptableiCloud="cd ~/Library/Mobile\ Documents/iCloud~dk~simonbs~Scriptable/Documents"
 alias scriptable="cd ~/Documents/Development/Projects/Scriptable.nosync && vi"
 
+alias ha="cd /Volumes/config"
+
 alias ss="start_dev_server"
 # Custom functions
 function start_dev_server {
