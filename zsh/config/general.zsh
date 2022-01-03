@@ -19,3 +19,18 @@ restart-postgres() {
       launchctl load -w homebrew.mxcl.postgresql.plist \
   )
 }
+
+start_dev_server() {
+  if [ -f yarn.lock ]
+  then
+    yarn start
+  elif [ -f package.json ]
+  then
+    npm start
+  elif [ -f index.html ]
+  then
+    browser-sync start --server --files '**'
+  else
+    echo "No package.json or index.html file found"
+  fi
+}

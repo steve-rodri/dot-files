@@ -1,0 +1,48 @@
+#!/usr/bin/env zsh
+
+# ====== Rules =========================
+
+# <rows>:<cols>:<start-x>:<start-y>:<width>:<height>
+center=3:3:1:1:1:1
+top_right=3:3:2:0:1:1
+
+yabai -m rule --add label="Calculator" app="^Calculator$" manage=off
+yabai -m rule --add label="Dictionary" app="^Dictionary$" manage=off
+yabai -m rule --add label="Bartender" app="^Bartender" manage=off border=off
+
+yabai -m rule --add \
+  label="System Preferences" \
+  app="^System Preferences$" \
+  manage=off \
+  border=off \
+  sticky=on \
+  grid=${center}
+
+yabai -m rule --add \
+  label="Finder" \
+  app="^Finder$" \
+  title="(Co(py|nnect)|Move|Info|Pref)" \
+  manage=off
+
+yabai -m rule --add \
+  label="Safari" \
+  app="^Safari$" \
+  title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" \
+  manage=off
+
+yabai -m rule --add
+  label="Harvest" \
+  app="^Harvest$" \
+  border=off \
+  manage=off \
+  sticky=on \
+  grid=${top_right}
+
+yabai -m rule --add
+  label="Simulator" \
+  app="^Simulator$" \
+  manage=off \
+  border=off \
+  sticky=on \
+  opacity=1
+

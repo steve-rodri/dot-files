@@ -2,7 +2,6 @@
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "coc.preferences.formatOnType": true,
-  "coc.preferences.hoverTarget": "float",
   "coc.preferences.jumpCommand": "drop",
   "diagnostic.checkCurrentLine": true,
   "diagnostic.errorSign": "!!",
@@ -12,13 +11,21 @@
   "diagnostic.refreshOnInsertMode": true,
   "diagnostic.warningSign": "!!",
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "eslint.packageManager": "yarn",
   "eslint.autoFixOnSave": true,
-  "eslint.filetypes": [
+  "eslint.run": "onSave",
+  "eslint.probe": [
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "html",
+    "markdown"
   ],
+  "eslint.format.enable": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
   "html.format.enable": true,
   "prettier.disableSuccessMessage": true,
   "prettier.requireConfig": false,

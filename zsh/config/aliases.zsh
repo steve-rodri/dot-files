@@ -45,6 +45,11 @@ alias ycra='yarn create react-app'
 alias yr='yarn remove'
 alias ys='yarn start'
 
+# Yabai
+alias sy='echo running yabai... && ~/Code/yabai/bin/yabai'
+
+alias ha='cd /Volumes/config'
+
 # NPM
 alias nodepackages='cd ~/.asdf/installs/node/'
 alias uap= 'npx npm-check-updates -u'
@@ -62,18 +67,3 @@ alias scriptable="cd ~/Documents/Development/Projects/Scriptable.nosync && vi"
 alias ha="cd /Volumes/config"
 
 alias ss="start_dev_server"
-# Custom functions
-function start_dev_server {
-  if [ -f yarn.lock ]
-  then
-    yarn start
-  elif [ -f package.json ]
-  then
-    npm start
-  elif [ -f index.html ]
-  then
-    browser-sync start --server --files '**'
-  else
-    echo "No package.json or index.html file found"
-  fi
-}
