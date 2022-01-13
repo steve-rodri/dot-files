@@ -1,7 +1,7 @@
 " Ack - Integrata ack (grep replacement) into vim
 Plug 'mileszs/ack.vim'
 
-nmap <leader>ck :Ack!<space>
+nmap <leader>se :Ack!<space>
 nnoremap <leader>cc :cclose<cr>:pclose<cr>
 
 function! s:VisualAck()
