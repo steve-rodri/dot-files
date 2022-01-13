@@ -1,3 +1,4 @@
+alias d="cd ~/.dotfiles/ && nvim ./"
 # Zsh
 alias zc="cd  ~/.config/zsh/configs && nvim"
 alias za="nvim ~/.config/zsh/configs/aliases.zsh"
