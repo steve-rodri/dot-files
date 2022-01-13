@@ -3,6 +3,8 @@ alias d="cd ~/.dotfiles/ && nvim ./"
 alias zc="cd  ~/.config/zsh/configs && nvim"
 alias za="nvim ~/.config/zsh/configs/aliases.zsh"
 alias zu="source ~/.config/zsh/.zshrc"
+# Home Brew
+alias b="brew"
 
 # Hyper
 alias hc="nvim ~/.hyper.js"
