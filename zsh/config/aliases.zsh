@@ -5,6 +5,7 @@ alias za="nvim ~/.config/zsh/configs/aliases.zsh"
 alias zu="source ~/.config/zsh/.zshrc"
 # Home Brew
 alias b="brew"
+alias bb="backup_home_brew"
 
 # Hyper
 alias hc="nvim ~/.hyper.js"
