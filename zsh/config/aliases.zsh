@@ -1,8 +1,10 @@
 alias d="cd ~/.dotfiles/ && nvim ./"
+
 # Zsh
-alias zc="cd  ~/.config/zsh/configs && nvim"
-alias za="nvim ~/.config/zsh/configs/aliases.zsh"
-alias zu="source ~/.config/zsh/.zshrc"
+alias zc="cd  ~/.dotfiles/zsh/config && nvim"
+alias za="nvim ~/.dotfiles/zsh/config/aliases.zsh"
+alias zu="source ~/.dotfiles/zsh/zshrc"
+
 # Home Brew
 alias b="brew"
 alias bb="backup_home_brew"
@@ -13,8 +15,8 @@ alias hc="nvim ~/.hyper.js"
 # Vim
 alias v="nvim"
 alias vi="nvim"
-alias vc="nvim ~/.config/nvim"
-alias vic="cd ~/.config/nvim && nvim"
+alias vc="nvim ~/.dotfiles/nvim"
+alias vic="cd ~/.dotfiles/nvim && nvim"
 alias vim="nvim"
 
 # Git
@@ -25,7 +27,7 @@ alias gc='git commit'
 alias gco='git checkout'
 alias gd='git diff'
 alias get='git'
-alias gitconfig="vi ~/.config/git/config"
+alias gitconfig="vi ~/.dotfiles/git/config"
 alias gk='gitk --all&'
 alias got='git'
 alias gpl='git pull'
@@ -49,11 +51,6 @@ alias ycra='yarn create react-app'
 alias yr='yarn remove'
 alias ys='yarn start'
 
-# Yabai
-alias sy='echo running yabai... && ~/Code/yabai/bin/yabai'
-
-alias ha='cd /Volumes/config'
-
 # NPM
 alias nodepackages='cd ~/.asdf/installs/node/'
 alias uap= 'npx npm-check-updates -u'
@@ -68,6 +65,7 @@ alias lst='colorls --group-directories-first --almost-all --tree'
 alias scriptableiCloud="cd ~/Library/Mobile\ Documents/iCloud~dk~simonbs~Scriptable/Documents"
 alias scriptable="cd ~/Documents/Development/Projects/Scriptable.nosync && vi"
 
+# Home Assistant
 alias ha="cd /Volumes/config"
 
 alias ss="start_dev_server"
