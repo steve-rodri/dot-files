@@ -13,15 +13,21 @@ scrolling:
   multiplier: 3
 
 # Font configuration
+# FiraCode Nerd Font
+# Agave Nerd Font
+# BitstreamVeraSansMono Nerd Font
+# JetBrainsMono Nerd Font
+# Iosevka Nerd Font
+# BlexMono Nerd Font
+
 font:
   normal:
-    family: Input Mono Condensed
-    style: Regular
+    family: BitstreamVeraSansMono Nerd Font
   bold:
-    family: Input Mono Condensed
+    family: BitstreamVeraSansMono Nerd Font
     style: Bold
   italic:
-    family: Input Mono Condensed
+    family: BitstreamVeraSansMono Nerd Font
     style: Italic
   size: 17.0
 offset:
@@ -39,13 +45,13 @@ glyph_offset:
 # it is recommended to set `use_thin_strokes` to `false`.
 use_thin_strokes: true
 # If `true`, bold text is drawn using the bright color variants.
-#
+
+# Colors
 draw_bold_text_with_bright_colors: true
 colors:
   primary:
     background: "#121F31"
     foreground: "#FFFFFF"
-
   normal:
     black: "#000000"
     red: "#C51E14"
@@ -55,8 +61,6 @@ colors:
     magenta: "#C839C5"
     cyan: "#20C5C6"
     white: "#C7C7C7"
-
-  # Bright colors
   bright:
     black: "#000000"
     red: "#C51E14"
@@ -66,7 +70,6 @@ colors:
     magenta: "#C839C5"
     cyan: "#20C5C6"
     white: "#C7C7C7"
-
   dim:
     black: "#686868"
     red: "#FD6F6B"
