@@ -1,4 +1,3 @@
 " Commentary - Comment / uncomment via text operator w/ text objects
 Plug 'tpope/vim-commentary'
-nmap cm gc
 " vim:ft=vim
