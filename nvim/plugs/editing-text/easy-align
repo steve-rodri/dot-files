@@ -2,4 +2,8 @@
 Plug 'junegunn/vim-easy-align'
 command! ReformatTable normal vip<cr>**|
 
+" Easy Align
+nmap <leader>rft :ReformatTable<cr>
+vmap <cr> <Plug>(EasyAlign)
+
 " vim:ft=vim

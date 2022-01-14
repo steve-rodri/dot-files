@@ -34,4 +34,9 @@ function! s:MakeTodo()
 endfunction
 command! MakeTodo call <sid>MakeTodo()
 
+
+nnoremap <leader>dn :ToggleCompletion<cr>
+nnoremap <Plug>MakeTodo :MakeTodo<cr>
+map <leader>td <Plug>MakeTodo
+
 " vim:ft=vim
