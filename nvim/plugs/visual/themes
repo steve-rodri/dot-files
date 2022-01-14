@@ -2,8 +2,4 @@
 Plug 'joshdick/onedark.vim'
 Plug 'nanotech/jellybeans.vim'
 
-hi def link jsObjectKey Identifier
-hi def link jsObjectProp Identifier
-
-
 " vim:ft=vim

@@ -13,6 +13,6 @@ function! HelpFileMode()
 endfunction
 
 " gh - get help
-nnoremap <leader>gh :h local-additions<cr>
+nnoremap <leader>gh :h<cr>
 
 " vim:ft=vim

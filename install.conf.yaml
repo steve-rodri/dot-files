@@ -28,9 +28,6 @@
     ~/.fzf.zsh: fzf/init.zsh
     ~/.hyper.js: hyper/config.js
 - shell:
-- [git submodule update --init --recursive, Installing submodules]
-    -
-        descripton: installs homebrew
-        command: curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
-    -
- 
+    - [git submodule update --init --recursive, Installing submodules]
+    - descripton: installs homebrew
+      command: curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
