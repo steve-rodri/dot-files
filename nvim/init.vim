@@ -26,3 +26,4 @@ call s:SourceFilesIn('plugs/language-support')
 call plug#end()
 
 call s:SourceFilesIn('config')
+call s:SourceFilesIn('keymaps')
