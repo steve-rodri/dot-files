@@ -17,4 +17,7 @@ hi Normal ctermbg=NONE guibg=NONE
 "Highlight column
 highlight ColorColumn guibg=#6f717f
 
+hi def link jsObjectKey Identifier
+hi def link jsObjectProp Identifier
+
 " vim:ft=vim
