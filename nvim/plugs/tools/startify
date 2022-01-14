@@ -15,10 +15,11 @@ let g:startify_lists = [
 let g:startify_bookmarks = [
   \ '~/Documents/Development',
   \ { 't': '~/Documents/Development/tmp.nosync' },
+  \ { 'd': '~/.dotfiles' },
   \ { 'v': '~/.dotfiles/nvim' },
   \ { 's': '~/.dotfiles/nvim/snips' },
-  \ { 'e': '~/.dotfiles/nvim/plugs/tools/startify' },
-  \ { 'y': '~/.dotfiles/yabai/skhdrc' },
+  \ { 'x': '~/.dotfiles/nvim/plugs/tools/startify' },
+  \ { 'y': '~/.dotfiles/yabai' },
   \ { 'z': '~/.dotfiles/zsh' },
   \ { 'a': '~/.dotfiles/alacritty/alacritty.yml' },
   \ { 'h': '~/.dotfiles/hammerspoon/keyboard' },

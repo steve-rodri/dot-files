@@ -7,3 +7,4 @@ python 3.9.0 2.7.18
 node 15.0.1
 neovim stable
 lua 5.4.2
+golang 1.17.3

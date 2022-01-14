@@ -1,4 +1,4 @@
-"  Color Scheme
+"Color Scheme
 
 if (has("nvim"))
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -16,5 +16,8 @@ hi Normal ctermbg=NONE guibg=NONE
 
 "Highlight column
 highlight ColorColumn guibg=#6f717f
+
+hi def link jsObjectKey Identifier
+hi def link jsObjectProp Identifier
 
 " vim:ft=vim

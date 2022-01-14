@@ -1,3 +1,4 @@
+tap "buo/cask-upgrade"
 tap "eth-p/software"
 tap "goles/battery"
 tap "heroku/brew"
@@ -12,6 +13,14 @@ tap "koekeishiya/formulae"
 tap "mongodb/brew"
 tap "thoughtbot/formulae"
 tap "universal-ctags/universal-ctags"
+# Image manipulation library
+brew "jpeg"
+# Library for manipulating PNG images
+brew "libpng"
+# TIFF library and utilities
+brew "libtiff"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -22,8 +31,6 @@ brew "coreutils"
 brew "libtool"
 # YAML Parser
 brew "libyaml"
-# Library for command-line editing
-brew "readline"
 # ODBC 3 connectivity for UNIX
 brew "unixodbc"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -38,8 +45,6 @@ brew "bat"
 brew "bfg"
 # Collection of portable C++ source libraries
 brew "boost"
-# Library for manipulating PNG images
-brew "libpng"
 # Core application library for C
 brew "glib"
 # Vector graphics library with cross-device output support
@@ -58,12 +63,8 @@ brew "ctags", link: false
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
-# Image manipulation library
-brew "jpeg"
-# TIFF library and utilities
-brew "libtiff"
-# Cross-platform C++ GUI toolkit (wxWidgets for macOS)
-brew "wxmac"
+# Cross-platform C++ GUI toolkit
+brew "wxwidgets"
 # Programming language for highly scalable real-time systems
 brew "erlang"
 # Functional metaprogramming aware language built on Erlang VM
@@ -72,30 +73,46 @@ brew "elixir"
 brew "ffind"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU compiler collection
+brew "gcc"
+# Graphics library to dynamically manipulate images
+brew "gd"
 # GitHub command-line tool
 brew "gh"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git", link: false
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# Image manipulation
+brew "netpbm"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Convert source code to formatted text with syntax highlighting
 brew "highlight"
 # Add GitHub support to git on the command-line
 brew "hub"
+# Database of common MIME types
+brew "shared-mime-info"
+# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "libheif"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Regular expressions library
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Network authentication protocol
-brew "krb5"
+# Cryptographic library based on the code from GnuPG
+brew "libgcrypt"
 # X.509 and CMS library
 brew "libksba"
 # Postgres C API library
@@ -108,6 +125,10 @@ brew "luarocks"
 brew "mas"
 # Scalable distributed version control system
 brew "mercurial"
+# HTTP/2 C Library
+brew "nghttp2"
+# ISO-C API and CLI for generating UUIDs
+brew "ossp-uuid"
 # Highly capable, feature-rich programming language
 brew "perl"
 # CLI for Postgres with auto-completion and syntax highlighting
@@ -117,7 +138,7 @@ brew "pngcrush"
 # Object-relational database system
 brew "postgresql", restart_service: true
 # Cross-platform application and UI framework
-brew "qt", link: false
+brew "qt"
 # Cross-platform application and UI framework
 brew "qt@5"
 # Install various Ruby versions and implementations
@@ -128,6 +149,8 @@ brew "rbenv"
 brew "reattach-to-user-namespace"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: true
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
@@ -178,7 +201,7 @@ brew "jesseduffield/lazygit/lazygit"
 # Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
 # A tiling window manager for macOS based on binary space partitioning.
-brew "koekeishiya/formulae/yabai"
+brew "koekeishiya/formulae/yabai", args: ["HEAD"]
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 brew "thoughtbot/formulae/gitsh"
@@ -198,9 +221,18 @@ cask "arq"
 cask "bartender"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
+# Tool to remove unnecessary files and folders from disk
+cask "cleanmymac"
 # API documentation browser and code snippet manager
 cask "dash"
+cask "font-agave-nerd-font"
+cask "font-bitstream-vera-sans-mono-nerd-font"
+cask "font-blex-mono-nerd-font"
+cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
+cask "font-iosevka-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-monoid-nerd-font"
 # Desktop automation application
 cask "hammerspoon"
 # Time tracking application
@@ -228,12 +260,15 @@ cask "quicklook-json"
 cask "react-native-debugger"
 # Screen recording and video editing software
 cask "screenflow"
+# 3D design software
+cask "sketchup"
 # Application for inspecting installer packages
 cask "suspicious-package"
 cask "webpquicklook"
 # Desktop chat client for Google Hangouts
 cask "yakyak"
 mas "1Password 7", id: 1333542190
+mas "AngryBirdsReloaded", id: 1539172625
 mas "Boop", id: 1518425043
 mas "CARROT Weather", id: 993487541
 mas "Developer", id: 640199958
@@ -260,6 +295,7 @@ mas "Speedtest", id: 1153157709
 mas "Take a Break", id: 1457158844
 mas "Termius", id: 1176074088
 mas "Time Out", id: 402592703
-mas "Toolbox for Pages - Templates", id: 571654652
+mas "Toolbox for Pages", id: 571654652
 mas "Trello", id: 1278508951
 mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835

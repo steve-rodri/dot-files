@@ -1,4 +1,7 @@
-Plug 'https://github.com/voldikss/vim-floaterm'
+Plug 'liuchengxu/vim-clap'
+Plug 'voldikss/clap-floaterm'
+Plug 'voldikss/fzf-floaterm'
+Plug 'voldikss/vim-floaterm'
 
 let g:floaterm_keymap_toggle = '<F1>'
 let g:floaterm_keymap_next   = '<F2>'
@@ -10,5 +13,9 @@ let g:floaterm_autoinsert=1
 let g:floaterm_width=0.8
 let g:floaterm_height=0.8
 let g:floaterm_wintitle=0
-let g:floaterm_autoclose=1
+let g:floaterm_autoclose=2
+
+nmap <leader>nt :FloatermNew<cr>
+nmap <leader>tt :FloatermToggle<cr>
+nmap <leader>lg :FloatermNew! lg<cr>
 " vim:ft=vim

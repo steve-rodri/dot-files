@@ -34,3 +34,11 @@ start_dev_server() {
     echo "No package.json or index.html file found"
   fi
 }
+
+backup_home_brew() {
+  CURRENT=$(pwd)
+  cd ~/.dotfiles
+  brew bundle dump -f --describe --no-upgrade
+  cd $CURRENT
+  echo "Brew Bundle Successfully Created"
+}
