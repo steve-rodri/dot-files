@@ -1,4 +1,14 @@
 Plug 'sheerun/vim-polyglot'
-let g:polyglot_disabled = ['markdown']
+
+hi def link jsObjectKey Identifier
+hi def link jsObjectProp Identifier
+
+function! s:syntax_query() abort
+  for id in synstack(line("."), col("."))
+    echo synIDattr(id, "name")
+  endfor
+endfunction
+
+command! SyntaxQuery call s:syntax_query()
 
 " vim:ft=vim
