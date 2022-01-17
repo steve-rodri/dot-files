@@ -26,5 +26,3 @@ nnoremap <leader><leader> <c-^>
 " zoom
 nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <leader>= :wincmd =<cr>
-
-" vim:ft=vim

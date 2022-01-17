@@ -32,9 +32,9 @@ nnoremap <leader>tc :call ToggleColumn()<cr>
 nnoremap <leader>fsar :%s///g<left><left>
 vnoremap <leader>fsar :s///g<left><left>
 
-nmap <leader>ve :edit ~/.dotfiles/nvim/<cr>
-nmap <leader>vc :edit ~/.dotfiles/nvim/coc-settings.json<cr>
-nmap <leader>vr :source ~/.dotfiles/nvim/init.vim<cr>
+nmap <leader>ne :edit ~/.dotfiles/nvim/<cr>
+nmap <leader>nc :edit ~/.dotfiles/nvim/coc-settings.json<cr>
+nmap <leader>nr :source ~/.dotfiles/nvim/init.vim<cr>
 
 nmap <leader>k :nohlsearch<CR>
 
