@@ -1,5 +1,3 @@
 " themes
-Plug 'joshdick/onedark.vim'
-Plug 'nanotech/jellybeans.vim'
+Plug 'navarasu/onedark.nvim'
 
-" vim:ft=vim
