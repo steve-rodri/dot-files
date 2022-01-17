@@ -8,7 +8,7 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-syntax on
+" syntax on
 
 " options: dark, darker, cool, deep, warm, warmer, light
 let g:onedark_config = {
@@ -105,5 +105,3 @@ function! s:syntax_query() abort
 endfunction
 
 command! SyntaxQuery call s:syntax_query()
-
-" vim:ft=vim

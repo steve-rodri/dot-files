@@ -6,10 +6,10 @@ let g:which_key_map =  {}
 let g:which_key_sep = '→'
 
 " Change the colors if you want
-highlight default link WhichKey          Operator
-highlight default link WhichKeySeperator DiffAdded
-highlight default link WhichKeyGroup     Identifier
-highlight default link WhichKeyDesc      Function
+hi def link WhichKey          Operator
+hi def link WhichKeySeperator DiffAdded
+hi def link WhichKeyGroup     Identifier
+hi def link WhichKeyDesc      Function
 
 " Hide status line
 autocmd! FileType which_key
@@ -65,5 +65,3 @@ let g:which_key_sort_horizontal = 1
 " Map leader to which_key
 nnoremap <silent> <leader> :silent WhichKey '<Space>'<CR>
 vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
-
-" vim:ft=vim

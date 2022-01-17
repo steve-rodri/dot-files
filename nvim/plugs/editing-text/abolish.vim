@@ -97,5 +97,3 @@ Plug 'tpope/tpope-vim-abolish'
 " MixedCase (crm), camelCase (crc), snake_case (crs), UPPER_CASE (cru),
 " dash-case (cr-), dot.case (cr.), space case (cr<space>), and Title Case (crt)
 " are all just 3 keystrokes away.
-
-" vim:ft=vim

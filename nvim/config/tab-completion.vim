@@ -12,4 +12,3 @@ function! InsertTabWrapper()
         return "\<c-p>"
     endif
 endfunction
-" vim:ft=vim

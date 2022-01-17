@@ -8,5 +8,3 @@ Plug 'bogado/file-line'
 " With this little script in your plugins folder if the stuff after the colon is
 " a number and a file exists with the name especified before the colon vim will
 " open this file and take you to the line you wished in the first place.
-
-" vim:ft=vim

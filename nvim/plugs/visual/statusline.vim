@@ -13,5 +13,3 @@ let g:airline_theme='zenburn'
 " raven
 " qwq
 " zenburn
-
-" vim:ft=vim

@@ -13,5 +13,3 @@ nnoremap <leader>fa za<CR>
 nnoremap <leader>fA zA<CR>
 
 nnoremap <silent> <leader>ff :let&l:foldlevel = indent(".") / &sw<cr>
-
-" vim:ft=vim

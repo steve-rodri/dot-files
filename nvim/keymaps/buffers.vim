@@ -11,7 +11,7 @@ nnoremap <leader>bb <C-^><cr>
 " close
 nnoremap <leader>q :bd<cr>
 " close all
-nnoremap <leader>Q :%bd<cr>
+nnoremap <leader>qq :%bd<cr>
 " go to next buffer
 nnoremap <Tab> :bn<cr>
 " go to previous buffer

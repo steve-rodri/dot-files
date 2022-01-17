@@ -17,6 +17,3 @@ nmap <Leader>dtb <Plug>VimspectorToggleBreakpoint
 " nmap <Leader>dbf <Plug>VimspectorAddFunctionBreakpoint
 nmap <Leader>dso <Plug>VimspectorStepOver
 nmap <Leader>dsk <Plug>VimspectorStepOut
-
-
-" vim:ft=vim

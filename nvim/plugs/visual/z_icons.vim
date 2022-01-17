@@ -1,3 +1,1 @@
 Plug 'ryanoasis/vim-devicons'
-
-" vim:ft=vim

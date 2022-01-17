@@ -14,5 +14,3 @@ endfunction
 
 " gh - get help
 nnoremap <leader>gh :h<cr>
-
-" vim:ft=vim

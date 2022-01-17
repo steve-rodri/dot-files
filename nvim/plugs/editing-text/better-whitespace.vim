@@ -3,5 +3,3 @@ Plug 'ntpeters/vim-better-whitespace'
 
 " Strip Whitespace
 nnoremap <leader>dw :StripWhitespace<cr>:w<cr>
-
-" vim:ft=vim

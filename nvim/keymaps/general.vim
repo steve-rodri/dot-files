@@ -37,5 +37,3 @@ nmap <leader>nc :edit ~/.dotfiles/nvim/coc-settings.json<cr>
 nmap <leader>nr :source ~/.dotfiles/nvim/init.vim<cr>
 
 nmap <leader>k :nohlsearch<CR>
-
-" vim:ft=vim

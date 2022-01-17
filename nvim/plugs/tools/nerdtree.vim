@@ -19,6 +19,3 @@ let g:NERDTreeIgnore = ['^node_modules$']
 let g:NERDTreeShowHidden = 1
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:NERDTreeGitStatusNodeColorization = 1
-
-
-" vim:ft=vim

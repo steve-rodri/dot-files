@@ -1,5 +1,5 @@
 " Convenience - configs & mappings to smooth out rough edges and make vim feel like home
-"
+
 augroup vimrcEx
   autocmd!
   " When editing a file, always jump to the last known cursor position.
@@ -19,5 +19,3 @@ function ToggleColumn()
     set colorcolumn=+1
   endif
 endfunction
-
-" vim:ft=vim

@@ -26,5 +26,3 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
-
-" vim:ft=vim

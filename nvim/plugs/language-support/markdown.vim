@@ -63,5 +63,3 @@ nmap <leader>u1 <Plug>UnderlineH1
 nmap <leader>u2 <Plug>UnderlineH2
 nmap <leader>u3 <Plug>SmartLevelThreeHeader
 nmap <leader>u4 <Plug>SmartLevelFourHeader
-
-" vim:ft=vim

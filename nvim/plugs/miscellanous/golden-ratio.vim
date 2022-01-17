@@ -1,5 +1,2 @@
 " Golden Ratio - resize buffers to keep active one sane
-
-" Plug 'roman/golden-ratio'
-
-" vim:ft=vim
+Plug 'roman/golden-ratio'

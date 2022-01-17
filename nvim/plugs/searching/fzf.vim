@@ -1,5 +1,4 @@
 " fzf - the fuzzy finder of all the things
-
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
@@ -27,5 +26,3 @@ function! Find()
 endfunction
 
 nnoremap <C-p> :call Find()<cr>
-
-" vim:ft=vim

@@ -19,5 +19,3 @@ function! s:LoadNotes()
   setlocal filetype=markdown
   nnoremap <buffer> q :wq<cr>
 endfunction
-
-" vim:ft=vim

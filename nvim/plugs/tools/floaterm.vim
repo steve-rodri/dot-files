@@ -18,4 +18,3 @@ let g:floaterm_autoclose=2
 nmap <leader>nt :FloatermNew<cr>
 nmap <leader>tt :FloatermToggle<cr>
 nmap <leader>lg :FloatermNew! lg<cr>
-" vim:ft=vim

@@ -11,6 +11,3 @@ Plug 'nelstrom/vim-visual-star-search'
 
 " Vim's default behavior is to just extend the visual selection to the next
 " word that matches the word under the cursor.  Doesn't seem very useful.
-
-
-" vim:ft=vim

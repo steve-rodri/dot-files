@@ -10,5 +10,3 @@ vnoremap <C-@> <Esc>gV
 onoremap <C-@> <Esc>
 cnoremap <C-@> <C-c>
 inoremap <C-@> <Esc>
-
-" vim:ft=vim

@@ -15,6 +15,3 @@ nmap <leader>se :Ack!<space>
 nnoremap <leader>cc :cclose<cr>:pclose<cr>
 nnoremap K :Ack! '<C-r><C-w>'<cr>
 vnoremap K :<C-u>call <sid>VisualAck()<cr>
-
-
-" vim:ft=vim

@@ -1,7 +1,5 @@
 " Todo file functionality
 
-" Simple todo function
-
 function! s:ToggleCompletion()
   let save_cursor = getpos(".")
   if match(getline('.'), '- \[\s\]') != -1
@@ -38,5 +36,3 @@ command! MakeTodo call <sid>MakeTodo()
 nnoremap <leader>dn :ToggleCompletion<cr>
 nnoremap <Plug>MakeTodo :MakeTodo<cr>
 map <leader>td <Plug>MakeTodo
-
-" vim:ft=vim

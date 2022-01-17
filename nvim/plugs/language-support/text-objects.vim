@@ -6,5 +6,3 @@ Plug 'kana/vim-textobj-entire'
 Plug 'beloglazov/vim-textobj-quotes'
 Plug 'christoomey/vim-textobj-codeblock'
 Plug 'kana/vim-textobj-user' | Plug 'whatyouhide/vim-textobj-xmlattr'
-
-" vim:ft=vim

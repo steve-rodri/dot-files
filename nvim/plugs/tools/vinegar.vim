@@ -42,5 +42,3 @@ Plug 'tpope/vim-vinegar'
 " Press ~ to go home.
 " Use Vim's built-in CTRL-^ (CTRL-6) for switching back to the previous buffer
 " from the netrw buffer.
-
-" vim:ft=vim

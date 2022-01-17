@@ -3,5 +3,3 @@ Plug 'tpope/vim-commentary'
 
 " comments
 nmap cm gcc
-
-" vim:ft=vim

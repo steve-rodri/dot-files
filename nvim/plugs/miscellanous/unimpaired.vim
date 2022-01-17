@@ -29,5 +29,3 @@ Plug 'tpope/vim-unimpaired'
 
 " The . command works with all operator mappings, and will work with the
 " linewise mappings as well if you install repeat.vim.
-
-" vim:ft=vim

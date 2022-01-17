@@ -60,5 +60,3 @@ let &packpath = &runtimepath
 
 filetype plugin indent on
 let g:is_posix = 1 "When the type of shell script is /bin/sh, assume a POSIX-compatible shell for syntax highlighting
-
-" vim:ft=vim
