@@ -13,7 +13,8 @@ set expandtab
 set exrc
 set foldenable
 set foldlevel=999
-set foldmethod=indent
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
 set guicursor=
 set hidden
 set history=50
@@ -32,7 +33,7 @@ set nowrap
 set nowritebackup
 set number
 set numberwidth=5
-set redrawtime=10000 " Allow more time for loading syntax on large files
+set redrawtime=20000 " Allow more time for loading syntax on large files
 set relativenumber
 set ruler "show the cursor position all the time
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
