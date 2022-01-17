@@ -49,7 +49,7 @@ set tabstop=2
 set textwidth=80 "Make it obvious where 80 characters is
 set timeoutlen=250
 set title
-set undodir=~/.vim/undodir
+set undodir=~/.nvim/undodir
 set undofile
 set updatetime=300 " Reduce time for highlighting other references
 set wildmode=list:longest,list:full
