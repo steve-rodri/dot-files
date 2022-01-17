@@ -9,6 +9,20 @@ if (has("termguicolors"))
 endif
 
 syntax on
+
+" options: dark, darker, cool, deep, warm, warmer, light
+let g:onedark_config = {
+  \ 'style': 'deep',
+  \ 'transparent': 'v:true',
+  \ 'toggle_style_key': '<leader>ts',
+  \ 'ending_tildes': v:false,
+  \ 'diagnostics': {
+    \ 'darker': v:false,
+    \ 'undercurl': v:true,
+    \ 'background': v:false,
+  \ },
+\ }
+
 colorscheme onedark
 
 "Disable background highlighting"
