@@ -2,7 +2,7 @@ nodejs 17.4.0
 ruby 2.7.2
 postgres 13.0
 fzf 0.23.1
-yarn 1.22.10
+yarn 1.22.17
 python 3.9.0 2.7.18
 neovim 0.6.1
 lua 5.4.2
