@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@linear/import": "^1.5.17",
+    "create-react-app": "^5.0.0",
+    "firebase-tools": "^10.1.2",
+    "prettier": "^2.5.1",
+    "prettier-eslint-cli": "^5.0.1",
+    "surge": "^0.23.1",
+    "yarn-upgrade-all": "^0.6.1"
+  }
+}
