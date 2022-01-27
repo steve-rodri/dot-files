@@ -1,0 +1,853 @@
+174a037b46c4ed396e7f87548489f750|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|18|41|V|javascript
+	      <GitHubIcon fontSize={30} _hover={{ color: "sky-blue" }} />
+6411532ba4971f378391776a9db629d3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|30|22|v|javascript
+	cyan
+0680b049242e954236ef252a3d60fdc3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|30|22|v|javascript
+	sky-blue
+2104678fbe6e96a1cae49e11fa934db4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|30|25|V|javascript
+	        colorScheme="blue"
+4d97d9dd77184999fe9ce598d6ccb159|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Bars.js|2|1|V|javascript
+	import "../styles/bars.css";
+b2ee284a8047130b9d079cd9ddfbb41b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|4|27|V|javascript
+	import "../styles/social-icons.css";
+08847f0573da57ce0f58baa52aa7d1c6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|25|1|V|javascript
+	      <Heading as="h3" size="md">
+	        Portfolio
+	      </Heading>
+d9b2043499a350a8bb0175050234b2c5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|1|V|javascript
+	      <Heading as="h3" size="md">
+	        Contact
+	      </Heading>
+803a92c3fdac1e5e5efd5b83e95db0df|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|35|7|V|javascript
+	      </Heading>
+adbc891b7a4ba66bcc5a2847a9b3d062|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|30|v|javascript
+	outlineColor="transparent"
+e3fadf68fb0d6b1e6fd6311dcfef079d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|30|v|javascript
+	boxShadow="none"
+49dbf6cace9371d83f5c686f06dc53e2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|30|v|javascript
+	_focus={{ boxShadow: "none " }}
+5bc7b3cb076238004af720a521465cd5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/package.json|14|1|V|json
+	    "formik": "^2.2.9",
+bbc155fb2b111bf61c4f5ff892915e6b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|9|6|v|javascript
+	Switch
+d61b2ee6bc229869ba4308c9d89bd47a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|37|v|javascript
+	useRouteMatch
+247299aa61bee0b8f1bceecd07e1f51f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|13|24|V|javascript
+	      <Route path="*">{replace("/")}</Route>
+01f4f4056ef0c306e0fed39c8eff7379|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|13|V|javascript
+	  const { replace } = useHistory();
+66697846fa37e2a83b7c7f8e6d002b5c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|23|v|javascript
+	useHistory
+29e6a9fdbbccfe2f795100d21aab54c9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|9|v|javascript
+	 replace 
+9dde360102c103867bd2f45872f1129c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|9|v|javascript
+	replace
+3b7efa09444a31c5d58596e5bbf87d47|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|10|14|v|javascript
+	exact
+1517ffafc89bbb080fd537cea5c0fa31|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|11|1|V|javascript
+	      <Pages />
+99b79cbb7a28ea06d429ec36bfbd8443|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|13|26|V|javascript
+	      <Route path="*">{navigate("/")}</Route>
+561fcdb19f669862d3763f6becaa4bad|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|13|23|v|javascript
+	navigate("/")}
+6dda783b39fe4754578c93bb0646334b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|35|v|javascript
+	useNavigate
+a0d1d1f0e3932c61c0bdac149c1298da|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|25|v|javascript
+	Naviatae
+39f0fc219dd27edb19de2ccbb650aefd|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|32|V|javascript
+	  const navigate = useNavigate();
+78e731027d8fd50ed642340b7c9a63b3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|24|15|v|javascript
+	message
+32c749bf9d00e59e3fc6d60866160d8c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|18|10|v|javascript
+	projects.map(project => (
+	    <ProjectRoute key={project.id} {...project} {...props} />
+	  ));
+	
+fb655696f25bd3b2957be63a78faabac|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|19|1|V|javascript
+	  {projects.map(project => (
+	    <ProjectRoute key={project.id} {...project} {...props} />
+	  ))
+	}
+751e81c2917a51e9820a71da27c13699|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|25|1|V|javascript
+	    </Routes>
+1419ad6e37d8181f224436d7d275f75b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|6|v|javascript
+	ProjectRoute
+7143480d75fa71de66ded81cd93e5ac9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|28|1|V|javascript
+	const ProjectRoute = props => {
+	  console.log(props)
+	  const match = useMatch(
+	    `/${props.title.replace(/\s+/g, "-").toLowerCase()}`
+	  );
+	  if (match) return <Route to=""><Project {...props} /></Route>
+	  return null;
+	};
+0c358eaeda043bb6761631549e9dcd1c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|12|v|javascript
+	key={project.id}
+9405c3aff9112c3c60d03b94792877dc|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|6|v|javascript
+	Route
+0a6c3c285c2ee6ffb311c2ab36fd997a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|6|V|javascript
+	    <  {...project} {...props} />
+5512ca315e4e6635670ef8cc8929669a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|35|v|javascript
+	useMatch
+6f47d191a3919668727a7956ac715c67|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|21|v|javascript
+	`/${project.name}`
+030bb0a29b070d9b63ae7675fd78535f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/package.json|29|50|V|json
+	//                                                    /|\
+af352bd7b3c15d0a634d0686e043b4ed|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/package.json|28|1|V|json
+	    "lint": "eslint . && prettier-eslint --list-different $PWD/'**/*.js'",
+	    "format": "prettier-eslint --write $PWD/'**/*.js'"
+b47626d53093d3de18cc6a339e68f430|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|19|12|V|javascript
+	    <Routes>
+5e9a7534482f89d39f7c710882fee1b3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|11|10|V|javascript
+	      <ProjectRoutes />
+f646b93c79702c85ca4a24e59960db39|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|10|v|javascript
+	projects.map(project => (
+	    <Route key={project.id} to={`/${project.name}`}><Project {...project}/></Route>
+	  ))
+919fca00bd6382a977db63d9b1b372ba|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|53|v|javascript
+	<Project {...project}/>
+700c216fb376666eaeda0c892e8bdc09|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|9|23|v|javascript
+	component
+89faaf3fabf0622d2a88bb3c5b5031de|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|75|v|javascript
+	propject
+23b0be362c29e31dc303e7f2258570a6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|19|1|V|javascript
+	const ProjectRoutes = () => {
+	  return projects.map(project => (
+	    <Route key={project.id} to={`/${project.name}`}><Project {...project}/></Route>
+	  ))
+	};
+17ae0473187854efdfabb45987378020|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|23|v|javascript
+	<Navigate to="/" replace/>
+7944b032fe561e29270de9e11aba3270|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|60|v|javascript
+	</Route>
+b068931cc450442b63f5b3d276ea4297|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|49|v|javascript
+	name
+b4541d05866eea9a8a71438002ea8864|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|8|V|javascript
+	  const 
+9f119746f44506265463a188bc546d7d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|41|v|javascript
+	project.title
+8e2dcfd7e7e24b1ca76c1193f645902b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|23|v|javascript
+	element
+c7e35c750f5c59007d4739fc530739bb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|31|v|javascript
+	<Navigate to="/" replace />
+41983be4dce2a043b2f64494b52c358e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|8|v|javascript
+	Route path="/projects/*" render={handleRemRoutes}/
+3297a00fc73938ab31cb6c8cd2aa0ef4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|41|v|javascript
+	handleRemRoutes
+9e5f0bb330344d580b9e30d338d6ab6d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|33|v|javascript
+	render
+1b84b9f3958234a1e6397017062dd178|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|18|61|V|javascript
+	      <Route path="*" element={<Navigate to="/" replace />}/>
+6fdc22eaf075c36034fc22fe5c8fc78f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|22|1|V|javascript
+	const Projects = () => {
+	  return (
+	    <Routes>
+addb7b00529b0783de16e439b6121834|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|1|V|javascript
+	      <Route path="/projects/*" element={<Projects/>}/>
+fc75d6761b07c4f731139fc67e197bf6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|23|1|V|javascript
+	    </Routes>
+	  )
+	}
+7a0baaa1825bf9f9434640578378b6d5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|1|V|javascript
+	      {projects.map(project => (
+	        <Route key={project.id} path={`/${projectRouteName(project)}`} element={<Project {...project}/>}/>
+	      ))}
+54e1d44609e3abed11f6e1eb6ae54988|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|20|7|v|javascript
+	Projects
+ebe9faddbb16b8a70d786a9c7e6c9d97|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|34|1|V|javascript
+	const projectRouteName = ({ title }) => {
+	  return title.replace(/\s+/g, "-").toLowerCase()
+	}
+e14cab0ee53711d7c851ab29d0a1857a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|7|v|javascript
+	projectRouteName
+2a1627a6903e94a22f609ed7771df92a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|34|v|javascript
+	 return title.replace(/\s+/g, "-").toLowerCase() 
+e70c4df10ef0983b9c8c31bd06b2a2c3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|34|v|javascript
+	return
+e6018e24eefa90f3d007303a739b0ef5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|7|v|javascript
+	routeName
+be05d559ccc3262d3e7d034ed3c56980|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|7|v|javascript
+	pathname
+d27c5f3048c7c0673a81b423020dda30|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|1|V|javascript
+	  const handleRemRoutes = () => {
+	
+	  }
+b39b1ecf8e654dafba650e9dbb25f149|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|10|V|javascript
+	  return (
+d053f6ed2b3900aee428f175e05a5ec7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/pathToProject.js|1|14|v|javascript
+	pathToProject
+b37c91e79728542cdc4915dc1b90091c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|4|20|V|javascript
+	import { projectPath}
+12890e78cafcc213b83d168e71654277|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|16|1|V|javascript
+	const pathname = ({ title }) => title.replace(/\s+/g, "-").toLowerCase()
+a463d02a63e4a30ed84c8cd57f1e10d5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|29|19|v|javascript
+	projectPath(title)
+46f86faa6bbf9ac94a7e459509a20ed0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|29|41|v|javascript
+	project
+ae60cd67db8925b59f7a0d661266bc56|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|29|41|v|javascript
+	{ title }
+5b06a7d67e34cdd0547a4be978bb15a3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|25|19|v|javascript
+	 title 
+5cb9ee19e0aa1a04c8851336540fbdfd|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|5|1|V|javascript
+	import projectPath from "../utils/pathToProject";
+1f15b1c9b23c4eb563b610ae8cf8c43e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|22|38|v|javascript
+	ttile
+d5d3db1765287eef77d7927cc956f50a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|16|18|v|javascript
+	title
+ea614728f63b96eeeef3cfb2fca68dd2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|16|1|V|javascript
+	const pathname = title => title.replace(/\s+/g, "-").toLowerCase()
+cebab4dfcdfc1fc8e384ba3caa1bd1d5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/pathToProject.js|1|1|V|javascript
+	export const projectPathname = title =>
+	  `/${title.replace(/\s+/g, "-").toLowerCase()}`;
+63fa98db49b027d0a27b539a29a07e5a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/pathToProject.js|2|1|V|javascript
+	export default pathToProject;
+93cab48e9b67b7b4e082d26b2a878da1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|24|18|v|javascript
+	title => title.replace(/\s+/g, "-").toLowerCase()
+99f89f5f7b35c03af6ea7cd01fd38916|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|4|34|v|javascript
+	./utils
+4e95f5ea65950f5de21f015c8032b877|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/getProjectPathname.js|1|14|v|javascript
+	getProjectPathname
+9b923370e03c8b951794fa03246a7a54|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|32|18|v|javascript
+	3px s
+8c8d3f7781cd7bcdfef47949c37feead|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|32|18|v|javascript
+	3px slid white
+cb5e100e5a9a3e7f6d1fd97512215282|file:///Users/steve/.dotfiles/es-lint/eslintrc.json|95|21|v|json
+	error
+5f42a92b141248808fdc730927919812|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|19|1|V|javascript
+	  const border = useColorModeValue("3px solid black", "3px solid white")
+40775a30221412c3eff6d17497b9e536|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|28|1|V|javascript
+	        <Image
+	          {...imageProps}
+	          maxW="full"
+	          borderRadius={{ md: "sm" }}
+	          border={border}
+	        />
+563f7728daec7e217b5007070c544229|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|37|15|v|javascript
+	imageProps
+d8a7cf7f296734762f8d1dd975ae2eee|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|40|37|V|javascript
+	          borderRadius={{ md: "sm" }}
+875b1d0a0601e12afef8baf493833064|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|39|21|V|javascript
+	          maxW="full"
+dd9cab1169553c2b8f20d02397f1bc09|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|33|1|V|javascript
+	            border="3px"
+	            borderColor="white"
+	            borderStyle="solid"
+9c49759fa52d2bed92afc229b9d209ea|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|34|1|V|javascript
+	const ProjectImage = props => {
+	  const border = useColorModeValue("3px solid black", "3px solid white")
+	  return <Image {...props} border={border} />
+	}
+be53a0541a6d36f6ecb879fa2c584b08|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|2|33|v|javascript
+	Image
+b4cf588f4da92705b5952ed06b0b9ffa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|14|1|V|javascript
+	  useColorModeValue
+7891e9ff98c6078a70d00aeec4b4321a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|8|1|V|javascript
+	  Image,
+f2acdf538e38a2f81dff13a8bc5ec730|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|1|1|V|javascript
+	export * from "App.js"
+d23d5634ddc619596b169aa18f7536e5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|2|1|V|javascript
+	export * from "Bars.js"
+fbaff37e7b671f587696d0e2c304c781|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|1|1|V|javascript
+	export * from "App.js"
+	export * from "Bars.js"
+	export * from "Bars.js"
+226bea4d132b81f15f1bda87c76c6706|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|3|16|v|javascript
+	Bars
+35b539cc7fea7ad1191757ce72d9f57d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|3|1|V|javascript
+	export * from "ContactForm.js"
+3b9a3791880252dccc23d0973c390c8a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|4|16|v|javascript
+	ContactForm
+715fde3f6efe88d931c6dcefeba9a781|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|4|1|V|javascript
+	export * from "ContactSection.js"
+e5d44bbd4dfe5c68727c6e94272d45a9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|5|16|v|javascript
+	ContactSection
+57f8eed97ffd7cfdbd04916b6d5f519d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|5|1|V|javascript
+	export * from "Footer.js"
+ded40f2a77c30efc6062db0cbd857746|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|6|16|v|javascript
+	Footer
+ba272324de6a46d7c819993ecb163f25|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|6|1|V|javascript
+	export * from "Header.js"
+bf50d5e661106d0abe925af3c2e6f7e7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|7|16|v|javascript
+	Header
+99bf9e1ed3150659fecd4f122024afdb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|7|1|V|javascript
+	export * from "icons.js"
+bd21190449b7e88db48fa0f580a8f666|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|8|16|v|javascript
+	icons
+6789539e1cdec7b11e98c2f45f9f3ba1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|8|1|V|javascript
+	export * from "Opening.js"
+9bd99a0beea48f10663fc4a7d7a33140|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|9|16|v|javascript
+	Opening
+b8c326d2dc17a61bde561c2c7fa086ba|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|9|1|V|javascript
+	export * from "Pages.js"
+453aceb005ceaf54a47da15fee8b2a26|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|10|16|v|javascript
+	Pages
+007ce4c2fd062a61e98e31cd13ba2bd2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|10|1|V|javascript
+	export * from "Portfolio.js"
+d4f859a96c13f551a2771b7fc3a78d38|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|11|16|v|javascript
+	Portfolio
+da72c55bfdee62f03eb5963f69f05f25|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|11|1|V|javascript
+	export * from "ProjectImage.js"
+0c5eb38f3e525fa4aacc275919c93fee|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|12|16|v|javascript
+	ProjectImage
+d30b82736d3a0a30ae804212d319ddfb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Footer.js|4|24|v|javascript
+	{ show }
+c1c425268e68385d1ab5074c17a94f14|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|5|14|v|javascript
+	function
+3ccb82163afb7dd55c786ce370c2adf3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/index.js|6|30|v|javascript
+	/App
+f6601312e931af51d8f8e61f08ddecaf|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/index.js|6|8|V|javascript
+	import { App } from "./components";
+c51b57788949d8a4a438b8b70e98c2c8|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|3|41|v|javascript
+	/Header
+2d8d58ad8a56a7e20dbe2d97b21433aa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|4|28|V|javascript
+	import Pages from "./Pages";
+ad6be3b8d38ca7aafb265c951ccdba24|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|4|30|V|javascript
+	import Footer from "./Footer";
+29a0697cd5c5532f474a927ff3c2b0f0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|34|1|V|javascript
+	const Details = props => {
+	  const broken = useBreakpointValue({ xs: false, sm: true, "3xl": true });
+	  return (
+	    <VStack
+	      align="start"
+	      spacing={{ base: 8, md: 4 }}
+	      px={{ base: 4, md: 0 }}
+	      w="full"
+	    >
+	      {broken ? <TitleAndButtons {...props} /> : <Title {...props} />}
+	      <Description {...props} />
+	      {!broken && <ButtonGrid {...props} size="lg" />}
+	    </VStack>
+	  );
+	};
+	
+	const TitleAndButtons = props => (
+	  <Flex direction={["column", "column", "row"]} align="center" w="full">
+	    <Title {...props} />
+	    <Spacer />
+	    <ButtonStack {...props} size="md" />
+	  </Flex>
+	);
+	
+	const Title = ({ title }) => <Heading as="h1">{title}</Heading>;
+	
+	const ButtonStack = props => (
+	  <HStack spacing={2} my={[4, 4, 0]} w={["full", "full", "auto"]}>
+	    <GitHubButton {...props} />
+	    <SiteButton {...props} />
+	  </HStack>
+	);
+	
+	const ButtonGrid = props => (
+	  <Grid w="full" autoFlow={["row", "column"]} gap={4}>
+	    <GitHubButton {...props} />
+	    <SiteButton {...props} />
+	  </Grid>
+	);
+	
+	const GitHubButton = ({ github, size }) => (
+	  <a className="github" href={github} target="_blank" rel="noopener noreferrer">
+	    <Button
+	      size={size}
+	      leftIcon={<GitHubIcon />}
+	      aria-label="Github"
+	      w={["full", "full", "auto"]}
+	    >
+	      View GitHub
+	    </Button>
+	  </a>
+	);
+	
+	const SiteButton = ({ link, size }) => (
+	  <a
+	    className="view-site"
+	    href={link}
+	    target="_blank"
+	    rel="noopener noreferrer"
+	  >
+	    <Button size={size} leftIcon={<LaptopIcon />} w={["full", "full", "auto"]}>
+	      View Site
+	    </Button>
+	  </a>
+	);
+	
+	const Description = ({ summary, description }) => (
+	  <VStack align="start">
+	    <Heading as="h4" fontSize="lg">
+	      {summary}
+	    </Heading>
+	    <Text>{description}</Text>
+	    <Technologies />
+	  </VStack>
+	);
+	
+	const Technologies = () => <HStack></HStack>;
+8269078318c4a434dc7727d0d90ed656|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|2|1|V|javascript
+	import {
+	  Center,
+	  HStack,
+	  Flex,
+	  Grid,
+	  VStack,
+	  Text,
+	  Spacer,
+	  Heading,
+	  Button,
+	  useBreakpointValue,
+	} from "@chakra-ui/react";
+	import { GitHubIcon, LaptopIcon } from "../../components/icons";
+1f626e95c651e6888c41aa6fad0a4b9f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|3|9|V|javascript
+	  Center,
+8258a4e670220b1abcd2d7a03ae46a27|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|4|1|V|javascript
+	  HStack,
+	  Flex,
+	  Grid,
+45d972962b20e8fb51e6b32a60ba10e1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|5|1|V|javascript
+	  Text,
+	  Spacer,
+	  Heading,
+	  Button,
+	  useBreakpointValue,
+2bc60744eb58cb4459f4b4d6eed4a9f6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|6|1|V|javascript
+	import { GitHubIcon, LaptopIcon } from "../../components/icons";
+93473a7344419b15c4219cc2b6c64c6f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/index.js|1|1|v|javascript
+	import
+491c58c679591a746337d377433567d1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|39|1|V|javascript
+	const Title = ({ title }) => <Heading as="h1">{title}</Heading>;
+9eab4ee1bf8e1909c54c957d8ca72f4b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|70|8|V|javascript
+	    className="view-site"
+7e1f62b29e73668ce01376b62a16abfa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|71|1|V|javascript
+	    target="_blank"
+	    rel="noopener noreferrer"
+a8fd3d5514d794b4c81c94db40a2fc55|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|9|v|javascript
+	className="github"
+1fe5b5c5c6256b7605d28dee50be2cb6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|24|v|javascript
+	target="_blank"
+b1ada0629b2b8452d88f1cb3d6d841c1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|25|v|javascript
+	rel="noopener
+7c1b3450f163c774addb06807bdf186e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|26|v|javascript
+	noreferrer"
+a116cf70b373f0245c66d02fc322764a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|2|8|V|javascript
+	import { Grid } from "@chakra-ui/react";
+c6a93a1eafe46fdca6e120fd9b77c6ea|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/index.js|5|22|v|javascript
+	./components
+271a8e1e801ffc85913740d10655c8fe|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|7|17|V|javascript
+	export * from "./Opening.js"
+07a7caa3478854c3d04460658a7154e5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|8|17|V|javascript
+	export * from "./Portfolio.js"
+3960d96277e94ec2aa847ee109bf5cd5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|14|41|v|javascript
+	../../../components/icons
+3ec365dd533ddb7ef3d1c111186ce872|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|4|10|v|javascript
+	Details
+2de42fbb00305f8282310f1b3e10ce9a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|9|v|javascript
+	border
+be84365e2c65a0e4172445a63df94541|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|6|41|V|javascript
+	  return <Image {...props} borderWidth={border} />;
+9665f6f8656e42897d1b3a2d46e86e3a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|6|28|v|javascript
+	borderWidth={border}
+bbc5a8a20430096bef0989ff11aaf3b4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|61|v|javascript
+	3px solid white
+0279f467fa770779db80ce07f1091a24|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|42|v|javascript
+	3px solid black
+1ffd9e753c8054cc61456ac7fac1ac89|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|42|v|javascript
+	black
+e449b5f511d18d0f1994479e832b59ea|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|52|V|javascript
+	  const borderColor = useColorModeValue("dark", "white");
+	  const borderRadius = useColorModeValue("sm", null)
+bb206848b1a02ce19958983447dcea84|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|9|2|V|javascript
+	    borderWidth={3}
+e42b4c3ea7acb4a498a59e35612d4c29|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Home/components/Portfolio.js|33|1|V|javascript
+	            borderRadius="sm"
+37a6259cc0c1dae299a7866489dff0bd|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|6|48|v|javascript
+	null
+a82fd95db10ff25dfad39f07372ebe37|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|42|v|javascript
+	dark
+54b53072540eeeb8f8e9343e71f28176|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/theme/index.js|6|22|v|javascript
+	system
+d508fe45cecaf653904a0e774084bb5c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|54|v|javascript
+	white
+6e4a4959b5b94bf1fad7dcdd1cc61ac5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|1|V|javascript
+	  const borderColor = useColorModeValue("gray.500", "gray.200");
+ac32507195fd39c1910e5e01dbcd991f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|44|23|V|javascript
+	        border={border}
+b46c91e189a3e584f1b93d8ceffbf026|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|64|12|v|javascript
+	"3px solid white",
+7c38651406e4b0cdd6f59adbcc18f4ca|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|67|1|V|javascript
+	      w="full"
+	      h="full"
+ed545938df4377692ab0e396d98579aa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|68|7|V|javascript
+	      borderStyle="solid"
+8157b02d7555101c5a43aad16174b6ae|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|68|7|V|javascript
+	      borderColor={borderColor}
+55a73a10eabb9df6f77fe1261982e420|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|35|20|V|javascript
+	const DetailHeader />
+0cf31b2c283ce3431794586df7b0996d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|37|4|V|javascript
+	    
+2bd964a68e257677bc171fb661bddec2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|39|1|V|javascript
+	  return (
+	
+	  )
+b53f7fd61a79ff86ae48751d5d2122e7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|28|24|V|javascript
+	      {broken ? <TitleAndButtonStack {...props} /> : <Title {...props} />}
+36fc683fb36b3332fdd65c4cf9016d5c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|25|20|v|javascript
+	breakpointBroken={broken}
+64fb6f4e4021b8ebc8ef7446b24c9694|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|28|32|V|javascript
+	      <Description {...props} />
+1a636fb8ae3e0a372afc9eb00c53ce18|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|43|11|V|javascript
+	  return ()
+0c847901b764990988c51b2c7817734a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|28|14|V|javascript
+	      {!broken && <ButtonGrid {...props} size="lg" />}
+841127092d26f7f42d3b73882c1bd2ca|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/index.js|1|1|V|javascript
+	export * from "./Header"
+e5b0bee5dddc7fb1229806f7bc3885e0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|32|41|v|javascript
+	={broken
+8df13ffe0bc9262e5e17f4b9680ebe2e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|25|19|v|javascript
+	breakpointBroken
+c6203584f4e06d6407005cf11e423d7b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|32|1|V|javascript
+	const DetailHeader = ({ breakpointBroken, ...rest }) => {
+	  if (breakpointBroken) return <TitleAndButtonStack {...rest}/>;
+	  return <Title {...rest}/>;
+	}
+c47bffdf930eacf9354100b378e1a129|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|38|1|V|javascript
+	const Title = ({ title }) => <Heading as="h1">{title}</Heading>;
+	
+	const TitleAndButtonStack = props => (
+	  <Flex direction={["column", "column", "row"]} align="center" w="full">
+	    <Title {...props} />
+	    <Spacer />
+	    <ButtonStack {...props} size="md" />
+	  </Flex>
+	);
+385009832f20afaa005e7038fa8f64aa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|39|1|V|javascript
+	const ButtonStack = props => (
+	  <HStack spacing={2} my={[4, 4, 0]} w={["full", "full", "auto"]}>
+	    <GitHubButton {...props} />
+	    <SiteButton {...props} />
+	  </HStack>
+	);
+6b34e3eba9873c270e731c52a3cdaa21|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|4|1|V|javascript
+	  Flex,
+054f1bf7eef2dbb86a66c9bd20ff96a3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|7|1|V|javascript
+	  Spacer,
+4f141faf2c88bbf2cba51d6ca59e02a2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|32|1|V|javascript
+	const DetailFooter = ({ breakpointBroken, ...rest }) => {
+	  if (breakpointBroken) return <ButtonGrid {...rest} size="lg"/>;
+	  return null;
+	}
+2bee2d23970124132886cf9df5fcc7ce|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|33|1|V|javascript
+	const ButtonGrid = props => (
+	  <Grid w="full" autoFlow={["row", "column"]} gap={4}>
+	    <GitHubButton {...props} />
+	    <SiteButton {...props} />
+	  </Grid>
+	);
+47dd0c00d5f2b3b97494ff58cc336043|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|34|1|V|javascript
+	const GitHubButton = ({ github, size }) => (
+	  <Link href={github} isExternal>
+	    <Button
+	      size={size}
+	      leftIcon={<GitHubIcon />}
+	      aria-label="Github"
+	      w={["full", "full", "auto"]}
+	    >
+	      View GitHub
+	    </Button>
+	  </Link>
+	);
+	
+	const SiteButton = ({ link, size }) => (
+	  <Link href={link} isExternal>
+	    <Button size={size} leftIcon={<LaptopIcon />} w={["full", "full", "auto"]}>
+	      View Site
+	    </Button>
+	  </Link>
+	);
+737fd5c2adbd8f728cc58667b840b6e8|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|12|1|V|javascript
+	import { GitHubIcon, LaptopIcon } from "../../../../components/icons";
+e9c016c90f4865ffa92a7255d3abb439|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|4|1|V|javascript
+	  Grid,
+99527ca4da1ba749d84ed15ffb8d0722|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|7|1|V|javascript
+	  Button,
+517904397df8b81cfa4776b40904b92a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|7|1|V|javascript
+	  Link,
+50335b5d98980df6d834dc912745671d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/buttons.js|3|41|v|javascript
+	../../../../components/icons
+759ff550f2458356f315ab621d07caf7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|31|1|V|javascript
+	const Technologies = () => <HStack></HStack>;
+3f7d38d44bda552f7cf963584c41501b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/Footer.js|7|2|V|javascript
+	  return null;
+3b4262434c5ee938499968e0d3a6a249|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/Footer.js|6|57|V|javascript
+	  if (breakpointBroken) return <ButtonGrid {...rest} size="lg"/>;
+e6b05644f0ccff236b890a8d35f3761b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/index.js|2|1|V|javascript
+	export * from "./Footer"
+6b742d8464cd6223460ab879f2a58be6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|2|10|v|javascript
+	HStack
+e64957bf2b46d864019e7e277d42bfa0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|21|1|V|javascript
+	const Description = ({ summary, description }) => (
+	  <VStack align="start">
+	    <Heading as="h4" fontSize="lg">
+	      {summary}
+	    </Heading>
+	    <Text>{description}</Text>
+	    <Technologies />
+	  </VStack>
+	);
+0101316665d4f82adaa26d86fbbb2d6e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|2|24|v|javascript
+	Heading
+9dffbf69ffba8bc38bc4e01abf4b1675|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|2|18|v|javascript
+	Text
+c5e7c519076f9d08760f415cd0e74852|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|20|1|V|javascript
+	    <img src={ReactLogo} alt="React" key={1} />,
+	    <img src={ReduxLogo} alt="Redux" key={2} />,
+b594e46c607eef1df3ca672992bfc0d3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|1|4|V|javascript
+	import React from "react";
+78805a221a988e79ef3f42d7c5bfd418|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Home/components/Portfolio.js|28|36|v|javascript
+	image
+51eecddac6361f5760194ded9655f94a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|18|1|V|javascript
+	    { src: HTMLCSSJS, alt: "HTML-CSS-JS", key: 1},
+0c34a626a39fbaa5d5a5d3cd8b8fe546|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|19|12|v|javascript
+	HTMLCSSJS
+f33fb1d30654b4eab55f37bec4fe7f25|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|19|29|v|javascript
+	HTML-CSS-JS
+10918d44bbc50a9453484f739a171a42|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|20|1|V|javascript
+	    <img src={HTMLCSSJS} alt="HTML-CSS-JS" key={1} />,
+	    <img src={ReactLogo} alt="React" key={2} />,
+48ae7eaed2dc97cf556119515992ff83|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|19|1|V|javascript
+	    { src: ReactLogo, alt: "React", key={1}},
+0fd4a8f86e1214e97291b8f5c7e3aaf6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|12|v|javascript
+	ReactLogo
+50ce2da63bea6a618e7578fa50690040|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|33|v|javascript
+	React
+22d1878621da85f73c4f9e9b01904d13|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|1|V|javascript
+	    { src: SequelizeLogo, alt: "Sequelize", key={2}},
+47f63b529192a95346b5e6aebe087a5b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|21|12|v|javascript
+	SequelizeLogo
+bc6329f726f3080173697fb0f47aff21|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|21|31|v|javascript
+	Sequelize
+a9c60d5e1ce9a169af1ea265b8989579|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|22|1|V|javascript
+	    <img src={ReactLogo} alt="React" key={1} />,
+	    <img src={SequelizeLogo} alt="Sequelize" key={2} />,
+	    <img src={ExpressLogo} alt="Express" key={3} />,
+c3e93e7b87c5dba60d60bd257bc40c15|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|19|33|V|javascript
+	    {src: ReactLogo, alt: "React", key: 1},
+a83c32c292275cb903d77f6593aba222|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|20|1|V|javascript
+	    {src: ReduxLogo, alt: "Redux", key: 2},
+05f32340dd134244927bc0108648c79c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|11|v|javascript
+	ReduxLogo
+19d8912e22112eb355c200cc33512d31|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|28|v|javascript
+	Redux
+637e4afdb5b95f08a85fee169f15da81|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|28|v|javascript
+	Rails
+78340f01625bb9b030be0f4a06bcdc0a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|22|48|V|javascript
+	    <img src={ReduxLogo} alt="Redux" key={2} />,
+96e0f80f02c8a89715a8dbe0578044ae|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|22|49|V|javascript
+	    <img src={RailsLogo} alt="Ruby on Rails" key={3} />,
+b6e9defee0ac17d5fddfec08a1f6799c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|18|1|V|javascript
+	    { src: ReactLogo, alt: "React", key: 2},
+566e7e6a6995fa7d656812871189b9b0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|17|16|v|javascript
+	 [ src={ReactLogo} alt="React" key={2} />],
+c566ab8b57eff6181624b4275b993043|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|18|1|V|javascript
+	    {src: null, alt: "Chakra-UI", key: 2}
+e56fe52c05e3c7f006dc2af02b054802|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|19|23|v|javascript
+	Chakra-UI
+ccc287519e9aa0892a9d52bc1ef83792|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|19|1|V|javascript
+	    {src: null, alt: "MongoDB", key: 3}
+206e3718af092fd1d12f80cae771ccac|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|20|23|v|javascript
+	MongoDB
+ae3c879f29b71bd25e38bb934af7a946|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|18|1|V|javascript
+	    {src: null, alt: "Chakra-UI", key: 2},
+25b6a9dea92104b2e9b7fd6368b4f6a2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|21|39|V|javascript
+	    {src: null, alt: "Mongoose", key: 5}
+c35e8382852168b8a658de3f479f24ce|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|21|1|V|javascript
+	    {src: null, alt: "MongoDB", key: 5},
+a46061b4af1966ed3aa06a80de6dbc24|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|22|1|V|javascript
+	    {src: null, alt: "Lerna", key: 6},
+f75aa8809b8d93a08d7450dfbb7ae8c7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|23|23|v|javascript
+	Lerna
+6ed6e6dffb75677742c639b7d75041ef|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|23|1|V|javascript
+	    {src: null, alt: "Formik", key: 7},
+9b78e29e2432b37725d9981c0f140d33|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|24|23|v|javascript
+	Formik
+88da9136d2df5940f786af24e60919ee|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|21|32|v|javascript
+	, key: 4
+174dd36bdc0ccae80c11a9201a51bf79|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|22|31|v|javascript
+	, key: 5
+d59b4d3cb771e331a2767ff75f28986f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|23|29|v|javascript
+	, key: 6
+319b47e43b175a3ea200570401e59ba4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|24|29|v|javascript
+	, key: 7
+f96b1ea0bf3e6d0affb4a849916629fa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|24|1|V|javascript
+	    {src: null, alt: "Faker" },
+e1edfc5cea461399a63cb813cf795cc9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|25|23|v|javascript
+	Faker
+75118a36617385c836049d4f0bd48854|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|25|1|V|javascript
+	    {src: null, alt: "Heroku" },
+1a79417461c9adbe88f8b93e7fad392f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|26|23|v|javascript
+	Heroku
+94768b1f4c179ebc1a45ac1271f949c6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|26|1|V|javascript
+	    {src: null, alt: "Surge" },
+24daa4c4850fff2f4d7e44cc79e3eb07|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|27|23|v|javascript
+	Surge
+9d57961eb9655817dfdb9812d3efe398|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|17|1|V|javascript
+	    {src: ReactLogo, alt: "React" },
+447d3c0ef92fa5006f3813781007cfd4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|18|30|V|javascript
+	    {src: ReactLogo, alt: "Javascript" },
+e1b0a5f0899ba1ea4bd3077ad5a09b4a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|18|1|V|javascript
+	    { src: ReduxLogo, alt: "Redux", key: 2 }
+d68d226921a5acfc2b72914dd8d978f4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|19|1|V|javascript
+	    { src: null, alt: "Lerna", key: 2 }
+afed80be30646fa9f8fab891cd608fb0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|19|30|v|javascript
+	, key: 2 
+8bbe369cb0ec08d1b985c3a047477667|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|17|35|v|javascript
+	,  key: 1
+ebdcd1c24edbfb43eb360531a9d207eb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|18|1|V|javascript
+	    { src: ReduxLogo, alt: "Redux" },
+4992c1e03782f3b8010d9633ba610815|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|19|1|V|javascript
+	    { src: ReduxLogo, alt: "Firebase" },
+035489ff8d092741943e4a83241f5af9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|20|29|v|javascript
+	Firebase
+45289020b2e43d304295328d3eac0f89|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|20|39|V|javascript
+	    { src: ReduxLogo, alt: "Nutritionix" },
+26587e12556171d3f72f3d0a380555db|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|17|1|V|javascript
+	    { src: ReactLogo, alt: "React" },
+cd8f7da105a054acce6ca2ce998be2f5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/zenGarden.js|16|55|v|javascript
+	key: 1
+db4f95e99eb8ce0beb3b81f8523e5add|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|18|35|v|javascript
+	 key: 1 
+72bece146d03a85c2853f7de7254d232|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|39|v|javascript
+	, key: 3 
+24df3becc881bf13b71b5e53c72f580f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|14|11|v|javascript
+	"http://github.com/steverodri9
+b93430b112f057a5562bf583a51164c9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|20|1|V|javascript
+	    {src: RailsLogo, alt: "Ruby on Rails" },
+7f2bc2f29444cb3b5e4391c176627d72|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|11|v|javascript
+	RailsLogo
+d41a9e3915fd905f6427a8e3770546cf|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|23|v|javascript
+	Ruby on Rails
+f4c6f851b00d5518bf888815de279aba|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/project-notes.md|1|4|v|markdown
+	Notes
+bbef19786c08a56d47025fc80a748f53|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/Footer.js|8|3|v|javascript
+	return null;
+c2a95a8426246f9d3218dc52424621f5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/cryptoRankings.js|18|47|v|javascript
+	 key={2} 
+68934a3e9455fa72420237eb05902327|file:///Users/steve/Code/apps/native/cl-fit/android/app/build.gradle|81|19|v|groovy
+	false
+973cd1da02e7176bd59796bacdbd6ab0|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|50|25|v|vim
+	'doHover'
+5d913e6f1c7b24d86fb8eb1fa1418b32|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|48|25|v|vim
+	'<cword>'
+d50ee8eab2f2da5336db90a797ecd577|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|46|1|V|vim
+	function! s:show_documentation()
+	  if (index(['vim','help'], &filetype) >= 0)
+	    execute 'h '.expand('<cword>')
+	  elseif (coc#rpc#ready())
+	    call CocActionAsync('doHover')
+	  else
+	    execute '!' . &keywordprg . " " . expand('<cword>')
+	  endif
+	endfunction
+87c0d5642006ffc5b026154ceccee3c1|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|11|1|V|vim
+	inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+9d3a034e4cc0afc45236de890f735a87|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|4|1|V|vim
+	if has("patch-8.1.1564")
+	  " Recently vim can merge signcolumn and number column into one
+	  set signcolumn=number
+	else
+	  set signcolumn=yes
+	endif
+ce5e16fdfeb7c70ea199f9ecf77eeb0e|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|108|1|V|vim
+	" Commands
+	
+	" Add `:Format` command to format current buffer.
+	command! -nargs=0 Format :call CocAction('format')
+	
+	" Add `:Fold` command to fold current buffer.
+	command! -nargs=? Fold :call CocAction('fold', <f-args>)
+	
+	" Add `:OR` command for organize imports of the current buffer.
+	command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
+	
+	" Add `:Prettier` command to format the current buffer.
+	command! -nargs=0 Prettier :CocCommand prettier.formatFile
+98b4ea1d085f53959c6e590b518d0b0d|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|58|1|V|vim
+	" Highlight the symbol and its references when holding the cursor.
+	autocmd CursorHold * silent call CocActionAsync('highlight')
+0311013ee5c74738787d4f119959590a|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|62|1|V|vim
+	augroup mygroup
+	  autocmd!
+	  " Setup formatexpr specified filetype(s).
+	  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
+	  " Update signature help on jump placeholder.
+	  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
+	augroup end
+b534b67ab774b7f454b5cd6e4b55e963|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|131|1|V|vim
+	" Commands
+b0072c55b95111ffa8a1a747ce90f8c4|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|84|1|V|vim
+	" Remap <C-f> and <C-b> for scroll float windows/popups.
+	if has('nvim-0.4.0') || has('patch-8.2.0750')
+	  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
+	  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
+	  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
+	  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
+	  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
+	  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
+	endif
+2779f78723991f29cf4b83441db1ad05|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|97|1|V|vim
+	" Add (Neo)Vim's native statusline support.
+	" NOTE: Please see `:h coc-status` for integrations with external plugins that
+	" provide custom statusline: lightline.vim, vim-airline.
+	set statusline=%{coc#status()}%{get(b:,'coc_current_function','')}
+933b5e78c5e2077c26d4cb6501fadd1e|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|1|1|V|vim
+	" COC - the Conquerer of Completion
+dfc6cbb25017b7bc3a1cc7362d69d4b7|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|26|3|v|vim
+	NOTE: 
+0479da58c6ce774a64db75f384f21cc3|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|142|28|v|vim
+	:CocCommand prettier.formatFile
+d48be1470c52fab2aaa6676dfe8aec0a|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|145|19|v|vim
+	Spelling
+a484c94a9eea22c535854a1da0d625f9|file:///Users/steve/.dotfiles/nvim/coc-settings.json|19|9|V|json
+	  "diagnostic.maxWindowHeight": 20,
+458a36d5dcda1d6847fe10a6de51d346|file:///Users/steve/.dotfiles/nvim/coc-settings.json|45|1|V|json
+	  "signature.maxWindowHeight": 20,
+236c25c0efaeb1bf39384971d06dd2cf|file:///Users/steve/.dotfiles/nvim/coc-settings.json|32|1|V|json
+	    "yaml"
+6eedc03a68a69933c763e674f2d7c42f|file:///Users/steve/.dotfiles/nvim/coc-settings.json|32|6|v|json
+	yaml
+f89fdf92039344019e9501c6381f4a94|file:///Users/steve/.dotfiles/nvim/coc-settings.json|11|11|V|json
+	    "graphql",
+549e6e03e3ab9274de80b0e00a2fcbab|file:///Users/steve/.dotfiles/nvim/coc-settings.json|14|1|V|json
+	    "sh"
+3bf002529d5ebd5e9f8eed28baa3ca18|file:///Users/steve/.dotfiles/es-lint/eslintrc.json|272|33|V|json
+	    "prettier/prettier": "error",
+ee49af7c6297ecf9ebff5381d8784e72|file:///Users/steve/.dotfiles/zsh/config/aliases.zsh|73|15|v|zsh
+	"format": "
+c0807c3a37030ee6c6a2bd9ce04bbd4a|file:///Users/steve/.dotfiles/nvim/coc-settings.json|27|21|V|json
+	  "eslint.options": {},
+6a69eeae7683b720aff2a60d7cb094e7|file:///Users/steve/.dotfiles/nvim/coc-settings.json|27|10|V|json
+	  "eslint."
+5d0ded269549f8aa4997ab328991f735|file:///Users/steve/.dotfiles/nvim/coc-settings.json|30|1|V|json
+	  "eslint.probe": [
+	    "javascript",
+	    "javascriptreact",
+	    "typescript",
+	    "typescriptreact",
+	    "html",
+	    "markdown",
+	    "json",
+	    "yaml"
+	  ],
+d766a321a08f93d135290f7b710f6458|file:///Users/steve/.dotfiles/nvim/coc-settings.json|29|18|v|json
+	onSai
+a627d84b28c8c6bee2ca744f50b8030d|file:///Users/steve/.dotfiles/nvim/coc-settings.json|35|8|V|json
+	  "pret"
+8355112ed88d0b2ef053d7ed2e77a74f|file:///Users/steve/.dotfiles/nvim/coc-settings.json|29|4|v|json
+	eslint.run
+c75c4c44b2d6f2e84c1e162fa68d82f0|file:///Users/steve/.dotfiles/nvim/coc-settings.json|29|18|v|json
+	onSave
+b5c6de5aeb0f85dac30e1eda515067d5|file:///Users/steve/.dotfiles/nvim/coc-settings.json|35|23|V|json
+	  "prettier.disableSuccessMessage": true,
+e0bf0ed70df0045d33be66007f335826|file:///Users/steve/.dotfiles/install.conf.yaml|18|1|V|yaml
+	    ~/.config/yabai: yabai
+4d397b2c009e659c84d9239ed347f2df|file:///Users/steve/.dotfiles/install.conf.yaml|19|15|v|yaml
+	yabai
+eb71c9f01f32e69edb00352dc759caa5|file:///Users/steve/.dotfiles/install.conf.yaml|8|1|V|yaml
+	    - ~/.config/
