@@ -11,8 +11,8 @@
   "diagnostic.warningSign": "!!",
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "eslint.packageManager": "yarn",
-  "eslint.autoFixOnSave": true,
-  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": false,
+  "eslint.run": "onType",
   "eslint.probe": [
     "javascript",
     "javascriptreact",
@@ -21,14 +21,14 @@
     "html",
     "markdown"
   ],
-  "eslint.format.enable": true,
+  "eslint.format.enable": false,
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
   "html.format.enable": true,
   "prettier.disableSuccessMessage": true,
   "prettier.requireConfig": false,
-  "prettier.eslintIntegration": true,
+  "prettier.eslintIntegration": false,
   "prettier.semi": true,
   "prettier.singleQuote": false,
   "prettier.jsxSingleQuote": false,
