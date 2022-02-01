@@ -46,3 +46,11 @@ yabai -m rule --add
   sticky=on \
   opacity=1
 
+yabai -m rule --add \
+  label="Mozilla" \
+  app="^Firefox$" \
+  title="^Mozilla Crash Reporter$" \
+  manage=off
+  border=off \
+  sticky=on \
+  grid=${center}
