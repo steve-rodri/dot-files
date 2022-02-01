@@ -7,7 +7,6 @@
   "diagnostic.errorSign": "!!",
   "diagnostic.hintSign": "??",
   "diagnostic.infoSign": "**",
-  "diagnostic.maxWindowHeight": 20,
   "diagnostic.refreshOnInsertMode": true,
   "diagnostic.warningSign": "!!",
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
@@ -34,7 +33,6 @@
   "prettier.singleQuote": false,
   "prettier.jsxSingleQuote": false,
   "prettier.arrowParens": "avoid",
-  "signature.maxWindowHeight": 20,
   "snippets.extends": {
     "javascriptreact": ["javascript"],
     "typescript": ["javascript"]
