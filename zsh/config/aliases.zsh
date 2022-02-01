@@ -69,3 +69,5 @@ alias scriptable="cd ~/Documents/Development/Projects/Scriptable.nosync && vi"
 alias ha="cd /Volumes/config"
 
 alias ss="start_dev_server"
+
+alias format="prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx,ts,tsx}\""
