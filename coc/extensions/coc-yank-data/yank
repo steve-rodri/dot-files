@@ -1,853 +1,1581 @@
-174a037b46c4ed396e7f87548489f750|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|18|41|V|javascript
-	      <GitHubIcon fontSize={30} _hover={{ color: "sky-blue" }} />
-6411532ba4971f378391776a9db629d3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|30|22|v|javascript
-	cyan
-0680b049242e954236ef252a3d60fdc3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|30|22|v|javascript
-	sky-blue
-2104678fbe6e96a1cae49e11fa934db4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|30|25|V|javascript
-	        colorScheme="blue"
-4d97d9dd77184999fe9ce598d6ccb159|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Bars.js|2|1|V|javascript
-	import "../styles/bars.css";
-b2ee284a8047130b9d079cd9ddfbb41b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|4|27|V|javascript
-	import "../styles/social-icons.css";
-08847f0573da57ce0f58baa52aa7d1c6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|25|1|V|javascript
-	      <Heading as="h3" size="md">
-	        Portfolio
-	      </Heading>
-d9b2043499a350a8bb0175050234b2c5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|1|V|javascript
-	      <Heading as="h3" size="md">
-	        Contact
-	      </Heading>
-803a92c3fdac1e5e5efd5b83e95db0df|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|35|7|V|javascript
-	      </Heading>
-adbc891b7a4ba66bcc5a2847a9b3d062|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|30|v|javascript
-	outlineColor="transparent"
-e3fadf68fb0d6b1e6fd6311dcfef079d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|30|v|javascript
-	boxShadow="none"
-49dbf6cace9371d83f5c686f06dc53e2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Header.js|32|30|v|javascript
-	_focus={{ boxShadow: "none " }}
-5bc7b3cb076238004af720a521465cd5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/package.json|14|1|V|json
-	    "formik": "^2.2.9",
-bbc155fb2b111bf61c4f5ff892915e6b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|9|6|v|javascript
-	Switch
-d61b2ee6bc229869ba4308c9d89bd47a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|37|v|javascript
-	useRouteMatch
-247299aa61bee0b8f1bceecd07e1f51f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|13|24|V|javascript
-	      <Route path="*">{replace("/")}</Route>
-01f4f4056ef0c306e0fed39c8eff7379|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|13|V|javascript
-	  const { replace } = useHistory();
-66697846fa37e2a83b7c7f8e6d002b5c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|23|v|javascript
-	useHistory
-29e6a9fdbbccfe2f795100d21aab54c9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|9|v|javascript
-	 replace 
-9dde360102c103867bd2f45872f1129c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|9|v|javascript
-	replace
-3b7efa09444a31c5d58596e5bbf87d47|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|10|14|v|javascript
-	exact
-1517ffafc89bbb080fd537cea5c0fa31|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|11|1|V|javascript
-	      <Pages />
-99b79cbb7a28ea06d429ec36bfbd8443|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|13|26|V|javascript
-	      <Route path="*">{navigate("/")}</Route>
-561fcdb19f669862d3763f6becaa4bad|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|13|23|v|javascript
-	navigate("/")}
-6dda783b39fe4754578c93bb0646334b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|35|v|javascript
-	useNavigate
-a0d1d1f0e3932c61c0bdac149c1298da|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|25|v|javascript
-	Naviatae
-39f0fc219dd27edb19de2ccbb650aefd|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|32|V|javascript
-	  const navigate = useNavigate();
-78e731027d8fd50ed642340b7c9a63b3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|24|15|v|javascript
-	message
-32c749bf9d00e59e3fc6d60866160d8c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|18|10|v|javascript
-	projects.map(project => (
-	    <ProjectRoute key={project.id} {...project} {...props} />
-	  ));
-	
-fb655696f25bd3b2957be63a78faabac|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|19|1|V|javascript
-	  {projects.map(project => (
-	    <ProjectRoute key={project.id} {...project} {...props} />
-	  ))
-	}
-751e81c2917a51e9820a71da27c13699|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|25|1|V|javascript
-	    </Routes>
-1419ad6e37d8181f224436d7d275f75b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|6|v|javascript
-	ProjectRoute
-7143480d75fa71de66ded81cd93e5ac9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|28|1|V|javascript
-	const ProjectRoute = props => {
-	  console.log(props)
-	  const match = useMatch(
-	    `/${props.title.replace(/\s+/g, "-").toLowerCase()}`
-	  );
-	  if (match) return <Route to=""><Project {...props} /></Route>
-	  return null;
-	};
-0c358eaeda043bb6761631549e9dcd1c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|12|v|javascript
-	key={project.id}
-9405c3aff9112c3c60d03b94792877dc|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|6|v|javascript
-	Route
-0a6c3c285c2ee6ffb311c2ab36fd997a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|6|V|javascript
-	    <  {...project} {...props} />
-5512ca315e4e6635670ef8cc8929669a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|2|35|v|javascript
-	useMatch
-6f47d191a3919668727a7956ac715c67|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|21|v|javascript
-	`/${project.name}`
-030bb0a29b070d9b63ae7675fd78535f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/package.json|29|50|V|json
-	//                                                    /|\
-af352bd7b3c15d0a634d0686e043b4ed|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/package.json|28|1|V|json
-	    "lint": "eslint . && prettier-eslint --list-different $PWD/'**/*.js'",
-	    "format": "prettier-eslint --write $PWD/'**/*.js'"
-b47626d53093d3de18cc6a339e68f430|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|19|12|V|javascript
-	    <Routes>
-5e9a7534482f89d39f7c710882fee1b3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|11|10|V|javascript
-	      <ProjectRoutes />
-f646b93c79702c85ca4a24e59960db39|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|10|v|javascript
-	projects.map(project => (
-	    <Route key={project.id} to={`/${project.name}`}><Project {...project}/></Route>
-	  ))
-919fca00bd6382a977db63d9b1b372ba|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|53|v|javascript
-	<Project {...project}/>
-700c216fb376666eaeda0c892e8bdc09|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|9|23|v|javascript
-	component
-89faaf3fabf0622d2a88bb3c5b5031de|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|75|v|javascript
-	propject
-23b0be362c29e31dc303e7f2258570a6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|19|1|V|javascript
-	const ProjectRoutes = () => {
-	  return projects.map(project => (
-	    <Route key={project.id} to={`/${project.name}`}><Project {...project}/></Route>
-	  ))
-	};
-17ae0473187854efdfabb45987378020|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|23|v|javascript
-	<Navigate to="/" replace/>
-7944b032fe561e29270de9e11aba3270|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|60|v|javascript
-	</Route>
-b068931cc450442b63f5b3d276ea4297|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|49|v|javascript
+567904efe9e64d9faf3e41ef402cb568|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|80|v|javascript
+	where
+6e68bc1d551524836417e85b3274385b|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|3|24|V|javascript
+	    const { id } = where
+3cca3eeed143256ffa8c946c7e507ba0|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|3|17|v|javascript
+	wehciwe
+7d661e2508c3db5701617415d2012089|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|21|V|javascript
+	    console.log(circuit);
+ef8a960a23f62c6a35a796264347c187|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|11|v|javascript
+	exercises
+79f7bf1dc1c933cb699fb96ccf156384|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|11|V|javascript
+	          : 
+97e96b9b630acd157725fa00eff11a80|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|15|v|javascript
+	exercise
+cb8ad164d10477aba50a03a5701b3cf4|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|37|V|javascript
+	              componentRelationA: true,
+721a3937e74f03b29d996fd9636c3e92|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|34|v|javascript
+	entityService
+a2189e8ba6abb9bc89a349396cce609d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|1|V|javascript
+	      {
+	        populate: {
+	          repeatableComponent: {
+	            populate: {
+	              fields: ["exercise"],
+	            },
+	          },
+	        },
+	      }
+10cd395cf71c18328c863c08e78f3fd0|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|34|v|javascript
+	services
+c2da1193aa8e673bb9a798db310cd1a4|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|34|v|javascript
+	.circuit
+97241a14758eea0a845af947a73892c9|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|16|V|javascript
+	      params.populate
+c71612048ca7b1bc10057b670c62e585|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|32|V|javascript
+	    const { id } = params.where;
+79e411bddb361b5dfaa9e935b01a4172|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|6|27|v|javascript
+	strapi.entityService.
+6d6238502a46e902f3c9942af68ffa9b|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|35|v|javascript
+	"api::circuit.circuit"
+ed707c8d37f501380b2679d99c2f8e2a|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|33|V|javascript
+	    console.log(params.populate);
+84d8e184a16f2cc834107dc2e336ff1e|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|39|V|javascript
+	    const uid = "api::circuit.circuit";
+6af8383bf798d723113de577e5ddcbc2|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|13|v|javascript
+	findOne
+2bf0684335a22180b6ff920341082a10|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|32|V|javascript
+	    const { findOne } = strapi.entityService;
+07c8c80839ab02998acdefbe1b10b76e|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|31|V|javascript
+	    const options = { populate }
+427dcb57cf773b3bec170223ac02b137|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|64|v|javascript
+	 { populate, }
+e51404836b41d483ab523eb6b975fca7|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|8|27|v|javascript
+	strapi
+93da65a9fd0004d9477aeac024e08e15|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|8|58|v|javascript
+	options
+12ec12ee2709005370e61fd34a248bfc|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|33|V|javascript
+	    const options = { populate };
+0a8e3d518247c4e39175f9970b45c48f|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|7|V|javascript
+	    console.log(circuit.exercises[0].exercise);
+de83e9b3d38c7a88b21f6ee0ef1d3647|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|10|17|v|javascript
+	circuit
+9444e3988f39eae4df2d9d262ab6ac7f|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|10|17|v|javascript
+	.exercises[0]
+1557400cbf88009a9e3c39bfed309f03|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|37|V|javascript
+	      console.log(exercise.exercise);
+265b922dc4330e38988041e6254cbb18|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|26|v|javascript
+	Each
+30eb5001914d29dd8461898b5b8094fe|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|23|v|javascript
+	forEach
+b068931cc450442b63f5b3d276ea4297|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|19|v|javascript
 	name
-b4541d05866eea9a8a71438002ea8864|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|8|V|javascript
-	  const 
-9f119746f44506265463a188bc546d7d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|12|41|v|javascript
-	project.title
-8e2dcfd7e7e24b1ca76c1193f645902b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|23|v|javascript
-	element
-c7e35c750f5c59007d4739fc530739bb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|31|v|javascript
-	<Navigate to="/" replace />
-41983be4dce2a043b2f64494b52c358e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|8|v|javascript
-	Route path="/projects/*" render={handleRemRoutes}/
-3297a00fc73938ab31cb6c8cd2aa0ef4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|41|v|javascript
-	handleRemRoutes
-9e5f0bb330344d580b9e30d338d6ab6d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|33|v|javascript
-	render
-1b84b9f3958234a1e6397017062dd178|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|18|61|V|javascript
-	      <Route path="*" element={<Navigate to="/" replace />}/>
-6fdc22eaf075c36034fc22fe5c8fc78f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|22|1|V|javascript
-	const Projects = () => {
-	  return (
-	    <Routes>
-addb7b00529b0783de16e439b6121834|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|17|1|V|javascript
-	      <Route path="/projects/*" element={<Projects/>}/>
-fc75d6761b07c4f731139fc67e197bf6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|23|1|V|javascript
-	    </Routes>
-	  )
-	}
-7a0baaa1825bf9f9434640578378b6d5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|14|1|V|javascript
-	      {projects.map(project => (
-	        <Route key={project.id} path={`/${projectRouteName(project)}`} element={<Project {...project}/>}/>
-	      ))}
-54e1d44609e3abed11f6e1eb6ae54988|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|20|7|v|javascript
-	Projects
-ebe9faddbb16b8a70d786a9c7e6c9d97|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|34|1|V|javascript
-	const projectRouteName = ({ title }) => {
-	  return title.replace(/\s+/g, "-").toLowerCase()
-	}
-e14cab0ee53711d7c851ab29d0a1857a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|7|v|javascript
-	projectRouteName
-2a1627a6903e94a22f609ed7771df92a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|34|v|javascript
-	 return title.replace(/\s+/g, "-").toLowerCase() 
-e70c4df10ef0983b9c8c31bd06b2a2c3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|34|v|javascript
-	return
-e6018e24eefa90f3d007303a739b0ef5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|7|v|javascript
-	routeName
-be05d559ccc3262d3e7d034ed3c56980|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|21|7|v|javascript
-	pathname
-d27c5f3048c7c0673a81b423020dda30|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|1|V|javascript
-	  const handleRemRoutes = () => {
+b322d51cd608e0109f2115004a80af6c|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|21|V|javascript
+	      console.log(name);
+b1b26d9d245655a2cf8422f066203b2a|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|16|37|v|javascript
+	entityId
+10a053bcc12d4a0bc45cc5efdb99713d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|16|1|V|javascript
+	    await entityService.update(uid, id, {
+	      data: { exercises: circuit.exercises },
+	    });
+d455ee14e5eb7cf0d09c06f50fbb64e2|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|1|V|javascript
+	      console.log(exercise);
+0cf31b2c283ce3431794586df7b0996d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|14|4|V|javascript
+	    
+e3bf35f17b4906b23784619f67e4130a|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|14|3|V|javascript
+	    params.data = circuit;
+335652c18ae8910df73307af50bae02c|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|10|1|V|javascript
+	    const circuit = await entityService.findOne(uid, id, { populate });
 	
+	    circuit.exercises.map((exercise) => {
+	      const { name } = exercise.exercise;
+	      exercise.cmsId = name;
+	      return exercise;
+	    });
+	
+	    await entityService.update(uid, id, { data: circuit });
+70a17ffa722a3985b86d30b034ad06d7|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|29|v|javascript
+	order
+ce11e0d6867b4e8af4f1c349243e9175|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|27|v|javascript
+	${exercise.order} - 
+21e6900ca69738256b1b4d01d867df0c|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|1|V|javascript
+	    const { populate } = params;
+	    const { id } = params.where;
+	    const { entityService } = strapi;
+	    const uid = "api::circuit.circuit";
+	    try {
+	      const circuit = await entityService.findOne(uid, id, { populate });
+	      if (!circuit.exercises) return;
+	      circuit.exercises.map((exercise) => {
+	        const { name } = exercise.exercise;
+	        exercise.cmsId = `${exercise.order} - ${name}`;
+	        return exercise;
+	      });
+	      await entityService.update(uid, id, { data: circuit });
+	    } catch (error) {
+	      console.log(error.message);
+	    }
+e40adc3864b4c5ea2a66adbe837899a4|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|21|1|V|javascript
+	  beforeUpdate: async ({ params }) => updateCMSId(params),
+f856b0600a9ba15502c04f04248f8a3e|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|22|3|v|javascript
+	beforeUpdate
+a00964712e8430efc974e76f62134a5d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|1|1|V|javascript
+	const updateCMSId = async (params) => {
+	  const { populate } = params;
+	  const { id } = params.where;
+	  const { entityService } = strapi;
+	  const uid = "api::circuit.circuit";
+	  try {
+	    const circuit = await entityService.findOne(uid, id, { populate });
+	    if (!circuit.exercises) return;
+	    circuit.exercises.map((exercise) => {
+	      const { name } = exercise.exercise;
+	      exercise.cmsId = `${exercise.order} - ${name}`;
+	      return exercise;
+	    });
+	    await entityService.update(uid, id, { data: circuit });
+	  } catch (error) {
+	    console.log(error.message);
 	  }
-b39b1ecf8e654dafba650e9dbb25f149|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|7|10|V|javascript
-	  return (
-d053f6ed2b3900aee428f175e05a5ec7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/pathToProject.js|1|14|v|javascript
-	pathToProject
-b37c91e79728542cdc4915dc1b90091c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|4|20|V|javascript
-	import { projectPath}
-12890e78cafcc213b83d168e71654277|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|16|1|V|javascript
-	const pathname = ({ title }) => title.replace(/\s+/g, "-").toLowerCase()
-a463d02a63e4a30ed84c8cd57f1e10d5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|29|19|v|javascript
-	projectPath(title)
-46f86faa6bbf9ac94a7e459509a20ed0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|29|41|v|javascript
-	project
-ae60cd67db8925b59f7a0d661266bc56|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|29|41|v|javascript
-	{ title }
-5b06a7d67e34cdd0547a4be978bb15a3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|25|19|v|javascript
-	 title 
-5cb9ee19e0aa1a04c8851336540fbdfd|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|5|1|V|javascript
-	import projectPath from "../utils/pathToProject";
-1f15b1c9b23c4eb563b610ae8cf8c43e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|22|38|v|javascript
-	ttile
-d5d3db1765287eef77d7927cc956f50a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|16|18|v|javascript
-	title
-ea614728f63b96eeeef3cfb2fca68dd2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Pages.js|16|1|V|javascript
-	const pathname = title => title.replace(/\s+/g, "-").toLowerCase()
-cebab4dfcdfc1fc8e384ba3caa1bd1d5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/pathToProject.js|1|1|V|javascript
-	export const projectPathname = title =>
-	  `/${title.replace(/\s+/g, "-").toLowerCase()}`;
-63fa98db49b027d0a27b539a29a07e5a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/pathToProject.js|2|1|V|javascript
-	export default pathToProject;
-93cab48e9b67b7b4e082d26b2a878da1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|24|18|v|javascript
-	title => title.replace(/\s+/g, "-").toLowerCase()
-99f89f5f7b35c03af6ea7cd01fd38916|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|4|34|v|javascript
-	./utils
-4e95f5ea65950f5de21f015c8032b877|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/utils/getProjectPathname.js|1|14|v|javascript
-	getProjectPathname
-9b923370e03c8b951794fa03246a7a54|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|32|18|v|javascript
-	3px s
-8c8d3f7781cd7bcdfef47949c37feead|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|32|18|v|javascript
-	3px slid white
-cb5e100e5a9a3e7f6d1fd97512215282|file:///Users/steve/.dotfiles/es-lint/eslintrc.json|95|21|v|json
-	error
-5f42a92b141248808fdc730927919812|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|19|1|V|javascript
-	  const border = useColorModeValue("3px solid black", "3px solid white")
-40775a30221412c3eff6d17497b9e536|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|28|1|V|javascript
-	        <Image
-	          {...imageProps}
-	          maxW="full"
-	          borderRadius={{ md: "sm" }}
-	          border={border}
-	        />
-563f7728daec7e217b5007070c544229|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|37|15|v|javascript
-	imageProps
-d8a7cf7f296734762f8d1dd975ae2eee|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|40|37|V|javascript
-	          borderRadius={{ md: "sm" }}
-875b1d0a0601e12afef8baf493833064|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|39|21|V|javascript
-	          maxW="full"
-dd9cab1169553c2b8f20d02397f1bc09|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|33|1|V|javascript
-	            border="3px"
-	            borderColor="white"
-	            borderStyle="solid"
-9c49759fa52d2bed92afc229b9d209ea|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|34|1|V|javascript
-	const ProjectImage = props => {
-	  const border = useColorModeValue("3px solid black", "3px solid white")
-	  return <Image {...props} border={border} />
-	}
-be53a0541a6d36f6ecb879fa2c584b08|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Portfolio.js|2|33|v|javascript
-	Image
-b4cf588f4da92705b5952ed06b0b9ffa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|14|1|V|javascript
-	  useColorModeValue
-7891e9ff98c6078a70d00aeec4b4321a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project.js|8|1|V|javascript
-	  Image,
-f2acdf538e38a2f81dff13a8bc5ec730|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|1|1|V|javascript
-	export * from "App.js"
-d23d5634ddc619596b169aa18f7536e5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|2|1|V|javascript
-	export * from "Bars.js"
-fbaff37e7b671f587696d0e2c304c781|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|1|1|V|javascript
-	export * from "App.js"
-	export * from "Bars.js"
-	export * from "Bars.js"
-226bea4d132b81f15f1bda87c76c6706|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|3|16|v|javascript
-	Bars
-35b539cc7fea7ad1191757ce72d9f57d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|3|1|V|javascript
-	export * from "ContactForm.js"
-3b9a3791880252dccc23d0973c390c8a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|4|16|v|javascript
-	ContactForm
-715fde3f6efe88d931c6dcefeba9a781|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|4|1|V|javascript
-	export * from "ContactSection.js"
-e5d44bbd4dfe5c68727c6e94272d45a9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|5|16|v|javascript
-	ContactSection
-57f8eed97ffd7cfdbd04916b6d5f519d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|5|1|V|javascript
-	export * from "Footer.js"
-ded40f2a77c30efc6062db0cbd857746|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|6|16|v|javascript
-	Footer
-ba272324de6a46d7c819993ecb163f25|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|6|1|V|javascript
-	export * from "Header.js"
-bf50d5e661106d0abe925af3c2e6f7e7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|7|16|v|javascript
-	Header
-99bf9e1ed3150659fecd4f122024afdb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|7|1|V|javascript
-	export * from "icons.js"
-bd21190449b7e88db48fa0f580a8f666|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|8|16|v|javascript
-	icons
-6789539e1cdec7b11e98c2f45f9f3ba1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|8|1|V|javascript
-	export * from "Opening.js"
-9bd99a0beea48f10663fc4a7d7a33140|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|9|16|v|javascript
-	Opening
-b8c326d2dc17a61bde561c2c7fa086ba|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|9|1|V|javascript
-	export * from "Pages.js"
-453aceb005ceaf54a47da15fee8b2a26|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|10|16|v|javascript
-	Pages
-007ce4c2fd062a61e98e31cd13ba2bd2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|10|1|V|javascript
-	export * from "Portfolio.js"
-d4f859a96c13f551a2771b7fc3a78d38|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|11|16|v|javascript
-	Portfolio
-da72c55bfdee62f03eb5963f69f05f25|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|11|1|V|javascript
-	export * from "ProjectImage.js"
-0c5eb38f3e525fa4aacc275919c93fee|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|12|16|v|javascript
-	ProjectImage
-d30b82736d3a0a30ae804212d319ddfb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/Footer.js|4|24|v|javascript
-	{ show }
-c1c425268e68385d1ab5074c17a94f14|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/SocialIcons.js|5|14|v|javascript
-	function
-3ccb82163afb7dd55c786ce370c2adf3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/index.js|6|30|v|javascript
-	/App
-f6601312e931af51d8f8e61f08ddecaf|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/index.js|6|8|V|javascript
-	import { App } from "./components";
-c51b57788949d8a4a438b8b70e98c2c8|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|3|41|v|javascript
-	/Header
-2d8d58ad8a56a7e20dbe2d97b21433aa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|4|28|V|javascript
-	import Pages from "./Pages";
-ad6be3b8d38ca7aafb265c951ccdba24|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|4|30|V|javascript
-	import Footer from "./Footer";
-29a0697cd5c5532f474a927ff3c2b0f0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|34|1|V|javascript
-	const Details = props => {
-	  const broken = useBreakpointValue({ xs: false, sm: true, "3xl": true });
-	  return (
-	    <VStack
-	      align="start"
-	      spacing={{ base: 8, md: 4 }}
-	      px={{ base: 4, md: 0 }}
-	      w="full"
-	    >
-	      {broken ? <TitleAndButtons {...props} /> : <Title {...props} />}
-	      <Description {...props} />
-	      {!broken && <ButtonGrid {...props} size="lg" />}
-	    </VStack>
-	  );
 	};
 	
-	const TitleAndButtons = props => (
-	  <Flex direction={["column", "column", "row"]} align="center" w="full">
-	    <Title {...props} />
-	    <Spacer />
-	    <ButtonStack {...props} size="md" />
-	  </Flex>
-	);
+	module.exports = {
+	  beforeUpdate: async ({ params }) => updateCMSId(params),
+	  beforeCreate: async ({ params }) => updateCMSId(params),
+	};
+8c9adea3be5e6927572603e5852397ac|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|8|24|V|javascript
+	    console.log(workout);
+8daf1bdc96e1c2daf222d2b439181f3b|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|9|V|javascript
+	      const { name } = group.circuits;
+ad72730d4c1e3b6f31d05b42b27331d3|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|19|V|javascript
+	      group.circuit
+397291b4343a25a0e15c7d95ebe16e30|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|28|V|javascript
+	      return group.circuits.
+b0b91f5784d8906e1159952fb02a26c5|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|13|v|javascript
+	circuitGroups
+da59935db284f481947bd56da0b7433a|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|16|9|v|javascript
+	ercise.cmsId = `${exercise.order} - ${name}`;
+	      ret
+55afb90ff502dc5354ca5d5cae485a3a|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|16|1|V|javascript
+	      exercise.cmsId = `${exercise.order} - ${name}`;
+	      return exercise;
+ddf4c07f91469cb98f7e19f71f7f5572|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|15|25|v|javascript
+	`${circuit.order} - ${name}`
+3b2a280b1d47f861ef6f552884ae6389|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|21|5|V|javascript
+	    w
+a190be291028c6c1bfdd0e5587fcd06a|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|69|v|javascript
+	circuits
+a4efd153af5643341abacd136ac19d89|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|14|46|v|javascript
+	group.circuits.length
+db0f6f37ebeb6ea09489124345af2a45|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|14|61|v|javascript
+	group
+1163eaf81365b97a40885c08cbe5dfa3|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|13|v|javascript
+	numCircuits
+3bcd8e4ecbf48e41cbd7a63edc3d34e9|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|20|V|javascript
+	      const len = group.circuits.length;
+596d2bdc95bfd37329514c8afcd4efb4|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|14|1|V|javascript
+	      const { name } = level.format;
+	      level.cmsId = `${level.order} - ${name}`;
+74f78c206b55547d196edbecd5523c22|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|8|23|V|javascript
+	    console.log(exercise);
+2063c1608d6e0baf80249c42e2be5804|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|14|39|v|javascript
+	value
+93f07710d16f79b6e543b9b406fb0ac1|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|12|25|V|javascript
+	      console.log(level);
+aa688e291b5899542323b72184011665|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|7|42|V|javascript
+	    const exercise = await entityService.findOne(uid, id, { populate });
+700c216fb376666eaeda0c892e8bdc09|file:///Users/steve/Code/apps/burn-it-cms/.git/COMMIT_EDITMSG|1|71|v|gitcommit
+	component
+86f5baf708c6c250204451eb89736947|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|13|19|v|javascript
+	Sets
+172fe91f0ef03dcf0cb119ed4bae0e63|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|11|1|V|javascript
+	              circuitGroups: {
+	                populate: {
+ff483c73028c90ac5c4bb6c097462e00|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|12|1|V|javascript
+	                populate: {
+	                  circuits: {
+a8f1adea2278aa0a0047b6c569544712|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|14|17|V|javascript
+	                    populate: "*",
+1b737efe2a853503ad16fa7d28bd5e0f|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|16|1|V|javascript
+	                    //   populate: {
+	                    //     exercises: {
+	                    //       populate: {
+	                    //         exercise: {
+	                    //           populate: {
+	                    //             intensityLevels: {
+	                    //               populate: {
+	                    //                 format: {
+	                    //                   populate: "*",
+	                    //                 },
+	                    //               },
+	                    //             },
+	                    //             equipment: {
+	                    //               populate: {
+	                    //                 items: {
+	                    //                   populate: "*",
+	                    //                 },
+	                    //               },
+	                    //             },
+	                    //           },
+	                    //         },
+	                    //       },
+	                    //     },
+	                    //   },
+b9bf3ea1bbf8c737cb214757b8147a77|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|1|V|javascript
+	                    // circuit: {
+	                    // },
+	                    // },
+16415f94fabb7ac5233bf310f394011d|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|13|1|V|javascript
+	                  circuits: {
+	                    populate: "*",
+	                  },
+a3b3fee3bf574ab49da98ce70623def2|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|20|1|V|javascript
+	  const [resp, errorMessage] = await makeRequest(
+	    "get programs",
+	    authAxios.get(`/api/programs?${query}`)
+	  );
+	  console.log(resp.data[0]);
+b122e751e7e1d088cf0d2192fcf89d45|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|28|1|V|javascript
+	//   //   populate: {
+	//   //     exercises: {
+	//   //       populate: {
+	//   //         exercise: {
+	//   //           populate: {
+	//   //             intensityLevels: {
+	//   //               populate: {
+	//   //                 format: {
+	//   //                   populate: "*",
+	//   //                 },
+	//   //               },
+	//   //             },
+	//   //             equipment: {
+	//   //               populate: {
+	//   //                 items: {
+	//   //                   populate: "*",
+	//   //                 },
+	//   //               },
+	//   //             },
+	//   //           },
+	//   //         },
+	//   //       },
+	//   //     },
+	//   //   },
+da120e06cc1b7fb96a3e28ce9225502c|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|12|1|V|javascript
+	                populate: "*",
+522a50ce2bf27197af7f5d19e2d1c31f|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|16|1|V|javascript
+	                    }
+	                  }
+5b0775d140390f62de5163361e913de5|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|9|1|V|javascript
+	      "workouts.workout.circuitGroups",
+eb1f4bab215c7250dd945e463a727dc5|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|10|1|V|javascript
+	      "workouts.workout.circuitGroups.circuits",
+55011df9243ee61fbb1aee56ca061866|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|11|1|V|javascript
+	      "workouts.workout.circuitGroups.circuits.circuit",
+ec3723ebd6c3d61c4fae997e8c00fccb|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|12|1|V|javascript
+	      "workouts.workout.circuitGroups.circuits.circuit.exercise",
+501d8f55d220da5264d549160f6e5b69|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|13|1|V|javascript
+	      "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise",
+dc03a98b9b7db23d27be7a8cf23dfc00|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|14|1|V|javascript
+	      "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
+dfc903cc4d948f00c3f01db5012c845d|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|75|v|javascript
+	intensityLevels
+9ff950b80e6f99e65ef2c83cfd26c665|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|1|V|javascript
+	      "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment",
+9caf75083052c419adb216d83134f73d|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|72|1|V|javascript
+	//   const [resp, errorMessage] = await makeRequest(
+	//     "get programs",
+	//     authAxios.get(`/api/programs?${query}`)
+	//   );
+	//   console.log(resp.data[0]);
+	// };
+a5277dee247d7e5df54072ab07f84a41|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|1|V|javascript
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
+ec2954245a218b7e9a03ada4c8ffe8ce|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|30|1|V|javascript
+	// export const getPrograms = async () => {
+	//   const query = qs.stringify(
+	//     {
+	//       populate: {
+	//         workouts: {
+	//           populate: {
+	//             workout: {
+	//               populate: {
+	//                 circuitGroups: {
+	//                   populate: {
+	//                     circuit: {
+	//                       populate: {
+	//                         exercises: {
+	//                           populate: {
+	//                             exercise: {
+	//                               populate: {
+	//                                 intensityLevels: {
+	//                                   populate: {
+	//                                     format: {
+	//                                       populate: "*",
+	//                                     },
+	//                                   },
+	//                                 },
+	//                                 equipment: {
+	//                                   populate: {
+	//                                     items: {
+	//                                       populate: "*",
+	//                                     },
+	//                                   },
+	//                                 },
+	//                               },
+	//                             },
+	//                           },
+	//                         },
+	//                       },
+	//                     },
+	//                   },
+	//                 },
+	//               },
+	//             },
+	//           },
+	//         },
+	//       },
+	//     },
+	//     {
+	//       encodeValuesOnly: true,
+	//     }
+	//   );
+	//   const [resp, errorMessage] = await makeRequest(
+	//     "get programs",
+	//     authAxios.get(`/api/programs?${query}`)
+	//   );
+	//   console.log(resp.data[0]);
+	// };
 	
-	const Title = ({ title }) => <Heading as="h1">{title}</Heading>;
+	// export const getCircuits = async () => {
+	//   //   populate: {
+	//   //     exercises: {
+	//   //       populate: {
+	//   //         exercise: {
+	//   //           populate: {
+	//   //             intensityLevels: {
+	//   //               populate: {
+	//   //                 format: {
+	//   //                   populate: "*",
+	//   //                 },
+	//   //               },
+	//   //             },
+	//   //             equipment: {
+	//   //               populate: {
+	//   //                 items: {
+	//   //                   populate: "*",
+	//   //                 },
+	//   //               },
+	//   //             },
+	//   //           },
+	//   //         },
+	//   //       },
+	//   //     },
+	//   //   },
+	//   const [resp, errorMessage] = await makeRequest(
+	//     "get programs",
+	//     authAxios.get(`/api/circuits?${query}`)
+	//   );
+	//   console.log(resp.data[0]);
+	// };
+696989b42eba2c75f1ea0a5fe4048d53|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|11|1|V|javascript
+	export const markAndSortByCompletion = (workouts, logs) => {
+	  return sortByCompletion(markCompleted(workouts, logs));
+	};
+5149d028bd15634ed66018e576fec605|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|45|1|V|javascript
+	const byDateCompleted = (a, b) => {
+	  if (day(a.completionTimeStamp).isBefore(b.completionTimeStamp, "minute"))
+	    return -1;
+	  else if (day(a.completionTimeStamp).isAfter(b.completionTimeStamp, "minute"))
+	    return 1;
+	  return 0;
+	};
+368db7f8f9dd0253e422fff7615001b4|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|25|9|v|javascript
+	workout.id === log.workout_id 
+f5573aa9f6f386bc7b407f14c95c4967|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|37|25|V|javascript
+	  if (!workouts) returndd
+581e51793105971d3a280b487a0e72c0|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|40|1|V|javascript
+	    const timeStamp = workout.completionTimeStamp;
+	    const completedToday = day(timeStamp).isSame(day(), "day");
+	    if (!timeStamp || completedToday) {
+	      todayOrIncomplete.push(workout);
+	      return;
+	    }
+	    completedPrev.push(workout);
+2215a3775a590747349b97bd89d8907c|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|37|1|V|javascript
+	  const todayOrIncomplete = [];
+	  const completedPrev = [];
+5b4e252c4b692054c30e4be9210b97b0|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|5|26|v|javascript
+	 timeStamp => {
+	  const now = day();
+	  const oneWeekAgo = day().subtract(1, "week");
+	  return day(timeStamp).isBetween(oneWeekAgo, now);
+	};
 	
-	const ButtonStack = props => (
-	  <HStack spacing={2} my={[4, 4, 0]} w={["full", "full", "auto"]}>
-	    <GitHubButton {...props} />
-	    <SiteButton {...props} />
-	  </HStack>
-	);
+	const byDateCompleted = (a, b) => {
+	  if (day(a.completionTimeStamp).isBefore(b.completionTimeStamp, "minute"))
+	    return -1;
+	  else if (day(a.completionTimeStamp).isAfter(b.completionTimeStamp, "minute"))
+	    return 1;
+	  return 0;
+	};
 	
-	const ButtonGrid = props => (
-	  <Grid w="full" autoFlow={["row", "column"]} gap={4}>
-	    <GitHubButton {...props} />
-	    <SiteButton {...props} />
-	  </Grid>
-	);
+	const markCompleted = (workouts, logs = []) => {
+	  if (logs.length === 0) return;
+	  return workouts.map(workout => {
+	    logs.forEach(log => {
+	      const isSame = workout.id === log.workout_id;
+	      if (isSame && isWithinSevenDays(log.completionTimeStamp)) {
+	        workout.completed = true;
+	        workout.completionTimeStamp = log.completionTimeStamp;
+	      }
+	    });
+	    return workout;
+	  });
+	};
 	
-	const GitHubButton = ({ github, size }) => (
-	  <a className="github" href={github} target="_blank" rel="noopener noreferrer">
-	    <Button
-	      size={size}
-	      leftIcon={<GitHubIcon />}
-	      aria-label="Github"
-	      w={["full", "full", "auto"]}
-	    >
-	      View GitHub
-	    </Button>
-	  </a>
-	);
+	// workouts not completed and workouts completed today stay where they are.
+490075033d56e0e71a12934c37031918|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|24|21|v|javascript
+	isWithinSevenDays
+1d057e797ff5e83769900c2ffc68f8d2|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|11|26|v|javascript
+	{ completionTimeStamp: aTS}, { completionTimeStamp: bTS}
+4b44c76df289e5ec35f4a08f352658a9|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|13|11|v|javascript
+	a.completionTimeStamp
+29300e8fe94d4467ebb45f4052932cc5|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|13|25|v|javascript
+	b.completionTimeStamp
+7be123d1260aa859f327671986382966|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|12|1|V|javascript
+	  const [{ completionTimeStamp: aTS }, { completionTimeStamp: bTS }] = params;
+253264db505fc70eb2d7d1fa9921b811|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|13|36|V|javascript
+	  const { completionTimeStamp: aTS }, { completionTimeStamp: bTS }] = params;
+d6ef40945ac8ead63de1a4ed1112bd8b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/user/schema.json|70|5|V|json
+	    ""
+a00385bf61f2ab24517c639f3f28675f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/user/schema.json|73|1|V|json
+	    "gender": {
+	      ""
+	    }
+a99cf7043cd382ba27149fbb42f8401f|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|2|1|V|javascript
+	import qs from "qs";
+51dd878b908cc0dd38df0665554eaf30|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|5|1|V|javascript
+	  const query = qs.stringify(
+	    {
+6f5ecc16326242bb7f0a1930cf751a9b|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|6|3|V|javascript
+	    {
+a470d384c5f8055b505effcf84caf90c|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|5|3|V|javascript
+	  const query = qs.stringify(
+f2725cc79e1b80553c814620f44f45dc|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|14|3|V|javascript
+	  const query = 
+ee11cbb19052e40b07aac0ca060c23ee|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|34|v|javascript
+	user
+e8860dec1fd63b40cd7db0e3b70579e9|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/auth.js|1|1|V|javascript
+	'use strict';
 	
-	const SiteButton = ({ link, size }) => (
-	  <a
-	    className="view-site"
-	    href={link}
-	    target="_blank"
-	    rel="noopener noreferrer"
-	  >
-	    <Button size={size} leftIcon={<LaptopIcon />} w={["full", "full", "auto"]}>
-	      View Site
-	    </Button>
-	  </a>
-	);
+	/**
+	 * Auth.js controller
+	 *
+	 * @description: A set of functions called "actions" for managing `Auth`.
+	 */
 	
-	const Description = ({ summary, description }) => (
-	  <VStack align="start">
-	    <Heading as="h4" fontSize="lg">
-	      {summary}
-	    </Heading>
-	    <Text>{description}</Text>
-	    <Technologies />
-	  </VStack>
-	);
+	/* eslint-disable no-useless-escape */
+	const crypto = require('crypto');
+	const _ = require('lodash');
+	const utils = require('@strapi/utils');
+	const { getService } = require('../utils');
+	const {
+	  validateCallbackBody,
+	  validateRegisterBody,
+	  validateSendEmailConfirmationBody,
+	} = require('./validation/auth');
 	
-	const Technologies = () => <HStack></HStack>;
-8269078318c4a434dc7727d0d90ed656|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|2|1|V|javascript
-	import {
-	  Center,
-	  HStack,
-	  Flex,
-	  Grid,
-	  VStack,
-	  Text,
-	  Spacer,
-	  Heading,
-	  Button,
-	  useBreakpointValue,
-	} from "@chakra-ui/react";
-	import { GitHubIcon, LaptopIcon } from "../../components/icons";
-1f626e95c651e6888c41aa6fad0a4b9f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|3|9|V|javascript
-	  Center,
-8258a4e670220b1abcd2d7a03ae46a27|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|4|1|V|javascript
-	  HStack,
-	  Flex,
-	  Grid,
-45d972962b20e8fb51e6b32a60ba10e1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|5|1|V|javascript
-	  Text,
-	  Spacer,
-	  Heading,
-	  Button,
-	  useBreakpointValue,
-2bc60744eb58cb4459f4b4d6eed4a9f6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|6|1|V|javascript
-	import { GitHubIcon, LaptopIcon } from "../../components/icons";
-93473a7344419b15c4219cc2b6c64c6f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/index.js|1|1|v|javascript
-	import
-491c58c679591a746337d377433567d1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|39|1|V|javascript
-	const Title = ({ title }) => <Heading as="h1">{title}</Heading>;
-9eab4ee1bf8e1909c54c957d8ca72f4b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|70|8|V|javascript
-	    className="view-site"
-7e1f62b29e73668ce01376b62a16abfa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|71|1|V|javascript
-	    target="_blank"
-	    rel="noopener noreferrer"
-a8fd3d5514d794b4c81c94db40a2fc55|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|9|v|javascript
-	className="github"
-1fe5b5c5c6256b7605d28dee50be2cb6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|24|v|javascript
-	target="_blank"
-b1ada0629b2b8452d88f1cb3d6d841c1|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|25|v|javascript
-	rel="noopener
-7c1b3450f163c774addb06807bdf186e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|56|26|v|javascript
-	noreferrer"
-a116cf70b373f0245c66d02fc322764a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/App.js|2|8|V|javascript
-	import { Grid } from "@chakra-ui/react";
-c6a93a1eafe46fdca6e120fd9b77c6ea|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/index.js|5|22|v|javascript
-	./components
-271a8e1e801ffc85913740d10655c8fe|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|7|17|V|javascript
-	export * from "./Opening.js"
-07a7caa3478854c3d04460658a7154e5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/index.js|8|17|V|javascript
-	export * from "./Portfolio.js"
-3960d96277e94ec2aa847ee109bf5cd5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|14|41|v|javascript
-	../../../components/icons
-3ec365dd533ddb7ef3d1c111186ce872|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/index.js|4|10|v|javascript
-	Details
-2de42fbb00305f8282310f1b3e10ce9a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|9|v|javascript
-	border
-be84365e2c65a0e4172445a63df94541|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|6|41|V|javascript
-	  return <Image {...props} borderWidth={border} />;
-9665f6f8656e42897d1b3a2d46e86e3a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|6|28|v|javascript
-	borderWidth={border}
-bbc5a8a20430096bef0989ff11aaf3b4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|61|v|javascript
-	3px solid white
-0279f467fa770779db80ce07f1091a24|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|42|v|javascript
-	3px solid black
-1ffd9e753c8054cc61456ac7fac1ac89|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|42|v|javascript
-	black
-e449b5f511d18d0f1994479e832b59ea|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|52|V|javascript
-	  const borderColor = useColorModeValue("dark", "white");
-	  const borderRadius = useColorModeValue("sm", null)
-bb206848b1a02ce19958983447dcea84|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|9|2|V|javascript
-	    borderWidth={3}
-e42b4c3ea7acb4a498a59e35612d4c29|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Home/components/Portfolio.js|33|1|V|javascript
-	            borderRadius="sm"
-37a6259cc0c1dae299a7866489dff0bd|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|6|48|v|javascript
-	null
-a82fd95db10ff25dfad39f07372ebe37|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|42|v|javascript
-	dark
-54b53072540eeeb8f8e9343e71f28176|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/theme/index.js|6|22|v|javascript
-	system
-d508fe45cecaf653904a0e774084bb5c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|54|v|javascript
-	white
-6e4a4959b5b94bf1fad7dcdd1cc61ac5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ProjectImage.js|5|1|V|javascript
-	  const borderColor = useColorModeValue("gray.500", "gray.200");
-ac32507195fd39c1910e5e01dbcd991f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|44|23|V|javascript
-	        border={border}
-b46c91e189a3e584f1b93d8ceffbf026|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|64|12|v|javascript
-	"3px solid white",
-7c38651406e4b0cdd6f59adbcc18f4ca|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|67|1|V|javascript
-	      w="full"
-	      h="full"
-ed545938df4377692ab0e396d98579aa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|68|7|V|javascript
-	      borderStyle="solid"
-8157b02d7555101c5a43aad16174b6ae|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/ContactSection.js|68|7|V|javascript
-	      borderColor={borderColor}
-55a73a10eabb9df6f77fe1261982e420|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|35|20|V|javascript
-	const DetailHeader />
-0cf31b2c283ce3431794586df7b0996d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|37|4|V|javascript
-	    
-2bd964a68e257677bc171fb661bddec2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|39|1|V|javascript
-	  return (
+	const { getAbsoluteAdminUrl, getAbsoluteServerUrl, sanitize } = utils;
+	const { ApplicationError, ValidationError } = utils.errors;
 	
-	  )
-b53f7fd61a79ff86ae48751d5d2122e7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|28|24|V|javascript
-	      {broken ? <TitleAndButtonStack {...props} /> : <Title {...props} />}
-36fc683fb36b3332fdd65c4cf9016d5c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|25|20|v|javascript
-	breakpointBroken={broken}
-64fb6f4e4021b8ebc8ef7446b24c9694|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|28|32|V|javascript
-	      <Description {...props} />
-1a636fb8ae3e0a372afc9eb00c53ce18|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|43|11|V|javascript
-	  return ()
-0c847901b764990988c51b2c7817734a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details.js|28|14|V|javascript
-	      {!broken && <ButtonGrid {...props} size="lg" />}
-841127092d26f7f42d3b73882c1bd2ca|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/index.js|1|1|V|javascript
-	export * from "./Header"
-e5b0bee5dddc7fb1229806f7bc3885e0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|32|41|v|javascript
-	={broken
-8df13ffe0bc9262e5e17f4b9680ebe2e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|25|19|v|javascript
-	breakpointBroken
-c6203584f4e06d6407005cf11e423d7b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|32|1|V|javascript
-	const DetailHeader = ({ breakpointBroken, ...rest }) => {
-	  if (breakpointBroken) return <TitleAndButtonStack {...rest}/>;
-	  return <Title {...rest}/>;
+	const emailRegExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	
+	const sanitizeUser = (user, ctx) => {
+	  const { auth } = ctx.state;
+	  const userSchema = strapi.getModel('plugin::users-permissions.user');
+	
+	  return sanitize.contentAPI.output(user, userSchema, { auth });
+	};
+	
+	module.exports = {
+	  async callback(ctx) {
+	    const provider = ctx.params.provider || 'local';
+	    const params = ctx.request.body;
+	
+	    const store = await strapi.store({ type: 'plugin', name: 'users-permissions' });
+	
+	    if (provider === 'local') {
+	      if (!_.get(await store.get({ key: 'grant' }), 'email.enabled')) {
+	        throw new ApplicationError('This provider is disabled');
+	      }
+	
+	      await validateCallbackBody(params);
+	
+	      const query = { provider };
+	
+	      // Check if the provided identifier is an email or not.
+	      const isEmail = emailRegExp.test(params.identifier);
+	
+	      // Set the identifier to the appropriate query field.
+	      if (isEmail) {
+	        query.email = params.identifier.toLowerCase();
+	      } else {
+	        query.username = params.identifier;
+	      }
+	
+	      // Check if the user exists.
+	      const user = await strapi.query('plugin::users-permissions.user').findOne({ where: query });
+	
+	      if (!user) {
+	        throw new ValidationError('Invalid identifier or password');
+	      }
+	
+	      if (
+	        _.get(await store.get({ key: 'advanced' }), 'email_confirmation') &&
+	        user.confirmed !== true
+	      ) {
+	        throw new ApplicationError('Your account email is not confirmed');
+	      }
+	
+	      if (user.blocked === true) {
+	        throw new ApplicationError('Your account has been blocked by an administrator');
+	      }
+	
+	      // The user never authenticated with the `local` provider.
+	      if (!user.password) {
+	        throw new ApplicationError(
+	          'This user never set a local password, please login with the provider used during account creation'
+	        );
+	      }
+	
+	      const validPassword = await getService('user').validatePassword(
+	        params.password,
+	        user.password
+	      );
+	
+	      if (!validPassword) {
+	        throw new ValidationError('Invalid identifier or password');
+	      } else {
+	        ctx.send({
+	          jwt: getService('jwt').issue({
+	            id: user.id,
+	          }),
+	          user: await sanitizeUser(user, ctx),
+	        });
+	      }
+	    } else {
+	      if (!_.get(await store.get({ key: 'grant' }), [provider, 'enabled'])) {
+	        throw new ApplicationError('This provider is disabled');
+	      }
+	
+	      // Connect the user with the third-party provider.
+	      let user;
+	      let error;
+	      try {
+	        [user, error] = await getService('providers').connect(provider, ctx.query);
+	      } catch ([user, error]) {
+	        throw new ApplicationError(error.message);
+	      }
+	
+	      if (!user) {
+	        throw new ApplicationError(error.message);
+	      }
+	
+	      ctx.send({
+	        jwt: getService('jwt').issue({ id: user.id }),
+	        user: await sanitizeUser(user, ctx),
+	      });
+	    }
+	  },
+dda23b7e85621924b3a8dbb50987179e|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|16|1|V|javascript
+	  validateRegisterBody,
+	  validateSendEmailConfirmationBody,
+f6219d31c37233637f0bcec5aeeaf4c2|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|18|9|v|javascript
+	getAbsoluteAdminUrl
+a002d6058a8ae802a702875d86981049|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|18|11|v|javascript
+	getAbsoluteServerUrl
+6bdb7d5eb9808bce86d00c074b61b552|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|10|8|V|javascript
+	const crypto = require('crypto');
+91b8ae2528c061ec0771c7e6fc8eb8f0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|38|V|javascript
+	  console.log(plugin.controllers.auth);
+90fd801fc91b65a98c1439b2c8678706|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/controllers/Auth.js|28|1|V|javascript
+	module.exports = {
+	  async callback(ctx) {
+	    const provider = ctx.params.provider || "local";
+	    const params = ctx.request.body;
+	
+	    const store = await strapi.store({
+	      type: "plugin",
+	      name: "users-permissions",
+	    });
+	
+	    if (provider === "local") {
+	      if (!_.get(await store.get({ key: "grant" }), "email.enabled")) {
+	        throw new ApplicationError("This provider is disabled");
+	      }
+	
+	      await validateCallbackBody(params);
+	
+	      const query = { provider };
+	
+	      // Check if the provided identifier is an email or not.
+	      const isEmail = emailRegExp.test(params.identifier);
+	
+	      // Set the identifier to the appropriate query field.
+	      if (isEmail) {
+	        query.email = params.identifier.toLowerCase();
+	      } else {
+	        query.username = params.identifier;
+	      }
+	
+	      // Check if the user exists.
+	      const user = await strapi
+	        .query("plugin::users-permissions.user")
+	        .findOne({ where: query });
+	
+	      if (!user) {
+	        throw new ValidationError("Invalid identifier or password");
+	      }
+	
+	      if (
+	        _.get(await store.get({ key: "advanced" }), "email_confirmation") &&
+	        user.confirmed !== true
+	      ) {
+	        throw new ApplicationError("Your account email is not confirmed");
+	      }
+	
+	      if (user.blocked === true) {
+	        throw new ApplicationError(
+	          "Your account has been blocked by an administrator"
+	        );
+	      }
+	
+	      // The user never authenticated with the `local` provider.
+	      if (!user.password) {
+	        throw new ApplicationError(
+	          "This user never set a local password, please login with the provider used during account creation"
+	        );
+	      }
+	
+	      const validPassword = await getService("user").validatePassword(
+	        params.password,
+	        user.password
+	      );
+	
+	      if (!validPassword) {
+	        throw new ValidationError("Invalid identifier or password");
+	      } else {
+	        ctx.send({
+	          jwt: getService("jwt").issue({
+	            id: user.id,
+	          }),
+	          user: await sanitizeUser(user, ctx),
+	        });
+	      }
+	    } else {
+	      if (!_.get(await store.get({ key: "grant" }), [provider, "enabled"])) {
+	        throw new ApplicationError("This provider is disabled");
+	      }
+	
+	      // Connect the user with the third-party provider.
+	      let user;
+	      let error;
+	      try {
+	        [user, error] = await getService("providers").connect(
+	          provider,
+	          ctx.query
+	        );
+	      } catch ([user, error]) {
+	        throw new ApplicationError(error.message);
+	      }
+	
+	      if (!user) {
+	        throw new ApplicationError(error.message);
+	      }
+	
+	      ctx.send({
+	        jwt: getService("jwt").issue({ id: user.id }),
+	        user: await sanitizeUser(user, ctx),
+	      });
+	    }
+	  },
+	};
+21c3427d94276b2429c1b262ca7da051|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
+	module.exports = {
+1b31711a7b0f416c4312ab0412cc3376|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
+	  async callback(ctx) {
+52e5cead57053f6b05614fcf99e77814|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
+	module.exports = {
+	  async callback(ctx) {
+2b3583e6e17721c54496bd04e57a0c15|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|12|7|v|javascript
+	utils
+12e4dd0ab48f983e94016c70e790fcad|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|18|16|V|javascript
+	const { sanitize } = utils;
+40573ebdcf26ef80794888c35ad8bb31|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|17|1|V|javascript
+	const { ApplicationError, ValidationError } = errors;
+58028f618e3fe2ca9c8f89f62c6b3ff8|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/utils/index.js|4|1|V|javascript
+	  return strapi.plugin('users-permissions').service(name);
+0b79aa04e6f43f7cee0a177553abb82c|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/utils/index.js|3|1|V|javascript
+	const getService = name => {
+	  return strapi.plugin('users-permissions').service(name);
+	};
+a9b74902d86292e14d7c26f391d30233|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|14|1|V|javascript
+	const { getService } = require('../utils');
+d7c288dd8b897f0598c9e1fc9b865d0f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|4|1|V|javascript
+	  // Create the new controller
+	  plugin.controllers.user.updateMe = async (ctx) => {
+	    const { user } = ctx.state;
+	
+	    // User has to be logged in to update themselves
+	    if (!user) return ctx.unauthorized();
+	
+	    // Pick only specific fields for security
+	    const newData = omit(ctx.request.body, [
+	      "email",
+	      "username",
+	      "password",
+	      "confirmPassword",
+	      "provider",
+	      "resetPasswordToken",
+	      "confirmationToken",
+	      "confirmed",
+	      "blocked",
+	      "role",
+	    ]);
+	
+	    // Reconstruct context so we can pass to the controller
+	    ctx.request.body = newData;
+	    ctx.params = { id: user.id };
+	
+	    // Update the user and return the sanitized data
+	    return await strapi.plugins["users-permissions"]
+	      .controller("user")
+	      .update(ctx);
+	  };
+	
+	  // Add the custom route
+	  plugin.routes["content-api"].routes.unshift({
+	    method: "PUT",
+	    path: "/users/me",
+	    handler: "user.updateMe",
+	    config: {
+	      prefix: "",
+	    },
+	  });
+6b6e24f83dda957bb04bd3076d60d37b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|1|1|V|javascript
+	const omit = require("lodash.omit");
+6680dba00f3a88f66f8029a93d71d93c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|2|5|V|javascript
+	const
+d064da399b5c39b2cb926c21cb68bafe|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|1|1|V|javascript
+	const updateMe = require("overrides/updateMe")
+0481e4c847071ce59bfbb5cfc833ba95|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|2|7|v|javascript
+	updateMe
+6896177febaa65865bc2dbf4be6daaa1|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|5|1|V|javascript
+	  plugin.controllers.user.updateMe = async (ctx) => {
+e3d34c77a9ae8e24f43530d24f8b5c38|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|3|1|V|javascript
+	/**
+	 * Auth.js controller
+	 *
+	 * @description: A set of functions called "actions" for managing `Auth`.
+	 */
+8971778a9cc0ad74eeea6d9ed8a7b87f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|1|1|V|javascript
+	"use strict";
+465491542c6e47f8845a12d270595630|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|1|1|V|javascript
+	/* eslint-disable no-useless-escape */
+a2ffde7c71658217b94a7624df02d0fe|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|5|1|V|javascript
+	const { getService } = require("../utils");
+f5e7ce15d6eb47fa59f84116033b434d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|35|1|V|javascript
+	  // Add the custom route
+	  plugin.routes["content-api"].routes.unshift({
+	    method: "PUT",
+	    path: "/users/me",
+	    handler: "user.updateMe",
+	    config: {
+	      prefix: "",
+	    },
+	  });
+a24bcf2198b1b13ad985304483f7f324|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|3|25|v|javascript
+	plugin
+063d0d181f65eeb2e58f31b666711f7d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|8|38|v|javascript
+	async (ctx) => {
+3621a6365c8fedfb68b68645d4c1cfc6|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|8|1|V|javascript
+	  plugin.controllers.user.updateMe = require("./overrides/updateMe")
+5dbd1da10e267a9a725ba4a3ab469f91|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
+	  updateMe(plugin);
+	  callback(plugin);
+11626918e644c610c768fbd7f1ea2016|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|1|1|V|javascript
+	const updateMe = require("./overrides/updateMe");
+	const callback = require("./overrides/callback");
+d1b139de990c137edc352cc53c8e5b6b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|23|23|V|javascript
+	  plugin.controllers.auth.callback = async (ctx) => {
+eca51f5b3c4875e2ccbe5d4a05692f21|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|122|2|V|javascript
+	  return plugin;
+6ac2d794360b2e4e8baa26d7a33bf869|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|23|26|V|javascript
+	  console.log("CTX", ctx);
+b4564e96a496f5e85f2205ecc53039c6|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|11|V|javascript
+	  // Add the custom route
+e679aa86ca55b033b965ba72500dbe92|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|54|32|v|javascript
+	populate
+b326b5062b2f0e69046810717534cb09|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|54|71|v|javascript
+	true
+5058bbf35dd114605ed815ee64ed701b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|23|19|V|javascript
+	  console.log(ctx);
+9f98d3069e21eb86035d53c89ef287fb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|120|13|v|javascript
+	await sanitizeUser(user, ctx),
+420e1ae7a57ac1aae02468a6310e9b7e|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|55|22|V|javascript
+	    console.log(user);
+139646b54b40d6c95f39b1b3f1894553|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|116|17|v|javascript
+	sanitized
+fcef7386f6a84e4cf893aacbf9ad3daf|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|55|20|V|javascript
+	    console.log(user)
+014a82fefc15c48fc4d8ebd575ad9964|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|93|14|v|javascript
+	 await sanitizeUser(user, ctx),
+c722aabb289ff98525b8cceee3bab53c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|89|7|V|javascript
+	      console.log(sanitized);
+4dd17552ca3b9386de685cbe0f73b0cb|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/utils/lib/sanitize/visitors/remove-restricted-relations.js|66|1|V|javascript
+	  console.log(scopes);
+78e731027d8fd50ed642340b7c9a63b3|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|13|15|v|javascript
+	message
+b5c6b147f6548c696628dfbdc5f9480c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|13|20|V|javascript
+	  console.log(auth);
+f84a8364115938d576ef6d76d8480203|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|7|v|javascript
+	const s
+0a1cfd5e0fa929ee78d6dada8153a8c1|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|7|v|javascript
+	anitized = 
+53a7c483b59054f53816c12c61c77c5f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|7|v|javascript
+	await sanitizeUser(user, ctx);
+07e00114903c0d688816b7d02c270c94|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|93|15|v|javascript
+	ait s
+a127fd1f86e4ab650f2216f09992afa4|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|6|V|javascript
+	      
+21ba55a704db48ef46d23412618054bb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|54|1|V|javascript
+	      populate: {
+	        height: true,
+	        currentProgram: true,
+	        workoutLogs: { populate: { workout: true } },
+	      },
+175b1f34f19086de1f07175101a2b1e3|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|14|1|V|javascript
+	  console.log(userSchema);
+2728d0220b91693121406fa5aee1250f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|2|V|javascript
+	  plugin.controllers.auth.callback = require("./overrides/callback");
+e70c4df10ef0983b9c8c31bd06b2a2c3|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|16|3|v|javascript
+	return
+c974898db56aee1d117a8e8c70a919a9|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|17|12|V|javascript
+	  return makeRequest("get user", authAxios.get(`/api/users/me?${query}`));
+633a1c9676f055351f1e384f548c36e6|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|37|3|V|javascript
+	  return data.user;
+941c802c9a4968b60a7358782f365069|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|15|11|V|javascript
+	  const query = qs.stringify({ populate: "*" });
+2b0513850fa1e5c7ebc853f2df6af7ca|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|15|10|v|javascript
+	await
+81e2a5d482c4da758f41ded46d861589|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/services/user.js|1|1|v|javascript
+	'use strict';
+	
+	/**
+	 * User.js service
+	 *
+	 * @description: A set of functions similar to controller's actions to avoid code duplication.
+	 */
+	
+	const crypto = require('crypto');
+	const bcrypt = require('bcryptjs');
+	const urlJoin = require('url-join');
+	
+	const { getAbsoluteAdminUrl, getAbsoluteServerUrl, sanitize } = require('@strapi/utils');
+	const { getService } = require('../utils');
+	
+	module.exports = ({ strapi }) => ({
+	  /**
+	   * Promise to count users
+	   *
+	   * @return {Promise}
+	   */
+	
+	  count(params) {
+	    return strapi.query('plugin::users-permissions.user').count({ where: params });
+	  },
+	
+	  /**
+	   * Promise to search count users
+	   *
+	   * @return {Promise}
+	   */
+	
+	  /**
+	   * Promise to add a/an user.
+	   * @return {Promise}
+	   */
+	  async add(values) {
+	    return strapi.entityService.create('plugin::users-permissions.user', {
+	      data: values,
+	      populate: ['role'],
+	    });
+	  },
+	
+	  /**
+	   * Promise to edit a/an user.
+	   * @param {string} userId
+	   * @param {object} params
+	   * @return {Promise}
+	   */
+	  async edit(userId, params = {}) {
+	    return strapi.entityService.update('plugin::users-permissions.user', userId, {
+	      data: params,
+	      populate: ['role'],
+	    });
+	  },
+	
+	  /**
+	   * Promise to fetch a/an user.
+	   * @return {Promise}
+	   */
+	  fetch(params, populate) {
+	    return strapi.query('plugin::users-permissions.user').findOne({ where: params, populate });
+	  },
+	
+	  /**
+	   * Promise to fetch authenticated user.
+	   * @return {Promise}
+	   */
+	  fetchAuthenticatedUser(id) {
+	    return strapi
+	      .query('plugin::users-permissions.user')
+	      .findOne({ where: { id }, populate: ['role'] });
+	  },
+	
+	  /**
+	   * Promise to fetch all users.
+	   * @return {Promise}
+	   */
+	  fetchAll(params, populate) {
+	    return strapi.query('plugin::users-permissions.user').findMany({ where: params, populate });
+	  },
+	
+	  /**
+	   * Promise to remove a/an user.
+	   * @return {Promise}
+	   */
+	  async remove(params) {
+	    return strapi.query('plugin::users-permissions.user').delete({ where: params });
+	  },
+	  isHashed(password) {
+	    if (typeof password !== 'string' || !password) {
+	      return false;
+	    }
+	
+	    return password.split('$').length === 4;
+	  },
+	
+	  validatePassword(password, hash) {
+	    return bcrypt.compare(password, hash);
+	  },
+	
+	  async sendConfirmationEmail(user) {
+	    const userPermissionService = getService('users-permissions');
+	    const pluginStore = await strapi.store({ type: 'plugin', name: 'users-permissions' });
+	    const userSchema = strapi.getModel('plugin::users-permissions.user');
+	
+	    const settings = await pluginStore
+	      .get({ key: 'email' })
+	      .then(storeEmail => storeEmail['email_confirmation'].options);
+	
+	    // Sanitize the template's user information
+	    const sanitizedUserInfo = await sanitize.sanitizers.defaultSanitizeOutput(userSchema, user);
+	
+	    const confirmationToken = crypto.randomBytes(20).toString('hex');
+	
+	    await this.edit(user.id, { confirmationToken });
+	
+	    const apiPrefix = strapi.config.get('api.rest.prefix');
+	    settings.message = await userPermissionService.template(settings.message, {
+	      URL: urlJoin(getAbsoluteServerUrl(strapi.config), apiPrefix, '/auth/email-confirmation'),
+	      SERVER_URL: getAbsoluteServerUrl(strapi.config),
+	      ADMIN_URL: getAbsoluteAdminUrl(strapi.config),
+	      USER: sanitizedUserInfo,
+	      CODE: confirmationToken,
+	    });
+	
+	    settings.object = await userPermissionService.template(settings.object, {
+	      USER: sanitizedUserInfo,
+	    });
+	
+	    // Send an email to the user.
+	    await strapi
+	      .plugin('email')
+	      .service('email')
+	      .send({
+	        to: user.email,
+	        from:
+	          settings.from.email && settings.from.name
+	            ? `${settings.from.name} <${settings.from.email}>`
+	            : undefined,
+	        replyTo: settings.response_email,
+	        subject: settings.object,
+	        text: settings.message,
+	        html: settings.message,
+	      });
+	  },
 	}
-c47bffdf930eacf9354100b378e1a129|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|38|1|V|javascript
-	const Title = ({ title }) => <Heading as="h1">{title}</Heading>;
+020a830c087a507aca0c2bbb7e8c0b81|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|3|1|V|javascript
+	/**
+	 * User.js service
+	 *
+	 * @description: A set of functions similar to controller's actions to avoid code duplication.
+	 */
 	
-	const TitleAndButtonStack = props => (
-	  <Flex direction={["column", "column", "row"]} align="center" w="full">
-	    <Title {...props} />
-	    <Spacer />
-	    <ButtonStack {...props} size="md" />
-	  </Flex>
-	);
-385009832f20afaa005e7038fa8f64aa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|39|1|V|javascript
-	const ButtonStack = props => (
-	  <HStack spacing={2} my={[4, 4, 0]} w={["full", "full", "auto"]}>
-	    <GitHubButton {...props} />
-	    <SiteButton {...props} />
-	  </HStack>
-	);
-6b34e3eba9873c270e731c52a3cdaa21|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|4|1|V|javascript
-	  Flex,
-054f1bf7eef2dbb86a66c9bd20ff96a3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|7|1|V|javascript
-	  Spacer,
-4f141faf2c88bbf2cba51d6ca59e02a2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|32|1|V|javascript
-	const DetailFooter = ({ breakpointBroken, ...rest }) => {
-	  if (breakpointBroken) return <ButtonGrid {...rest} size="lg"/>;
-	  return null;
+eee2c2965b37788f1ff8a57bb48324ee|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|10|1|V|javascript
+	  /**
+	   * Promise to count users
+	   *
+	   * @return {Promise}
+	   */
+	
+	  count(params) {
+	    return strapi.query('plugin::users-permissions.user').count({ where: params });
+	  },
+	
+	  /**
+	   * Promise to search count users
+	   *
+	   * @return {Promise}
+	   */
+	
+	  /**
+	   * Promise to add a/an user.
+	   * @return {Promise}
+	   */
+	  async add(values) {
+	    return strapi.entityService.create('plugin::users-permissions.user', {
+	      data: values,
+	      populate: ['role'],
+	    });
+	  },
+	
+	  /**
+	   * Promise to edit a/an user.
+	   * @param {string} userId
+	   * @param {object} params
+	   * @return {Promise}
+	   */
+	  async edit(userId, params = {}) {
+	    return strapi.entityService.update('plugin::users-permissions.user', userId, {
+	      data: params,
+	      populate: ['role'],
+	    });
+	  },
+	
+	  /**
+	   * Promise to fetch a/an user.
+	   * @return {Promise}
+	   */
+	  fetch(params, populate) {
+	    return strapi.query('plugin::users-permissions.user').findOne({ where: params, populate });
+	  },
+6a4c374e428545769e76f997d959c600|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|21|1|V|javascript
+	  /**
+	   * Promise to fetch all users.
+	   * @return {Promise}
+	   */
+	  fetchAll(params, populate) {
+	    return strapi.query('plugin::users-permissions.user').findMany({ where: params, populate });
+	  },
+	
+	  /**
+	   * Promise to remove a/an user.
+	   * @return {Promise}
+	   */
+	  async remove(params) {
+	    return strapi.query('plugin::users-permissions.user').delete({ where: params });
+	  },
+	  isHashed(password) {
+	    if (typeof password !== 'string' || !password) {
+	      return false;
+	    }
+	
+	    return password.split('$').length === 4;
+	  },
+	
+	  validatePassword(password, hash) {
+	    return bcrypt.compare(password, hash);
+	  },
+	
+	  async sendConfirmationEmail(user) {
+	    const userPermissionService = getService('users-permissions');
+	    const pluginStore = await strapi.store({ type: 'plugin', name: 'users-permissions' });
+	    const userSchema = strapi.getModel('plugin::users-permissions.user');
+	
+	    const settings = await pluginStore
+	      .get({ key: 'email' })
+	      .then(storeEmail => storeEmail['email_confirmation'].options);
+	
+	    // Sanitize the template's user information
+	    const sanitizedUserInfo = await sanitize.sanitizers.defaultSanitizeOutput(userSchema, user);
+	
+	    const confirmationToken = crypto.randomBytes(20).toString('hex');
+	
+	    await this.edit(user.id, { confirmationToken });
+	
+	    const apiPrefix = strapi.config.get('api.rest.prefix');
+	    settings.message = await userPermissionService.template(settings.message, {
+	      URL: urlJoin(getAbsoluteServerUrl(strapi.config), apiPrefix, '/auth/email-confirmation'),
+	      SERVER_URL: getAbsoluteServerUrl(strapi.config),
+	      ADMIN_URL: getAbsoluteAdminUrl(strapi.config),
+	      USER: sanitizedUserInfo,
+	      CODE: confirmationToken,
+	    });
+	
+	    settings.object = await userPermissionService.template(settings.object, {
+	      USER: sanitizedUserInfo,
+	    });
+	
+	    // Send an email to the user.
+	    await strapi
+	      .plugin('email')
+	      .service('email')
+	      .send({
+	        to: user.email,
+	        from:
+	          settings.from.email && settings.from.name
+	            ? `${settings.from.name} <${settings.from.email}>`
+	            : undefined,
+	        replyTo: settings.response_email,
+	        subject: settings.object,
+	        text: settings.message,
+	        html: settings.message,
+	      });
+	  },
+ac3aa5d5d6f3e21cf30d75fb88c0cd3d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|2|1|V|javascript
+	const crypto = require('crypto');
+	const bcrypt = require('bcryptjs');
+	const urlJoin = require('url-join');
+	
+	const { getAbsoluteAdminUrl, getAbsoluteServerUrl, sanitize } = require('@strapi/utils');
+	const { getService } = require('../utils');
+88a7bd2895f49622bfde6c068855cc5a|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|3|19|v|javascript
+	{ strapi }
+04e8abe0f56e79cbf104488c41dc6d59|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|4|3|V|javascript
+	  console.log(params)
+4d384cf088506416dae187ad5734fe69|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|9|17|V|javascript
+	  fetchAuthenticatedUser(id) {
+5377152fcfa76b5b7c8bb137a3745a95|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|4|1|V|javascript
+	  /**
+	   * Promise to fetch authenticated user.
+	   * @return {Promise}
+	   */
+2a8a1a2a149f5d230e9e435bb7f862ee|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|8|2|V|javascript
+	  },
+c89949f041cc6b5044e8c5ce4453c16b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|2|22|V|javascript
+	  console.log(plugin);
+50137d6787162276a05df0db0595555b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|59|v|javascript
+	 = require("./overrides/user");
+b896a29ec73d8f42e0282e585dc296b6|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|36|v|javascript
+	fetchAuthenticatedUser
+d80340dbf79ed5fc824e3e5493502cf0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|35|V|javascript
+	  console.log(plugin.services.user.);
+6b7181f0b1c482c31a06bba93b56466c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|25|v|javascript
+	requier
+6b013578dbc1ffe05126268b380a23ba|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|85|27|V|javascript
+	    console.log("working");
+dd5ba6534f0de8799ad7d4156f44ec26|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|88|9|V|javascript
+	      log
+bfa49737204fcaa0a5893ca071148417|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|1|V|javascript
+	  plugin.controllers.user.me = require("./overrides/me")
+42735a8ad019b09d21b76fd8c70d62ce|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|1|16|v|javascript
+	sanitizeOutput
+ddf416ded896e4c0341286643ddeaf17|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/find.js|1|1|v|javascript
+	plugin.controllers.user.find 
+ffc26534756e1da96495be28f957c003|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|20|1|V|javascript
+	    "blocked",
+f2149932e6902f5aaeee19604de59b51|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|12|1|V|javascript
+	    "email",
+53dae831645730c285368841f96aba53|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|12|1|V|javascript
+	    "username",
+be9029cec307422650001223ee56ade2|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|14|1|V|javascript
+	    "provider",
+fdcef17124befe82a819f3097d0a2b7b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|1|V|javascript
+	  // Pick only specific fields for security
+	  const newData = omit(ctx.request.body, [
+	    "password",
+	    "confirmPassword",
+	    "resetPasswordToken",
+	    "confirmationToken",
+	    "confirmed",
+	    "role",
+	  ]);
+4bfca1b97ab71be1d72386f4d68a40f1|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|5|3|v|javascript
+	onst newData = 
+a8df434ba2c57beabf8123b21cda5c52|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|13|1|V|javascript
+	  const { password, resetPasswordToken, confirmationToken, ...sanitizedUser } =
+	    user; // be careful, you need to omit other private attributes yourself
+	  return sanitizedUser;
+aaca0f5eb4d2d98a6ce6dffa99f8254b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/find.js|6|42|v|javascript
+	avatar
+2b699351009563a84ecbd84d159f7e0a|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|4|1|V|javascript
+	  plugin.controllers.user.find = require("./overrides/find");
+27ea11be0aa5efd91b62ce3aeef55d2e|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|64|V|javascript
+	  plugin.controllers.user.findOne = require("./overrides/findOne");
+df711da5b8ff4a40cf5a72e4dce1bfb4|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|7|1|V|javascript
+	  const user = await strapi.entityService.findOne(
+	    "plugin::users-permissions.user",
+	    ctx.state.user.id,
+	    { populate: ["role", "height"] }
+	  );
+496981e6eedef1e9317972d27191caf9|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|7|1|V|javascript
+	  const user = await strapi.entityService.findOne(
+	    "plugin::users-permissions.user",
+	    ctx.state.user.id,
+	    { populate: ["role", "height"] }
+	  );
+	
+	  ctx.body = sanitizeOutput(user);
+035ebf9f3a829c4b6425e476456e5e40|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|35|1|V|javascript
+	  // Update the user and return the sanitized data
+	  return await strapi.plugins["users-permissions"]
+	    .controller("user")
+	    .update(ctx);
+	};
+cef4a4dd1855e59dc5547fbbef170404|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|26|6|v|javascript
+	tx.state.
+aa9f513bf8f0d5cf73c81b269071bad5|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|35|1|V|javascript
+	  // Update the user and return the sanitized data
+	  return await strapi.plugins["users-permissions"]
+	    .controller("user")
+	    .update(ctx);
+bab727b97f72783278a89f0af1bf2bbe|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|30|1|V|javascript
+	  ctx.body = sanitizeOutput(user);
+b1bdc204ecc095cb3ed210625db58771|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|4|3|V|javascript
+	  // Create the new controller
+3e6c5aa444bd573dca5624ffb31bce1f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|32|3|V|javascript
+	  ctx.request.body = newData;
+4ad81291d09b968b3f5971f7a87624e0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|32|3|V|javascript
+	  ctx.params = { id: user.id };
+70d2238301d47e6a40f0cca6e829ab2d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|30|2|V|javascript
+	  // Reconstruct context so we can pass to the controller
+0a717323ee2f3a255afeaeb026c313e0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|9|v|javascript
+	newData
+9dd764c477d0e5cafbe24d21f2b0bc58|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/find.js|6|32|v|javascript
+	["height", "currentProgram"] 
+c72a47d8ece889e95e87a7dfdc5e63f4|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|27|50|v|javascript
+	, "inches"
+aa1a12fafb7c3f18f009e2975e68672d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|10|17|v|javascript
+	{ height: { fields: ["feet", "inches"] 
+03e2256a0fea9bdece3a89052983d285|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|27|50|v|javascript
+	, "workoutLogs"
+9a89c0e2d794fcb8f1b5c42ee4678d0a|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|32|13|v|javascript
+	populate: ["height", "currentProgram"] 
+1b1cc7f086b3f074da452bc3129981eb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|15|v|javascript
+	query
+8ac2a3fd360e9a61a5847fd9132ca822|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|17|V|javascript
+	  console.log(idd);
+49270f4d0cd6dfee4d506e15e78aaaf9|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|9|V|javascript
+	  if (qud)
+869a7998adca4850a62d94e3c3b3d3a3|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|13|V|javascript
+	  query.parse
+db1d11461b335e0a4471b2f981220dd9|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|31|23|v|javascript
+	{ height: true 
+a8cfde6331bd59eb2ac96f8911c4b666|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|6|12|v|javascript
+	object
+457d65ddafa85c03891853c0d7db18fb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|7|22|V|javascript
+	  return sanitizedUser;
+a57f1374a0e5c9e7f4c0fca85d9a4ef4|file:///Users/steve/Code/apps/native/burn-it/services/firebase/firestore/user.js|65|1|V|javascript
+	  authUser = _.pickBy(authUser, _.identity);
+a1a5669d0e1e95c8095e635b1f9cf904|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|6|12|v|javascript
+	omit
+e532c3fa121c7f22c6f5c422d7305e9d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|3|1|V|javascript
+	  const { password, resetPasswordToken, confirmationToken, ...sanitizedUser } =
+	    user; // be careful, you need to omit other private attributes yourself
+44e7ac35aa3ad00ad4bccf68a2d064ca|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|35|1|V|javascript
+	  const query = qs.stringify({
+	    populate: {
+	      height: true,
+	      currentProgram: true,
+	      workoutLogs: { populate: { workout: true } },
+	    },
+	  });
+769863895ad92e9000a91ef1ad33b4bc|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|37|1|V|javascript
+	      height: true,
+	      currentProgram: true,
+c8c90b1ff214744f7e296b991ca87262|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|36|1|V|javascript
+	    populate: {
+	      height: true,
+	      currentProgram: true,
+	      workoutLogs: { populate: { workout: true } },
+	    },
+679c9c00b949949fbf2011ddfb4ec70f|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|35|1|V|javascript
+	  const query = qs.stringify({
+4b3e23b8fa8e8ddbec4c89b0132a89aa|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|35|1|V|javascript
+	  });
+36b597a30cd8bc9e2fb5f9f27ebbdf52|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/hooks/useAdmission.js|41|24|V|javascript
+	      console.log(data);
+1f9c4b96dbbf6b2f70c37caa623f7c5d|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/hooks/useAdmission.js|41|24|V|javascript
+	      return await signInWithFirebase(credentials);
+a49a677169013e52f3bb87c0d876561a|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/hooks/useAdmission.js|41|7|v|javascript
+	const d
+c45982ccfcdefb80aa5faff571c7df7d|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|18|1|V|javascript
+	  return makeRequest("update", authAxios.put("/api/users/me", data));
+c90bf6bd9870a5dfd4dd1d707960227b|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|38|1|V|javascript
+	  return makeRequest("get user", authAxios.get(`/api/users/me`));
+f8b3871f7e5224716b91f49208b36a97|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|31|3|V|javascript
+	  return 
+8d1116562d85b284e2d79b146e18beb9|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|34|7|v|javascript
+	signInWithEmailAndPassword
+b12b8ebd5ff2956c06b45ac9bb3d7ecd|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|10|38|v|javascript
+	currentProgram
+cb9c67b3b633f3a613b412daf4ffd8a4|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|16|1|V|javascript
+	  const getActive = useCallback(({ activeProgram }) => {
+	    return Object.values(programs).find(
+	      prog => prog.name === activeProgram || prog.name === currentProgram
+	    );
+	  }, []);
+2f0bd4370a7a3836c426741db7b32af4|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|33|1|V|javascript
+	    getActive,
+fbd1890de7caefdfb03d6ecb6d21eb55|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|10|32|V|javascript
+	  const [programs, setPrograms] = useState()
+aa61727ac72e12fc0e35ed238f5c491a|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|1|32|V|javascript
+	import * as programs from "assets/data/programs";
+072261e6204facc7dcc585c0204ca350|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|17|1|V|javascript
+	    return Object.values(programs).find(
+	      prog => prog.name === activeProgram || prog.name === currentProgram
+	    );
+07e379e16cab588e25c2f1425775a347|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|5|1|V|javascript
+	  const query = qs.stringify(
+	    {
+	      populate: [
+	        "workouts",
+	        "workouts.workout",
+	        "workouts.workout.circuitGroups",
+	        "workouts.workout.circuitGroups.circuits",
+	        "workouts.workout.circuitGroups.circuits.circuit",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels.format",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment.items",
+	      ],
+	    },
+	    { encodeValuesOnly: true }
+	  );
+ea69ae2354a26ea89cfeafd6e2244896|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|4|42|V|javascript
+	export const getPrograms = async () => {};
+1e8332c4fcb562d6d24a39fdf0ce2796|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|24|1|V|javascript
+	  const [resp, errorMessage] = await makeRequest(
+	    "get programs",
+	    authAxios.get(`/api/programs/${id}?${query}`)
+	  );
+	  if (!resp && errorMessage) throw new Error(errorMessage);
+	  console.log(resp);
+1b34e1fde0be979d0c9b30a7d44b5f66|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|5|1|V|javascript
+	import { example } from "assets/data/programs";
+5955732d8b04755d33704c1066415837|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|11|20|V|javascript
+	  const programs = Array.from({ length: 4 }).map(() => example);
+5c18ef72771564b7f43c497dc507aeab|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|11|35|v|javascript
+	context
+506e876a5afb99b858b61dbdbf166e0f|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|4|1|V|javascript
+	import uuid from "react-native-uuid";
+61c6a128c09936b9a7fd06dd51903a2b|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|28|16|v|javascript
+	uuid.v4()
+be09793371570faf2f9b530b828241c2|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|16|5|v|javascript
+	getPrograms
+44e52267cb7b6efb7f153949f18c36ca|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|9|37|V|javascript
+	  const [programs, setPrograms] = useState();
+b4541d05866eea9a8a71438002ea8864|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/index.js|11|8|V|javascript
+	  const 
+41a676be1e9d8da98fe9f86e39fe3b12|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|11|1|V|javascript
+	  const fetchPrograms = useCallback(async () => {
+	    setPrograms(await getPrograms());
+	  });
+	
+	  useEffect(() => {
+	    fetchPrograms();
+	  }, []);
+03271eef487b1d4004adc642ca862a06|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|4|45|v|javascript
+	useEffect
+77754022e17e0664efd78aea83fbeae2|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|30|1|V|javascript
+	    programs,
+f52965b09eb0e7177de9c91452d1bfc8|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|31|1|V|javascript
+	    setActive,
+8733a657bdb1e3de4ccf172217b7aa4c|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|30|5|V|javascript
+	    confirmSelected,
+b85ec314bf443b797ef8a66b3b03f8a4|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramCard.js|42|21|v|javascript
+	duration
+89ac60251581c7f3dc09421b0ad1668e|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramCard.js|44|6|v|javascript
+	durationInWeeks
+ab01efebcfd156ed5fce50292eab2749|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramCard.js|44|33|v|javascript
+	 weeks
+80ce1062ed14a390ddbafc8d0a6e98aa|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|7|1|V|javascript
+	      populate: [
+	        "workouts",
+	        "workouts.workout",
+	        "workouts.workout.circuitGroups",
+	        "workouts.workout.circuitGroups.circuits",
+	        "workouts.workout.circuitGroups.circuits.circuit",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels.format",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment",
+	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment.items",
+	      ],
+ca108864b807a69843f3fed8ef70f4bc|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|19|1|V|javascript
+	  const query = qs.stringify({populate}, { encodeValuesOnly: true });
+f771b25f21262c2c639018f0e602c77d|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/index.js|22|4|V|javascript
+	  console.log(user);
+39939f2a67500edb46f99dff7d9576b5|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/index.js|6|34|V|javascript
+	  useFirebaseStateChangeListeners,
+eabf2836f310fcfa554ba5145a3d2584|file:///Users/steve/.dotfiles/nvim/plugs/tools/nerdtree.vim|9|1|V|vim
+	" nnoremap <expr> <C-n> g:NERDTree.IsOpen() ? ':NERDTreeClose<CR>' : @% == '' ? ':NERDTree<CR>' : ':NERDTreeFind<CR>'
+5fd64a9253ddd52b932207c6905e43f8|file:///Users/steve/.dotfiles/nvim/plugs/tools/nerdtree.vim|10|2|V|vim
+	nnoremap <expr> <C-n> g:NERDTree.IsOpen() ? ':NERDTreeClose<CR>' :  ':NERDTree<CR>'
+d394af789ecc1b747e29159262bbde0a|file:///Users/steve/.dotfiles/nvim/plugs/tools/nerdtree.vim|5|2|V|vim
+	" Plug 'scrooloose/nerdtree-project-plugin'
+f417ec0206ebad3dc94af329de18dc67|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|1|1|V|vim
+	Plug 'nvim-lua/plenary.nvim'
+3f40ded9ad8037cdb62a42881cbcec04|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|2|7|v|vim
+	nvim-lua/plenary.nvim
+6c9496fd921af0e2ed8253ac51dbc1c7|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|3|6|V|vim
+	Plug '
+439c71e4685e6d60d591d617cfbdeb27|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|5|10|v|vim
+	<leader>
+c444858e0aaeb727da73d2eae62321ad|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|7|11|v|vim
+	leader
+3c518507f1e041c8b71a7205a19c244f|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|19|3|V|vim
+	  -- ...
+e8568fa0aaf608a57129b3db432cc677|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|18|1|V|vim
+	require('telescope').setup{
+8d755cf597203212da3c1fd97cf340e3|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|5|1|V|vim
+	" nnoremap <C-p> <cmd>Telescope find_files<cr>
+	
+	nnoremap <C-p> <cmd>Telescope live_grep<cr>
+	" nnoremap <leader>fb <cmd>Telescope buffers<cr>
+	" nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+03642852229246e811003fef3ae3f48d|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|3|1|V|vim
+	" Find files using Telescope command-line sugar.
+27b414485e52b13c836ccce41f458a44|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|26|8|v|vim
+	picker_name
+be2aa3dbf063b7d16737c3f1ba137548|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|27|18|V|vim
+	    --   picker_config_key = value,
+e6e82268625ca78128c68017bb786854|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|5|65|v|vim
+	require('telescope.themes').get_dropdown({})
+ad973c252653a47144b79403cfb0668b|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|27|18|v|vim
+	dropdown
+bf1156246929ac64916ebdb4ef15b698|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|10|1|V|vim
+	lua << EOF
+	require('telescope').setup{
+	  defaults = {
+	    -- Default configuration for telescope goes here:
+	    -- config_key = value,
+	    mappings = {
+	      i = {
+	        -- map actions.which_key to <C-h> (default: <C-/>)
+	        -- actions.which_key shows the mappings for your picker,
+	        -- e.g. git_{create, delete, ...}_branch for the git_branches picker
+	        ["<C-h>"] = "which_key"
+	      }
+	    }
+	  },
+	  pickers = {
+	    -- Default configuration for builtin pickers goes here:
+	    find_files = {
+	        theme = "dropdown"
+	    --   ...
+	    -- }
+	    -- Now the picker_config_key will be applied every time you call this
+	    -- builtin picker
+	  },
+	  extensions = {
+	    -- Your extension configuration goes here:
+	    -- extension_name = {
+	    --   extension_config_key = value,
+	    -- }
+	    -- please take a look at the readme of the extension you want to configure
+	  }
 	}
-2bee2d23970124132886cf9df5fcc7ce|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|33|1|V|javascript
-	const ButtonGrid = props => (
-	  <Grid w="full" autoFlow={["row", "column"]} gap={4}>
-	    <GitHubButton {...props} />
-	    <SiteButton {...props} />
-	  </Grid>
-	);
-47dd0c00d5f2b3b97494ff58cc336043|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|34|1|V|javascript
-	const GitHubButton = ({ github, size }) => (
-	  <Link href={github} isExternal>
-	    <Button
-	      size={size}
-	      leftIcon={<GitHubIcon />}
-	      aria-label="Github"
-	      w={["full", "full", "auto"]}
-	    >
-	      View GitHub
-	    </Button>
-	  </Link>
-	);
-	
-	const SiteButton = ({ link, size }) => (
-	  <Link href={link} isExternal>
-	    <Button size={size} leftIcon={<LaptopIcon />} w={["full", "full", "auto"]}>
-	      View Site
-	    </Button>
-	  </Link>
-	);
-737fd5c2adbd8f728cc58667b840b6e8|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|12|1|V|javascript
-	import { GitHubIcon, LaptopIcon } from "../../../../components/icons";
-e9c016c90f4865ffa92a7255d3abb439|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|4|1|V|javascript
-	  Grid,
-99527ca4da1ba749d84ed15ffb8d0722|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|7|1|V|javascript
-	  Button,
-517904397df8b81cfa4776b40904b92a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|7|1|V|javascript
-	  Link,
-50335b5d98980df6d834dc912745671d|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/buttons.js|3|41|v|javascript
-	../../../../components/icons
-759ff550f2458356f315ab621d07caf7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|31|1|V|javascript
-	const Technologies = () => <HStack></HStack>;
-3f7d38d44bda552f7cf963584c41501b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/Footer.js|7|2|V|javascript
-	  return null;
-3b4262434c5ee938499968e0d3a6a249|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/Footer.js|6|57|V|javascript
-	  if (breakpointBroken) return <ButtonGrid {...rest} size="lg"/>;
-e6b05644f0ccff236b890a8d35f3761b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/index.js|2|1|V|javascript
-	export * from "./Footer"
-6b742d8464cd6223460ab879f2a58be6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|2|10|v|javascript
-	HStack
-e64957bf2b46d864019e7e277d42bfa0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|21|1|V|javascript
-	const Description = ({ summary, description }) => (
-	  <VStack align="start">
-	    <Heading as="h4" fontSize="lg">
-	      {summary}
-	    </Heading>
-	    <Text>{description}</Text>
-	    <Technologies />
-	  </VStack>
-	);
-0101316665d4f82adaa26d86fbbb2d6e|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|2|24|v|javascript
-	Heading
-9dffbf69ffba8bc38bc4e01abf4b1675|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/index.js|2|18|v|javascript
-	Text
-c5e7c519076f9d08760f415cd0e74852|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|20|1|V|javascript
-	    <img src={ReactLogo} alt="React" key={1} />,
-	    <img src={ReduxLogo} alt="Redux" key={2} />,
-b594e46c607eef1df3ca672992bfc0d3|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|1|4|V|javascript
-	import React from "react";
-78805a221a988e79ef3f42d7c5bfd418|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Home/components/Portfolio.js|28|36|v|javascript
-	image
-51eecddac6361f5760194ded9655f94a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|18|1|V|javascript
-	    { src: HTMLCSSJS, alt: "HTML-CSS-JS", key: 1},
-0c34a626a39fbaa5d5a5d3cd8b8fe546|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|19|12|v|javascript
-	HTMLCSSJS
-f33fb1d30654b4eab55f37bec4fe7f25|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|19|29|v|javascript
-	HTML-CSS-JS
-10918d44bbc50a9453484f739a171a42|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|20|1|V|javascript
-	    <img src={HTMLCSSJS} alt="HTML-CSS-JS" key={1} />,
-	    <img src={ReactLogo} alt="React" key={2} />,
-48ae7eaed2dc97cf556119515992ff83|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|19|1|V|javascript
-	    { src: ReactLogo, alt: "React", key={1}},
-0fd4a8f86e1214e97291b8f5c7e3aaf6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|12|v|javascript
-	ReactLogo
-50ce2da63bea6a618e7578fa50690040|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|33|v|javascript
-	React
-22d1878621da85f73c4f9e9b01904d13|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|1|V|javascript
-	    { src: SequelizeLogo, alt: "Sequelize", key={2}},
-47f63b529192a95346b5e6aebe087a5b|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|21|12|v|javascript
-	SequelizeLogo
-bc6329f726f3080173697fb0f47aff21|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|21|31|v|javascript
-	Sequelize
-a9c60d5e1ce9a169af1ea265b8989579|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|22|1|V|javascript
-	    <img src={ReactLogo} alt="React" key={1} />,
-	    <img src={SequelizeLogo} alt="Sequelize" key={2} />,
-	    <img src={ExpressLogo} alt="Express" key={3} />,
-c3e93e7b87c5dba60d60bd257bc40c15|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|19|33|V|javascript
-	    {src: ReactLogo, alt: "React", key: 1},
-a83c32c292275cb903d77f6593aba222|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|20|1|V|javascript
-	    {src: ReduxLogo, alt: "Redux", key: 2},
-05f32340dd134244927bc0108648c79c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|11|v|javascript
-	ReduxLogo
-19d8912e22112eb355c200cc33512d31|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|28|v|javascript
-	Redux
-637e4afdb5b95f08a85fee169f15da81|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|28|v|javascript
-	Rails
-78340f01625bb9b030be0f4a06bcdc0a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|22|48|V|javascript
-	    <img src={ReduxLogo} alt="Redux" key={2} />,
-96e0f80f02c8a89715a8dbe0578044ae|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|22|49|V|javascript
-	    <img src={RailsLogo} alt="Ruby on Rails" key={3} />,
-b6e9defee0ac17d5fddfec08a1f6799c|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/reversi.js|18|1|V|javascript
-	    { src: ReactLogo, alt: "React", key: 2},
-566e7e6a6995fa7d656812871189b9b0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|17|16|v|javascript
-	 [ src={ReactLogo} alt="React" key={2} />],
-c566ab8b57eff6181624b4275b993043|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|18|1|V|javascript
-	    {src: null, alt: "Chakra-UI", key: 2}
-e56fe52c05e3c7f006dc2af02b054802|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|19|23|v|javascript
-	Chakra-UI
-ccc287519e9aa0892a9d52bc1ef83792|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|19|1|V|javascript
-	    {src: null, alt: "MongoDB", key: 3}
-206e3718af092fd1d12f80cae771ccac|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|20|23|v|javascript
-	MongoDB
-ae3c879f29b71bd25e38bb934af7a946|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|18|1|V|javascript
-	    {src: null, alt: "Chakra-UI", key: 2},
-25b6a9dea92104b2e9b7fd6368b4f6a2|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|21|39|V|javascript
-	    {src: null, alt: "Mongoose", key: 5}
-c35e8382852168b8a658de3f479f24ce|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|21|1|V|javascript
-	    {src: null, alt: "MongoDB", key: 5},
-a46061b4af1966ed3aa06a80de6dbc24|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|22|1|V|javascript
-	    {src: null, alt: "Lerna", key: 6},
-f75aa8809b8d93a08d7450dfbb7ae8c7|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|23|23|v|javascript
-	Lerna
-6ed6e6dffb75677742c639b7d75041ef|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|23|1|V|javascript
-	    {src: null, alt: "Formik", key: 7},
-9b78e29e2432b37725d9981c0f140d33|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|24|23|v|javascript
-	Formik
-88da9136d2df5940f786af24e60919ee|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|21|32|v|javascript
-	, key: 4
-174dd36bdc0ccae80c11a9201a51bf79|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|22|31|v|javascript
-	, key: 5
-d59b4d3cb771e331a2767ff75f28986f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|23|29|v|javascript
-	, key: 6
-319b47e43b175a3ea200570401e59ba4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|24|29|v|javascript
-	, key: 7
-f96b1ea0bf3e6d0affb4a849916629fa|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|24|1|V|javascript
-	    {src: null, alt: "Faker" },
-e1edfc5cea461399a63cb813cf795cc9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|25|23|v|javascript
-	Faker
-75118a36617385c836049d4f0bd48854|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|25|1|V|javascript
-	    {src: null, alt: "Heroku" },
-1a79417461c9adbe88f8b93e7fad392f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|26|23|v|javascript
-	Heroku
-94768b1f4c179ebc1a45ac1271f949c6|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|26|1|V|javascript
-	    {src: null, alt: "Surge" },
-24daa4c4850fff2f4d7e44cc79e3eb07|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|27|23|v|javascript
-	Surge
-9d57961eb9655817dfdb9812d3efe398|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|17|1|V|javascript
-	    {src: ReactLogo, alt: "React" },
-447d3c0ef92fa5006f3813781007cfd4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/rockTheVote.js|18|30|V|javascript
-	    {src: ReactLogo, alt: "Javascript" },
-e1b0a5f0899ba1ea4bd3077ad5a09b4a|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|18|1|V|javascript
-	    { src: ReduxLogo, alt: "Redux", key: 2 }
-d68d226921a5acfc2b72914dd8d978f4|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|19|1|V|javascript
-	    { src: null, alt: "Lerna", key: 2 }
-afed80be30646fa9f8fab891cd608fb0|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|19|30|v|javascript
-	, key: 2 
-8bbe369cb0ec08d1b985c3a047477667|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|17|35|v|javascript
-	,  key: 1
-ebdcd1c24edbfb43eb360531a9d207eb|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|18|1|V|javascript
-	    { src: ReduxLogo, alt: "Redux" },
-4992c1e03782f3b8010d9633ba610815|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|19|1|V|javascript
-	    { src: ReduxLogo, alt: "Firebase" },
-035489ff8d092741943e4a83241f5af9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|20|29|v|javascript
-	Firebase
-45289020b2e43d304295328d3eac0f89|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|20|39|V|javascript
-	    { src: ReduxLogo, alt: "Nutritionix" },
-26587e12556171d3f72f3d0a380555db|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/foodLog.js|17|1|V|javascript
-	    { src: ReactLogo, alt: "React" },
-cd8f7da105a054acce6ca2ce998be2f5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/zenGarden.js|16|55|v|javascript
-	key: 1
-db4f95e99eb8ce0beb3b81f8523e5add|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|18|35|v|javascript
-	 key: 1 
-72bece146d03a85c2853f7de7254d232|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|20|39|v|javascript
-	, key: 3 
-24df3becc881bf13b71b5e53c72f580f|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/getBusy.js|14|11|v|javascript
-	"http://github.com/steverodri9
-b93430b112f057a5562bf583a51164c9|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|20|1|V|javascript
-	    {src: RailsLogo, alt: "Ruby on Rails" },
-7f2bc2f29444cb3b5e4391c176627d72|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|11|v|javascript
-	RailsLogo
-d41a9e3915fd905f6427a8e3770546cf|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/brilliance.js|21|23|v|javascript
-	Ruby on Rails
-f4c6f851b00d5518bf888815de279aba|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/project-notes.md|1|4|v|markdown
-	Notes
-bbef19786c08a56d47025fc80a748f53|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/pages/Project/components/Details/components/Footer.js|8|3|v|javascript
-	return null;
-c2a95a8426246f9d3218dc52424621f5|file:///Users/steve/Code/Projects.nosync/websites.nosync/portfolio/src/components/projects/cryptoRankings.js|18|47|v|javascript
-	 key={2} 
-68934a3e9455fa72420237eb05902327|file:///Users/steve/Code/apps/native/cl-fit/android/app/build.gradle|81|19|v|groovy
-	false
-973cd1da02e7176bd59796bacdbd6ab0|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|50|25|v|vim
-	'doHover'
-5d913e6f1c7b24d86fb8eb1fa1418b32|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|48|25|v|vim
-	'<cword>'
-d50ee8eab2f2da5336db90a797ecd577|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|46|1|V|vim
-	function! s:show_documentation()
-	  if (index(['vim','help'], &filetype) >= 0)
-	    execute 'h '.expand('<cword>')
-	  elseif (coc#rpc#ready())
-	    call CocActionAsync('doHover')
-	  else
-	    execute '!' . &keywordprg . " " . expand('<cword>')
-	  endif
-	endfunction
-87c0d5642006ffc5b026154ceccee3c1|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|11|1|V|vim
-	inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-9d3a034e4cc0afc45236de890f735a87|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|4|1|V|vim
-	if has("patch-8.1.1564")
-	  " Recently vim can merge signcolumn and number column into one
-	  set signcolumn=number
-	else
-	  set signcolumn=yes
-	endif
-ce5e16fdfeb7c70ea199f9ecf77eeb0e|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|108|1|V|vim
-	" Commands
-	
-	" Add `:Format` command to format current buffer.
-	command! -nargs=0 Format :call CocAction('format')
-	
-	" Add `:Fold` command to fold current buffer.
-	command! -nargs=? Fold :call CocAction('fold', <f-args>)
-	
-	" Add `:OR` command for organize imports of the current buffer.
-	command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')
-	
-	" Add `:Prettier` command to format the current buffer.
-	command! -nargs=0 Prettier :CocCommand prettier.formatFile
-98b4ea1d085f53959c6e590b518d0b0d|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|58|1|V|vim
-	" Highlight the symbol and its references when holding the cursor.
-	autocmd CursorHold * silent call CocActionAsync('highlight')
-0311013ee5c74738787d4f119959590a|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|62|1|V|vim
-	augroup mygroup
-	  autocmd!
-	  " Setup formatexpr specified filetype(s).
-	  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
-	  " Update signature help on jump placeholder.
-	  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
-	augroup end
-b534b67ab774b7f454b5cd6e4b55e963|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|131|1|V|vim
-	" Commands
-b0072c55b95111ffa8a1a747ce90f8c4|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|84|1|V|vim
-	" Remap <C-f> and <C-b> for scroll float windows/popups.
-	if has('nvim-0.4.0') || has('patch-8.2.0750')
-	  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
-	  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
-	  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
-	  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
-	  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
-	  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
-	endif
-2779f78723991f29cf4b83441db1ad05|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|97|1|V|vim
-	" Add (Neo)Vim's native statusline support.
-	" NOTE: Please see `:h coc-status` for integrations with external plugins that
-	" provide custom statusline: lightline.vim, vim-airline.
-	set statusline=%{coc#status()}%{get(b:,'coc_current_function','')}
-933b5e78c5e2077c26d4cb6501fadd1e|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|1|1|V|vim
-	" COC - the Conquerer of Completion
-dfc6cbb25017b7bc3a1cc7362d69d4b7|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|26|3|v|vim
-	NOTE: 
-0479da58c6ce774a64db75f384f21cc3|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|142|28|v|vim
-	:CocCommand prettier.formatFile
-d48be1470c52fab2aaa6676dfe8aec0a|file:///Users/steve/.dotfiles/nvim/plugs/intellisense/coc.vim|145|19|v|vim
-	Spelling
-a484c94a9eea22c535854a1da0d625f9|file:///Users/steve/.dotfiles/nvim/coc-settings.json|19|9|V|json
-	  "diagnostic.maxWindowHeight": 20,
-458a36d5dcda1d6847fe10a6de51d346|file:///Users/steve/.dotfiles/nvim/coc-settings.json|45|1|V|json
-	  "signature.maxWindowHeight": 20,
-236c25c0efaeb1bf39384971d06dd2cf|file:///Users/steve/.dotfiles/nvim/coc-settings.json|32|1|V|json
-	    "yaml"
-6eedc03a68a69933c763e674f2d7c42f|file:///Users/steve/.dotfiles/nvim/coc-settings.json|32|6|v|json
-	yaml
-f89fdf92039344019e9501c6381f4a94|file:///Users/steve/.dotfiles/nvim/coc-settings.json|11|11|V|json
-	    "graphql",
-549e6e03e3ab9274de80b0e00a2fcbab|file:///Users/steve/.dotfiles/nvim/coc-settings.json|14|1|V|json
-	    "sh"
-3bf002529d5ebd5e9f8eed28baa3ca18|file:///Users/steve/.dotfiles/es-lint/eslintrc.json|272|33|V|json
-	    "prettier/prettier": "error",
-ee49af7c6297ecf9ebff5381d8784e72|file:///Users/steve/.dotfiles/zsh/config/aliases.zsh|73|15|v|zsh
-	"format": "
-c0807c3a37030ee6c6a2bd9ce04bbd4a|file:///Users/steve/.dotfiles/nvim/coc-settings.json|27|21|V|json
-	  "eslint.options": {},
-6a69eeae7683b720aff2a60d7cb094e7|file:///Users/steve/.dotfiles/nvim/coc-settings.json|27|10|V|json
-	  "eslint."
-5d0ded269549f8aa4997ab328991f735|file:///Users/steve/.dotfiles/nvim/coc-settings.json|30|1|V|json
-	  "eslint.probe": [
-	    "javascript",
-	    "javascriptreact",
-	    "typescript",
-	    "typescriptreact",
-	    "html",
-	    "markdown",
-	    "json",
-	    "yaml"
-	  ],
-d766a321a08f93d135290f7b710f6458|file:///Users/steve/.dotfiles/nvim/coc-settings.json|29|18|v|json
-	onSai
-a627d84b28c8c6bee2ca744f50b8030d|file:///Users/steve/.dotfiles/nvim/coc-settings.json|35|8|V|json
-	  "pret"
-8355112ed88d0b2ef053d7ed2e77a74f|file:///Users/steve/.dotfiles/nvim/coc-settings.json|29|4|v|json
-	eslint.run
-c75c4c44b2d6f2e84c1e162fa68d82f0|file:///Users/steve/.dotfiles/nvim/coc-settings.json|29|18|v|json
-	onSave
-b5c6de5aeb0f85dac30e1eda515067d5|file:///Users/steve/.dotfiles/nvim/coc-settings.json|35|23|V|json
-	  "prettier.disableSuccessMessage": true,
-e0bf0ed70df0045d33be66007f335826|file:///Users/steve/.dotfiles/install.conf.yaml|18|1|V|yaml
-	    ~/.config/yabai: yabai
-4d397b2c009e659c84d9239ed347f2df|file:///Users/steve/.dotfiles/install.conf.yaml|19|15|v|yaml
-	yabai
-eb71c9f01f32e69edb00352dc759caa5|file:///Users/steve/.dotfiles/install.conf.yaml|8|1|V|yaml
-	    - ~/.config/
+	EOF
+5b636d7937054c695a725c7ee4efc22e|file:///Users/steve/.dotfiles/nvim/config/tree-sitter.vim|1|1|V|vim
+	lua <<EOF
+71666b7488f36495b48190411d354a3f|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|11|1|V|vim
+	lua << EOF
+a561e26ca276cab1d5512f881683e39c|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|11|1|V|vim
+	require('telescope').setup {
+	  defaults = {
+	    -- Default configuration for telescope goes here:
+	    -- config_key = value,
+	    mappings = {
+	      i = {
+	        -- map actions.which_key to <C-h> (default: <C-/>)
+	        -- actions.which_key shows the mappings for your picker,
+	        -- e.g. git_{create, delete, ...}_branch for the git_branches picker
+	        ["<C-h>"] = "which_key"
+	      }
+	    }
+	  },
+	  pickers = {
+	    -- Default configuration for builtin pickers goes here:
+	    find_files = {
+	        theme = "dropdown"
+	    --   ...
+	    -- }
+	    -- Now the picker_config_key will be applied every time you call this
+	    -- builtin picker
+	  },
+	  extensions = {
+	    -- Your extension configuration goes here:
+	    -- extension_name = {
+	    --   extension_config_key = value,
+	    -- }
+	    -- please take a look at the readme of the extension you want to configure
+	  }
+	}
+7a9f81da5608a091c1dc075cac0daeab|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|13|10|V|vim
+	    -- ...
+53ec55c13dc376e379627d38e9b0fad0|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|19|1|V|vim
+	  extensions = {
+	  }
+fc8a45063dda8dde6f5bae7156cba55d|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|12|1|V|vim
+	  defaults = {
+	  },
+2b3b0948af7b32e23c691ba147d9db6b|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|10|1|V|vim
+	lua <<EOF
+	require('telescope').setup {
+	  pickers = {
+	    find_files = {
+	      theme = "dropdown"
+	    }
+	  }
+	}
+	EOF
+9352d07dd4d42ccca3e29c209bb349e3|file:///Users/steve/.dotfiles/nvim/config/telescope.vim|3|1|V|vim
+	  defaults = {
+	    layout_config = {
+	      vertical = { height = 0.5 }
+	    }
+	  },
+9fad6608ee930fb1cdca9c696772a0a0|file:///Users/steve/.dotfiles/nvim/config/telescope.vim|8|1|V|vim
+	extensions = {
+	  fzf = {
+	      \
+	      \ }
+	}
+e2c0063a5c37197849f9bf43450282dc|file:///Users/steve/.dotfiles/nvim/keymaps/general.vim|36|16|V|vim
+	nmap <leader>nc :edit ~/.dotfiles/nvim/coc-settings.json<cr>
+8452d5b348d596c59644cf17b511a244|file:///Users/steve/.dotfiles/nvim/keymaps/general.vim|35|16|V|vim
+	nmap <leader>ne :edit ~/.dotfiles/nvim/<cr>
+c8c79f6e5025d2e658b3e3c56b1a1489|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|2|1|V|vim
+	autocmd BufRead,BufNewFile *.conf setf json
+466deec76ecdf5fca6d38571f6324d54|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|3|41|v|vim
+	json
+a1565811ddd4c4da44ad32b95808268f|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|4|1|V|vim
+	autocmd BufRead,BufNewFile Podfile setf ruby
+4a25b996826623c4a3a4910f47f10c30|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|5|28|v|vim
+	Podfile
+3cdbdeb02a6f2deebec8ccec0bfdaca0|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|3|1|V|vim
+	" set Podfile to read as ruby
+188d81cd31a81e0bb0ff4662f73cedd7|file:///Users/steve/.dotfiles/nvim/config/telescope.vim|2|1|V|vim
+	require('telescope').setup {
+	  pickers = {
+	    find_files = {
+	      theme = "dropdown"
+	    }
+	  }
+	}
