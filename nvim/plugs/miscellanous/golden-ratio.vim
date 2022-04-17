@@ -1,2 +1,2 @@
 " Golden Ratio - resize buffers to keep active one sane
-Plug 'roman/golden-ratio'
+" Plug 'roman/golden-ratio'
