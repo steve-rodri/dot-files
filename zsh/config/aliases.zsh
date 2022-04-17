@@ -43,9 +43,11 @@ alias lg="lazygit"
 alias rni="kill $(lsof -t -i:8081) && rm -rf ios/build/ && y run ios"
 
 # Yarn
-alias cra='yarn create react-app'
+alias cra='yarn create react-app --template @chakra-ui'
+alias crna='npx react-native init'
 alias y='yarn'
 alias ya='yarn add'
+alias yd='yarn deploy'
 alias yarnpackages='cd ~/asdf/installs/yarn/'
 alias ycra='yarn create react-app'
 alias yr='yarn remove'
@@ -63,7 +65,7 @@ alias lst='colorls --group-directories-first --almost-all --tree'
 
 # Scriptable
 alias scriptableiCloud="cd ~/Library/Mobile\ Documents/iCloud~dk~simonbs~Scriptable/Documents"
-alias scriptable="cd ~/Documents/Development/Projects/Scriptable.nosync && vi"
+alias scriptable="cd ~/Code/scriptable && v"
 
 # Home Assistant
 alias ha="cd /Volumes/config"
