@@ -25,4 +25,4 @@ function! Find()
   Files
 endfunction
 
-nnoremap <C-p> :call Find()<cr>
+" nnoremap <C-p> :call Find()<cr>
