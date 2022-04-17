@@ -2,6 +2,8 @@
   "dependencies": {
     "@linear/import": "^1.5.17",
     "create-react-app": "^5.0.0",
+    "create-strapi-starter": "^4.1.7",
+    "create-vite": "^2.8.0",
     "firebase-tools": "^10.1.2",
     "prettier": "^2.5.1",
     "prettier-eslint-cli": "^5.0.1",
