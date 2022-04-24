@@ -2,6 +2,7 @@
   "dependencies": {
     "@linear/import": "^1.5.17",
     "create-react-app": "^5.0.0",
+    "create-strapi-app": "^4.1.8",
     "create-strapi-starter": "^4.1.7",
     "create-vite": "^2.8.0",
     "firebase-tools": "^10.1.2",

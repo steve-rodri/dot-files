@@ -313,6 +313,23 @@
     tar "6.1.11"
     uuid "^3.3.2"
 
+"@strapi/generate-new@4.1.8":
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/@strapi/generate-new/-/generate-new-4.1.8.tgz#9865ad47ec1f6176e997bdb6382d97000d6b934b"
+  integrity sha512-Ku4Nmx0EaqdvsEvy+oRXzym6C3JTbxMXzwmd/etBHGwYnbJACyDNzBtFg1zFE2TBXnTNYKp63Jvz6T+ksHCphw==
+  dependencies:
+    "@sentry/node" "6.3.0"
+    chalk "^4.1.1"
+    execa "^1.0.0"
+    fs-extra "10.0.0"
+    inquirer "8.2.0"
+    lodash "4.17.21"
+    node-fetch "^2.6.1"
+    node-machine-id "^1.1.10"
+    ora "^5.4.0"
+    tar "6.1.11"
+    uuid "^3.3.2"
+
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-1.1.2.tgz#b1665e2c461a2cd92f4c1bbf50d5454de0d4b421"
@@ -1260,6 +1277,11 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-6.1.0.tgz#f8d722b78103141006b66f4c7ba1e97315ba75bc"
+  integrity sha512-wl7PNrYWd2y5mp1OK/LhTlv8Ff4kQJQRXXAvF+uU/TPNiVJUxZLRYGj/B0y/lPGAVcSbJqH2Za/cvHmrPMC8mA==
+
 commander@7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.1.0.tgz#f2eaecf131f10e36e07d894698226e36ae0eb5ff"
@@ -1441,6 +1463,15 @@ create-react-app@^5.0.0:
     tar-pack "^3.4.1"
     tmp "^0.2.1"
     validate-npm-package-name "^3.0.0"
+
+create-strapi-app@^4.1.8:
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/create-strapi-app/-/create-strapi-app-4.1.8.tgz#67e0a713a58b72008fc167bcc6a275c91147e41c"
+  integrity sha512-vmT1l2S4M1NXtJC3Lax2muOsTBx10hxXzta8ZDxftnCDLVQ00c9/1KCFSdHYUO6CCRl9TLBbW06FAAz/YDBr+Q==
+  dependencies:
+    "@strapi/generate-new" "4.1.8"
+    commander "6.1.0"
+    inquirer "8.2.0"
 
 create-strapi-starter@^4.1.7:
   version "4.1.7"
