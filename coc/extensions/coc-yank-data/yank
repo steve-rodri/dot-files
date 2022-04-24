@@ -1,1581 +1,1243 @@
-567904efe9e64d9faf3e41ef402cb568|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|80|v|javascript
-	where
-6e68bc1d551524836417e85b3274385b|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|3|24|V|javascript
-	    const { id } = where
-3cca3eeed143256ffa8c946c7e507ba0|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|3|17|v|javascript
-	wehciwe
-7d661e2508c3db5701617415d2012089|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|21|V|javascript
-	    console.log(circuit);
-ef8a960a23f62c6a35a796264347c187|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|11|v|javascript
-	exercises
-79f7bf1dc1c933cb699fb96ccf156384|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|11|V|javascript
-	          : 
-97e96b9b630acd157725fa00eff11a80|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|15|v|javascript
-	exercise
-cb8ad164d10477aba50a03a5701b3cf4|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|37|V|javascript
-	              componentRelationA: true,
-721a3937e74f03b29d996fd9636c3e92|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|34|v|javascript
-	entityService
-a2189e8ba6abb9bc89a349396cce609d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|1|V|javascript
-	      {
-	        populate: {
-	          repeatableComponent: {
-	            populate: {
-	              fields: ["exercise"],
-	            },
-	          },
-	        },
-	      }
-10cd395cf71c18328c863c08e78f3fd0|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|34|v|javascript
-	services
-c2da1193aa8e673bb9a798db310cd1a4|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|34|v|javascript
-	.circuit
-97241a14758eea0a845af947a73892c9|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|16|V|javascript
-	      params.populate
-c71612048ca7b1bc10057b670c62e585|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|32|V|javascript
-	    const { id } = params.where;
-79e411bddb361b5dfaa9e935b01a4172|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|6|27|v|javascript
-	strapi.entityService.
-6d6238502a46e902f3c9942af68ffa9b|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|35|v|javascript
-	"api::circuit.circuit"
-ed707c8d37f501380b2679d99c2f8e2a|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|33|V|javascript
-	    console.log(params.populate);
-84d8e184a16f2cc834107dc2e336ff1e|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|39|V|javascript
-	    const uid = "api::circuit.circuit";
-6af8383bf798d723113de577e5ddcbc2|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|13|v|javascript
-	findOne
-2bf0684335a22180b6ff920341082a10|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|4|32|V|javascript
-	    const { findOne } = strapi.entityService;
-07c8c80839ab02998acdefbe1b10b76e|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|31|V|javascript
-	    const options = { populate }
-427dcb57cf773b3bec170223ac02b137|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|64|v|javascript
-	 { populate, }
-e51404836b41d483ab523eb6b975fca7|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|8|27|v|javascript
-	strapi
-93da65a9fd0004d9477aeac024e08e15|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|8|58|v|javascript
-	options
-12ec12ee2709005370e61fd34a248bfc|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|5|33|V|javascript
-	    const options = { populate };
-0a8e3d518247c4e39175f9970b45c48f|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|7|V|javascript
-	    console.log(circuit.exercises[0].exercise);
-de83e9b3d38c7a88b21f6ee0ef1d3647|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|10|17|v|javascript
-	circuit
-9444e3988f39eae4df2d9d262ab6ac7f|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|10|17|v|javascript
-	.exercises[0]
-1557400cbf88009a9e3c39bfed309f03|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|37|V|javascript
-	      console.log(exercise.exercise);
-265b922dc4330e38988041e6254cbb18|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|26|v|javascript
-	Each
-30eb5001914d29dd8461898b5b8094fe|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|9|23|v|javascript
-	forEach
-b068931cc450442b63f5b3d276ea4297|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|19|v|javascript
-	name
-b322d51cd608e0109f2115004a80af6c|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|21|V|javascript
-	      console.log(name);
-b1b26d9d245655a2cf8422f066203b2a|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|16|37|v|javascript
-	entityId
-10a053bcc12d4a0bc45cc5efdb99713d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|16|1|V|javascript
-	    await entityService.update(uid, id, {
-	      data: { exercises: circuit.exercises },
-	    });
-d455ee14e5eb7cf0d09c06f50fbb64e2|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|1|V|javascript
-	      console.log(exercise);
-0cf31b2c283ce3431794586df7b0996d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|14|4|V|javascript
-	    
-e3bf35f17b4906b23784619f67e4130a|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|14|3|V|javascript
-	    params.data = circuit;
-335652c18ae8910df73307af50bae02c|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|10|1|V|javascript
-	    const circuit = await entityService.findOne(uid, id, { populate });
-	
-	    circuit.exercises.map((exercise) => {
-	      const { name } = exercise.exercise;
-	      exercise.cmsId = name;
-	      return exercise;
-	    });
-	
-	    await entityService.update(uid, id, { data: circuit });
-70a17ffa722a3985b86d30b034ad06d7|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|11|29|v|javascript
-	order
-ce11e0d6867b4e8af4f1c349243e9175|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|12|27|v|javascript
-	${exercise.order} - 
-21e6900ca69738256b1b4d01d867df0c|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|7|1|V|javascript
-	    const { populate } = params;
-	    const { id } = params.where;
-	    const { entityService } = strapi;
-	    const uid = "api::circuit.circuit";
-	    try {
-	      const circuit = await entityService.findOne(uid, id, { populate });
-	      if (!circuit.exercises) return;
-	      circuit.exercises.map((exercise) => {
-	        const { name } = exercise.exercise;
-	        exercise.cmsId = `${exercise.order} - ${name}`;
-	        return exercise;
-	      });
-	      await entityService.update(uid, id, { data: circuit });
-	    } catch (error) {
-	      console.log(error.message);
-	    }
-e40adc3864b4c5ea2a66adbe837899a4|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|21|1|V|javascript
-	  beforeUpdate: async ({ params }) => updateCMSId(params),
-f856b0600a9ba15502c04f04248f8a3e|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|22|3|v|javascript
-	beforeUpdate
-a00964712e8430efc974e76f62134a5d|file:///Users/steve/Code/apps/burn-it-cms/src/api/circuit/content-types/circuit/lifecycles.js|1|1|V|javascript
-	const updateCMSId = async (params) => {
-	  const { populate } = params;
-	  const { id } = params.where;
-	  const { entityService } = strapi;
-	  const uid = "api::circuit.circuit";
-	  try {
-	    const circuit = await entityService.findOne(uid, id, { populate });
-	    if (!circuit.exercises) return;
-	    circuit.exercises.map((exercise) => {
-	      const { name } = exercise.exercise;
-	      exercise.cmsId = `${exercise.order} - ${name}`;
-	      return exercise;
-	    });
-	    await entityService.update(uid, id, { data: circuit });
-	  } catch (error) {
-	    console.log(error.message);
-	  }
-	};
-	
-	module.exports = {
-	  beforeUpdate: async ({ params }) => updateCMSId(params),
-	  beforeCreate: async ({ params }) => updateCMSId(params),
-	};
-8c9adea3be5e6927572603e5852397ac|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|8|24|V|javascript
-	    console.log(workout);
-8daf1bdc96e1c2daf222d2b439181f3b|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|9|V|javascript
-	      const { name } = group.circuits;
-ad72730d4c1e3b6f31d05b42b27331d3|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|19|V|javascript
-	      group.circuit
-397291b4343a25a0e15c7d95ebe16e30|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|28|V|javascript
-	      return group.circuits.
-b0b91f5784d8906e1159952fb02a26c5|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|13|v|javascript
-	circuitGroups
-da59935db284f481947bd56da0b7433a|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|16|9|v|javascript
-	ercise.cmsId = `${exercise.order} - ${name}`;
-	      ret
-55afb90ff502dc5354ca5d5cae485a3a|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|16|1|V|javascript
-	      exercise.cmsId = `${exercise.order} - ${name}`;
-	      return exercise;
-ddf4c07f91469cb98f7e19f71f7f5572|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|15|25|v|javascript
-	`${circuit.order} - ${name}`
-3b2a280b1d47f861ef6f552884ae6389|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|21|5|V|javascript
-	    w
-a190be291028c6c1bfdd0e5587fcd06a|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|69|v|javascript
-	circuits
-a4efd153af5643341abacd136ac19d89|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|14|46|v|javascript
-	group.circuits.length
-db0f6f37ebeb6ea09489124345af2a45|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|14|61|v|javascript
-	group
-1163eaf81365b97a40885c08cbe5dfa3|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|13|v|javascript
-	numCircuits
-3bcd8e4ecbf48e41cbd7a63edc3d34e9|file:///Users/steve/Code/apps/burn-it-cms/src/api/workout/content-types/workout/lifecycles.js|13|20|V|javascript
-	      const len = group.circuits.length;
-596d2bdc95bfd37329514c8afcd4efb4|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|14|1|V|javascript
-	      const { name } = level.format;
-	      level.cmsId = `${level.order} - ${name}`;
-74f78c206b55547d196edbecd5523c22|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|8|23|V|javascript
-	    console.log(exercise);
-2063c1608d6e0baf80249c42e2be5804|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|14|39|v|javascript
-	value
-93f07710d16f79b6e543b9b406fb0ac1|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|12|25|V|javascript
-	      console.log(level);
-aa688e291b5899542323b72184011665|file:///Users/steve/Code/apps/burn-it-cms/src/api/exercise/content-types/exercise/lifecycles.js|7|42|V|javascript
-	    const exercise = await entityService.findOne(uid, id, { populate });
-700c216fb376666eaeda0c892e8bdc09|file:///Users/steve/Code/apps/burn-it-cms/.git/COMMIT_EDITMSG|1|71|v|gitcommit
-	component
-86f5baf708c6c250204451eb89736947|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|13|19|v|javascript
-	Sets
-172fe91f0ef03dcf0cb119ed4bae0e63|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|11|1|V|javascript
-	              circuitGroups: {
-	                populate: {
-ff483c73028c90ac5c4bb6c097462e00|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|12|1|V|javascript
-	                populate: {
-	                  circuits: {
-a8f1adea2278aa0a0047b6c569544712|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|14|17|V|javascript
-	                    populate: "*",
-1b737efe2a853503ad16fa7d28bd5e0f|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|16|1|V|javascript
-	                    //   populate: {
-	                    //     exercises: {
-	                    //       populate: {
-	                    //         exercise: {
-	                    //           populate: {
-	                    //             intensityLevels: {
-	                    //               populate: {
-	                    //                 format: {
-	                    //                   populate: "*",
-	                    //                 },
-	                    //               },
-	                    //             },
-	                    //             equipment: {
-	                    //               populate: {
-	                    //                 items: {
-	                    //                   populate: "*",
-	                    //                 },
-	                    //               },
-	                    //             },
-	                    //           },
-	                    //         },
-	                    //       },
-	                    //     },
-	                    //   },
-b9bf3ea1bbf8c737cb214757b8147a77|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|1|V|javascript
-	                    // circuit: {
-	                    // },
-	                    // },
-16415f94fabb7ac5233bf310f394011d|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|13|1|V|javascript
-	                  circuits: {
-	                    populate: "*",
-	                  },
-a3b3fee3bf574ab49da98ce70623def2|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|20|1|V|javascript
-	  const [resp, errorMessage] = await makeRequest(
-	    "get programs",
-	    authAxios.get(`/api/programs?${query}`)
-	  );
-	  console.log(resp.data[0]);
-b122e751e7e1d088cf0d2192fcf89d45|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|28|1|V|javascript
-	//   //   populate: {
-	//   //     exercises: {
-	//   //       populate: {
-	//   //         exercise: {
-	//   //           populate: {
-	//   //             intensityLevels: {
-	//   //               populate: {
-	//   //                 format: {
-	//   //                   populate: "*",
-	//   //                 },
-	//   //               },
-	//   //             },
-	//   //             equipment: {
-	//   //               populate: {
-	//   //                 items: {
-	//   //                   populate: "*",
-	//   //                 },
-	//   //               },
-	//   //             },
-	//   //           },
-	//   //         },
-	//   //       },
-	//   //     },
-	//   //   },
-da120e06cc1b7fb96a3e28ce9225502c|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|12|1|V|javascript
-	                populate: "*",
-522a50ce2bf27197af7f5d19e2d1c31f|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|16|1|V|javascript
-	                    }
-	                  }
-5b0775d140390f62de5163361e913de5|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|9|1|V|javascript
-	      "workouts.workout.circuitGroups",
-eb1f4bab215c7250dd945e463a727dc5|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|10|1|V|javascript
-	      "workouts.workout.circuitGroups.circuits",
-55011df9243ee61fbb1aee56ca061866|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|11|1|V|javascript
-	      "workouts.workout.circuitGroups.circuits.circuit",
-ec3723ebd6c3d61c4fae997e8c00fccb|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|12|1|V|javascript
-	      "workouts.workout.circuitGroups.circuits.circuit.exercise",
-501d8f55d220da5264d549160f6e5b69|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|13|1|V|javascript
-	      "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise",
-dc03a98b9b7db23d27be7a8cf23dfc00|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|14|1|V|javascript
-	      "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
-dfc903cc4d948f00c3f01db5012c845d|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|75|v|javascript
-	intensityLevels
-9ff950b80e6f99e65ef2c83cfd26c665|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|1|V|javascript
-	      "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment",
-9caf75083052c419adb216d83134f73d|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|72|1|V|javascript
-	//   const [resp, errorMessage] = await makeRequest(
-	//     "get programs",
-	//     authAxios.get(`/api/programs?${query}`)
-	//   );
-	//   console.log(resp.data[0]);
-	// };
-a5277dee247d7e5df54072ab07f84a41|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|15|1|V|javascript
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
-ec2954245a218b7e9a03ada4c8ffe8ce|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|30|1|V|javascript
-	// export const getPrograms = async () => {
-	//   const query = qs.stringify(
-	//     {
-	//       populate: {
-	//         workouts: {
-	//           populate: {
-	//             workout: {
-	//               populate: {
-	//                 circuitGroups: {
-	//                   populate: {
-	//                     circuit: {
-	//                       populate: {
-	//                         exercises: {
-	//                           populate: {
-	//                             exercise: {
-	//                               populate: {
-	//                                 intensityLevels: {
-	//                                   populate: {
-	//                                     format: {
-	//                                       populate: "*",
-	//                                     },
-	//                                   },
-	//                                 },
-	//                                 equipment: {
-	//                                   populate: {
-	//                                     items: {
-	//                                       populate: "*",
-	//                                     },
-	//                                   },
-	//                                 },
-	//                               },
-	//                             },
-	//                           },
-	//                         },
-	//                       },
-	//                     },
-	//                   },
-	//                 },
-	//               },
-	//             },
-	//           },
-	//         },
-	//       },
-	//     },
-	//     {
-	//       encodeValuesOnly: true,
-	//     }
-	//   );
-	//   const [resp, errorMessage] = await makeRequest(
-	//     "get programs",
-	//     authAxios.get(`/api/programs?${query}`)
-	//   );
-	//   console.log(resp.data[0]);
-	// };
-	
-	// export const getCircuits = async () => {
-	//   //   populate: {
-	//   //     exercises: {
-	//   //       populate: {
-	//   //         exercise: {
-	//   //           populate: {
-	//   //             intensityLevels: {
-	//   //               populate: {
-	//   //                 format: {
-	//   //                   populate: "*",
-	//   //                 },
-	//   //               },
-	//   //             },
-	//   //             equipment: {
-	//   //               populate: {
-	//   //                 items: {
-	//   //                   populate: "*",
-	//   //                 },
-	//   //               },
-	//   //             },
-	//   //           },
-	//   //         },
-	//   //       },
-	//   //     },
-	//   //   },
-	//   const [resp, errorMessage] = await makeRequest(
-	//     "get programs",
-	//     authAxios.get(`/api/circuits?${query}`)
-	//   );
-	//   console.log(resp.data[0]);
-	// };
-696989b42eba2c75f1ea0a5fe4048d53|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|11|1|V|javascript
-	export const markAndSortByCompletion = (workouts, logs) => {
-	  return sortByCompletion(markCompleted(workouts, logs));
-	};
-5149d028bd15634ed66018e576fec605|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|45|1|V|javascript
-	const byDateCompleted = (a, b) => {
-	  if (day(a.completionTimeStamp).isBefore(b.completionTimeStamp, "minute"))
-	    return -1;
-	  else if (day(a.completionTimeStamp).isAfter(b.completionTimeStamp, "minute"))
-	    return 1;
-	  return 0;
-	};
-368db7f8f9dd0253e422fff7615001b4|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|25|9|v|javascript
-	workout.id === log.workout_id 
-f5573aa9f6f386bc7b407f14c95c4967|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|37|25|V|javascript
-	  if (!workouts) returndd
-581e51793105971d3a280b487a0e72c0|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|40|1|V|javascript
-	    const timeStamp = workout.completionTimeStamp;
-	    const completedToday = day(timeStamp).isSame(day(), "day");
-	    if (!timeStamp || completedToday) {
-	      todayOrIncomplete.push(workout);
-	      return;
-	    }
-	    completedPrev.push(workout);
-2215a3775a590747349b97bd89d8907c|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|37|1|V|javascript
-	  const todayOrIncomplete = [];
-	  const completedPrev = [];
-5b4e252c4b692054c30e4be9210b97b0|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|5|26|v|javascript
-	 timeStamp => {
-	  const now = day();
-	  const oneWeekAgo = day().subtract(1, "week");
-	  return day(timeStamp).isBetween(oneWeekAgo, now);
-	};
-	
-	const byDateCompleted = (a, b) => {
-	  if (day(a.completionTimeStamp).isBefore(b.completionTimeStamp, "minute"))
-	    return -1;
-	  else if (day(a.completionTimeStamp).isAfter(b.completionTimeStamp, "minute"))
-	    return 1;
-	  return 0;
-	};
-	
-	const markCompleted = (workouts, logs = []) => {
-	  if (logs.length === 0) return;
-	  return workouts.map(workout => {
-	    logs.forEach(log => {
-	      const isSame = workout.id === log.workout_id;
-	      if (isSame && isWithinSevenDays(log.completionTimeStamp)) {
-	        workout.completed = true;
-	        workout.completionTimeStamp = log.completionTimeStamp;
-	      }
-	    });
-	    return workout;
-	  });
-	};
-	
-	// workouts not completed and workouts completed today stay where they are.
-490075033d56e0e71a12934c37031918|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|24|21|v|javascript
-	isWithinSevenDays
-1d057e797ff5e83769900c2ffc68f8d2|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|11|26|v|javascript
-	{ completionTimeStamp: aTS}, { completionTimeStamp: bTS}
-4b44c76df289e5ec35f4a08f352658a9|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|13|11|v|javascript
-	a.completionTimeStamp
-29300e8fe94d4467ebb45f4052932cc5|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|13|25|v|javascript
-	b.completionTimeStamp
-7be123d1260aa859f327671986382966|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|12|1|V|javascript
-	  const [{ completionTimeStamp: aTS }, { completionTimeStamp: bTS }] = params;
-253264db505fc70eb2d7d1fa9921b811|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/utils/markAndSortByCompletion.js|13|36|V|javascript
-	  const { completionTimeStamp: aTS }, { completionTimeStamp: bTS }] = params;
-d6ef40945ac8ead63de1a4ed1112bd8b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/user/schema.json|70|5|V|json
-	    ""
-a00385bf61f2ab24517c639f3f28675f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/user/schema.json|73|1|V|json
-	    "gender": {
-	      ""
-	    }
-a99cf7043cd382ba27149fbb42f8401f|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|2|1|V|javascript
-	import qs from "qs";
-51dd878b908cc0dd38df0665554eaf30|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|5|1|V|javascript
-	  const query = qs.stringify(
-	    {
-6f5ecc16326242bb7f0a1930cf751a9b|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|6|3|V|javascript
-	    {
-a470d384c5f8055b505effcf84caf90c|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|5|3|V|javascript
-	  const query = qs.stringify(
-f2725cc79e1b80553c814620f44f45dc|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|14|3|V|javascript
-	  const query = 
-ee11cbb19052e40b07aac0ca060c23ee|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|34|v|javascript
-	user
-e8860dec1fd63b40cd7db0e3b70579e9|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/auth.js|1|1|V|javascript
-	'use strict';
-	
-	/**
-	 * Auth.js controller
-	 *
-	 * @description: A set of functions called "actions" for managing `Auth`.
-	 */
-	
-	/* eslint-disable no-useless-escape */
-	const crypto = require('crypto');
-	const _ = require('lodash');
-	const utils = require('@strapi/utils');
-	const { getService } = require('../utils');
-	const {
-	  validateCallbackBody,
-	  validateRegisterBody,
-	  validateSendEmailConfirmationBody,
-	} = require('./validation/auth');
-	
-	const { getAbsoluteAdminUrl, getAbsoluteServerUrl, sanitize } = utils;
-	const { ApplicationError, ValidationError } = utils.errors;
-	
-	const emailRegExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-	
-	const sanitizeUser = (user, ctx) => {
-	  const { auth } = ctx.state;
-	  const userSchema = strapi.getModel('plugin::users-permissions.user');
-	
-	  return sanitize.contentAPI.output(user, userSchema, { auth });
-	};
-	
-	module.exports = {
-	  async callback(ctx) {
-	    const provider = ctx.params.provider || 'local';
-	    const params = ctx.request.body;
-	
-	    const store = await strapi.store({ type: 'plugin', name: 'users-permissions' });
-	
-	    if (provider === 'local') {
-	      if (!_.get(await store.get({ key: 'grant' }), 'email.enabled')) {
-	        throw new ApplicationError('This provider is disabled');
-	      }
-	
-	      await validateCallbackBody(params);
-	
-	      const query = { provider };
-	
-	      // Check if the provided identifier is an email or not.
-	      const isEmail = emailRegExp.test(params.identifier);
-	
-	      // Set the identifier to the appropriate query field.
-	      if (isEmail) {
-	        query.email = params.identifier.toLowerCase();
-	      } else {
-	        query.username = params.identifier;
-	      }
-	
-	      // Check if the user exists.
-	      const user = await strapi.query('plugin::users-permissions.user').findOne({ where: query });
-	
-	      if (!user) {
-	        throw new ValidationError('Invalid identifier or password');
-	      }
-	
-	      if (
-	        _.get(await store.get({ key: 'advanced' }), 'email_confirmation') &&
-	        user.confirmed !== true
-	      ) {
-	        throw new ApplicationError('Your account email is not confirmed');
-	      }
-	
-	      if (user.blocked === true) {
-	        throw new ApplicationError('Your account has been blocked by an administrator');
-	      }
-	
-	      // The user never authenticated with the `local` provider.
-	      if (!user.password) {
-	        throw new ApplicationError(
-	          'This user never set a local password, please login with the provider used during account creation'
-	        );
-	      }
-	
-	      const validPassword = await getService('user').validatePassword(
-	        params.password,
-	        user.password
-	      );
-	
-	      if (!validPassword) {
-	        throw new ValidationError('Invalid identifier or password');
-	      } else {
-	        ctx.send({
-	          jwt: getService('jwt').issue({
-	            id: user.id,
-	          }),
-	          user: await sanitizeUser(user, ctx),
-	        });
-	      }
-	    } else {
-	      if (!_.get(await store.get({ key: 'grant' }), [provider, 'enabled'])) {
-	        throw new ApplicationError('This provider is disabled');
-	      }
-	
-	      // Connect the user with the third-party provider.
-	      let user;
-	      let error;
-	      try {
-	        [user, error] = await getService('providers').connect(provider, ctx.query);
-	      } catch ([user, error]) {
-	        throw new ApplicationError(error.message);
-	      }
-	
-	      if (!user) {
-	        throw new ApplicationError(error.message);
-	      }
-	
-	      ctx.send({
-	        jwt: getService('jwt').issue({ id: user.id }),
-	        user: await sanitizeUser(user, ctx),
-	      });
-	    }
-	  },
-dda23b7e85621924b3a8dbb50987179e|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|16|1|V|javascript
-	  validateRegisterBody,
-	  validateSendEmailConfirmationBody,
-f6219d31c37233637f0bcec5aeeaf4c2|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|18|9|v|javascript
-	getAbsoluteAdminUrl
-a002d6058a8ae802a702875d86981049|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|18|11|v|javascript
-	getAbsoluteServerUrl
-6bdb7d5eb9808bce86d00c074b61b552|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/content-types/auth/strapi-server.js|10|8|V|javascript
-	const crypto = require('crypto');
-91b8ae2528c061ec0771c7e6fc8eb8f0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|38|V|javascript
-	  console.log(plugin.controllers.auth);
-90fd801fc91b65a98c1439b2c8678706|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/controllers/Auth.js|28|1|V|javascript
-	module.exports = {
-	  async callback(ctx) {
-	    const provider = ctx.params.provider || "local";
-	    const params = ctx.request.body;
-	
-	    const store = await strapi.store({
-	      type: "plugin",
-	      name: "users-permissions",
-	    });
-	
-	    if (provider === "local") {
-	      if (!_.get(await store.get({ key: "grant" }), "email.enabled")) {
-	        throw new ApplicationError("This provider is disabled");
-	      }
-	
-	      await validateCallbackBody(params);
-	
-	      const query = { provider };
-	
-	      // Check if the provided identifier is an email or not.
-	      const isEmail = emailRegExp.test(params.identifier);
-	
-	      // Set the identifier to the appropriate query field.
-	      if (isEmail) {
-	        query.email = params.identifier.toLowerCase();
-	      } else {
-	        query.username = params.identifier;
-	      }
-	
-	      // Check if the user exists.
-	      const user = await strapi
-	        .query("plugin::users-permissions.user")
-	        .findOne({ where: query });
-	
-	      if (!user) {
-	        throw new ValidationError("Invalid identifier or password");
-	      }
-	
-	      if (
-	        _.get(await store.get({ key: "advanced" }), "email_confirmation") &&
-	        user.confirmed !== true
-	      ) {
-	        throw new ApplicationError("Your account email is not confirmed");
-	      }
-	
-	      if (user.blocked === true) {
-	        throw new ApplicationError(
-	          "Your account has been blocked by an administrator"
-	        );
-	      }
-	
-	      // The user never authenticated with the `local` provider.
-	      if (!user.password) {
-	        throw new ApplicationError(
-	          "This user never set a local password, please login with the provider used during account creation"
-	        );
-	      }
-	
-	      const validPassword = await getService("user").validatePassword(
-	        params.password,
-	        user.password
-	      );
-	
-	      if (!validPassword) {
-	        throw new ValidationError("Invalid identifier or password");
-	      } else {
-	        ctx.send({
-	          jwt: getService("jwt").issue({
-	            id: user.id,
-	          }),
-	          user: await sanitizeUser(user, ctx),
-	        });
-	      }
-	    } else {
-	      if (!_.get(await store.get({ key: "grant" }), [provider, "enabled"])) {
-	        throw new ApplicationError("This provider is disabled");
-	      }
-	
-	      // Connect the user with the third-party provider.
-	      let user;
-	      let error;
-	      try {
-	        [user, error] = await getService("providers").connect(
-	          provider,
-	          ctx.query
-	        );
-	      } catch ([user, error]) {
-	        throw new ApplicationError(error.message);
-	      }
-	
-	      if (!user) {
-	        throw new ApplicationError(error.message);
-	      }
-	
-	      ctx.send({
-	        jwt: getService("jwt").issue({ id: user.id }),
-	        user: await sanitizeUser(user, ctx),
-	      });
-	    }
-	  },
-	};
-21c3427d94276b2429c1b262ca7da051|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
-	module.exports = {
-1b31711a7b0f416c4312ab0412cc3376|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
-	  async callback(ctx) {
-52e5cead57053f6b05614fcf99e77814|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
-	module.exports = {
-	  async callback(ctx) {
-2b3583e6e17721c54496bd04e57a0c15|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|12|7|v|javascript
-	utils
-12e4dd0ab48f983e94016c70e790fcad|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|18|16|V|javascript
-	const { sanitize } = utils;
-40573ebdcf26ef80794888c35ad8bb31|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|17|1|V|javascript
-	const { ApplicationError, ValidationError } = errors;
-58028f618e3fe2ca9c8f89f62c6b3ff8|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/utils/index.js|4|1|V|javascript
-	  return strapi.plugin('users-permissions').service(name);
-0b79aa04e6f43f7cee0a177553abb82c|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/utils/index.js|3|1|V|javascript
-	const getService = name => {
-	  return strapi.plugin('users-permissions').service(name);
-	};
-a9b74902d86292e14d7c26f391d30233|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/controllers/callback.js|14|1|V|javascript
-	const { getService } = require('../utils');
-d7c288dd8b897f0598c9e1fc9b865d0f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|4|1|V|javascript
-	  // Create the new controller
-	  plugin.controllers.user.updateMe = async (ctx) => {
-	    const { user } = ctx.state;
-	
-	    // User has to be logged in to update themselves
-	    if (!user) return ctx.unauthorized();
-	
-	    // Pick only specific fields for security
-	    const newData = omit(ctx.request.body, [
-	      "email",
-	      "username",
-	      "password",
-	      "confirmPassword",
-	      "provider",
-	      "resetPasswordToken",
-	      "confirmationToken",
-	      "confirmed",
-	      "blocked",
-	      "role",
-	    ]);
-	
-	    // Reconstruct context so we can pass to the controller
-	    ctx.request.body = newData;
-	    ctx.params = { id: user.id };
-	
-	    // Update the user and return the sanitized data
-	    return await strapi.plugins["users-permissions"]
-	      .controller("user")
-	      .update(ctx);
-	  };
-	
-	  // Add the custom route
-	  plugin.routes["content-api"].routes.unshift({
-	    method: "PUT",
-	    path: "/users/me",
-	    handler: "user.updateMe",
-	    config: {
-	      prefix: "",
-	    },
-	  });
-6b6e24f83dda957bb04bd3076d60d37b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|1|1|V|javascript
-	const omit = require("lodash.omit");
-6680dba00f3a88f66f8029a93d71d93c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|2|5|V|javascript
-	const
-d064da399b5c39b2cb926c21cb68bafe|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|1|1|V|javascript
-	const updateMe = require("overrides/updateMe")
-0481e4c847071ce59bfbb5cfc833ba95|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|2|7|v|javascript
-	updateMe
-6896177febaa65865bc2dbf4be6daaa1|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|5|1|V|javascript
-	  plugin.controllers.user.updateMe = async (ctx) => {
-e3d34c77a9ae8e24f43530d24f8b5c38|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|3|1|V|javascript
-	/**
-	 * Auth.js controller
-	 *
-	 * @description: A set of functions called "actions" for managing `Auth`.
-	 */
-8971778a9cc0ad74eeea6d9ed8a7b87f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|1|1|V|javascript
-	"use strict";
-465491542c6e47f8845a12d270595630|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|1|1|V|javascript
-	/* eslint-disable no-useless-escape */
-a2ffde7c71658217b94a7624df02d0fe|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|5|1|V|javascript
-	const { getService } = require("../utils");
-f5e7ce15d6eb47fa59f84116033b434d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|35|1|V|javascript
-	  // Add the custom route
-	  plugin.routes["content-api"].routes.unshift({
-	    method: "PUT",
-	    path: "/users/me",
-	    handler: "user.updateMe",
-	    config: {
-	      prefix: "",
-	    },
-	  });
-a24bcf2198b1b13ad985304483f7f324|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|3|25|v|javascript
-	plugin
-063d0d181f65eeb2e58f31b666711f7d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|8|38|v|javascript
-	async (ctx) => {
-3621a6365c8fedfb68b68645d4c1cfc6|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|8|1|V|javascript
-	  plugin.controllers.user.updateMe = require("./overrides/updateMe")
-5dbd1da10e267a9a725ba4a3ab469f91|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
-	  updateMe(plugin);
-	  callback(plugin);
-11626918e644c610c768fbd7f1ea2016|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|1|1|V|javascript
-	const updateMe = require("./overrides/updateMe");
-	const callback = require("./overrides/callback");
-d1b139de990c137edc352cc53c8e5b6b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|23|23|V|javascript
-	  plugin.controllers.auth.callback = async (ctx) => {
-eca51f5b3c4875e2ccbe5d4a05692f21|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|122|2|V|javascript
-	  return plugin;
-6ac2d794360b2e4e8baa26d7a33bf869|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|23|26|V|javascript
-	  console.log("CTX", ctx);
-b4564e96a496f5e85f2205ecc53039c6|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|11|V|javascript
-	  // Add the custom route
-e679aa86ca55b033b965ba72500dbe92|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|54|32|v|javascript
-	populate
-b326b5062b2f0e69046810717534cb09|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|54|71|v|javascript
-	true
-5058bbf35dd114605ed815ee64ed701b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|23|19|V|javascript
-	  console.log(ctx);
-9f98d3069e21eb86035d53c89ef287fb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|120|13|v|javascript
-	await sanitizeUser(user, ctx),
-420e1ae7a57ac1aae02468a6310e9b7e|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|55|22|V|javascript
-	    console.log(user);
-139646b54b40d6c95f39b1b3f1894553|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|116|17|v|javascript
-	sanitized
-fcef7386f6a84e4cf893aacbf9ad3daf|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|55|20|V|javascript
-	    console.log(user)
-014a82fefc15c48fc4d8ebd575ad9964|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|93|14|v|javascript
-	 await sanitizeUser(user, ctx),
-c722aabb289ff98525b8cceee3bab53c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|89|7|V|javascript
-	      console.log(sanitized);
-4dd17552ca3b9386de685cbe0f73b0cb|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/utils/lib/sanitize/visitors/remove-restricted-relations.js|66|1|V|javascript
-	  console.log(scopes);
-78e731027d8fd50ed642340b7c9a63b3|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|13|15|v|javascript
-	message
-b5c6b147f6548c696628dfbdc5f9480c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|13|20|V|javascript
-	  console.log(auth);
-f84a8364115938d576ef6d76d8480203|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|7|v|javascript
-	const s
-0a1cfd5e0fa929ee78d6dada8153a8c1|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|7|v|javascript
-	anitized = 
-53a7c483b59054f53816c12c61c77c5f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|7|v|javascript
-	await sanitizeUser(user, ctx);
-07e00114903c0d688816b7d02c270c94|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|93|15|v|javascript
-	ait s
-a127fd1f86e4ab650f2216f09992afa4|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|88|6|V|javascript
-	      
-21ba55a704db48ef46d23412618054bb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|54|1|V|javascript
-	      populate: {
-	        height: true,
-	        currentProgram: true,
-	        workoutLogs: { populate: { workout: true } },
-	      },
-175b1f34f19086de1f07175101a2b1e3|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/callback.js|14|1|V|javascript
-	  console.log(userSchema);
-2728d0220b91693121406fa5aee1250f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|2|V|javascript
-	  plugin.controllers.auth.callback = require("./overrides/callback");
-e70c4df10ef0983b9c8c31bd06b2a2c3|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|16|3|v|javascript
+e70c4df10ef0983b9c8c31bd06b2a2c3|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|62|7|v|javascript
 	return
-c974898db56aee1d117a8e8c70a919a9|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|17|12|V|javascript
-	  return makeRequest("get user", authAxios.get(`/api/users/me?${query}`));
-633a1c9676f055351f1e384f548c36e6|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|37|3|V|javascript
-	  return data.user;
-941c802c9a4968b60a7358782f365069|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|15|11|V|javascript
-	  const query = qs.stringify({ populate: "*" });
-2b0513850fa1e5c7ebc853f2df6af7ca|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|15|10|v|javascript
-	await
-81e2a5d482c4da758f41ded46d861589|file:///Users/steve/Code/apps/burn-it-cms/node_modules/%40strapi/plugin-users-permissions/server/services/user.js|1|1|v|javascript
-	'use strict';
-	
-	/**
-	 * User.js service
-	 *
-	 * @description: A set of functions similar to controller's actions to avoid code duplication.
-	 */
-	
-	const crypto = require('crypto');
-	const bcrypt = require('bcryptjs');
-	const urlJoin = require('url-join');
-	
-	const { getAbsoluteAdminUrl, getAbsoluteServerUrl, sanitize } = require('@strapi/utils');
-	const { getService } = require('../utils');
-	
-	module.exports = ({ strapi }) => ({
-	  /**
-	   * Promise to count users
-	   *
-	   * @return {Promise}
-	   */
-	
-	  count(params) {
-	    return strapi.query('plugin::users-permissions.user').count({ where: params });
-	  },
-	
-	  /**
-	   * Promise to search count users
-	   *
-	   * @return {Promise}
-	   */
-	
-	  /**
-	   * Promise to add a/an user.
-	   * @return {Promise}
-	   */
-	  async add(values) {
-	    return strapi.entityService.create('plugin::users-permissions.user', {
-	      data: values,
-	      populate: ['role'],
+139646b54b40d6c95f39b1b3f1894553|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|62|30|v|javascript
+	sanitized
+64a6bac5b26427e17bc35c44b953bfdc|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|57|1|V|javascript
+	    await mutateUser(signOutOfServices);
+3fae4efcf19c5e09617e4855be616534|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|66|22|v|javascript
+	signOutOfServices
+d6824af8ec2a3dea591ae5ff75d851c3|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|76|14|V|javascript
+	    setLoading
+20034506a8a312d8fa440068cddf0a87|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|68|37|V|javascript
+	   if (response === "success") setLoa
+b62115ac45639b7924e5ffc20b7963f3|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|4|1|V|javascript
+	export const findOrCreateUser = async data => {
+	  const [user] = await makeRequest(
+	    "find or create user",
+	    authAxios.post(`/api/users/me`, data)
+	  );
+	  if (user) return user;
+	};
+735bffec79e19025c636dce001d2b597|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|12|14|v|javascript
+	findUser
+a32df18c2a122c6aa58e88b0bb2b675a|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|14|6|v|javascript
+	find or create user
+42b90196b487c54069097a68fe98ab6f|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|15|15|v|javascript
+	post
+8d777f385d3dfec8815d20f7496026dc|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|15|36|v|javascript
+	data
+55420da6ff3efc9b3b0fa26d8fc481b1|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|13|3|v|javascript
+	const [user] = await 
+5c11e714a09f6c9af4c7dfa5031bfa3f|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|17|10|V|javascript
+	  if (user) return user;
+4bb179bd1772105e45c7e8054246a785|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|12|1|V|javascript
+	export const getUser = async () => {
+	  return makeRequest("get user", authAxios.get(`/api/users/me`));
+	};
+55023c6d85e6dd0251ffc0d0aafb6eef|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|4|2|V|javascript
+	export const findOrCreateUser = async data => {
+	};
+9944fa299f0e54d945dcc370779ea1a8|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|31|18|v|javascript
+	reqBody
+b36bc4fafbd62e17c55d0ccdc31f8953|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|36|5|v|javascript
+	let u
+0f8096de3fdc37b2327c61ffa347e34e|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|36|5|v|javascript
+	ser = await 
+386e67915caed5e55220d190b78362ca|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|40|1|V|javascript
+	    //return if found
+	    if (user) return user;
+acfbf61653d10397fd4143f4e5af4200|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|35|1|V|javascript
+	    //find User
+	    let user = await strapi.db.query("plugin::users-permissions.user").findOne({
+	      where: { uid },
+	      populate: ["role", "height", "activeProgram", "photo"],
 	    });
-	  },
+7cfa64e0373b3fa7436844cdcb44e6a7|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|32|11|V|javascript
+	    //find User
+2412e5db2b2dab0e251b783797352182|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|40|1|V|javascript
+	    const { uid } = data;
+31df9c94a8080145ff770d970a273ba2|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|41|5|V|javascript
+	    // otherwise create
+d7d734412ba7ec9a33d43b48da1da859|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|16|42|V|javascript
+	  console.log("local response", response);
+19ade79637e1bd99ecf52659e3f3ab70|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|32|22|V|javascript
+	      ctx.request.body
+76ea0bebb3c22822b4f0dd9c9fd021c5|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|34|42|v|javascript
+	create
+c11f2a5fb2defcbdf4a97229d0b8a1e2|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|34|16|v|javascript
+	error: "Unable to find user with Firebase token" 
+620334e9d4a5c12b81d5e627314a70f1|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|33|45|v|javascript
+	, credentials: null 
+87ed58e1ac9b4de881efd333defe974c|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|4|1|V|javascript
+	export const findOrCreateUser = async data => {
+	  const [foundUser] = await getUser();
+	  if (foundUser) return foundUser;
+	  const [createdUser] = await createUser(data);
+	  return createdUser;
+	};
+b9601edc4b9561fc15a70db211ef1227|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/index.js|31|1|V|javascript
+	  if (provider === "Apple") return withApple();
+	  if (provider === "Google") return withGoogle();
+65e8800b5c6800aad896f888b2a62afc|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/index.js|33|56|v|javascript
+	rest
+2a5dea228ffca4c65fafce2f3e8e6599|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/index.js|33|42|v|javascript
+	{provider}
+935dfe0d0363224ad24ac0011b44389c|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/index.js|33|14|v|javascript
+	signInWithProvider
+28cb3c4abc7ddbbb13e8ab5da8519761|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/strapi-server.js|5|1|V|javascript
+	  plugin.controllers.user.updateMe = require("./overrides/controllers/user/updateMe");
+0481e4c847071ce59bfbb5cfc833ba95|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/strapi-server.js|6|27|v|javascript
+	updateMe
+ff47cb6605b74f9cecb593c8aea69a9f|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/updateMe.js|1|1|V|javascript
+	const omit = require("lodash.omit");
+	const sanitizeOutput = require("../../../utils/sanitizeOutput");
 	
-	  /**
-	   * Promise to edit a/an user.
-	   * @param {string} userId
-	   * @param {object} params
-	   * @return {Promise}
-	   */
-	  async edit(userId, params = {}) {
-	    return strapi.entityService.update('plugin::users-permissions.user', userId, {
-	      data: params,
-	      populate: ['role'],
-	    });
-	  },
+	module.exports = async (ctx) => {
+	  const { user } = ctx.state;
 	
-	  /**
-	   * Promise to fetch a/an user.
-	   * @return {Promise}
-	   */
-	  fetch(params, populate) {
-	    return strapi.query('plugin::users-permissions.user').findOne({ where: params, populate });
-	  },
+	  // User has to be logged in to update themselves
+	  if (!user) return ctx.unauthorized();
 	
-	  /**
-	   * Promise to fetch authenticated user.
-	   * @return {Promise}
-	   */
-	  fetchAuthenticatedUser(id) {
-	    return strapi
-	      .query('plugin::users-permissions.user')
-	      .findOne({ where: { id }, populate: ['role'] });
-	  },
-	
-	  /**
-	   * Promise to fetch all users.
-	   * @return {Promise}
-	   */
-	  fetchAll(params, populate) {
-	    return strapi.query('plugin::users-permissions.user').findMany({ where: params, populate });
-	  },
-	
-	  /**
-	   * Promise to remove a/an user.
-	   * @return {Promise}
-	   */
-	  async remove(params) {
-	    return strapi.query('plugin::users-permissions.user').delete({ where: params });
-	  },
-	  isHashed(password) {
-	    if (typeof password !== 'string' || !password) {
-	      return false;
-	    }
-	
-	    return password.split('$').length === 4;
-	  },
-	
-	  validatePassword(password, hash) {
-	    return bcrypt.compare(password, hash);
-	  },
-	
-	  async sendConfirmationEmail(user) {
-	    const userPermissionService = getService('users-permissions');
-	    const pluginStore = await strapi.store({ type: 'plugin', name: 'users-permissions' });
-	    const userSchema = strapi.getModel('plugin::users-permissions.user');
-	
-	    const settings = await pluginStore
-	      .get({ key: 'email' })
-	      .then(storeEmail => storeEmail['email_confirmation'].options);
-	
-	    // Sanitize the template's user information
-	    const sanitizedUserInfo = await sanitize.sanitizers.defaultSanitizeOutput(userSchema, user);
-	
-	    const confirmationToken = crypto.randomBytes(20).toString('hex');
-	
-	    await this.edit(user.id, { confirmationToken });
-	
-	    const apiPrefix = strapi.config.get('api.rest.prefix');
-	    settings.message = await userPermissionService.template(settings.message, {
-	      URL: urlJoin(getAbsoluteServerUrl(strapi.config), apiPrefix, '/auth/email-confirmation'),
-	      SERVER_URL: getAbsoluteServerUrl(strapi.config),
-	      ADMIN_URL: getAbsoluteAdminUrl(strapi.config),
-	      USER: sanitizedUserInfo,
-	      CODE: confirmationToken,
-	    });
-	
-	    settings.object = await userPermissionService.template(settings.object, {
-	      USER: sanitizedUserInfo,
-	    });
-	
-	    // Send an email to the user.
-	    await strapi
-	      .plugin('email')
-	      .service('email')
-	      .send({
-	        to: user.email,
-	        from:
-	          settings.from.email && settings.from.name
-	            ? `${settings.from.name} <${settings.from.email}>`
-	            : undefined,
-	        replyTo: settings.response_email,
-	        subject: settings.object,
-	        text: settings.message,
-	        html: settings.message,
-	      });
-	  },
-	}
-020a830c087a507aca0c2bbb7e8c0b81|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|3|1|V|javascript
-	/**
-	 * User.js service
-	 *
-	 * @description: A set of functions similar to controller's actions to avoid code duplication.
-	 */
-	
-eee2c2965b37788f1ff8a57bb48324ee|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|10|1|V|javascript
-	  /**
-	   * Promise to count users
-	   *
-	   * @return {Promise}
-	   */
-	
-	  count(params) {
-	    return strapi.query('plugin::users-permissions.user').count({ where: params });
-	  },
-	
-	  /**
-	   * Promise to search count users
-	   *
-	   * @return {Promise}
-	   */
-	
-	  /**
-	   * Promise to add a/an user.
-	   * @return {Promise}
-	   */
-	  async add(values) {
-	    return strapi.entityService.create('plugin::users-permissions.user', {
-	      data: values,
-	      populate: ['role'],
-	    });
-	  },
-	
-	  /**
-	   * Promise to edit a/an user.
-	   * @param {string} userId
-	   * @param {object} params
-	   * @return {Promise}
-	   */
-	  async edit(userId, params = {}) {
-	    return strapi.entityService.update('plugin::users-permissions.user', userId, {
-	      data: params,
-	      populate: ['role'],
-	    });
-	  },
-	
-	  /**
-	   * Promise to fetch a/an user.
-	   * @return {Promise}
-	   */
-	  fetch(params, populate) {
-	    return strapi.query('plugin::users-permissions.user').findOne({ where: params, populate });
-	  },
-6a4c374e428545769e76f997d959c600|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|21|1|V|javascript
-	  /**
-	   * Promise to fetch all users.
-	   * @return {Promise}
-	   */
-	  fetchAll(params, populate) {
-	    return strapi.query('plugin::users-permissions.user').findMany({ where: params, populate });
-	  },
-	
-	  /**
-	   * Promise to remove a/an user.
-	   * @return {Promise}
-	   */
-	  async remove(params) {
-	    return strapi.query('plugin::users-permissions.user').delete({ where: params });
-	  },
-	  isHashed(password) {
-	    if (typeof password !== 'string' || !password) {
-	      return false;
-	    }
-	
-	    return password.split('$').length === 4;
-	  },
-	
-	  validatePassword(password, hash) {
-	    return bcrypt.compare(password, hash);
-	  },
-	
-	  async sendConfirmationEmail(user) {
-	    const userPermissionService = getService('users-permissions');
-	    const pluginStore = await strapi.store({ type: 'plugin', name: 'users-permissions' });
-	    const userSchema = strapi.getModel('plugin::users-permissions.user');
-	
-	    const settings = await pluginStore
-	      .get({ key: 'email' })
-	      .then(storeEmail => storeEmail['email_confirmation'].options);
-	
-	    // Sanitize the template's user information
-	    const sanitizedUserInfo = await sanitize.sanitizers.defaultSanitizeOutput(userSchema, user);
-	
-	    const confirmationToken = crypto.randomBytes(20).toString('hex');
-	
-	    await this.edit(user.id, { confirmationToken });
-	
-	    const apiPrefix = strapi.config.get('api.rest.prefix');
-	    settings.message = await userPermissionService.template(settings.message, {
-	      URL: urlJoin(getAbsoluteServerUrl(strapi.config), apiPrefix, '/auth/email-confirmation'),
-	      SERVER_URL: getAbsoluteServerUrl(strapi.config),
-	      ADMIN_URL: getAbsoluteAdminUrl(strapi.config),
-	      USER: sanitizedUserInfo,
-	      CODE: confirmationToken,
-	    });
-	
-	    settings.object = await userPermissionService.template(settings.object, {
-	      USER: sanitizedUserInfo,
-	    });
-	
-	    // Send an email to the user.
-	    await strapi
-	      .plugin('email')
-	      .service('email')
-	      .send({
-	        to: user.email,
-	        from:
-	          settings.from.email && settings.from.name
-	            ? `${settings.from.name} <${settings.from.email}>`
-	            : undefined,
-	        replyTo: settings.response_email,
-	        subject: settings.object,
-	        text: settings.message,
-	        html: settings.message,
-	      });
-	  },
-ac3aa5d5d6f3e21cf30d75fb88c0cd3d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|2|1|V|javascript
-	const crypto = require('crypto');
-	const bcrypt = require('bcryptjs');
-	const urlJoin = require('url-join');
-	
-	const { getAbsoluteAdminUrl, getAbsoluteServerUrl, sanitize } = require('@strapi/utils');
-	const { getService } = require('../utils');
-88a7bd2895f49622bfde6c068855cc5a|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|3|19|v|javascript
-	{ strapi }
-04e8abe0f56e79cbf104488c41dc6d59|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|4|3|V|javascript
-	  console.log(params)
-4d384cf088506416dae187ad5734fe69|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|9|17|V|javascript
-	  fetchAuthenticatedUser(id) {
-5377152fcfa76b5b7c8bb137a3745a95|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|4|1|V|javascript
-	  /**
-	   * Promise to fetch authenticated user.
-	   * @return {Promise}
-	   */
-2a8a1a2a149f5d230e9e435bb7f862ee|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|8|2|V|javascript
-	  },
-c89949f041cc6b5044e8c5ce4453c16b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|2|22|V|javascript
-	  console.log(plugin);
-50137d6787162276a05df0db0595555b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|59|v|javascript
-	 = require("./overrides/user");
-b896a29ec73d8f42e0282e585dc296b6|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|36|v|javascript
-	fetchAuthenticatedUser
-d80340dbf79ed5fc824e3e5493502cf0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|35|V|javascript
-	  console.log(plugin.services.user.);
-6b7181f0b1c482c31a06bba93b56466c|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|25|v|javascript
-	requier
-6b013578dbc1ffe05126268b380a23ba|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|85|27|V|javascript
-	    console.log("working");
-dd5ba6534f0de8799ad7d4156f44ec26|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/user.js|88|9|V|javascript
-	      log
-bfa49737204fcaa0a5893ca071148417|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|3|1|V|javascript
-	  plugin.controllers.user.me = require("./overrides/me")
-42735a8ad019b09d21b76fd8c70d62ce|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|1|16|v|javascript
-	sanitizeOutput
-ddf416ded896e4c0341286643ddeaf17|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/find.js|1|1|v|javascript
-	plugin.controllers.user.find 
-ffc26534756e1da96495be28f957c003|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|20|1|V|javascript
-	    "blocked",
-f2149932e6902f5aaeee19604de59b51|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|12|1|V|javascript
+	  // omit specific fields for security
+	  const data = omit(ctx.request.body, [
 	    "email",
-53dae831645730c285368841f96aba53|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|12|1|V|javascript
 	    "username",
-be9029cec307422650001223ee56ade2|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|14|1|V|javascript
-	    "provider",
-fdcef17124befe82a819f3097d0a2b7b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|1|V|javascript
-	  // Pick only specific fields for security
-	  const newData = omit(ctx.request.body, [
 	    "password",
 	    "confirmPassword",
+	    "provider",
 	    "resetPasswordToken",
 	    "confirmationToken",
 	    "confirmed",
+	    "blocked",
 	    "role",
+	    "uid",
+	    "workoutLogs",
 	  ]);
-4bfca1b97ab71be1d72386f4d68a40f1|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|5|3|v|javascript
-	onst newData = 
-a8df434ba2c57beabf8123b21cda5c52|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|13|1|V|javascript
-	  const { password, resetPasswordToken, confirmationToken, ...sanitizedUser } =
-	    user; // be careful, you need to omit other private attributes yourself
-	  return sanitizedUser;
-aaca0f5eb4d2d98a6ce6dffa99f8254b|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/find.js|6|42|v|javascript
-	avatar
-2b699351009563a84ecbd84d159f7e0a|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|4|1|V|javascript
-	  plugin.controllers.user.find = require("./overrides/find");
-27ea11be0aa5efd91b62ce3aeef55d2e|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/strapi-server.js|5|64|V|javascript
-	  plugin.controllers.user.findOne = require("./overrides/findOne");
-df711da5b8ff4a40cf5a72e4dce1bfb4|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|7|1|V|javascript
-	  const user = await strapi.entityService.findOne(
+	
+	  const updatedUser = await strapi.entityService.update(
 	    "plugin::users-permissions.user",
-	    ctx.state.user.id,
-	    { populate: ["role", "height"] }
-	  );
-496981e6eedef1e9317972d27191caf9|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|7|1|V|javascript
-	  const user = await strapi.entityService.findOne(
-	    "plugin::users-permissions.user",
-	    ctx.state.user.id,
-	    { populate: ["role", "height"] }
+	    user.id,
+	    { data, populate: ["photo", "height", "activeProgram"] }
 	  );
 	
-	  ctx.body = sanitizeOutput(user);
-035ebf9f3a829c4b6425e476456e5e40|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|35|1|V|javascript
-	  // Update the user and return the sanitized data
-	  return await strapi.plugins["users-permissions"]
-	    .controller("user")
-	    .update(ctx);
+	  ctx.body = sanitizeOutput(updatedUser);
 	};
-cef4a4dd1855e59dc5547fbbef170404|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|26|6|v|javascript
-	tx.state.
-aa9f513bf8f0d5cf73c81b269071bad5|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|35|1|V|javascript
-	  // Update the user and return the sanitized data
-	  return await strapi.plugins["users-permissions"]
-	    .controller("user")
-	    .update(ctx);
-bab727b97f72783278a89f0af1bf2bbe|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|30|1|V|javascript
-	  ctx.body = sanitizeOutput(user);
-b1bdc204ecc095cb3ed210625db58771|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|4|3|V|javascript
-	  // Create the new controller
-3e6c5aa444bd573dca5624ffb31bce1f|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|32|3|V|javascript
-	  ctx.request.body = newData;
-4ad81291d09b968b3f5971f7a87624e0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|32|3|V|javascript
-	  ctx.params = { id: user.id };
-70d2238301d47e6a40f0cca6e829ab2d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|30|2|V|javascript
-	  // Reconstruct context so we can pass to the controller
-0a717323ee2f3a255afeaeb026c313e0|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|9|v|javascript
-	newData
-9dd764c477d0e5cafbe24d21f2b0bc58|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/find.js|6|32|v|javascript
-	["height", "currentProgram"] 
-c72a47d8ece889e95e87a7dfdc5e63f4|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|27|50|v|javascript
-	, "inches"
-aa1a12fafb7c3f18f009e2975e68672d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|10|17|v|javascript
-	{ height: { fields: ["feet", "inches"] 
-03e2256a0fea9bdece3a89052983d285|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|27|50|v|javascript
-	, "workoutLogs"
-9a89c0e2d794fcb8f1b5c42ee4678d0a|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|32|13|v|javascript
-	populate: ["height", "currentProgram"] 
-1b1cc7f086b3f074da452bc3129981eb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|15|v|javascript
-	query
-8ac2a3fd360e9a61a5847fd9132ca822|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|17|V|javascript
-	  console.log(idd);
-49270f4d0cd6dfee4d506e15e78aaaf9|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|9|V|javascript
-	  if (qud)
-869a7998adca4850a62d94e3c3b3d3a3|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|10|13|V|javascript
-	  query.parse
-db1d11461b335e0a4471b2f981220dd9|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/updateMe.js|31|23|v|javascript
-	{ height: true 
-a8cfde6331bd59eb2ac96f8911c4b666|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|6|12|v|javascript
-	object
-457d65ddafa85c03891853c0d7db18fb|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|7|22|V|javascript
-	  return sanitizedUser;
-a57f1374a0e5c9e7f4c0fca85d9a4ef4|file:///Users/steve/Code/apps/native/burn-it/services/firebase/firestore/user.js|65|1|V|javascript
-	  authUser = _.pickBy(authUser, _.identity);
-a1a5669d0e1e95c8095e635b1f9cf904|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|6|12|v|javascript
-	omit
-e532c3fa121c7f22c6f5c422d7305e9d|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/utils/sanitizeOutput.js|3|1|V|javascript
-	  const { password, resetPasswordToken, confirmationToken, ...sanitizedUser } =
-	    user; // be careful, you need to omit other private attributes yourself
-44e7ac35aa3ad00ad4bccf68a2d064ca|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|35|1|V|javascript
-	  const query = qs.stringify({
-	    populate: {
-	      height: true,
-	      currentProgram: true,
-	      workoutLogs: { populate: { workout: true } },
-	    },
-	  });
-769863895ad92e9000a91ef1ad33b4bc|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|37|1|V|javascript
-	      height: true,
-	      currentProgram: true,
-c8c90b1ff214744f7e296b991ca87262|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|36|1|V|javascript
-	    populate: {
-	      height: true,
-	      currentProgram: true,
-	      workoutLogs: { populate: { workout: true } },
-	    },
-679c9c00b949949fbf2011ddfb4ec70f|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|35|1|V|javascript
-	  const query = qs.stringify({
-4b3e23b8fa8e8ddbec4c89b0132a89aa|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|35|1|V|javascript
-	  });
-36b597a30cd8bc9e2fb5f9f27ebbdf52|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/hooks/useAdmission.js|41|24|V|javascript
-	      console.log(data);
-1f9c4b96dbbf6b2f70c37caa623f7c5d|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/hooks/useAdmission.js|41|24|V|javascript
-	      return await signInWithFirebase(credentials);
-a49a677169013e52f3bb87c0d876561a|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/hooks/useAdmission.js|41|7|v|javascript
-	const d
-c45982ccfcdefb80aa5faff571c7df7d|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|18|1|V|javascript
-	  return makeRequest("update", authAxios.put("/api/users/me", data));
-c90bf6bd9870a5dfd4dd1d707960227b|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|38|1|V|javascript
-	  return makeRequest("get user", authAxios.get(`/api/users/me`));
-f8b3871f7e5224716b91f49208b36a97|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|31|3|V|javascript
-	  return 
-8d1116562d85b284e2d79b146e18beb9|file:///Users/steve/Code/apps/native/burn-it/services/cms/auth.js|34|7|v|javascript
-	signInWithEmailAndPassword
-b12b8ebd5ff2956c06b45ac9bb3d7ecd|file:///Users/steve/Code/apps/burn-it-cms/src/extensions/users-permissions/overrides/me.js|10|38|v|javascript
-	currentProgram
-cb9c67b3b633f3a613b412daf4ffd8a4|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|16|1|V|javascript
-	  const getActive = useCallback(({ activeProgram }) => {
-	    return Object.values(programs).find(
-	      prog => prog.name === activeProgram || prog.name === currentProgram
-	    );
-	  }, []);
-2f0bd4370a7a3836c426741db7b32af4|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|33|1|V|javascript
-	    getActive,
-fbd1890de7caefdfb03d6ecb6d21eb55|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|10|32|V|javascript
-	  const [programs, setPrograms] = useState()
-aa61727ac72e12fc0e35ed238f5c491a|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|1|32|V|javascript
-	import * as programs from "assets/data/programs";
-072261e6204facc7dcc585c0204ca350|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|17|1|V|javascript
-	    return Object.values(programs).find(
-	      prog => prog.name === activeProgram || prog.name === currentProgram
-	    );
-07e379e16cab588e25c2f1425775a347|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|5|1|V|javascript
-	  const query = qs.stringify(
-	    {
-	      populate: [
-	        "workouts",
-	        "workouts.workout",
-	        "workouts.workout.circuitGroups",
-	        "workouts.workout.circuitGroups.circuits",
-	        "workouts.workout.circuitGroups.circuits.circuit",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels.format",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment.items",
-	      ],
-	    },
-	    { encodeValuesOnly: true }
+be781322155d84112c41690f8c2e9e04|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|22|1|V|javascript
+	    const token = await getService("firebaseJwt").getToken(ctx);
+	
+	    if (!token) return { authenticated: false };
+	    const { uid } = token;
+	
+	    if (uid === undefined) return { authenticated: false };
+	    if (!ctx.request.body.uid) ctx.request.body.uid = uid;
+0eabd58e15413194f04e014d891e46e6|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|12|1|V|javascript
+	  const { user } = ctx.state;
+	
+	  // User has to be logged in to update themselves
+	  if (!user) return ctx.unauthorized();
+25937b5ff522cd3622f92d9d6a1fdc43|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|29|1|V|javascript
+	  const updatedUser = await strapi.entityService.update(
+	    "plugin::users-permissions.user",
+	    user.id,
+	    { data, populate: ["photo", "height", "activeProgram"] }
 	  );
-ea69ae2354a26ea89cfeafd6e2244896|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|4|42|V|javascript
-	export const getPrograms = async () => {};
-1e8332c4fcb562d6d24a39fdf0ce2796|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|24|1|V|javascript
-	  const [resp, errorMessage] = await makeRequest(
-	    "get programs",
-	    authAxios.get(`/api/programs/${id}?${query}`)
-	  );
-	  if (!resp && errorMessage) throw new Error(errorMessage);
-	  console.log(resp);
-1b34e1fde0be979d0c9b30a7d44b5f66|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|5|1|V|javascript
-	import { example } from "assets/data/programs";
-5955732d8b04755d33704c1066415837|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|11|20|V|javascript
-	  const programs = Array.from({ length: 4 }).map(() => example);
-5c18ef72771564b7f43c497dc507aeab|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|11|35|v|javascript
+1b0eb022a62883d03ca4b0a13b14f7b4|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|13|1|V|javascript
+	  // omit specific fields for security
+	  const data = omit(ctx.request.body, [
+	    "email",
+	    "username",
+	    "password",
+	    "confirmPassword",
+	    "provider",
+	    "resetPasswordToken",
+	    "confirmationToken",
+	    "confirmed",
+	    "blocked",
+	    "role",
+	    "uid",
+	    "workoutLogs",
+	  ]);
+6b6e24f83dda957bb04bd3076d60d37b|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|1|1|V|javascript
+	const omit = require("lodash.omit");
+85545b8ef10741a749a8b49cd5958fc8|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|6|22|v|javascript
+	{ authenticated: false };
+489e98357c27ddac5fe5ed980e7b37b8|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|6|14|v|javascript
+	 return 
+10ed00386f844b94aca5113dc4e32556|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|2|7|v|javascript
+	getService
+a18c7ea9a37167a00ce8467f64d03218|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|10|11|V|javascript
+	  const { uid } = token;
+4c54dd31b4fa5bb28ac3c8f2fb8e62ec|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|11|26|V|javascript
+	  if (uid === undefined) return { authenticated: false };
+993d5a14122a53de8de7c60325f39ddf|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|31|1|V|javascript
+	    const user = await getService("firebaseUser").findUser(uid);
+222c95aca134d3da08f81c4fa1aea262|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|12|5|V|javascript
+	  await getService("")
+0144ebbe452905aa7b6e3600af2a0eb9|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|14|29|v|javascript
+	updatedUser
+e3be965cf5e39963ea0268f4ff7df86f|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|39|1|V|javascript
+	      const user = await signInWithFirebase(credentials);
+	      const sanitized = await sanitizeUser(user);
+	      await identifyUser(sanitized.uid);
+	      return findUserInCMS(sanitized);
+2810c7476dcebd1a80fa3e0bf14e6a2e|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|10|3|v|javascript
+	createUser
+a6896d1c3982e98f8629989562a8c799|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|10|23|v|javascript
+	createUserInCMS
+93473a7344419b15c4219cc2b6c64c6f|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|15|6|V|javascript
+	import
+2e148bb4121817f3170fc43637412e63|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|39|14|V|javascript
+	      const sanitized = await sanitizeUser(user);
+379b90f017c21c635c42c062fa2c9d4d|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|8|14|V|javascript
+	  sanitizeUser,
+0853d16417b55bdeaa4bcf64ef7f347a|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|47|26|v|javascript
+	sanitized.uid
+e2fa538867c3830a859a5b17ab24644b|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|48|14|v|javascript
+	created
+2273f5bd319386d3a4f66cd461fdf5e1|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|6|21|V|javascript
+	  console.log(token);
+6658bdb4746231dff61552b330c41c5c|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|5|47|V|javascript
+	  const token = await getService("firebaseJwt").getToken(ctx);
+	  if (!token && !token.uid) ctx.unauthorized();
+bdd7ce229173ec21a6377f3e4910ca70|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|16|5|V|javascript
+	  log
+812b8bec263320a31a01852d8dd36c92|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|16|24|V|javascript
+	  console.log(response);
+68934a3e9455fa72420237eb05902327|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|33|40|v|javascript
+	false
+420e1ae7a57ac1aae02468a6310e9b7e|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-user.js|64|1|V|javascript
+	    console.log(user);
+98abeb4c48f808200f868b3e815f6d76|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|8|7|v|javascript
+	ctx.request.bo
+9e46a4952b75640f50aca41b53f89360|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|10|5|v|javascript
+	ctx.request.body.data
+0cf31b2c283ce3431794586df7b0996d|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|10|4|V|javascript
+	    
+841a2d689ad86bd1611447453c22c6fc|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|8|32|v|javascript
+	body
+f771b25f21262c2c639018f0e602c77d|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|11|20|V|javascript
+	  console.log(user);
+5058bbf35dd114605ed815ee64ed701b|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/controllers/user/createMe.js|9|17|V|javascript
+	  console.log(ctx);
+0627b774cf57dba92225333fe723cefa|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/index.js|35|1|V|javascript
+	export const withProvider = async provider => {
+	};
+8fbc78dab58bb5b82cc36eb940f8b7a7|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|19|20|V|javascript
+	  console.log(data);
+62b25390a21fa24be772554321ebc098|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|124|29|V|javascript
+	    console.log(permissions);
+e2a634a5d172fa482598f15075c76ce2|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|129|1|V|javascript
+	  console.log("scope", config.scope)
+31a1fd140be4bef2d11e121ec9a18a58|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|130|16|v|javascript
+	scope
+47d4aab9f7caa0a0bd469f2ed101bba3|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|130|30|v|javascript
+	config.scope
+41275a535677f79ff347e01bc530c176|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|130|16|v|javascript
+	permissions
+829baeef974da6b87102da1c0e7b5620|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|129|1|V|javascript
+	  console.log("scope", config.scope);
+	  console.log("allowedActions", allowedActions);
+7cc40aab036a4cccde4b4882910a3177|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|117|1|V|javascript
+	  console.log(user.role);
+93a09d21ef1ea20d88f2782e423d92aa|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|105|1|V|javascript
+	  console.log("user", user)
+565c1ee3d5a4dafc9e95436779120c15|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|105|15|v|javascript
+	"user", user
+700633a1b0f65fa8456a18bd6053193c|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|105|15|v|javascript
+	authenticated
+5d326f272d89114a6c9198625ad7905b|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|106|18|V|javascript
+	  console.log("authenticated", authenticated);
+b326b5062b2f0e69046810717534cb09|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|33|40|v|javascript
+	true
+b5c6b147f6548c696628dfbdc5f9480c|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|104|20|V|javascript
+	  console.log(auth);
+a67a8ac5b4a7182ffed4fc2e194c2b64|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|105|28|V|javascript
+	  console.log("user", user);
+932236fcb00e76acb199d1b2c87b1faa|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/strapi-server.js|7|31|V|javascript
+	  console.log(plugin.policies);
+887261af9499faa3fcabb896477d978a|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/strapi-server.js|14|1|V|javascript
+	      policies: [],
+6788306bde72ea9370421179393fb972|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|20|1|V|javascript
+	const authenticateWithFirebase = async (ctx) => {
+	  try {
+	    const token = await getService("firebaseJwt").getToken(ctx);
+	
+	    if (!token) return { authenticated: false };
+	    const { uid } = token;
+	
+	    if (uid === undefined) return { authenticated: false };
+	    if (!ctx.request.body.uid) ctx.request.body.uid = uid;
+	
+	    // fetch authenticated user
+	    const user = await getService("firebaseUser").findUser(uid);
+	
+	    if (!user) return { error: "Could Not find User" };
+	
+	    ctx.state.user = user;
+	
+	    return {
+	      authenticated: true,
+	      credentials: user,
+	    };
+	  } catch (error) {
+	    return { authenticated: false };
+	  }
+	};
+de172fcef08f57c7c2f91bb27b52bdc7|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|82|24|v|javascript
+	{ authenticated: false }
+5ba6b89b24742a9612d0a7dbec8a94e9|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|91|23|v|javascript
+	{ error: "Could Not find User" }
+ae830027c994790382194d0c60c5552b|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|93|22|V|javascript
+	    ctx.state.user = user;
+0edc54ad7f620b8199c49b025c3ac207|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|93|1|V|javascript
+	    return {
+	      authenticated: true,
+	      credentials: user,
+	    };
+e2a291ecbb6212ceb731950c7837a627|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|89|5|v|javascript
+	const user = await 
+e6acfe1f0dee68af4a1eafb6ee933f9b|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|91|1|V|javascript
+	    if (!user) return;
+	    return user;
+0f70c29243c2af053936201eff42c71e|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|92|11|v|javascript
+	 { authenticated: false }
+9f66cfca29ee16639e250d30f11c8024|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|14|1|V|javascript
+	const authenticate = async (ctx) => {
+	  const response = await authenticateLocally(ctx);
+	  if (response.authenticated) return response;
+	  return authenticateWithFirebase(ctx);
+	};
+4f6f4bcb1b962a4d011247cc5537064c|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|31|12|V|javascript
+	        return { error: "Invalid credentials" };
+ee11cbb19052e40b07aac0ca060c23ee|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|29|9|v|javascript
+	user
+cc72c166df77a3526262895f4962ffda|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|31|17|V|javascript
+	        if (!user) return { error: "Invalid credentials" };
+4d9fe6159c1b939c503306274bdad681|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|89|22|v|javascript
+	 { error: "Could Not find User" }
+7015bbdaea7fb14c3e2c30fdb7f31de5|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|104|9|V|javascript
+	  return;
+b0aeb0db9c3141bbc91cc7ae6d734992|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|104|3|V|javascript
+	  if (!user) return;
+10663cc2888f3e18a5b5ee2a2d841610|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|104|12|V|javascript
+	  const { credentials: user } = auth;
+05ee3a00277e0b6097ade419ba90632c|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|104|1|V|javascript
+	  if (!auth.credentials) {
+	    const response = await auth.authenticate()
+	  }
+60bad0e259460c95c024dc3bd6f5c15e|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|78|1|V|javascript
+	    const token = await getService("firebaseJwt").getToken(ctx);
+	
+	    if (!token) return { authenticated: false };
+c017635c8ab5eed47081865abab0921e|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|115|1|V|javascript
+	  const token = await getService("firebaseJwt").getToken(ctx);
+	  if (token) return;
+e71105459c77e7298b33c904bdf742be|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|105|49|v|javascript
+	getToken
+472bfc254dbb5f2402daf88b6f7a72f6|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|96|25|V|javascript
+	      fromFirebase: true,
+29ba5002815280aab03d766a61bca107|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|78|12|v|javascript
+	oken
+e8418d1d706cd73548f9f16f1d55ad6e|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|104|49|v|javascript
+	verify
+e6e09562f2cc4c707d2a169c990f7084|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-jwt.js|10|9|v|javascript
+	getTokenReult
+d1f5c3756b8aef4986a9ab6ec0a47998|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/services/firebase-jwt.js|21|17|V|javascript
+	      return this.verify(token);
+f8e97d47d2e527d627e54d5d6fb4de8c|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|78|11|v|javascript
+	tokenResult
+d3ed68f7315b7e72b8d886b2278fcac3|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|105|56|v|javascript
+	credentials
+19c23a6f5ef2c4c99b250dbe83fe5091|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|126|24|v|javascript
+	user ? user.role.id : { type: "public" 
+6795157f32a00fcc03c0cac55b47e99c|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|120|1|V|javascript
+	  console.log(user ? user.role.id : { type: "public" });
+048a01f61f49b4e3eebb43e0a2faba36|file:///Users/steve/Code/apps/burn-it/cms/src/extensions/users-permissions/overrides/strategies/users-permissions.js|128|1|V|javascript
+	    console.log("permissions", permissions);
+31352d2c62851188495508db682ed457|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/index.js|2|1|V|javascript
+	export * from "./useFirebaseListeners";
+4a464acc3e73780a5cd1b867305855b1|file:///Users/steve/Code/apps/burn-it/app/env.js|21|1|V|javascript
+	  baseUrlProd: "https://burn-it-cms.herokuapp.com",
+1cdc787abf289d7c926b642ebdf138bd|file:///Users/steve/Code/apps/burn-it/app/env.js|21|17|v|javascript
+	https://burn-it-cms.herokuapp.com
+4d71645856666ef9fd8c4dee35d71222|file:///Users/steve/Code/apps/burn-it/app/.env.development|1|1|V|
+	STRAPI_BASE_URL=https://burn-it-cms.herokuapp.com
+d4f192951341aa0dc3bdcdf1229f032b|file:///Users/steve/Code/apps/burn-it/app/env.js|22|18|v|javascript
+	http://192.168.4.36:1337
+e93e6cf44055b35f8a941c6bf081b5dd|file:///Users/steve/Code/apps/burn-it/app/env.js|21|3|v|javascript
+	baseUrlProd
+2c1e047635018b859af91a6442d8c841|file:///Users/steve/Code/apps/burn-it/app/env.js|21|12|v|javascript
+	"https://burn-it-cms.herokuapp.com",
+e9568d885c5d1867cecba35ff51d2bfb|file:///Users/steve/Code/apps/burn-it/app/env.js|22|38|V|javascript
+	  baseUrlLocal: "http://192.168.4.36:1337",
+334dbb5eff19fc092eedd1fcb6fdb4a2|file:///Users/steve/Code/apps/burn-it/app/env.js|19|1|V|javascript
+	  apiKey:
+	    "ab35252e54659399c9e531e819cef465249cf93f1ec24a431be5ac683cc0c990c1d334e8ecb5c94e1e65eb0cbca98db23d7d5555fde0d05d72d8990f65b82f73b67e2648e0d9e2f74981bffa3179aa01b2856ed12322670b03c8b3ad2e244c0f2901095480c037da4d6508a049ca428f8b2f6b427c2e720e5829ea6bb9aaa02b",
+967a6f3eacd5ffd59443cbe3fb9bb6b1|file:///Users/steve/Code/apps/burn-it/app/env.js|20|6|v|javascript
+	ab35252e54659399c9e531e819cef465249cf93f1ec24a431be5ac683cc0c990c1d334e8ecb5c94e1e65eb0cbca98db23d7d5555fde0d05d72d8990f65b82f73b67e2648e0d9e2f74981bffa3179aa01b2856ed12322670b03c8b3ad2e244c0f2901095480c037da4d6508a049ca428f8b2f6b427c2e720e5829ea6bb9aaa02b
+5fd1f04bf67b2d8e176fb5a6b0b02dc6|file:///Users/steve/Code/apps/burn-it/app/env.js|14|10|v|javascript
+	appl_CCqtmDqAixOjduVWuGcbNhcYfCp
+a7a445b668d909211fd69240536d39c3|file:///Users/steve/Code/apps/burn-it/app/.env|1|1|V|sh
+	REVENUE_CAT_API_KEY_IOS=appl_CCqtmDqAixOjduVWuGcbNhcYfCp
+573649f3b15a1a8ae42dc8b7c0a7a434|file:///Users/steve/Code/apps/burn-it/app/env.js|15|10|v|javascript
+	goog_bIbiSTAXVQgVIhomyetagInrEvC
+26c35ba5cc340393597613cb6ee808b7|file:///Users/steve/Code/apps/burn-it/app/env.js|14|9|v|javascript
+	"appl_CCqtm
+3d8465dc67be8bb56efd43194419d51e|file:///Users/steve/Code/apps/burn-it/app/env.js|14|9|v|javascript
+	"appl_CCqtmDqAixOjduVWuGcbNhcYfCp"
+8d77687ba6a17bc6a5894104e10f578f|file:///Users/steve/Code/apps/burn-it/app/env.js|15|9|v|javascript
+	"goog_bIbiSTAXVQgVIhomyetagInrEvC",
+4a6e57144d4a6a6dee018db37a4c2638|file:///Users/steve/Code/apps/burn-it/app/env.js|22|1|V|javascript
+	console.log("strapi", strapi)
+e51404836b41d483ab523eb6b975fca7|file:///Users/steve/Code/apps/burn-it/app/env.js|23|14|v|javascript
+	strapi
+81fa326315b3846aba38d68f4f6316b7|file:///Users/steve/Code/apps/burn-it/app/env.js|22|1|V|javascript
+	console.log("strapi", strapi);
+	console.log("revenuecat", revenueCat);
+5075140835d0bc504791c76b04c33d2b|file:///Users/steve/Code/apps/burn-it/app/env.js|16|9|v|javascript
+	process
+f579cccc964135c7d644c7b2d3b0d3ec|file:///Users/steve/Code/apps/burn-it/app/env.js|16|9|v|javascript
+	.env
+d6d681bc15e83e91a3ec7beeaa7e1153|file:///Users/steve/Code/apps/burn-it/app/env.js|17|9|v|javascript
+	process.env.
+34a0fbe979c650935687071be9e28f24|file:///Users/steve/Code/apps/burn-it/app/.gitignore|65|1|V|conf
+	.env.development
+759b74ce43947f5f4c91aeddc3e5bad3|file:///Users/steve/Code/apps/burn-it/app/.gitignore|66|6|v|conf
+	development
+5825dc4c5082751b8301bec50a02bc0d|file:///Users/steve/Code/apps/burn-it/app/.gitignore|68|6|V|conf
+	env.js
+e5fe846e991e75fdb19f93520ce93941|file:///Users/steve/Code/apps/burn-it/app/android/app/build.gradle|203|16|V|groovy
+	          // We can have build-specific configurations here. Like using applicationIdSuffix to create different package name (ex. ".staging")
+6517dc61de1a09f372e0707ec056902a|file:///Users/steve/Code/apps/burn-it/app/env.js|16|9|v|javascript
+	REVENUE_CAT_API_KEY_AND
+aed46970d8216f74bbc7f79b5292d0c2|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|3|1|V|yaml
+	    name: React Native iOS
+	    max_build_duration: 120
+	    instance_type: mac_mini
+	    environment:
+	      groups:
+	        - appstore_credentials # <-- (Includes APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY_IDENTIFIER, APP_STORE_CONNECT_PRIVATE_KEY, CERTIFICATE_PRIVATE_KEY) - https://docs.codemagic.io/code-signing-yaml/signing-ios/
+	        - ios_config # <-- (Includes APP_STORE_APP_ID - Put the app id number here. This is found in App Store Connect > App > General > App Information)
+	      # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
+	      vars:
+	        XCODE_WORKSPACE: $XCODE_WORKSPACE # <-- Put the name of your Xcode workspace here
+	        XCODE_SCHEME: $XCODE_SCHEME # <-- Put the name of your Xcode scheme here
+	        BUNDLE_ID: $BUNDLE_ID # <-- Put your Bundle Id here e.g com.domain.myapp
+	      node: latest
+	      xcode: latest
+	      cocoapods: default
+	    triggering:
+	      events:
+	        - push
+	        - tag
+	        - pull_request
+	      branch_patterns:
+	        - pattern: develop
+	          include: true
+	          source: true
+	    scripts:
+	      - name: Install npm dependencies
+	        script: |
+	          yarn
+	      - name: Install CocoaPods dependencies
+	        script: |
+	          cd ios && pod install
+	      - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+	        script: |
+	          keychain initialize
+	      - name: Fetch signing files
+	        script: |
+	          # For information about Codemagic CLI commands visit: https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/README.md
+	          # For details about the --type paramater below - https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/fetch-signing-files.md#--typeios_app_adhoc--ios_app_development--ios_app_inhouse--ios_app_store--mac_app_development--mac_app_direct--mac_app_store--mac_catalyst_app_development--mac_catalyst_app_direct--mac_catalyst_app_store--tvos_app_adhoc--tvos_app_development--tvos_app_inhouse--tvos_app_store
+	          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create
+	      - name: Use system default keychain
+	        script: |
+	          keychain add-certificates
+	      - name: Increment build number
+	        script: |
+	          #!/bin/sh
+	          set -e
+	          set -x
+	          cd $CM_BUILD_DIR/ios
+	          # agvtool new-version -all $(($BUILD_NUMBER + 1))
+	          agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))
+	      - name: Set up code signing settings on Xcode project
+	        script: |
+	          xcode-project use-profiles --warn-only
+	      - name: Build ipa for distribution
+	        script: |
+	          xcode-project build-ipa --workspace "$CM_BUILD_DIR/ios/$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
+	    artifacts:
+	      - build/ios/ipa/*.ipa
+	      - /tmp/xcodebuild_logs/*.log
+	      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+	      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+	    publishing:
+	      # See the following link for details about email publishing - https://docs.codemagic.io/yaml-publishing/email
+	      email:
+	        recipients:
+	          - steve@smashcreative.com
+	        notify:
+	          success: true # To not receive a notification when a build succeeds
+	          failure: false # To not receive a notification when a build fails
+	      slack:
+	        # See the following link about how to connect your Slack account - https://docs.codemagic.io/yaml-publishing/slack
+	        channel: "#channel-name"
+	        notify_on_build_start: true # To receive a notification when a build starts
+	        notify:
+	          success: true # To receive a notification when a build succeeds
+	          failure: false # To not receive a notification when a build fails
+	      app_store_connect:
+	        api_key: $APP_STORE_CONNECT_PRIVATE_KEY # Contents of the API key, can also reference environment variable such as $APP_STORE_CONNECT_PRIVATE_KEY
+	        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
+	        issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
+	        submit_to_testflight: true # Optional boolean, defaults to false. Whether or not to submit the uploaded build to TestFlight to automatically enroll your build to beta testers.
+	        beta_groups:
+	          - Smash
+	        submit_to_app_store: false
+	        # release_type: MANUAL # Optional, defaults to MANUAL. Supported values: MANUAL, AFTER_APPROVAL or SCHEDULED
+	        # earliest_release_date: 2021-12-01T14:00:00+00:00 # Optional. Timezone-aware ISO8601 timestamp with hour precision when scheduling the release. This can be only used when release type is set to SCHEDULED. It cannot be set to a date in the past.
+	        # copyright: 2022 Smash Creative LLC # Optional. The name of the person or entity that owns the exclusive rights to your app, preceded by the year the rights were obtained.
+bce25e07ebd21f8d4101e7ecc070a5ad|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|5|1|V|yaml
+	    name: React Native Android
+	    max_build_duration: 120
+	    instance_type: mac_mini
+	    environment:
+	      groups:
+	        - keystore_credentials # <-- (Includes CM_KEYSTORE, CM_KEYSTORE_PASSWORD, CM_KEY_ALIAS_PASSWORD, CM_KEY_ALIAS_USERNAME)
+	        - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS)
+	        - other
+	      # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
+	      vars:
+	        PACKAGE_NAME: "YOUR_PACKAGE_NAME" # <-- Put your package name here e.g. com.domain.myapp
+	      node: latest
+	    triggering:
+	      events:
+	        - push
+	        - tag
+	        - pull_request
+	      branch_patterns:
+	        - pattern: develop
+	          include: true
+	          source: true
+	    scripts:
+	      - name: Install npm dependencies
+	        script: |
+	          yarn
+	      - name: Set Android SDK location
+	        script: |
+	          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
+	      - name: Set up keystore
+	        script: |
+	          echo $CM_KEYSTORE | base64 --decode > /tmp/keystore.keystore
+	          cat >> "$CM_BUILD_DIR/android/key.properties" <<EOF
+	          storePassword=$CM_KEYSTORE_PASSWORD
+	          keyPassword=$CM_KEY_ALIAS_PASSWORD
+	          keyAlias=$CM_KEY_ALIAS_USERNAME
+	          storeFile=/tmp/keystore.keystore
+	          EOF
+	      - name: Build Android release
+	        script: |
+	          # Set environment variable so it can be used to increment build number in android/app/build.gradle
+	          # Note that tracks can be specified when retrieving latest build number from Google Play, for example:
+	          # export NEW_BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks=alpha) + 1))
+	          export NEW_BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME") + 1))
+	          cd android && ./gradlew bundleRelease  # To generate an .apk use--> ./gradlew assembleRelease
+	    artifacts:
+	      - android/app/build/outputs/**/*.aab
+	      - android/app/build/outputs/**/*.apk
+	    publishing:
+	      # See the following link for details about email publishing - https://docs.codemagic.io/yaml-publishing/email
+	      email:
+	        recipients:
+	          - steve@smashcreative.com
+	        notify:
+	          success: true # To not receive a notification when a build succeeds
+	          failure: false # To not receive a notification when a build fails
+	      slack:
+	        # See the following link about how to connect your Slack account - https://docs.codemagic.io/yaml-publishing/slack
+	        channel: "#cara-loren-all"
+	        notify_on_build_start: true # To receive a notification when a build starts
+	        notify:
+	          success: true # To receive a notification when a build succeeds
+	          failure: false # To not receive a notification when a build fails
+	      google_play:
+	        # See the following link for information regarding publishing to Google Play - https://docs.codemagic.io/yaml-publishing/google-play
+	        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+	        track: internal # <-- Any default or custom track that is not in ‘draft’ status
+931008180a6e77210a53407340795a54|file:///Users/steve/Code/apps/burn-it/app/.codemagic-workflows/react-native-ios.yaml|72|15|v|yaml
+	#channel-name
+58a16484c6fdb441c7c4e79940ddc31d|file:///Users/steve/Code/apps/burn-it/app/.codemagic-workflows/react-native-android.yaml|11|20|v|yaml
+	YOUR_PACKAGE_NAME
+d20b27508aa7461b9d1ca2003aa3a327|file:///Users/steve/Code/apps/burn-it/app/.codemagic-workflows/react-native-android.yaml|1|1|V|yaml
+	name: React Native Android
+	max_build_duration: 120
+	instance_type: mac_mini
+	environment:
+	  groups:
+	    - keystore_credentials # <-- (Includes CM_KEYSTORE, CM_KEYSTORE_PASSWORD, CM_KEY_ALIAS_PASSWORD, CM_KEY_ALIAS_USERNAME)
+	    - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS)
+	    - other
+	  # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
+	  vars:
+	    PACKAGE_NAME: $PACKAGE_NAME # <-- Put your package name here e.g. com.domain.myapp
+	  node: latest
+	triggering:
+	  events:
+	    - push
+	    - tag
+	    - pull_request
+	  branch_patterns:
+	    - pattern: develop
+	      include: true
+	      source: true
+	scripts:
+	  - name: Install npm dependencies
+	    script: |
+	      yarn
+	  - name: Set Android SDK location
+	    script: |
+	      echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
+	  - name: Set up keystore
+	    script: |
+	      echo $CM_KEYSTORE | base64 --decode > /tmp/keystore.keystore
+	      cat >> "$CM_BUILD_DIR/android/key.properties" <<EOF
+	      storePassword=$CM_KEYSTORE_PASSWORD
+	      keyPassword=$CM_KEY_ALIAS_PASSWORD
+	      keyAlias=$CM_KEY_ALIAS_USERNAME
+	      storeFile=/tmp/keystore.keystore
+	      EOF
+	  - name: Build Android release
+	    script: |
+	      # Set environment variable so it can be used to increment build number in android/app/build.gradle
+	      # Note that tracks can be specified when retrieving latest build number from Google Play, for example:
+	      # export NEW_BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks=alpha) + 1))
+	      export NEW_BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME") + 1))
+	      cd android && ./gradlew bundleRelease  # To generate an .apk use--> ./gradlew assembleRelease
+	artifacts:
+	  - android/app/build/outputs/**/*.aab
+	  - android/app/build/outputs/**/*.apk
+	publishing:
+	  # See the following link for details about email publishing - https://docs.codemagic.io/yaml-publishing/email
+	  email:
+	    recipients:
+	      - steve@smashcreative.com
+	    notify:
+	      success: true # To not receive a notification when a build succeeds
+	      failure: false # To not receive a notification when a build fails
+	  slack:
+	    # See the following link about how to connect your Slack account - https://docs.codemagic.io/yaml-publishing/slack
+	    channel: "#cara-loren-all"
+	    notify_on_build_start: true # To receive a notification when a build starts
+	    notify:
+	      success: true # To receive a notification when a build succeeds
+	      failure: false # To not receive a notification when a build fails
+	  google_play:
+	    # See the following link for information regarding publishing to Google Play - https://docs.codemagic.io/yaml-publishing/google-play
+	    credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+	    track: internal # <-- Any default or custom track that is not in ‘draft’ status
+97c16f849077998adb33e33b539414c0|file:///Users/steve/Code/apps/burn-it/app/.codemagic-workflows/react-native-ios.yaml|1|1|V|yaml
+	name: React Native iOS
+	max_build_duration: 120
+	instance_type: mac_mini
+	environment:
+	  groups:
+	    - appstore_credentials # <-- (Includes APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY_IDENTIFIER, APP_STORE_CONNECT_PRIVATE_KEY, CERTIFICATE_PRIVATE_KEY) - https://docs.codemagic.io/code-signing-yaml/signing-ios/
+	    - ios_config # <-- (Includes APP_STORE_APP_ID - Put the app id number here. This is found in App Store Connect > App > General > App Information)
+	  # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
+	  vars:
+	    XCODE_WORKSPACE: $XCODE_WORKSPACE # <-- Put the name of your Xcode workspace here
+	    XCODE_SCHEME: $XCODE_SCHEME # <-- Put the name of your Xcode scheme here
+	    BUNDLE_ID: $BUNDLE_ID # <-- Put your Bundle Id here e.g com.domain.myapp
+	  node: latest
+	  xcode: latest
+	  cocoapods: default
+	triggering:
+	  events:
+	    - push
+	    - tag
+	    - pull_request
+	  branch_patterns:
+	    - pattern: develop
+	      include: true
+	      source: true
+	scripts:
+	  - name: Install npm dependencies
+	    script: |
+	      yarn
+	  - name: Install CocoaPods dependencies
+	    script: |
+	      cd ios && pod install
+	  - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+	    script: |
+	      keychain initialize
+	  - name: Fetch signing files
+	    script: |
+	      # For information about Codemagic CLI commands visit: https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/README.md
+	      # For details about the --type paramater below - https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/fetch-signing-files.md#--typeios_app_adhoc--ios_app_development--ios_app_inhouse--ios_app_store--mac_app_development--mac_app_direct--mac_app_store--mac_catalyst_app_development--mac_catalyst_app_direct--mac_catalyst_app_store--tvos_app_adhoc--tvos_app_development--tvos_app_inhouse--tvos_app_store
+	      app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create
+	  - name: Use system default keychain
+	    script: |
+	      keychain add-certificates
+	  - name: Increment build number
+	    script: |
+	      #!/bin/sh
+	      set -e
+	      set -x
+	      cd $CM_BUILD_DIR/ios
+	      # agvtool new-version -all $(($BUILD_NUMBER + 1))
+	      agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))
+	  - name: Set up code signing settings on Xcode project
+	    script: |
+	      xcode-project use-profiles --warn-only
+	  - name: Build ipa for distribution
+	    script: |
+	      xcode-project build-ipa --workspace "$CM_BUILD_DIR/ios/$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
+	artifacts:
+	  - build/ios/ipa/*.ipa
+	  - /tmp/xcodebuild_logs/*.log
+	  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+	  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+	publishing:
+	  # See the following link for details about email publishing - https://docs.codemagic.io/yaml-publishing/email
+	  email:
+	    recipients:
+	      - steve@smashcreative.com
+	    notify:
+	      success: true # To not receive a notification when a build succeeds
+	      failure: false # To not receive a notification when a build fails
+	  slack:
+	    # See the following link about how to connect your Slack account - https://docs.codemagic.io/yaml-publishing/slack
+	    channel: "#cara-loren-all"
+	    notify_on_build_start: true # To receive a notification when a build starts
+	    notify:
+	      success: true # To receive a notification when a build succeeds
+	      failure: false # To not receive a notification when a build fails
+	  app_store_connect:
+	    api_key: $APP_STORE_CONNECT_PRIVATE_KEY # Contents of the API key, can also reference environment variable such as $APP_STORE_CONNECT_PRIVATE_KEY
+	    key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
+	    issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
+	    submit_to_testflight: true # Optional boolean, defaults to false. Whether or not to submit the uploaded build to TestFlight to automatically enroll your build to beta testers.
+	    beta_groups:
+	      - Smash
+	    submit_to_app_store: false
+	    # release_type: MANUAL # Optional, defaults to MANUAL. Supported values: MANUAL, AFTER_APPROVAL or SCHEDULED
+	    # earliest_release_date: 2021-12-01T14:00:00+00:00 # Optional. Timezone-aware ISO8601 timestamp with hour precision when scheduling the release. This can be only used when release type is set to SCHEDULED. It cannot be set to a date in the past.
+	    # copyright: 2022 Smash Creative LLC # Optional. The name of the person or entity that owns the exclusive rights to your app, preceded by the year the rights were obtained.
+dfc337a93dc85570f81634c65e53f0cc|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|2|1|V|yaml
+	  react-native-ios: !include "./.codemagic-workflows/react-native-ios.yaml"
+	  react-native-android: !include "./.codemagic-workflows/react-native-android.yaml"
+7381c25907968ed70cbf62db3d9edccd|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|1|1|V|yaml
+	workflows:
+	  name: React Native iOS
+	  max_build_duration: 120
+	  instance_type: mac_mini
+	  environment:
+	    groups:
+	      - appstore_credentials # <-- (Includes APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY_IDENTIFIER, APP_STORE_CONNECT_PRIVATE_KEY, CERTIFICATE_PRIVATE_KEY) - https://docs.codemagic.io/code-signing-yaml/signing-ios/
+	      - ios_config # <-- (Includes APP_STORE_APP_ID - Put the app id number here. This is found in App Store Connect > App > General > App Information)
+	    # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
+	    vars:
+	      XCODE_WORKSPACE: $XCODE_WORKSPACE # <-- Put the name of your Xcode workspace here
+	      XCODE_SCHEME: $XCODE_SCHEME # <-- Put the name of your Xcode scheme here
+	      BUNDLE_ID: $BUNDLE_ID # <-- Put your Bundle Id here e.g com.domain.myapp
+	    node: latest
+	    xcode: latest
+	    cocoapods: default
+	  triggering:
+	    events:
+	      - push
+	      - tag
+	      - pull_request
+	    branch_patterns:
+	      - pattern: develop
+	        include: true
+	        source: true
+	  scripts:
+	    - name: Install npm dependencies
+	      script: |
+	        yarn
+	    - name: Install CocoaPods dependencies
+	      script: |
+	        cd ios && pod install
+	    - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+	      script: |
+	        keychain initialize
+	    - name: Fetch signing files
+	      script: |
+	        # For information about Codemagic CLI commands visit: https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/README.md
+	        # For details about the --type paramater below - https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/fetch-signing-files.md#--typeios_app_adhoc--ios_app_development--ios_app_inhouse--ios_app_store--mac_app_development--mac_app_direct--mac_app_store--mac_catalyst_app_development--mac_catalyst_app_direct--mac_catalyst_app_store--tvos_app_adhoc--tvos_app_development--tvos_app_inhouse--tvos_app_store
+	        app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create
+	    - name: Use system default keychain
+	      script: |
+	        keychain add-certificates
+	    - name: Increment build number
+	      script: |
+	        #!/bin/sh
+	        set -e
+	        set -x
+	        cd $CM_BUILD_DIR/ios
+	        # agvtool new-version -all $(($BUILD_NUMBER + 1))
+	        agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))
+	    - name: Set up code signing settings on Xcode project
+	      script: |
+	        xcode-project use-profiles --warn-only
+	    - name: Build ipa for distribution
+	      script: |
+	        xcode-project build-ipa --workspace "$CM_BUILD_DIR/ios/$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
+	  artifacts:
+	    - build/ios/ipa/*.ipa
+	    - /tmp/xcodebuild_logs/*.log
+	    - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+	    - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+	  publishing:
+	    # See the following link for details about email publishing - https://docs.codemagic.io/yaml-publishing/email
+	    email:
+	      recipients:
+	        - steve@smashcreative.com
+	      notify:
+	        success: true # To not receive a notification when a build succeeds
+	        failure: false # To not receive a notification when a build fails
+	    slack:
+	      # See the following link about how to connect your Slack account - https://docs.codemagic.io/yaml-publishing/slack
+	      channel: "#cara-loren-all"
+	      notify_on_build_start: true # To receive a notification when a build starts
+	      notify:
+	        success: true # To receive a notification when a build succeeds
+	        failure: false # To not receive a notification when a build fails
+	    app_store_connect:
+	      api_key: $APP_STORE_CONNECT_PRIVATE_KEY # Contents of the API key, can also reference environment variable such as $APP_STORE_CONNECT_PRIVATE_KEY
+	      key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
+	      issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
+	      submit_to_testflight: true # Optional boolean, defaults to false. Whether or not to submit the uploaded build to TestFlight to automatically enroll your build to beta testers.
+	      beta_groups:
+	        - Smash
+	      submit_to_app_store: false
+	      # release_type: MANUAL # Optional, defaults to MANUAL. Supported values: MANUAL, AFTER_APPROVAL or SCHEDULED
+	      # earliest_release_date: 2021-12-01T14:00:00+00:00 # Optional. Timezone-aware ISO8601 timestamp with hour precision when scheduling the release. This can be only used when release type is set to SCHEDULED. It cannot be set to a date in the past.
+	      # copyright: 2022 Smash Creative LLC # Optional. The name of the person or entity that owns the exclusive rights to your app, preceded by the year the rights were obtained.
+6e8cf5d2cfe13bbf0f7840b2bb3a2ca6|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|83|1|V|yaml
+	        submit_to_testflight: true # Optional boolean, defaults to false. Whether or not to submit the uploaded build to TestFlight to automatically enroll your build to beta testers.
+f3ff262bc50c50f3993a7626cdce9a60|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|1|1|V|yaml
+	workflows:
+	  react-native-ios:
+	    name: React Native iOS
+	    max_build_duration: 120
+	    instance_type: mac_mini
+	    environment:
+	      groups:
+	        - appstore_credentials # <-- (Includes APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_KEY_IDENTIFIER, APP_STORE_CONNECT_PRIVATE_KEY, CERTIFICATE_PRIVATE_KEY) - https://docs.codemagic.io/code-signing-yaml/signing-ios/
+	        - ios_config # <-- (Includes APP_STORE_APP_ID - Put the app id number here. This is found in App Store Connect > App > General > App Information)
+	      # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
+	      vars:
+	        XCODE_WORKSPACE: $XCODE_WORKSPACE # <-- Put the name of your Xcode workspace here
+	        XCODE_SCHEME: $XCODE_SCHEME # <-- Put the name of your Xcode scheme here
+	        BUNDLE_ID: $BUNDLE_ID # <-- Put your Bundle Id here e.g com.domain.myapp
+	      node: latest
+	      xcode: latest
+	      cocoapods: default
+	    triggering:
+	      events:
+	        - push
+	        - tag
+	        - pull_request
+	      branch_patterns:
+	        - pattern: develop
+	          include: true
+	          source: true
+	    scripts:
+	      - name: Install npm dependencies
+	        script: |
+	          yarn
+	      - name: Install CocoaPods dependencies
+	        script: |
+	          cd ios && pod install
+	      - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+	        script: |
+	          keychain initialize
+	      - name: Fetch signing files
+	        script: |
+	          # For information about Codemagic CLI commands visit: https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/README.md
+	          # For details about the --type paramater below - https://github.com/codemagic-ci-cd/cli-tools/blob/master/docs/app-store-connect/fetch-signing-files.md#--typeios_app_adhoc--ios_app_development--ios_app_inhouse--ios_app_store--mac_app_development--mac_app_direct--mac_app_store--mac_catalyst_app_development--mac_catalyst_app_direct--mac_catalyst_app_store--tvos_app_adhoc--tvos_app_development--tvos_app_inhouse--tvos_app_store
+	          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create
+	      - name: Use system default keychain
+	        script: |
+	          keychain add-certificates
+	      - name: Increment build number
+	        script: |
+	          #!/bin/sh
+	          set -e
+	          set -x
+	          cd $CM_BUILD_DIR/ios
+	          # agvtool new-version -all $(($BUILD_NUMBER + 1))
+	          agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APP_ID") + 1))
+	      - name: Set up code signing settings on Xcode project
+	        script: |
+	          xcode-project use-profiles --warn-only
+	      - name: Build ipa for distribution
+	        script: |
+	          xcode-project build-ipa --workspace "$CM_BUILD_DIR/ios/$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
+	    artifacts:
+	      - build/ios/ipa/*.ipa
+	      - /tmp/xcodebuild_logs/*.log
+	      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+	      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+	    publishing:
+	      # See the following link for details about email publishing - https://docs.codemagic.io/yaml-publishing/email
+	      email:
+	        recipients:
+	          - steve@smashcreative.com
+	        notify:
+	          success: true # To not receive a notification when a build succeeds
+	          failure: false # To not receive a notification when a build fails
+	      slack:
+	        # See the following link about how to connect your Slack account - https://docs.codemagic.io/yaml-publishing/slack
+	        channel: "#cara-loren-all"
+	        notify_on_build_start: true # To receive a notification when a build starts
+	        notify:
+	          success: true # To receive a notification when a build succeeds
+	          failure: false # To not receive a notification when a build fails
+	      app_store_connect:
+	        api_key: $APP_STORE_CONNECT_PRIVATE_KEY # Contents of the API key, can also reference environment variable such as $APP_STORE_CONNECT_PRIVATE_KEY
+	        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER # Alphanumeric value that identifies the API key, can also reference environment variable such as $APP_STORE_CONNECT_KEY_IDENTIFIER
+	        issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key, can also reference environment variable such as $APP_STORE_CONNECT_ISSUER_ID
+fa2cf1b18febf870570950a242a89ab9|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/index.js|26|15|V|javascript
+	  console.log(message)
+dd50027ba203a04bafd3725528eb7138|file:///Users/steve/Code/apps/burn-it/app/env.js|22|18|V|javascript
+	console.log(strapi)
+b8f5a1b277893de15abde646e12f9694|file:///Users/steve/Code/apps/burn-it/app/env.js|23|1|V|javascript
+	console.log("strapi", strapi);
+	console.log("revenueCat", revenueCat);
+	console.log("config")
+fa535ffb25e1fd20341652f9be21e06e|file:///Users/steve/Code/apps/burn-it/app/env.js|15|9|v|javascript
+	Config
+9d43a0756fca2babd41996e599b46e1f|file:///Users/steve/Code/apps/burn-it/app/env.js|1|22|V|javascript
+	import Config from "react-native-config";
+986715817b43954fcfb81db4915e139a|file:///Users/steve/Code/apps/burn-it/app/ios/CLFit/AppDelegate.m|59|1|V|objc
+	  // Place this code after "[self.window makeKeyAndVisible]" and before "return YES;"
+4447d93d2a9b1a1a081a6277cbb9d5f3|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|19|21|V|javascript
+	  console.log(found);
+94c01522d02d3da7a1c7a199cbf1254d|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|20|23|V|javascript
+	  console.log(created);
+7481823c85d2dff7a18a72dc9c04fed8|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/providers/google.js|12|34|V|javascript
+	    console.log(googleCredential);
+b1c89cdbda8bd48487158ac0ef55d334|file:///Users/steve/Code/apps/burn-it/app/.env.production|2|1|V|
+	$(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AppAuth" "${PODS_ROOT}/Headers/Public/BoringSSL-GRPC" "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" "${PODS_ROOT}/Headers/Public/DoubleConversion" "${PODS_ROOT}/Headers/Public/FBLazyVector" "${PODS_ROOT}/Headers/Public/FBReactNativeSpec" "${PODS_ROOT}/Headers/Public/Firebase" "${PODS_ROOT}/Headers/Public/FirebaseAuth" "${PODS_ROOT}/Headers/Public/FirebaseCore" "${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics" "${PODS_ROOT}/Headers/Public/FirebaseFirestore" "${PODS_ROOT}/Headers/Public/FirebaseInstallations" "${PODS_ROOT}/Headers/Public/FirebaseMessaging" "${PODS_ROOT}/Headers/Public/FirebaseStorage" "${PODS_ROOT}/Headers/Public/Flipper" "${PODS_ROOT}/Headers/Public/Flipper-Fmt" "${PODS_ROOT}/Headers/Public/Flipper-Folly" "${PODS_ROOT}/Headers/Public/Flipper-Glog" "${PODS_ROOT}/Headers/Public/Flipper-PeerTalk" "${PODS_ROOT}/Headers/Public/Flipper-RSocket" "${PODS_ROOT}/Headers/Public/FlipperKit" "${PODS_ROOT}/Headers/Public/GTMAppAuth" "${PODS_ROOT}/Headers/Public/GTMSessionFetcher" "${PODS_ROOT}/Headers/Public/GoogleDataTransport" "${PODS_ROOT}/Headers/Public/GoogleSignIn" "${PODS_ROOT}/Headers/Public/GoogleUtilities" "${PODS_ROOT}/Headers/Public/PromisesObjC" "${PODS_ROOT}/Headers/Public/Purchases" "${PODS_ROOT}/Headers/Public/PurchasesHybridCommon" "${PODS_ROOT}/Headers/Public/RCT-Folly" "${PODS_ROOT}/Headers/Public/RCTRequired" "${PODS_ROOT}/Headers/Public/RCTTypeSafety" "${PODS_ROOT}/Headers/Public/RNAppleAuthentication" "${PODS_ROOT}/Headers/Public/RNCAsyncStorage" "${PODS_ROOT}/Headers/Public/RNCMaskedView" "${PODS_ROOT}/Headers/Public/RNFBApp" "${PODS_ROOT}/Headers/Public/RNFBAuth" "${PODS_ROOT}/Headers/Public/RNFBFirestore" "${PODS_ROOT}/Headers/Public/RNFBMessaging" "${PODS_ROOT}/Headers/Public/RNFBStorage" "${PODS_ROOT}/Headers/Public/RNFS" "${PODS_ROOT}/Headers/Public/RNFastImage" "${PODS_ROOT}/Headers/Public/RNGestureHandler" "${PODS_ROOT}/Headers/Public/RNGoogleSignin" "${PODS_ROOT}/Headers/Public/RNImageCropPicker" "${PODS_ROOT}/Headers/Public/RNImageMarker" "${PODS_ROOT}/Headers/Public/RNPurchases" "${PODS_ROOT}/Headers/Public/RNReanimated" "${PODS_ROOT}/Headers/Public/RNSVG" "${PODS_ROOT}/Headers/Public/RNScreens" "${PODS_ROOT}/Headers/Public/RNSegmentedPicker" "${PODS_ROOT}/Headers/Public/RNShare" "${PODS_ROOT}/Headers/Public/RNVectorIcons" "${PODS_ROOT}/Headers/Public/React-Core" "${PODS_ROOT}/Headers/Public/React-RCTBlob" "${PODS_ROOT}/Headers/Public/React-RCTText" "${PODS_ROOT}/Headers/Public/React-callinvoker" "${PODS_ROOT}/Headers/Public/React-cxxreact" "${PODS_ROOT}/Headers/Public/React-hermes" "${PODS_ROOT}/Headers/Public/React-jsi" "${PODS_ROOT}/Headers/Public/React-jsiexecutor" "${PODS_ROOT}/Headers/Public/React-jsinspector" "${PODS_ROOT}/Headers/Public/React-logger" "${PODS_ROOT}/Headers/Public/React-perflogger" "${PODS_ROOT}/Headers/Public/React-runtimeexecutor" "${PODS_ROOT}/Headers/Public/ReactCommon" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder" "${PODS_ROOT}/Headers/Public/SocketRocket" "${PODS_ROOT}/Headers/Public/TOCropViewController" "${PODS_ROOT}/Headers/Public/Yoga" "${PODS_ROOT}/Headers/Public/YogaKit" "${PODS_ROOT}/Headers/Public/abseil" "${PODS_ROOT}/Headers/Public/fmt" "${PODS_ROOT}/Headers/Public/gRPC-C++" "${PODS_ROOT}/Headers/Public/gRPC-Core" "${PODS_ROOT}/Headers/Public/glog" "${PODS_ROOT}/Headers/Public/hermes-engine" "${PODS_ROOT}/Headers/Public/leveldb-library" "${PODS_ROOT}/Headers/Public/libevent" "${PODS_ROOT}/Headers/Public/libwebp" "${PODS_ROOT}/Headers/Public/nanopb" "${PODS_ROOT}/Headers/Public/react-native-config" "${PODS_ROOT}/Headers/Public/react-native-in-app-review" "${PODS_ROOT}/Headers/Public/react-native-safe-area-context" "${PODS_ROOT}/Headers/Public/react-native-video" "${PODS_ROOT}/Headers/Public/react-native-view-shot" "$(PODS_ROOT)/DoubleConversion" $(inherited) ${PODS_ROOT}/Firebase/CoreOnly/Sources "$(PODS_ROOT)/boost" "$(PODS_ROOT)/boost" "$(PODS_ROOT)/boost-for-react-native" "$(PODS_ROOT)/glog" "$(PODS_ROOT)/RCT-Folly" "${PODS_ROOT}/Headers/Public/React-hermes" "${PODS_ROOT}/Headers/Public/hermes-engine" "$(PODS_ROOT)/Headers/Private/React-Core" "$(PODS_TARGET_SRCROOT)/include/" "$(SRCROOT)/../node_modules/react-native-config/ios/**"
+c7b89975fba17b1372a4723ca727e630|file:///Users/steve/Code/apps/burn-it/app/android/settings.gradle|10|1|V|groovy
+	include ':react-native-config'
+3dd075d7d57ab3d16dfd75f6fff4e9a3|file:///Users/steve/Code/apps/burn-it/app/android/settings.gradle|11|9|v|groovy
+	:react-native-config
+b1a6071155fe04e6417912c1494f45a4|file:///Users/steve/Code/apps/burn-it/app/android/app/src/main/java/com/clfit/MainApplication.java|32|1|V|java
+	          // packages.add(new MyReactNativePackage());
+6b030ffa021c25bd9437ec3a47ca5be1|file:///Users/steve/Code/apps/burn-it/app/android/app/src/main/java/com/clfit/MainApplication.java|33|24|v|java
+	new MyReactNativePackage()
+e8c8223913fa7413072ed6cabb529192|file:///Users/steve/Code/apps/burn-it/app/android/app/build.gradle|93|27|V|groovy
+	   debug: ".env.development"
+dcfe87c41ebfd2058bffdf21810fe4f9|file:///Users/steve/Code/apps/burn-it/app/ios/Podfile|35|1|V|ruby
+	    'Debug' => '$(PODS_ROOT)/../../.env.debug'
+a603905470e2a5b8c13e96b579ef0dba|file:///Users/steve/Code/apps/burn-it/app/ios/Podfile|36|6|v|ruby
+	Debug
+ad42f6697b035b7580e4fef93be20b4d|file:///Users/steve/Code/apps/burn-it/app/ios/Podfile|36|43|v|ruby
+	debug
+7ee98a7c6bb3145594b8fb16a5111363|file:///Users/steve/Code/apps/burn-it/app/ios/Podfile|46|7|V|ruby
+	    # __apply_Xcode_12_5_M1_post_install_workaround(installer)
+acc22351b276d801465405755f28c0e5|file:///Users/steve/Code/apps/burn-it/app/env.js|23|1|V|javascript
+	console.log("strapi", strapi);
+2e606bf771b1d74361d6a321bc35282d|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/admission/sign-in-methods/index.js|21|1|V|javascript
+	              <WithAppleButton />
+c5f738a211ed6a0b721d55f5006101e6|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/admission/sign-in-methods/index.js|7|1|V|javascript
+	  WithAppleButton,
+6aaeb609dacbc43ac8f620eb1098597b|file:///Users/steve/Code/apps/burn-it/app/ios/Podfile|42|28|v|ruby
+	targest
+35862b1a9c03e3625b8ef33c992c475f|file:///Users/steve/Code/apps/burn-it/app/android/app/build.gradle|88|1|V|groovy
+	   productiondebug: ".env.production",
+	   productionrelease: ".env.production",
+899028e09d1c7cb17ea4b78716a424a2|file:///Users/steve/Code/apps/burn-it/app/android/app/build.gradle|89|1|V|groovy
+	   developmentrelease: ".env.development",
+	   developmentdebug: ".env.development",
+	   stagingrelease: ".env.staging",
+	   stagingdebug: ".env.staging",
+9ae2e90704ccea843aaa2eed85d43ce2|file:///Users/steve/Code/apps/burn-it/app/package.json|9|58|v|json
+	--variant=stagingrelease
+826443bbf76d566280446fb2b26b8107|file:///Users/steve/Code/apps/burn-it/app/package.json|10|45|v|json
+	 --variant=developmentdebug
+5777a7ec8826b86250b83e7b317bd5ac|file:///Users/steve/Code/apps/burn-it/app/package.json|11|53|v|json
+	 --variant=developmentrelease
+d36855e8afddf224c06eddac1f87ad09|file:///Users/steve/Code/apps/burn-it/app/package.json|12|46|v|json
+	 --variant=productiondebug
+d6b806983ec34795e71fc7d94811e479|file:///Users/steve/Code/apps/burn-it/app/package.json|13|54|v|json
+	 --variant=productionrelease
+e5f2857e482bc9069430f58da00c79bc|file:///Users/steve/Code/apps/burn-it/app/package.json|8|49|v|json
+	 --variant=stagingdebug
+02f6d0f7992e2e584c6ca22b0d9b1d04|file:///Users/steve/Code/apps/burn-it/app/package.json|9|25|V|json
+	    "android:staging-release": "react-native run-android ",
+d2dc2f56d012711d8f6e23f168361368|file:///Users/steve/Code/apps/burn-it/app/package.json|8|25|V|json
+	    "android:staging": "react-native run-android",
+db71b9559d47e31fd6e897a66559f182|file:///Users/steve/Code/apps/burn-it/app/package.json|9|25|V|json
+	    "android:dev-release": "react-native run-android",
+86bb4ac38c9dbfae6a224493fbcdb327|file:///Users/steve/Code/apps/burn-it/app/package.json|10|25|V|json
+	    "android:prod-release": "react-native run-android",
+816b54bf5173a1d6c47fa919cf818f3d|file:///Users/steve/Code/apps/burn-it/app/package.json|13|25|V|json
+	    "ios:staging": "react-native run-ios --scheme 'TestAppStaging'",
+d963c7ed897334e76dead0af5eac0212|file:///Users/steve/Code/apps/burn-it/app/package.json|11|37|v|json
+	 --scheme 'TestAppDevelopment'
+f2817b6d82ebf3583c3b492345ccebcd|file:///Users/steve/Code/apps/burn-it/app/package.json|12|38|v|json
+	 --scheme 'TestAppProduction'
+b257527a1d62e798305e9362d21fe34b|file:///Users/steve/Code/apps/burn-it/app/.env.development|1|1|V|
+	STRAPI_BASE_URL=http://192.168.4.36:1337
+a126841ae809b7a533df8da800f63e36|file:///Users/steve/Code/apps/burn-it/app/.env.development|2|1|V|
+	REVENUE_CAT_API_KEY_IOS=appl_CCqtmDqAixOjduVWuGcbNhcYfCp
+	REVENUE_CAT_API_KEY_ANDROID=goog_bIbiSTAXVQgVIhomyetagInrEvC
+5c18ef72771564b7f43c497dc507aeab|file:///Users/steve/Code/apps/burn-it/app/components/context/WorkoutContext/hooks/useQuickWorkouts.js|2|30|v|javascript
 	context
-506e876a5afb99b858b61dbdbf166e0f|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|4|1|V|javascript
-	import uuid from "react-native-uuid";
-61c6a128c09936b9a7fd06dd51903a2b|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramList.js|28|16|v|javascript
-	uuid.v4()
-be09793371570faf2f9b530b828241c2|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|16|5|v|javascript
-	getPrograms
-44e52267cb7b6efb7f153949f18c36ca|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|9|37|V|javascript
-	  const [programs, setPrograms] = useState();
-b4541d05866eea9a8a71438002ea8864|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/index.js|11|8|V|javascript
-	  const 
-41a676be1e9d8da98fe9f86e39fe3b12|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|11|1|V|javascript
-	  const fetchPrograms = useCallback(async () => {
-	    setPrograms(await getPrograms());
-	  });
+27d201afbc8e0ebb3e399a0d1fbb8c98|file:///Users/steve/Code/apps/burn-it/app/components/styled/containers.js|51|1|V|javascript
+	export const ImageBackground = styled(ImageBackgroundGlobal)`
+	  overflow: hidden;
+	  ${props}
+	  ${borderProps}
+	`;
+3810d1d0a22fd6671db9441e94a60e91|file:///Users/steve/Code/apps/burn-it/app/components/styled/containers.js|44|1|V|javascript
+	// // overflow: hidden, added to display border radius
+	// export const ImageBackground = styled.ImageBackground`
+	//   overflow: hidden;
+	//   ${props}
+	//   ${borderProps}
+	// `;
+dd1fcdef16638dc9c2e826e7ee8f233e|file:///Users/steve/Code/apps/burn-it/app/components/styled/containers.js|4|1|V|javascript
+	import { ImageBackground as ImageBackgroundGlobal } from "../global/ImageBackground";
+846d6b6be41dc79b482c4b3bcc085915|file:///Users/steve/Code/apps/burn-it/app/components/screen/workout/get-ready/index.js|5|15|v|javascript
+	ImageBackground
+a230ff7621a7735cd4287c4a53cb59e2|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/select/components/CallToAction.js|6|18|V|javascript
+	  ImageBackground,
+bb5dc65fc896f3ae9d511e759e96c4d8|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/profile/index.js|8|1|V|javascript
+	import moment from "moment";
+673d4f049f0db3d188488f447477968a|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/profile/index.js|38|16|v|javascript
+	moment
+090cac9e1be9f0849f9cdde4df8f25d4|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/providers/google.js|9|25|V|javascript
+	    console.log(idToken);
+d755e8f1bb82e8b9804bb285074b9a11|file:///Users/steve/Code/apps/burn-it/app/services/firebase/auth/utils.js|29|24|V|javascript
+	  console.log(authUser);
+6611628d8396b62331c34a023ef27881|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|38|26|V|javascript
+	      console.log(fbUser);
+e987f750628117a26877323db7f2849e|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|17|23|V|javascript
+	  console.log("works");
+a7af4b0d7b1eba1405aa70bf2d73dec9|file:///Users/steve/Code/apps/burn-it/app/services/cms/axios.js|6|33|v|javascript
+	baseUrlLocal
+e0fa4d52c2fff0ec3f39d7d3a3263923|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|18|1|V|javascript
+	  console.log("found",found)
+6cfe61694ee1bb13ae719d47c2f80b7a|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|21|16|v|javascript
+	found
+ba5e1204b1da45323cf73b7248ff2a76|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|73|31|v|javascript
+	identifyUser
+d16cb1440d52ff1e278bea4c465341cf|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|73|19|v|javascript
+	setLoading
+b801a8594e1cf726f670c0410adb4570|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|73|7|v|javascript
+	mutateUser
+6856eee4be07c4f868b870bc420e3299|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|64|34|v|javascript
+	useCallback
+aef0006f8e530582063692be5bee4ad1|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|80|22|V|javascript
+	    console.log("works");
+dd15818209d000abf4957555690bf086|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|67|5|V|javascript
+	      console.log(user);
+756001b2ee71984edd1e22323bbd695e|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|66|24|V|javascript
+	      console.log("works");
+8311f2902442a0479b9db46943b75dec|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|66|26|v|javascript
+	findOrCreateUser
+82e1d41dfaf5995e7b0fe8bfcd2e6c8d|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|18|20|V|javascript
+	  console.log("found", found);
+ae838b72552f27a070134056117b4f20|file:///Users/steve/Code/apps/burn-it/app/services/cms/user.js|20|20|V|javascript
+	  console.log("created", created);
+8584c30e1adc0b60e4ded2b23626f2eb|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/WorkoutSelection.js|48|11|V|javascript
+	  if (!firs)
+f974b232ecf022e94f49551d3b92ac3d|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|22|15|V|javascript
+	        options
+db2bf4b36a9a8e76409324df020dc0cd|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|3|23|v|javascript
+	FBCommunityWebView
+94bb51b3d036b6f0beab19e22e712aa3|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|2|10|v|javascript
+	StyleSheet
+9dffbf69ffba8bc38bc4e01abf4b1675|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|2|12|v|javascript
+	Text
+42bfb7f15253b5a66165c10b84d2457b|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|2|12|V|javascript
+	import { , , View } from 'react-native';
+3a240ff399599fd5f0ebc01b2dd0ae23|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|1|13|v|javascript
+	, { Component } 
+8fe5a459b8cf7a79462d079c3b9164ba|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|4|6|V|javascript
+	// ...
+a2c3e7f49eaca07f8b6a9663cf156880|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|4|13|V|javascript
+	class MyWebComponent extends Component {
+72bc04716f22f7be6390002f09ef17c7|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|4|12|V|javascript
+	  render() {
+2521111ecd754375722a5e78a43ddab1|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|5|35|v|javascript
+	https://reactnative.dev/
+a985457cb81ad2ff1f8c563903d8dc5c|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|9|1|V|javascript
+	    <WebView
+	      source={{ uri: "https://www.facebook.com/groups/519118816282433/about" }}
+	    />
+e93084d8d69cfe8506576af24a807f4d|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|2|27|v|javascript
+	@react-navigation/native
+ddaad4f68136501965d1d8246a2d80a6|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|9|1|V|javascript
+	      <Screen
+	        name="My Program"
+	        component={ProgramHome}
+	        options={useBurnItHeader}
+f8f202d9ecd25b89bdff58a789676921|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|9|1|V|javascript
+	      <Screen
+	        name="My Program"
+	        component={ProgramHome}
+	        options={useBurnItHeader}
+	      />
+1e59b549a658a7aca152d82ad1520901|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|19|1|V|javascript
+	      <Screen
+	        name="Community"
+	        component={FacebookCommunityWebView}
+	        options={{ headerShown: false }}
+	      />
+022696011c5bf94398bcbac45d73e465|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|14|1|V|javascript
+	      <Screen
+	        name="Settings"
+	        component={SettingsNavigator}
+	        options={{ headerShown: false }}
+	      />
+567b714f18f0085f5c43cd1b208308fc|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|38|33|v|javascript
+	My Program
+f4c54a49c94519c826e6fe648338d960|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|38|9|v|javascript
+	headerShown
+7d61983c34edc2a8cabbea71c4732f62|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|38|39|v|javascript
+	Community
+e7ced22fa7b3b7f565ef5f0fbe2f2007|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|38|9|V|javascript
+	        headerShown: route !== "Community",
+07796e0f761e482887f828d87f1f9975|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|12|19|v|javascript
+	 headerShown: true 
+dbc3bdc643fd2a2b166d4b1ba4c170ae|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|22|39|V|javascript
+	        options={{ headerShown: false }}
+f632d3b71df98afe7bcb4245026ed4bf|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/profile/index.js|9|35|V|javascript
+	import "dayjs/plugin/advancedFormat"
+bb6c64beeff4135af6b714b5cfb41178|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/profile/index.js|10|13|V|javascript
+	day().format()
+a24bcf2198b1b13ad985304483f7f324|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/profile/index.js|10|12|v|javascript
+	plugin
+0df1cd35dfaa7f1eff2b6f8026a05fd2|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/profile/index.js|8|8|v|javascript
+	* as advancedFormat 
+683a83af1cfe1fcc02d49572845cd1b0|file:///Users/steve/Code/apps/burn-it/app/components/screen/user/profile/index.js|8|8|v|javascript
+	advancedFormat
+ef03105f559dcaf6e43831f2881bc8de|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|68|28|V|javascript
+	      justifySelf="flex-end"
+486f19953fba2a128182aa2a217cf21d|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|65|60|v|javascript
+	 ml={30}
+b8eacad736dd5ed1bcb36e2f8d50a883|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|50|1|V|javascript
+	            </Container>
+	            <Arrow />
+f6a307e9acdf2c2b7879e15907431651|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|52|15|V|javascript
+	            <Arrow />
+bc6c65e9797853b38a2069d64e9acb41|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|49|23|V|javascript
+	            <Container>
+788ed616c11a0441ae39218e8cd1f9e0|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|50|23|V|javascript
+	            </Container>
+2fa42fb9ed457307fb932d309246ecd3|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|56|11|V|javascript
+	        <Arrow />
+99b562c87b5c268fce70cdbf541f28c0|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/ProgramSelection.js|53|35|v|javascript
+	top={top}
+05a9518f3bc10cada24169a3e75f9099|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|8|28|v|javascript
+	 initialRouteName: "My Program" 
+94f9ce061c50ac472ea882242440be8d|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|8|11|v|javascript
+	 screenOptions={{}}
+0e6bf3c7ec4c633b9e445df940f77912|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|20|16|V|javascript
+	      options={}
+709cdd9d2c8e21f5110675ada4750935|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|21|9|V|javascript
+	        initialRouteName: "My Program",
+03937134cedab9078be39a77ee3a48a0|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|8|6|v|javascript
+	Group
+4c96d5aff198ed8a3bc978a4468130fe|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|24|8|v|javascript
+	roup
+5d4aa613211d78e720215cc50ad916b8|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|37|22|V|javascript
+	      initialRouteName
+c5b7d802e758cb2e4afe94ebb300d731|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|37|25|V|javascript
+	      initialRouteName="My Program"
+45328d5151d0500a83706e05db35c0f7|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/components/Tabs.js|8|11|v|javascript
+	 initialRouteName="My Program"
+30d00abb50e1d65211f461c25cc32ef1|file:///Users/steve/Code/apps/burn-it/app/components/navigation/HomeNavigator/index.js|38|18|V|javascript
+	      lazy={false}
+08f917108557dda9124c838e76f85f95|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|2|29|v|javascript
+	ActivityIndicator
+0e7278cda02a9c0446dcc75a4df34eb2|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|11|29|v|javascript
+	Container
+93964bbb93e0c7dcced2660b82cc4059|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|10|1|V|javascript
+	      startInLoadingState={true}
+	      renderLoading={() => (
+	        <Center position="absolute" f={1}>
+	          <ActivityIndicator />
+	        </Center>
+	      )}
+684bbc158707761fd38bc541876ffcfb|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|4|32|V|javascript
+	import { Center } from "styled";
+851624ada32277c03d3f6e880378f283|file:///Users/steve/Code/apps/burn-it/app/components/screen/FacebookCommunityWebView.js|2|1|V|javascript
+	import { ActivityIndicator } from "react-native";
+78e731027d8fd50ed642340b7c9a63b3|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|60|19|v|javascript
+	message
+4a9581a30e1facf3d57965487f9c3a8a|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|31|20|V|javascript
+	      console.log(error);
+93bc3542b7bc6d2bc3de6fe6c8a5a7d8|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|13|1|V|javascript
+	  signOut as signOutOfCMS,
+89cf44461b804cf2c904f7e7faed0145|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|57|1|V|javascript
+	      await signOutOfCMS();
+b92071d61c88498171928745ca53078b|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|1|10|v|javascript
+	Alert
+796d7327c43be82c5481596f938526fd|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|19|10|V|javascript
+	    console.log("Permission for Notifications Granted");
+2c72e4b91b213be39fdbfb28222360c7|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|21|5|V|javascript
+	  } else console.log("Failed", "Permission for Notifications Denied");
+f5948377898b7d9946a1119bdb803ad6|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|19|2|V|javascript
+	  if (token) {
+ec727000c2c927bd51efe19065d0d861|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|19|2|V|javascript
+	    return token;
+c34d93d23f26e0d7a3b652b4b8d69315|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|18|3|v|javascript
+	const token = await 
+2b0513850fa1e5c7ebc853f2df6af7ca|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|14|10|v|javascript
+	await
+81327dcd9d984f682da440f9919d662c|file:///Users/steve/Code/apps/burn-it/app/services/firebase/messaging/index.js|21|5|V|javascript
+	  return messaging().getToken();
+312a3a0d88114343d364ade33b31bac1|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/WorkoutSelection.js|36|1|V|javascript
+	    await update({ isNew: false });
+a94c2a1161e2a2281afbc513c263b84c|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/WorkoutSelection.js|38|20|v|javascript
+	isNew
+b50edd3d3d7d58f9f6243a167b0cb89e|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/index.js|18|1|V|javascript
+	  const refreshMessagingToken = useCallback(async () => {
+	    const token = await getMessagingToken();
+	    if (token)
+	      await updaters.update({ fcmToken: token, fcmTokenCreatedAt: Date.now() });
+	  }, [updaters]);
 	
 	  useEffect(() => {
-	    fetchPrograms();
+	    refreshMessagingToken();
+	    handleNotifications();
 	  }, []);
-03271eef487b1d4004adc642ca862a06|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|4|45|v|javascript
+fbcdcb387bf9d4a17ffb514cfad2309c|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useNotifications.js|5|13|v|javascript
+	updaters.
+6162b99236c754b4a6f0f0e75af9257c|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useNotifications.js|6|7|v|javascript
+	updaters
+2ca8aeeae92234d5d6867d1b22a0c339|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/index.js|2|1|V|javascript
+	import { getMessagingToken, handleNotifications } from "services/firebase";
+03271eef487b1d4004adc642ca862a06|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/index.js|1|17|v|javascript
 	useEffect
-77754022e17e0664efd78aea83fbeae2|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|30|1|V|javascript
-	    programs,
-f52965b09eb0e7177de9c91452d1bfc8|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|31|1|V|javascript
-	    setActive,
-8733a657bdb1e3de4ccf172217b7aa4c|file:///Users/steve/Code/apps/native/burn-it/components/context/WorkoutContext/hooks/useProgram.js|30|5|V|javascript
-	    confirmSelected,
-b85ec314bf443b797ef8a66b3b03f8a4|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramCard.js|42|21|v|javascript
-	duration
-89ac60251581c7f3dc09421b0ad1668e|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramCard.js|44|6|v|javascript
-	durationInWeeks
-ab01efebcfd156ed5fce50292eab2749|file:///Users/steve/Code/apps/native/burn-it/components/screen/program/select/components/ProgramCard.js|44|33|v|javascript
-	 weeks
-80ce1062ed14a390ddbafc8d0a6e98aa|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|7|1|V|javascript
-	      populate: [
-	        "workouts",
-	        "workouts.workout",
-	        "workouts.workout.circuitGroups",
-	        "workouts.workout.circuitGroups.circuits",
-	        "workouts.workout.circuitGroups.circuits.circuit",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.intensityLevels.format",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment",
-	        "workouts.workout.circuitGroups.circuits.circuit.exercises.exercise.equipment.items",
-	      ],
-ca108864b807a69843f3fed8ef70f4bc|file:///Users/steve/Code/apps/native/burn-it/services/cms/program.js|19|1|V|javascript
-	  const query = qs.stringify({populate}, { encodeValuesOnly: true });
-f771b25f21262c2c639018f0e602c77d|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/index.js|22|4|V|javascript
-	  console.log(user);
-39939f2a67500edb46f99dff7d9576b5|file:///Users/steve/Code/apps/native/burn-it/components/context/UserContext/index.js|6|34|V|javascript
-	  useFirebaseStateChangeListeners,
-eabf2836f310fcfa554ba5145a3d2584|file:///Users/steve/.dotfiles/nvim/plugs/tools/nerdtree.vim|9|1|V|vim
-	" nnoremap <expr> <C-n> g:NERDTree.IsOpen() ? ':NERDTreeClose<CR>' : @% == '' ? ':NERDTree<CR>' : ':NERDTreeFind<CR>'
-5fd64a9253ddd52b932207c6905e43f8|file:///Users/steve/.dotfiles/nvim/plugs/tools/nerdtree.vim|10|2|V|vim
-	nnoremap <expr> <C-n> g:NERDTree.IsOpen() ? ':NERDTreeClose<CR>' :  ':NERDTree<CR>'
-d394af789ecc1b747e29159262bbde0a|file:///Users/steve/.dotfiles/nvim/plugs/tools/nerdtree.vim|5|2|V|vim
-	" Plug 'scrooloose/nerdtree-project-plugin'
-f417ec0206ebad3dc94af329de18dc67|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|1|1|V|vim
-	Plug 'nvim-lua/plenary.nvim'
-3f40ded9ad8037cdb62a42881cbcec04|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|2|7|v|vim
-	nvim-lua/plenary.nvim
-6c9496fd921af0e2ed8253ac51dbc1c7|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|3|6|V|vim
-	Plug '
-439c71e4685e6d60d591d617cfbdeb27|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|5|10|v|vim
-	<leader>
-c444858e0aaeb727da73d2eae62321ad|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|7|11|v|vim
-	leader
-3c518507f1e041c8b71a7205a19c244f|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|19|3|V|vim
-	  -- ...
-e8568fa0aaf608a57129b3db432cc677|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|18|1|V|vim
-	require('telescope').setup{
-8d755cf597203212da3c1fd97cf340e3|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|5|1|V|vim
-	" nnoremap <C-p> <cmd>Telescope find_files<cr>
-	
-	nnoremap <C-p> <cmd>Telescope live_grep<cr>
-	" nnoremap <leader>fb <cmd>Telescope buffers<cr>
-	" nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-03642852229246e811003fef3ae3f48d|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|3|1|V|vim
-	" Find files using Telescope command-line sugar.
-27b414485e52b13c836ccce41f458a44|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|26|8|v|vim
-	picker_name
-be2aa3dbf063b7d16737c3f1ba137548|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|27|18|V|vim
-	    --   picker_config_key = value,
-e6e82268625ca78128c68017bb786854|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|5|65|v|vim
-	require('telescope.themes').get_dropdown({})
-ad973c252653a47144b79403cfb0668b|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|27|18|v|vim
-	dropdown
-bf1156246929ac64916ebdb4ef15b698|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|10|1|V|vim
-	lua << EOF
-	require('telescope').setup{
-	  defaults = {
-	    -- Default configuration for telescope goes here:
-	    -- config_key = value,
-	    mappings = {
-	      i = {
-	        -- map actions.which_key to <C-h> (default: <C-/>)
-	        -- actions.which_key shows the mappings for your picker,
-	        -- e.g. git_{create, delete, ...}_branch for the git_branches picker
-	        ["<C-h>"] = "which_key"
-	      }
-	    }
-	  },
-	  pickers = {
-	    -- Default configuration for builtin pickers goes here:
-	    find_files = {
-	        theme = "dropdown"
-	    --   ...
-	    -- }
-	    -- Now the picker_config_key will be applied every time you call this
-	    -- builtin picker
-	  },
-	  extensions = {
-	    -- Your extension configuration goes here:
-	    -- extension_name = {
-	    --   extension_config_key = value,
-	    -- }
-	    -- please take a look at the readme of the extension you want to configure
-	  }
-	}
-	EOF
-5b636d7937054c695a725c7ee4efc22e|file:///Users/steve/.dotfiles/nvim/config/tree-sitter.vim|1|1|V|vim
-	lua <<EOF
-71666b7488f36495b48190411d354a3f|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|11|1|V|vim
-	lua << EOF
-a561e26ca276cab1d5512f881683e39c|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|11|1|V|vim
-	require('telescope').setup {
-	  defaults = {
-	    -- Default configuration for telescope goes here:
-	    -- config_key = value,
-	    mappings = {
-	      i = {
-	        -- map actions.which_key to <C-h> (default: <C-/>)
-	        -- actions.which_key shows the mappings for your picker,
-	        -- e.g. git_{create, delete, ...}_branch for the git_branches picker
-	        ["<C-h>"] = "which_key"
-	      }
-	    }
-	  },
-	  pickers = {
-	    -- Default configuration for builtin pickers goes here:
-	    find_files = {
-	        theme = "dropdown"
-	    --   ...
-	    -- }
-	    -- Now the picker_config_key will be applied every time you call this
-	    -- builtin picker
-	  },
-	  extensions = {
-	    -- Your extension configuration goes here:
-	    -- extension_name = {
-	    --   extension_config_key = value,
-	    -- }
-	    -- please take a look at the readme of the extension you want to configure
-	  }
-	}
-7a9f81da5608a091c1dc075cac0daeab|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|13|10|V|vim
-	    -- ...
-53ec55c13dc376e379627d38e9b0fad0|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|19|1|V|vim
-	  extensions = {
-	  }
-fc8a45063dda8dde6f5bae7156cba55d|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|12|1|V|vim
-	  defaults = {
-	  },
-2b3b0948af7b32e23c691ba147d9db6b|file:///Users/steve/.dotfiles/nvim/plugs/searching/telescope.vim|10|1|V|vim
-	lua <<EOF
-	require('telescope').setup {
-	  pickers = {
-	    find_files = {
-	      theme = "dropdown"
-	    }
-	  }
-	}
-	EOF
-9352d07dd4d42ccca3e29c209bb349e3|file:///Users/steve/.dotfiles/nvim/config/telescope.vim|3|1|V|vim
-	  defaults = {
-	    layout_config = {
-	      vertical = { height = 0.5 }
-	    }
-	  },
-9fad6608ee930fb1cdca9c696772a0a0|file:///Users/steve/.dotfiles/nvim/config/telescope.vim|8|1|V|vim
-	extensions = {
-	  fzf = {
-	      \
-	      \ }
-	}
-e2c0063a5c37197849f9bf43450282dc|file:///Users/steve/.dotfiles/nvim/keymaps/general.vim|36|16|V|vim
-	nmap <leader>nc :edit ~/.dotfiles/nvim/coc-settings.json<cr>
-8452d5b348d596c59644cf17b511a244|file:///Users/steve/.dotfiles/nvim/keymaps/general.vim|35|16|V|vim
-	nmap <leader>ne :edit ~/.dotfiles/nvim/<cr>
-c8c79f6e5025d2e658b3e3c56b1a1489|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|2|1|V|vim
-	autocmd BufRead,BufNewFile *.conf setf json
-466deec76ecdf5fca6d38571f6324d54|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|3|41|v|vim
-	json
-a1565811ddd4c4da44ad32b95808268f|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|4|1|V|vim
-	autocmd BufRead,BufNewFile Podfile setf ruby
-4a25b996826623c4a3a4910f47f10c30|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|5|28|v|vim
-	Podfile
-3cdbdeb02a6f2deebec8ccec0bfdaca0|file:///Users/steve/.dotfiles/nvim/config/file-types.vim|3|1|V|vim
-	" set Podfile to read as ruby
-188d81cd31a81e0bb0ff4662f73cedd7|file:///Users/steve/.dotfiles/nvim/config/telescope.vim|2|1|V|vim
-	require('telescope').setup {
-	  pickers = {
-	    find_files = {
-	      theme = "dropdown"
-	    }
-	  }
-	}
+c1d640cbd172e1786d33046ca5738fe6|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/index.js|19|20|v|javascript
+	{ updateUser: updaters.update }
+f5166739ec8409592d1c3378aa636c17|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/WorkoutSelection.js|9|26|V|javascript
+	import { requestUserPermissionForNotifications } from "services/firebase";
+f8a45bccbacce51d6ed417df9bf0b6ef|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/WorkoutSelection.js|37|32|V|javascript
+	    if (token) await update({ fcmToken: token, fcmTokenCreatedAt: Date.now() });
+329b0fc9895e1f9480f95efc8e7f83d3|file:///Users/steve/Code/apps/burn-it/app/components/screen/program/tutorials/WorkoutSelection.js|36|4|v|javascript
+	 const token = 
+328381847e04733f6b33526697c4c950|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useNotifications.js|8|1|V|javascript
+	    await updateUser({ fcmToken: token, fcmTokenCreatedAt: Date.now() });
+1196f97020fdea6299650761502e63b1|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|101|23|V|yaml
+	        - pattern: develop
+0b7b7c419a384143382604cf97e8f068|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|97|13|V|yaml
+	        - tag
+008f7f34adb0293e5fd5ab2d69136f6d|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|97|22|V|yaml
+	        - pull_request
+b862c15ef4f76e66b6633c4c0826079d|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|97|7|V|yaml
+	      -
+5cd1539de720de02b4f60729df22e3a9|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|101|20|V|yaml
+	          source: dd
+42aefbae01d2dfd981f7da7d823d689e|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|101|11|v|yaml
+	target
