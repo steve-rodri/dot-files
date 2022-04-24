@@ -1,2 +1,0 @@
-" Sort motion - sort based on motion or text object
-Plug 'christoomey/vim-sort-motion'
