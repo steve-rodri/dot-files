@@ -1,0 +1,171 @@
+snippet for "For Loop" b
+for (let i = 0; i < ${1:arr}; i++) {
+
+}
+endsnippet
+
+snippet rfc "React Functional Component" b
+import React from 'react'
+
+const ${1: ComponentName} = () => {
+	return (
+		<div className="$1">
+
+		</div>
+	)
+}
+
+export default $1
+endsnippet
+
+snippet rii "React - Intialize Index.js" b
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from "./components/App";
+
+ReactDOM.render(<App />, document.getElementById("root"))
+endsnippet
+
+snippet rrii "React Router - Initialize Index.js"
+import React from "react";
+import { render } from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import App from "./components/App";
+
+const Root = () => (
+	<Router>
+		<App />
+	</Router>
+);
+
+render(<Root />, document.getElementById("root"));
+endsnippet
+
+snippet rcc "React Context Component"
+import { createContext } from "react"
+
+const ${1: Name}Context = createContext()
+
+export const $1ContextProvider = () => {
+	return (
+		<$1Context.Provider></$1Context.Provider>
+	)
+}
+
+export default $1Context
+endsnippet
+
+snippet log "console.log()"
+console.log(${1:message})
+endsnippet
+
+snippet eii "Express - Initialize index.js"
+const express = require("express");
+const app = express();
+const PORT = 4000;
+
+app.listen(PORT, console.log(`server running on ${PORT}`));
+endsnippet
+
+snippet eiim "Express - Mongo - Initialize index.js"
+const express = require("express");
+const mongoose = require("mongoose");
+const morgan = require("morgan");
+const app = express();
+
+mongoose.connect(
+	"mongodb://localhost:27017/${1:DB-name}",
+	{
+		useNewUrlParser: true,
+		useFindAndModify: false,
+		useCreateIndex: true,
+		useUnifiedTopology: true,
+	},
+	() => console.log("connected to MongoDB")
+);
+
+app.use(express.json());
+app.use(morgan("dev"));
+
+app.use((err, _, res) => {
+	console.log(err);
+	res.send({ error: err.message });
+});
+
+app.listen(${2:PORT}, () => console.log("server running on port $2"));
+endsnippet
+
+snippet ecr "Express - CRUD Routes"
+const { Router } = require("express");
+const ${1:Model} = require("../models/${2:model}");
+const router = Router();
+
+router
+	.route("/")
+	.get((_, res, next) => {
+		$1.find((err, $2) => {
+			if (err) {
+				res.status(500);
+				return next(err);
+			}
+			return res.status(200).send($2);
+		});
+	})
+	.post((req, res, next) => {
+		const new$1 = new $1(req.body);
+		new$1.save((err, saved$1) => {
+			if (err) {
+				res.status(500);
+				return next(err);
+			}
+			return res.status(201).send(saved$1);
+		});
+	});
+
+router
+	.route("/:id")
+	.get((req, res, next) => {
+		$1.findOne({ _id: req.params.id }, (err, $2) => {
+			if (err) {
+				res.status(500);
+				return next(err);
+			}
+			return res.status(200).send($2);
+		});
+	})
+	.delete((req, res, next) => {
+		$1.findOneAndDelete({ _id: req.params.id }, err => {
+			if (err) {
+				res.status(500);
+				return next(err);
+			}
+			return res.status(200).send("Successfully deleted $2");
+		});
+	})
+	.put((req, res, next) => {
+		$1.findOneAndUpdate(
+			{ _id: req.params.id },
+			req.body,
+			{ new: true },
+			(err, updated$1) => {
+				if (err) {
+					res.status(500);
+					return next(err);
+				}
+				return res.status(202).send(updated$1);
+			}
+		);
+	});
+
+module.exports = router;
+endsnippet
+
+snippet mm "Mongoose - Model"
+const { model, Schema } = require("mongoose");
+
+const ${1:name}Schema = new Schema({
+
+});
+
+module.exports = model("$1", $1Schema);
+endsnippet
