@@ -90,7 +90,6 @@ local m_opts = {
 local m_mappings = {
   a = { "<cmd>BookmarkAnnotate<cr>", "Annotate" },
   c = { "<cmd>BookmarkClear<cr>", "Clear" },
-  m = { "<cmd>BookmarkToggle<cr>", "Toggle" },
   h = { '<cmd>lua require("harpoon.mark").add_file()<cr>', "Harpoon" },
   j = { "<cmd>BookmarkNext<cr>", "Next" },
   k = { "<cmd>BookmarkPrev<cr>", "Prev" },
@@ -110,12 +109,11 @@ local mappings = {
   --   "Buffers",
   -- },
   ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
-  -- ["w"] = { "<cmd>w!<CR>", "Save" },
+  ["w"] = { "<cmd>w!<CR>", "Save" },
   ["h"] = { "<cmd>nohlsearch<CR>", "No HL" },
-  -- ["q"] = { "<cmd>q!<CR>", "Quit" },
   ["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
-  -- ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
   ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
+  ["q"] = { "<cmd>BDelete!<CR>", "Close Buffer" },
 
 -- :lua require'lir.float'.toggle()
   -- ["f"] = {
@@ -167,10 +165,7 @@ local mappings = {
     name = "Find",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
     c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
-    f = {
-      "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
-      "Find files",
-    },
+    f = { "<cmd>lua require('telescope.builtin').find_files()<cr>", "Find files" },
     t = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
     h = { "<cmd>Telescope help_tags<cr>", "Help" },
     i = { "<cmd>lua require('telescope').extensions.media_files.media_files()<cr>", "Media" },
@@ -278,6 +273,7 @@ local mappings = {
     ["2"] = { ":2ToggleTerm<cr>", "2" },
     ["3"] = { ":3ToggleTerm<cr>", "3" },
     ["4"] = { ":4ToggleTerm<cr>", "4" },
+    g = { "<cmd>lua _LAZYGIT_TOGGLE()<CR>", "Lazygit" },
     n = { "<cmd>lua _NODE_TOGGLE()<cr>", "Node" },
     u = { "<cmd>lua _NCDU_TOGGLE()<cr>", "NCDU" },
     t = { "<cmd>lua _HTOP_TOGGLE()<cr>", "Htop" },
