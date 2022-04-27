@@ -5,6 +5,7 @@ require "user.colorscheme"
 require "user.functions"
 require "user.symbol-outline"
 require "user.registers"
+require "user.plugins"
 
 require "plugins.editing-text"
 require "plugins.git"
