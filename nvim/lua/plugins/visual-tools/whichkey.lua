@@ -102,29 +102,19 @@ local m_mappings = {
 }
 
 local mappings = {
-  ["a"] = { "<cmd>Alpha<cr>", "Alpha" },
+  a = { "<cmd>Alpha<cr>", "Alpha" },
   b = { "<cmd>JABSOpen<cr>", "Buffers" },
-  -- ["b"] = {
-  --   "<cmd>lua require('telescope.builtin').buffers(require('telescope.themes').get_dropdown{previewer = false})<cr>",
-  --   "Buffers",
-  -- },
-  ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
-  ["w"] = { "<cmd>w!<CR>", "Save" },
-  ["h"] = { "<cmd>nohlsearch<CR>", "No HL" },
+  e = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
+  w = { "<cmd>w!<CR>", "Save" },
+  h = { "<cmd>nohlsearch<CR>", "No HL" },
   ["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
-  ["c"] = { ":Bdelete!<CR>", "Force Close Buffer" },
-  ["q"] = { ":Bdelete<CR>", "Close Buffer" },
-
--- :lua require'lir.float'.toggle()
-  -- ["f"] = {
-  --   "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
-  --   "Find files",
-  -- },
-  -- ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
-  ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
-  ["R"] = { '<cmd>lua require("renamer").rename()<cr>', "Rename" },
-  ["z"] = { "<cmd>ZenMode<cr>", "Zen" },
-  ["gy"] = "Link",
+  c = { ":Bdelete!<CR>", "Force Close Buffer" },
+  q = { ":Bdelete<CR>", "Close Buffer" },
+  P = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
+  R = { '<cmd>lua require("renamer").rename()<cr>', "Rename" },
+  z = { "<cmd>ZenMode<cr>", "Zen" },
+  dw = { "<cmd>StripWhitespace<cr>:w<cr>", "Delete Whitespace"},
+  gy = "Link",
 
   p = {
     name = "Packer",
