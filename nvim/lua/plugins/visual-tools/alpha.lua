@@ -3,7 +3,7 @@ if not status_ok then
   return
 end
 
-local icons = require "user.icons"
+local icons = require "plugins.visual-tools.icons"
 
 local dashboard = require "alpha.themes.dashboard"
 dashboard.section.header.val = {

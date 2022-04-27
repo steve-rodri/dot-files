@@ -112,8 +112,8 @@ local mappings = {
   ["w"] = { "<cmd>w!<CR>", "Save" },
   ["h"] = { "<cmd>nohlsearch<CR>", "No HL" },
   ["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
-  ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
-  ["q"] = { "<cmd>BDelete!<CR>", "Close Buffer" },
+  ["c"] = { ":Bdelete!<CR>", "Force Close Buffer" },
+  ["q"] = { ":Bdelete<CR>", "Close Buffer" },
 
 -- :lua require'lir.float'.toggle()
   -- ["f"] = {
@@ -252,11 +252,6 @@ local mappings = {
   },
 
   S = {
-    -- name = "Session",
-    -- s = { "<cmd>SaveSession<cr>", "Save" },
-    -- l = { "<cmd>LoadLastSession!<cr>", "Load Last" },
-    -- d = { "<cmd>LoadCurrentDirSession!<cr>", "Load Last Dir" },
-    -- f = { "<cmd>Telescope sessions save_current=false<cr>", "Find Session" },
     name = "SnipRun",
     c = { "<cmd>SnipClose<cr>", "Close" },
     f = { "<cmd>%SnipRun<cr>", "Run File" },
