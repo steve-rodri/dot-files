@@ -49,8 +49,22 @@ return packer.startup(function(use)
   use "Mephistophiles/surround.nvim"
   use "tpope/vim-repeat" -- Enhances the "." command
   use "folke/todo-comments.nvim" -- Highlight and search fro TODO, HACK, BUG
+  use "christoomey/vim-sort-motion" -- Sort motion - sort based on motion or text object
+  use "christoomey/vim-titlecase" -- Titlecase - operator for titlecasing over a motion or text object
+  use "ntpeters/vim-better-whitespace" -- Highlight trailing whitespace and provide command to kill
   -- use "unblevable/quick-scope"
   -- use "andymass/vim-matchup"
+
+  -- Text Objects
+  use 'kana/vim-textobj-user'
+  use 'kana/vim-textobj-line'
+  use 'kana/vim-textobj-indent'
+  use 'kana/vim-textobj-entire'
+  use 'beloglazov/vim-textobj-quotes'
+  use 'christoomey/vim-textobj-codeblock'
+
+  -- Games
+  use 'ThePrimeagen/vim-be-good'
 
   -- Visual Tools
   use "goolord/alpha-nvim" -- Dashboard
@@ -67,7 +81,7 @@ return packer.startup(function(use)
   use "nacro90/numb.nvim" -- Peeking the Line while entering a command :{number}
   use "norcalli/nvim-colorizer.lua" -- Color highlighter
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
-  use "lukas-reineke/indent-blankline.nvim" -- Adds lines to indents
+  -- use "lukas-reineke/indent-blankline.nvim" -- Adds lines to indents
   use "nyngwang/NeoZoom.lua" -- Zoom with <CR>
   use { "iamcco/markdown-preview.nvim", run = "cd app && yarn", ft = "markdown" }
   use "matbme/JABS.nvim"
