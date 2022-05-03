@@ -1,7 +1,3 @@
-e70c4df10ef0983b9c8c31bd06b2a2c3|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|62|7|v|javascript
-	return
-139646b54b40d6c95f39b1b3f1894553|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|62|30|v|javascript
-	sanitized
 64a6bac5b26427e17bc35c44b953bfdc|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|57|1|V|javascript
 	    await mutateUser(signOutOfServices);
 3fae4efcf19c5e09617e4855be616534|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useAdmission.js|66|22|v|javascript
@@ -1241,3 +1237,80 @@ b862c15ef4f76e66b6633c4c0826079d|file:///Users/steve/Code/apps/burn-it/app/codem
 	          source: dd
 42aefbae01d2dfd981f7da7d823d689e|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|101|11|v|yaml
 	target
+8fe7f809258b83b89e0f7ac834e836ef|file:///Users/steve/.dotfiles/nvim/plugs/tools/startify.vim|1|1|V|vim
+	Plug 'mhinz/vim-startify'
+	let g:startify_session_dir  = '~/.config/nvim/session'
+	let g:startify_session_autoload = 1
+	let g:startify_session_delete_buffers = 1
+	let g:startify_change_to_vcs_root = 1
+	let g:startify_fortune_use_unicode = 1
+	let g:startify_session_persistence = 1
+	let g:startify_enable_special = 0
+	let g:startify_files_number = 5
+	let g:startify_lists = [
+	  \ { 'type': 'files',     'header': ['Recent']     },
+	  \ { 'type': 'sessions',  'header': ['Session']    },
+	  \ { 'type': 'bookmarks', 'header': ['Bookmarks']  },
+	  \ ]
+	let g:startify_bookmarks = [
+	  \ '~/Documents/Development',
+	  \ { 't': '~/Documents/Development/tmp.nosync' },
+	  \ { 'd': '~/.dotfiles' },
+	  \ { 'v': '~/.dotfiles/nvim' },
+	  \ { 's': '~/.dotfiles/nvim/snips' },
+	  \ { 'x': '~/.dotfiles/nvim/plugs/tools/startify' },
+	  \ { 'y': '~/.dotfiles/yabai' },
+	  \ { 'z': '~/.dotfiles/zsh' },
+	  \ { 'a': '~/.dotfiles/alacritty/alacritty.yml' },
+	  \ { 'h': '~/.dotfiles/hammerspoon/keyboard' },
+	  \ ]
+	let g:ascii = [
+	  \ '.',
+	  \ '.     _   __         _    ___         *',
+	  \ '     / | / /__  ____| |  / (_)___ ___',
+	  \ '    /  |/ / _ \/ __ \ | / / / __ `__ \',
+	  \ '   / /|  /  __/ /_/ / |/ / / / / / / /',
+	  \ '  /_/ |_/\___/\____/|___/_/_/ /_/ /_/',
+	  \ '.',
+	  \ '.'
+	  \ ]
+	let g:startify_custom_header =
+	  \ 'startify#pad(g:ascii + startify#fortune#boxed())'
+463877281d2069a905628d26b836593e|file:///Users/steve/.dotfiles/nvim/plugs/tools/startify.vim|2|1|V|vim
+	let g:startify_session_dir  = '~/.config/nvim/session'
+	let g:startify_session_autoload = 1
+	let g:startify_session_delete_buffers = 1
+	let g:startify_change_to_vcs_root = 1
+	let g:startify_fortune_use_unicode = 1
+	let g:startify_session_persistence = 1
+	let g:startify_enable_special = 0
+	let g:startify_files_number = 5
+	let g:startify_lists = [
+	  \ { 'type': 'files',     'header': ['Recent']     },
+	  \ { 'type': 'sessions',  'header': ['Session']    },
+	  \ { 'type': 'bookmarks', 'header': ['Bookmarks']  },
+	  \ ]
+	let g:startify_bookmarks = [
+	  \ '~/Documents/Development',
+	  \ { 't': '~/Documents/Development/tmp.nosync' },
+	  \ { 'd': '~/.dotfiles' },
+	  \ { 'v': '~/.dotfiles/nvim' },
+	  \ { 's': '~/.dotfiles/nvim/snips' },
+	  \ { 'x': '~/.dotfiles/nvim/plugs/tools/startify' },
+	  \ { 'y': '~/.dotfiles/yabai' },
+	  \ { 'z': '~/.dotfiles/zsh' },
+	  \ { 'a': '~/.dotfiles/alacritty/alacritty.yml' },
+	  \ { 'h': '~/.dotfiles/hammerspoon/keyboard' },
+	  \ ]
+	let g:ascii = [
+	  \ '.',
+	  \ '.     _   __         _    ___         *',
+	  \ '     / | / /__  ____| |  / (_)___ ___',
+	  \ '    /  |/ / _ \/ __ \ | / / / __ `__ \',
+	  \ '   / /|  /  __/ /_/ / |/ / / / / / / /',
+	  \ '  /_/ |_/\___/\____/|___/_/_/ /_/ /_/',
+	  \ '.',
+	  \ '.'
+	  \ ]
+	let g:startify_custom_header =
+	  \ 'startify#pad(g:ascii + startify#fortune#boxed())'

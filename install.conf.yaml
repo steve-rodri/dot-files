@@ -22,6 +22,7 @@
     ~/.config/zsh/config: zsh/config
     ~/.config/zsh/.zshrc: zsh/zshrc
     ~/.config/zsh/.zprofile: zsh/zprofile
+    ~/.zprofile: zsh/zprofile
     ~/.config/git: git
     ~/.zshenv: zsh/zshenv
     ~/.hammerspoon: hammerspoon

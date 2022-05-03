@@ -67,7 +67,8 @@ return packer.startup(function(use)
   use 'ThePrimeagen/vim-be-good'
 
   -- Visual Tools
-  use "goolord/alpha-nvim" -- Dashboard
+  -- use "goolord/alpha-nvim" -- Dashboard
+  use "mhinz/vim-startify" -- Dashboard
   use "rcarriga/nvim-notify" -- Notifications
   use "akinsho/toggleterm.nvim" -- Terminal
   use "nvim-lualine/lualine.nvim" -- Status Line
@@ -89,7 +90,7 @@ return packer.startup(function(use)
   -- Enhancements
   use "lewis6991/impatient.nvim"
   use "moll/vim-bbye" -- Closing Buffers
-  use "karb94/neoscroll.nvim" -- Smooth Scrolling 
+  use "karb94/neoscroll.nvim" -- Smooth Scrolling
   use "kevinhwang91/nvim-bqf" --  Better Quick Fix
   use "ThePrimeagen/harpoon" -- Better File Marking and Navigation
   use "SmiteshP/nvim-gps" -- Status Line component that shows context of the current cursor position
@@ -165,11 +166,12 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope-media-files.nvim"
   use "nvim-telescope/telescope-ui-select.nvim"
   use "nvim-telescope/telescope-file-browser.nvim"
+  use { "nvim-telescope/telescope-fzf-native.nvim", run = "make"}
 
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
   use "JoosepAlviste/nvim-ts-context-commentstring"
-  use "p00f/nvim-ts-rainbow" 
+  use "p00f/nvim-ts-rainbow"
   -- use {'christianchiarulli/nvim-ts-rainbow'}
   use "nvim-treesitter/playground"
   use "windwp/nvim-ts-autotag"
