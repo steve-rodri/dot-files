@@ -1,8 +1,8 @@
-alias d="cd ~/.dotfiles/ && nvim ./"
+alias d="cd ~/.dotfiles/ && lvim ./"
 
 # Zsh
-alias zc="cd  ~/.dotfiles/zsh/config && nvim"
-alias za="nvim ~/.dotfiles/zsh/config/aliases.zsh"
+alias zc="cd  ~/.dotfiles/zsh/config && lvim"
+alias za="lvim ~/.dotfiles/zsh/config/aliases.zsh"
 alias zu="source ~/.dotfiles/zsh/zshrc"
 
 # Home Brew
@@ -10,14 +10,14 @@ alias b="brew"
 alias bb="backup_home_brew"
 
 # Hyper
-alias hc="nvim ~/.hyper.js"
+alias hc="lvim ~/.hyper.js"
 
 # Vim
-alias v="nvim"
-alias vi="nvim"
-alias vc="nvim ~/.dotfiles/nvim"
-alias vic="cd ~/.dotfiles/nvim && nvim"
-alias vim="nvim"
+alias v="lvim"
+alias vi="lvim"
+alias vc="lvim ~/.dotfiles/lvim"
+alias vic="cd ~/.dotfiles/lvim && v"
+alias vim="lvim"
 
 # Git
 alias ga='git add'

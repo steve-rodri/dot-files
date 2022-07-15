@@ -1,7 +1,9 @@
 # General ZSH configurations
 
-export EDITOR="nvim"
+export EDITOR="lvim"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+
+PATH=$PATH:"/Users/steve/.local/bin"
 
 sz() { source ~/.zshrc }
 

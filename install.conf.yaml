@@ -16,6 +16,7 @@
     ~/.config/colorls: colorls
     ~/.config/karabiner: karabiner
     ~/.config/nvim: nvim
+    ~/.config/lvim: lvim
     ~/.config/yabai: yabai
     ~/.config/yarn/global: yarn/global
     ~/.config/zsh/completion: zsh/completion
