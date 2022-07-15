@@ -1,3 +1,5 @@
+tap "adoptopenjdk/openjdk"
+tap "beeftornado/rmtree"
 tap "buo/cask-upgrade"
 tap "eth-p/software"
 tap "goles/battery"
@@ -11,6 +13,7 @@ tap "homebrew/services"
 tap "jesseduffield/lazygit"
 tap "koekeishiya/formulae"
 tap "mongodb/brew"
+tap "railwayapp/railway"
 tap "thoughtbot/formulae"
 tap "universal-ctags/universal-ctags"
 # Image manipulation library
@@ -19,8 +22,6 @@ brew "jpeg"
 brew "libpng"
 # TIFF library and utilities
 brew "libtiff"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -35,6 +36,8 @@ brew "libyaml"
 brew "unixodbc"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
+# Command-line interface for SQLite
+brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Official Amazon AWS command-line interface
@@ -45,6 +48,8 @@ brew "bat"
 brew "bfg"
 # Collection of portable C++ source libraries
 brew "boost"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Core application library for C
 brew "glib"
 # Vector graphics library with cross-device output support
@@ -57,52 +62,52 @@ brew "chrome-cli"
 brew "chruby"
 # Cross-platform make
 brew "cmake"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # Reimplementation of ctags(1)
 brew "ctags", link: false
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Text processing system for reStructuredText
+brew "docutils"
 # Cross-platform C++ GUI toolkit
 brew "wxwidgets"
 # Programming language for highly scalable real-time systems
 brew "erlang"
 # Functional metaprogramming aware language built on Erlang VM
 brew "elixir"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Friendlier find
 brew "ffind"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GNU compiler collection
-brew "gcc"
-# Graphics library to dynamically manipulate images
-brew "gd"
+# Toolkit for image loading and pixel buffer manipulation
+brew "gdk-pixbuf"
 # GitHub command-line tool
 brew "gh"
-# Interpreter for PostScript and PDF
-brew "ghostscript"
 # Distributed revision control system
-brew "git", link: false
+brew "git"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
-# Image manipulation
-brew "netpbm"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Framework for layout and rendering of i18n text
 brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Convert source code to formatted text with syntax highlighting
 brew "highlight"
 # Add GitHub support to git on the command-line
 brew "hub"
-# Database of common MIME types
-brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
 # Tools and libraries to manipulate images in many formats
@@ -111,12 +116,12 @@ brew "imagemagick"
 brew "oniguruma"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Cryptographic library based on the code from GnuPG
-brew "libgcrypt"
 # X.509 and CMS library
 brew "libksba"
-# Postgres C API library
-brew "libpq"
+# Library that provides automatic proxy configuration management
+brew "libproxy"
+# GNOME XML library
+brew "libxml2"
 # C XSLT library for GNOME
 brew "libxslt"
 # Package manager for the Lua programming language
@@ -125,10 +130,8 @@ brew "luarocks"
 brew "mas"
 # Scalable distributed version control system
 brew "mercurial"
-# HTTP/2 C Library
-brew "nghttp2"
-# ISO-C API and CLI for generating UUIDs
-brew "ossp-uuid"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Highly capable, feature-rich programming language
 brew "perl"
 # CLI for Postgres with auto-completion and syntax highlighting
@@ -136,7 +139,9 @@ brew "pgcli"
 # Optimizer for PNG files
 brew "pngcrush"
 # Object-relational database system
-brew "postgresql", restart_service: true
+brew "postgresql"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Cross-platform application and UI framework
 brew "qt"
 # Cross-platform application and UI framework
@@ -151,8 +156,6 @@ brew "reattach-to-user-namespace"
 brew "redis", restart_service: true
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -201,9 +204,11 @@ brew "jesseduffield/lazygit/lazygit"
 # Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
 # A tiling window manager for macOS based on binary space partitioning.
-brew "koekeishiya/formulae/yabai", args: ["HEAD"]
+brew "koekeishiya/formulae/yabai"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Develop and deploy code with zero configuration
+brew "railwayapp/railway/railway"
 brew "thoughtbot/formulae/gitsh"
 # Shell commands for environment parity for Heroku apps
 brew "thoughtbot/formulae/parity"
@@ -211,28 +216,31 @@ brew "thoughtbot/formulae/parity"
 brew "thoughtbot/formulae/rcm"
 # Maintained ctags implementation
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line helper for the 1Password password manager
+cask "1password-cli"
 # Image editor focused on simplicity
 cask "acorn"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk16"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Application launcher and productivity software
 cask "alfred"
+# Android SDK component
+cask "android-platform-tools"
 # Multi-cloud backup application
 cask "arq"
 # Menu bar icon organizer
 cask "bartender"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
-# Tool to remove unnecessary files and folders from disk
-cask "cleanmymac"
+# Design tool
+cask "canva"
 # API documentation browser and code snippet manager
 cask "dash"
-cask "font-agave-nerd-font"
-cask "font-bitstream-vera-sans-mono-nerd-font"
-cask "font-blex-mono-nerd-font"
-cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
-cask "font-iosevka-nerd-font"
-cask "font-jetbrains-mono-nerd-font"
-cask "font-monoid-nerd-font"
 # Desktop automation application
 cask "hammerspoon"
 # Time tracking application
@@ -243,14 +251,22 @@ cask "insomnia"
 cask "karabiner-elements"
 # Animated screen capture application
 cask "licecap"
+# DMX lighting control
+cask "lightkey"
 # App to manage software development and track bugs
 cask "linear-linear"
+# Screen and video recording software
+cask "loom"
 # Previewer for Markdown, MultiMarkdown and other text markup languages
 cask "marked"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Scheduling application focusing on organization
 cask "omnifocus"
+# Business phone for professionals, teams, and companies
+cask "openphone"
+# GUI client for PostgreSQL databases
+cask "postico"
 # Display image info and preview unsupported formats in QuickLook
 cask "qlimagesize"
 cask "qlprettypatch"
@@ -264,38 +280,10 @@ cask "screenflow"
 cask "sketchup"
 # Application for inspecting installer packages
 cask "suspicious-package"
+# Open-source code editor
+cask "visual-studio-code"
 cask "webpquicklook"
 # Desktop chat client for Google Hangouts
 cask "yakyak"
-mas "1Password 7", id: 1333542190
-mas "AngryBirdsReloaded", id: 1539172625
-mas "Boop", id: 1518425043
-mas "CARROT Weather", id: 993487541
-mas "Developer", id: 640199958
-mas "Due", id: 524373870
-mas "Edison Mail", id: 1489591003
-mas "Extractor", id: 971826370
-mas "Flow", id: 1423210932
-mas "Flowstate", id: 1051600144
-mas "Harvest", id: 506189836
-mas "Home Assistant", id: 1099568401
-mas "HotKey", id: 975890633
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Living Earth Desktop", id: 539362919
-mas "Logic Pro", id: 634148309
-mas "Magnet", id: 441258766
-mas "Meeter", id: 1510445899
-mas "Network Radar", id: 507659816
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Slack", id: 803453959
-mas "Snappy", id: 512617038
-mas "Speedtest", id: 1153157709
-mas "Take a Break", id: 1457158844
-mas "Termius", id: 1176074088
-mas "Time Out", id: 402592703
-mas "Toolbox for Pages", id: 571654652
-mas "Trello", id: 1278508951
-mas "WhatsApp", id: 1147396723
-mas "Xcode", id: 497799835
+# Video communication and virtual meeting platform
+cask "zoom"
