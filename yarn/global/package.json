@@ -6,9 +6,11 @@
     "create-strapi-starter": "^4.1.7",
     "create-vite": "^2.8.0",
     "firebase-tools": "^10.1.2",
+    "neovim": "^4.10.1",
     "prettier": "^2.5.1",
     "prettier-eslint-cli": "^5.0.1",
     "surge": "^0.23.1",
+    "tree-sitter-cli": "^0.20.6",
     "yarn-upgrade-all": "^0.6.1"
   }
 }
