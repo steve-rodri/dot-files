@@ -6,18 +6,21 @@
 
 - create:
     - ~/.config/
+    - ~/.config/yarn/
     - ~/.config/zsh/
     - ~/.config/coc/extensions/
 
 - link:
     ~/.config/alacritty: alacritty
-    ~/.config/coc/extensions/package.json: coc/package.json
+    ~/.config/coc/extensions: coc/extensions
     ~/.config/colorls: colorls
     ~/.config/karabiner: karabiner
     ~/.config/nvim: nvim
+    ~/.config/lvim: lvim
     ~/.config/yabai: yabai
+    ~/.config/yarn/global: yarn/global
     ~/.config/zsh/completion: zsh/completion
-    ~/.config/zsh/configs: zsh/configs
+    ~/.config/zsh/config: zsh/config
     ~/.config/zsh/.zshrc: zsh/zshrc
     ~/.config/zsh/.zprofile: zsh/zprofile
     ~/.config/git: git
@@ -29,5 +32,5 @@
     ~/.hyper.js: hyper/config.js
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - descripton: installs homebrew
-      command: curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+    - description: Running Setup Script
+      command: ./setup

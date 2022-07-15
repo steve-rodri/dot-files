@@ -1,0 +1,2 @@
+" System Copy - add `cp` operator to copy text to system clipboard via text object or motion
+Plug 'christoomey/vim-system-copy'

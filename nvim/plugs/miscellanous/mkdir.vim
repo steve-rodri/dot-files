@@ -1,0 +1,2 @@
+" Vim mkdir - automatically make intermediate directories if needed
+Plug 'pbrisbin/vim-mkdir'

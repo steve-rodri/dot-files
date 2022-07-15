@@ -1,8 +1,8 @@
-alias d="cd ~/.dotfiles/ && nvim ./"
+alias d="cd ~/.dotfiles/ && lvim ./"
 
 # Zsh
-alias zc="cd  ~/.dotfiles/zsh/config && nvim"
-alias za="nvim ~/.dotfiles/zsh/config/aliases.zsh"
+alias zc="cd  ~/.dotfiles/zsh/config && lvim"
+alias za="lvim ~/.dotfiles/zsh/config/aliases.zsh"
 alias zu="source ~/.dotfiles/zsh/zshrc"
 
 # Home Brew
@@ -10,14 +10,14 @@ alias b="brew"
 alias bb="backup_home_brew"
 
 # Hyper
-alias hc="nvim ~/.hyper.js"
+alias hc="lvim ~/.hyper.js"
 
 # Vim
-alias v="nvim"
-alias vi="nvim"
-alias vc="nvim ~/.dotfiles/nvim"
-alias vic="cd ~/.dotfiles/nvim && nvim"
-alias vim="nvim"
+alias v="lvim"
+alias vi="lvim"
+alias vc="lvim ~/.dotfiles/lvim"
+alias vic="cd ~/.dotfiles/lvim && v"
+alias vim="lvim"
 
 # Git
 alias ga='git add'
@@ -43,9 +43,11 @@ alias lg="lazygit"
 alias rni="kill $(lsof -t -i:8081) && rm -rf ios/build/ && y run ios"
 
 # Yarn
-alias cra='yarn create react-app'
+alias cra='yarn create react-app --template @chakra-ui'
+alias crna='npx react-native init'
 alias y='yarn'
 alias ya='yarn add'
+alias yd='yarn deploy'
 alias yarnpackages='cd ~/asdf/installs/yarn/'
 alias ycra='yarn create react-app'
 alias yr='yarn remove'
@@ -63,9 +65,11 @@ alias lst='colorls --group-directories-first --almost-all --tree'
 
 # Scriptable
 alias scriptableiCloud="cd ~/Library/Mobile\ Documents/iCloud~dk~simonbs~Scriptable/Documents"
-alias scriptable="cd ~/Documents/Development/Projects/Scriptable.nosync && vi"
+alias scriptable="cd ~/Code/scriptable && v"
 
 # Home Assistant
 alias ha="cd /Volumes/config"
 
 alias ss="start_dev_server"
+
+alias format="prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx,ts,tsx}\""

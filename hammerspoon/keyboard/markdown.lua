@@ -1,4 +1,4 @@
-ssssunction wrapSelectedText(wrapCharacters)
+function wrapSelectedText(wrapCharacters)
   -- Preserve the current contents of the system clipboard
   local originalClipboardContents = hs.pasteboard.getContents()
 
