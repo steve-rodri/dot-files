@@ -1,5 +1,5 @@
 # Restart Yabai
-ctrl + shift + alt - y :
+alt + lshift + ctrl - y :
     /usr/bin/env osascript <<< \
     "display notification \"Restarting Yabai\" with title \"Yabai\""; \
     launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
@@ -64,8 +64,8 @@ ctrl + shift + alt + lcmd - o    : yabai -m window  --display 3
 
 # Manage space
 alt - 0x18       : yabai -m space --balance # equalize size of all windows - =
-# alt - c          : yabai -m space --create && yabai -m space --focus next
-# alt - d          : yabai -m space --destroy
+# alt - c        : yabai -m space --create && yabai -m space --focus next
+# alt - d        : yabai -m space --destroy
 alt - r          : yabai -m space --rotate 270 # rotate clockwise
 alt + lshift - r : yabai -m space --rotate 90 # rotate counter clockwise
 alt - x          : yabai -m space --mirror x-axis # rotate on X axis
@@ -75,9 +75,9 @@ alt - g          : yabai -m space --toggle gap; \
 
 # Manage window
 alt - s : yabai -m window --toggle split # toggle h or v split
-# alt - b : yabai -m window --toggle border # toggle active window border
-# alt - o : yabai -m config window_opacity on # toggle window opacity
-# alt + shift - o : yabai -m config window_opacity off # toggle window opacity
+# ralt - b : yabai -m window --toggle border # toggle active window border
+alt - o : yabai -m config window_opacity on # toggle window opacity
+alt + lshift - o : yabai -m config window_opacity off # toggle window opacity
 
 # Focus window
 alt - h     : yabai -m window --focus west
@@ -96,8 +96,6 @@ alt + lshift - k    : yabai -m window --swap north
 alt + lshift - l    : yabai -m window --swap east
 alt + lshift - p    : yabai -m window --swap prev
 alt + lshift - n    : yabai -m window --swap next
-alt + lshift - i    : yabai -m window --swap first
-alt + lshift - o    : yabai -m window --swap last
 alt + lshift - 0x29 : yabai -m window --swap recent # semi colon
 alt + lshift - 0x24 : yabai -m window --toggle zoom-fullscreen # maximize - return
 
