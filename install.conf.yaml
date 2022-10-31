@@ -24,6 +24,8 @@
     ~/.config/zsh/.zshrc: zsh/zshrc
     ~/.config/zsh/.zprofile: zsh/zprofile
     ~/.config/git: git
+    ~/.tmux.conf: tmux/.tmux.conf
+    ~/.tmux/plugins: tmux/plugins
     ~/.zshenv: zsh/zshenv
     ~/.hammerspoon: hammerspoon
     ~/.tool-versions: asdf/tool-versions
