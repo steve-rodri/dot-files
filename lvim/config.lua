@@ -1,12 +1,17 @@
-lvim.log.level = "warn"
 lvim.format_on_save = true
+lvim.log.level = "warn"
 lvim.colorscheme = "onedark"
 lvim.leader = "space"
+vim.opt.timeoutlen = 250
 
-lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
-lvim.keys.normal_mode["gs"] = false
-lvim.keys.normal_mode["<S-Right>"] = ":bnext"
-lvim.keys.normal_mode["<S-Left>"] = ":bprevious"
+lvim.keys.normal_mode["<S-l>"] = ":bnext<cr>"
+lvim.keys.normal_mode["<S-h>"] = ":bprevious<cr>"
+lvim.keys.normal_mode["<M-j>"] = false
+lvim.keys.insert_mode["<M-j>"] = false
+lvim.keys.visual_mode["<M-j>"] = false
+lvim.keys.normal_mode["<M-k>"] = false
+lvim.keys.insert_mode["<M-k>"] = false
+lvim.keys.visual_mode["<M-k>"] = false
 
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
