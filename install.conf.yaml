@@ -7,12 +7,11 @@
 - create:
     - ~/.config/
     - ~/.config/yarn/
+    - ~/.tmux/plugins/
     - ~/.config/zsh/
-    - ~/.config/coc/extensions/
 
 - link:
     ~/.config/alacritty: alacritty
-    ~/.config/coc/extensions: coc/extensions
     ~/.config/colorls: colorls
     ~/.config/karabiner: karabiner
     ~/.config/nvim: nvim
@@ -24,9 +23,9 @@
     ~/.config/zsh/.zshrc: zsh/zshrc
     ~/.config/zsh/.zprofile: zsh/zprofile
     ~/.config/git: git
-    ~/.tmux.conf: tmux/.tmux.conf
     ~/.tmux/plugins: tmux/plugins
     ~/.zshenv: zsh/zshenv
+    ~/.tmux.conf: tmux/tmux.conf
     ~/.hammerspoon: hammerspoon
     ~/.tool-versions: asdf/tool-versions
     ~/.skhdrc: skhd/skhdrc
