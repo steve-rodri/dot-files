@@ -2,6 +2,7 @@ lvim.format_on_save = true
 lvim.log.level = "warn"
 lvim.colorscheme = "onedark"
 lvim.leader = "space"
+vim.opt.relativenumber = true
 vim.opt.timeoutlen = 250
 
 lvim.keys.normal_mode["<S-l>"] = ":bnext<cr>"
