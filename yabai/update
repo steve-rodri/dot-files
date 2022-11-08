@@ -7,14 +7,21 @@ export YABAI_CERT=
 brew services stop koekeishiya/formulae/yabai
 
 # reinstall yabai
-brew reinstall koekeishiya/formulae/yabai
+brew uninstall yabai
+
+brew install yabai --HEAD
 codesign -fs "${YABAI_CERT:-yabai-cert}" "$(brew --prefix yabai)/bin/yabai"
 
-# uninstall the scripting addition
-sudo yabai --uninstall-sa
+# reconfigure the scripting addition again
+sudo bash -c "cat <<EOF > /private/etc/sudoers.d/yabai
+$(whoami) ALL = (root) NOPASSWD: sha256:$(shasum -a 256 $(brew --prefix yabai)/bin/yabai) --load-sa
+EOF"
 
-# installing the scripting addition will restart Dock.app
-sudo yabai --install-sa
+# check System Integrity Protection
+csrutil status
+
+# load scripting addition
+sudo $(brew --prefix yabai)/bin/yabai --load-sa
 
 # finally, start yabai
-brew services start koekeishiya/formulae/yabai
+brew services start yabai
