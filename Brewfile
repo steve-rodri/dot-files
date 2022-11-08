@@ -14,10 +14,10 @@ tap "jesseduffield/lazygit"
 tap "koekeishiya/formulae"
 tap "mongodb/brew"
 tap "railwayapp/railway"
+tap "steve/local-yabai"
 tap "thoughtbot/formulae"
 tap "universal-ctags/universal-ctags"
-# Image manipulation library
-brew "jpeg"
+tap "wix/brew"
 # Library for manipulating PNG images
 brew "libpng"
 # TIFF library and utilities
@@ -36,24 +36,30 @@ brew "libyaml"
 brew "unixodbc"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
+# Image manipulation library
+brew "jpeg"
 # Command-line interface for SQLite
 brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Core application library for C
+brew "glib"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Vector graphics library with cross-device output support
+brew "cairo"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Remove large files or passwords from Git history like git-filter-branch
 brew "bfg"
 # Collection of portable C++ source libraries
 brew "boost"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# Core application library for C
-brew "glib"
-# Vector graphics library with cross-device output support
-brew "cairo"
 # Decentralized dependency manager for Cocoa
 brew "carthage"
 # Control Google Chrome from the command-line
@@ -70,18 +76,32 @@ brew "ctags", link: false
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Load/unload environment variables based on $PWD
+brew "direnv"
 # Text processing system for reStructuredText
 brew "docutils"
+# Collection of reusable C++ library artifacts developed at Facebook
+brew "folly"
 # Cross-platform C++ GUI toolkit
 brew "wxwidgets"
 # Programming language for highly scalable real-time systems
 brew "erlang"
 # Functional metaprogramming aware language built on Erlang VM
 brew "elixir"
+# C++14 implementation of the TLS-1.3 standard
+brew "fizz"
+# Modular, composable client/server abstractions framework
+brew "wangle"
+# Facebook's branch of Apache Thrift, including a new C++ server
+brew "fbthrift"
+# Thrift functions for querying information from a service
+brew "fb303"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Friendlier find
 brew "ffind"
+# Command-line tools for fly.io services
+brew "flyctl"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Toolkit for image loading and pixel buffer manipulation
@@ -96,14 +116,14 @@ brew "gnu-sed"
 brew "go"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
-# OpenType text shaping engine
-brew "harfbuzz"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# Open-source video transcoder available for Linux, Mac, and Windows
+brew "handbrake"
 # Convert source code to formatted text with syntax highlighting
 brew "highlight"
 # Add GitHub support to git on the command-line
@@ -118,6 +138,8 @@ brew "oniguruma"
 brew "jq"
 # X.509 and CMS library
 brew "libksba"
+# Postgres C API library
+brew "libpq"
 # Library that provides automatic proxy configuration management
 brew "libproxy"
 # GNOME XML library
@@ -130,8 +152,18 @@ brew "luarocks"
 brew "mas"
 # Scalable distributed version control system
 brew "mercurial"
+# Platform built on V8 to build network applications
+brew "node@16"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# HTTP/2 C Library
+brew "nghttp2"
+# Platform built on V8 to build network applications
+brew "node"
+# Platform built on V8 to build network applications
+brew "node@14"
 # Highly capable, feature-rich programming language
 brew "perl"
 # CLI for Postgres with auto-completion and syntax highlighting
@@ -139,7 +171,7 @@ brew "pgcli"
 # Optimizer for PNG files
 brew "pngcrush"
 # Object-relational database system
-brew "postgresql"
+brew "postgresql@14"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.8"
 # Cross-platform application and UI framework
@@ -202,13 +234,15 @@ brew "heroku/brew/heroku"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
 # Simple hotkey-daemon for macOS.
-brew "koekeishiya/formulae/skhd"
+brew "koekeishiya/formulae/skhd", args: ["HEAD"]
 # A tiling window manager for macOS based on binary space partitioning.
-brew "koekeishiya/formulae/yabai"
+brew "koekeishiya/formulae/yabai", args: ["HEAD"]
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Develop and deploy code with zero configuration
 brew "railwayapp/railway/railway"
+# A tiling window manager for macOS based on binary space partitioning.
+brew "steve/local-yabai/yabai@4.0.1"
 brew "thoughtbot/formulae/gitsh"
 # Shell commands for environment parity for Heroku apps
 brew "thoughtbot/formulae/parity"
@@ -216,6 +250,8 @@ brew "thoughtbot/formulae/parity"
 brew "thoughtbot/formulae/rcm"
 # Maintained ctags implementation
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
+# Apple simulator utilities
+brew "wix/brew/applesimutils"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line helper for the 1Password password manager
@@ -224,6 +260,8 @@ cask "1password-cli"
 cask "acorn"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk16"
+# Spreadsheet-database hybrid cloud collaboration
+cask "airtable"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Application launcher and productivity software
@@ -240,7 +278,12 @@ cask "caffeine"
 cask "canva"
 # API documentation browser and code snippet manager
 cask "dash"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
+# Web browser
+cask "google-chrome"
 # Desktop automation application
 cask "hammerspoon"
 # Time tracking application
@@ -270,7 +313,9 @@ cask "postico"
 # Display image info and preview unsupported formats in QuickLook
 cask "qlimagesize"
 cask "qlprettypatch"
+# QuickLook plugin for CSV files
 cask "quicklook-csv"
+# QuickLook plugin for JSON files
 cask "quicklook-json"
 # Standalone app for debugging React Native apps
 cask "react-native-debugger"
