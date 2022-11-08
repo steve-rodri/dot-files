@@ -1,9 +1,9 @@
-nodejs 16.3.0
+nodejs lts
 ruby 2.7.2
 postgres 13.0
 fzf 0.23.1
-yarn 1.22.17
+yarn 1.22.19
 python 3.9.0 2.7.18
-neovim 0.7.0
+neovim 0.8.0
 lua 5.4.2
 golang 1.17.3

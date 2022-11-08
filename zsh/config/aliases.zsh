@@ -47,8 +47,9 @@ alias cra='yarn create react-app --template @chakra-ui'
 alias crna='npx react-native init'
 alias y='yarn'
 alias ya='yarn add'
+alias yga='yarn global add'
 alias yd='yarn deploy'
-alias yarnpackages='cd ~/asdf/installs/yarn/'
+alias yp='v ~/.dotfiles/yarn/global/package.json'
 alias ycra='yarn create react-app'
 alias yr='yarn remove'
 alias ys='yarn start'
@@ -56,6 +57,7 @@ alias ys='yarn start'
 # NPM
 alias nodepackages='cd ~/.asdf/installs/node/'
 alias uap= 'npx npm-check-updates -u'
+alias ei="npx expo install"
 
 # ColorLS
 alias ls='colorls --group-directories-first'

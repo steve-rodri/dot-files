@@ -1219,19 +1219,3 @@ b862c15ef4f76e66b6633c4c0826079d|file:///Users/steve/Code/apps/burn-it/app/codem
 	          source: dd
 42aefbae01d2dfd981f7da7d823d689e|file:///Users/steve/Code/apps/burn-it/app/codemagic.yaml|101|11|v|yaml
 	target
-7f32a874eb8b0cba13b04b9c72a11718|file:///Users/steve/.dotfiles/zsh/config/aliases.zsh|16|11|v|zsh
-	/User/steve/.local/bin/
-5f611233060e6d01f6697a0ae9f55d4a|file:///Users/steve/.dotfiles/zsh/config/aliases.zsh|17|10|v|zsh
-	nvim
-8c531f12ceabc789cfbe11ba3acb38ed|file:///Users/steve/.dotfiles/zsh/config/aliases.zsh|17|9|V|zsh
-	alias v=""
-4ae5a13a58131ad43aec3f578edb060a|file:///Users/steve/.dotfiles/zsh/config/aliases.zsh|17|10|v|zsh
-	/Users/steve/.local/bin/lvim
-e24985a6896d4aaeae7bf9b22f46965c|file:///Users/steve/.dotfiles/zsh/config/aliases.zsh|19|28|v|zsh
-	livm
-640da9d475dd5a41437ea79395e027bb|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useNotifications/useIntercom.js|7|37|V|javascript
-	    AppState.removeEventListener(type, listener)
-065951e3359c821d3d8ff74de361aec7|file:///Users/steve/Code/apps/burn-it/app/components/context/UserContext/hooks/useNotifications/useIntercom.js|11|12|v|javascript
-	() => AppState.removeEventListener("change", () => true);
-b2507468f95156358fa490fd543ad2f0|file:///Users/steve/.dotfiles/zsh/config/general.zsh|5|1|v|zsh
-	export

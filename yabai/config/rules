@@ -6,10 +6,14 @@
 center=3:3:1:1:1:1
 top_right=3:3:2:0:1:1
 
+echo "Calculator"
 yabai -m rule --add label="Calculator" app="^Calculator$" manage=off
+echo "Dictionary"
 yabai -m rule --add label="Dictionary" app="^Dictionary$" manage=off
+echo "Bartender"
 yabai -m rule --add label="Bartender" app="^Bartender" manage=off border=off
 
+echo "System Preferences"
 yabai -m rule --add \
   label="System Preferences" \
   app="^System Preferences$" \
@@ -18,19 +22,22 @@ yabai -m rule --add \
   sticky=on \
   grid=${center}
 
+echo "Finder"
 yabai -m rule --add \
   label="Finder" \
   app="^Finder$" \
   title="(Co(py|nnect)|Move|Info|Pref)" \
   manage=off
 
+echo "Safari"
 yabai -m rule --add \
   label="Safari" \
   app="^Safari$" \
-  title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" \
+  title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advanced)$" \
   manage=off
 
-yabai -m rule --add
+echo "Harvest"
+yabai -m rule --add \
   label="Harvest" \
   app="^Harvest$" \
   border=off \
@@ -38,7 +45,8 @@ yabai -m rule --add
   sticky=on \
   grid=${top_right}
 
-yabai -m rule --add
+echo "Simulator"
+yabai -m rule --add \
   label="Simulator" \
   app="^Simulator$" \
   manage=off \
@@ -46,6 +54,7 @@ yabai -m rule --add
   sticky=on \
   opacity=1
 
+echo "Mozilla"
 yabai -m rule --add \
   label="Mozilla" \
   app="^Firefox$" \
