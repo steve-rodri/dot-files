@@ -41,16 +41,6 @@ lvim.plugins = {
   "petertriho/nvim-scrollbar",
   "renerocksai/telekasten.nvim",
   "renerocksai/calendar-vim",
-
-  "navarasu/onedark.nvim",
-  "GeekyAnts/native-base-vscode-snippets",
-  "ntpeters/vim-better-whitespace",
-  "theHamsta/nvim-dap-virtual-text",
-  "nvim-telescope/telescope-dap.nvim",
-  "christoomey/vim-tmux-navigator",
-  "ralismark/opsort.vim",
-  "tpope/vim-repeat",
-
   {
     "saecki/crates.nvim",
     tag = "v0.3.0",
@@ -114,10 +104,3 @@ lvim.plugins = {
   -- "rmagatti/auto-session",
   -- "rmagatti/session-lens"
 }
-
-
-require("onedark").setup {
-  style = "deep",
-  transparent = true
-}
-lvim.colorscheme = "onedark"
