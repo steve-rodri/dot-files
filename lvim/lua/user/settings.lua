@@ -6,6 +6,8 @@ lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 lvim.builtin.dap.active = true
 lvim.builtin.treesitter.highlight.enabled = true
 
+table.insert(lvim.builtin.cmp.sources, { name = "lab.quick_data", keyword_length = 4 })
+
 lvim.transparent_window = true
 lvim.format_on_save = true
 lvim.log.level = "warn"

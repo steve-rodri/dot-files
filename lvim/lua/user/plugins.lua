@@ -21,6 +21,10 @@ lvim.plugins = {
   },
   { "christianchiarulli/harpoon" },
   {
+    "0x100101/lab.nvim",
+    run = "cd js && npm ci",
+  },
+  {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",
   },
