@@ -1,103 +1,43 @@
-local dap = require('dap')
+local dap = require("dap")
 
-dap.adapters.node2 = {
-  type = 'executable',
-  command = 'node',
-  args = { os.getenv('HOME') .. '/dev/microsoft/vscode-node-debug2/out/src/nodeDebug.js' },
-}
-
-dap.adapters.chrome = {
-  type = "executable",
-  command = "node",
-  args = { os.getenv("HOME") .. "~/dev/microsoft/vscode-chrome-debug/out/src/chromeDebug.js" }
-}
-
-dap.configurations.javascript = {
-  {
-    name = 'Launch',
-    type = 'node2',
-    request = 'launch',
-    program = '${file}',
-    cwd = vim.fn.getcwd(),
-    sourceMaps = true,
-    protocol = 'inspector',
-    console = 'integratedTerminal',
-  },
-  {
-    -- For this to work you need to make sure the node process is started with the `--inspect` flag.
-    name = 'Attach to process',
-    type = 'node2',
-    request = 'attach',
-    processId = require 'dap.utils'.pick_process,
-  },
-}
-
-dap.configurations.typescript = {
-  {
-    name = 'Launch',
-    type = 'node2',
-    request = 'launch',
-    program = '${file}',
-    cwd = vim.fn.getcwd(),
-    sourceMaps = true,
-    protocol = 'inspector',
-    console = 'integratedTerminal',
-  },
-  {
-    -- For this to work you need to make sure the node process is started with the `--inspect` flag.
-    name = 'Attach to process',
-    type = 'node2',
-    request = 'attach',
-    processId = require 'dap.utils'.pick_process,
-  },
-}
-
-dap.configurations.javascriptreact = { -- change this to javascript if needed
-  {
-    name = "Chrome",
-    type = "chrome",
-    request = "attach",
-    program = "${file}",
-    cwd = vim.fn.getcwd(),
-    sourceMaps = true,
-    protocol = "inspector",
-    port = 9222,
-    webRoot = "${workspaceFolder}"
-  },
-  {
-    name = "React Native",
-    type = "node2",
-    request = "attach",
-    program = "${file}",
-    cwd = vim.fn.getcwd(),
-    sourceMaps = true,
-    protocol = "inspector",
-    console = "integratedTerminal",
-    port = 35000,
+for _, language in ipairs { "typescript", "javascript" } do
+  dap.configurations[language] = {
+    {
+      type = "pwa-node",
+      request = "launch",
+      name = "Debug Jest Tests",
+      -- trace = true, -- include debugger info
+      runtimeExecutable = "node",
+      runtimeArgs = {
+        "./node_modules/jest/bin/jest.js",
+        "--runInBand",
+      },
+      rootPath = "${workspaceFolder}",
+      cwd = "${workspaceFolder}",
+      console = "integratedTerminal",
+      internalConsoleOptions = "neverOpen",
+    },
   }
-}
+end
 
-dap.configurations.typescriptreact = { -- change to typescript if needed
+lvim.builtin.dap.ui.config.layouts = {
+
   {
-    name = "Chrome",
-    type = "chrome",
-    request = "attach",
-    program = "${file}",
-    cwd = vim.fn.getcwd(),
-    sourceMaps = true,
-    protocol = "inspector",
-    port = 9222,
-    webRoot = "${workspaceFolder}"
+    elements = {
+      { id = "scopes", size = 0.33 },
+      { id = "breakpoints", size = 0.17 },
+      { id = "stacks", size = 0.25 },
+      { id = "watches", size = 0.25 },
+    },
+    size = 60,
+    position = "right",
   },
   {
-    name = "React Native",
-    type = "node2",
-    request = "attach",
-    program = "${file}",
-    cwd = vim.fn.getcwd(),
-    sourceMaps = true,
-    protocol = "inspector",
-    console = "integratedTerminal",
-    port = 35000,
-  }
+    elements = {
+      { id = "repl", size = 0.45 },
+      { id = "console", size = 0.55 },
+    },
+    size = 20,
+    position = "bottom",
+  },
 }

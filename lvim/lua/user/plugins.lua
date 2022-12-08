@@ -1,12 +1,14 @@
 lvim.plugins = {
-  { "navarasu/onedark.nvim" },
-  { "GeekyAnts/native-base-vscode-snippets" },
-  { "ntpeters/vim-better-whitespace" },
-  { "theHamsta/nvim-dap-virtual-text" },
-  { "nvim-telescope/telescope-dap.nvim" },
-  { "christoomey/vim-tmux-navigator" },
-  { "ralismark/opsort.vim" },
-  { "tpope/vim-repeat" },
+  "navarasu/onedark.nvim",
+  "GeekyAnts/native-base-vscode-snippets",
+  "ntpeters/vim-better-whitespace",
+  "theHamsta/nvim-dap-virtual-text",
+  "nvim-telescope/telescope-dap.nvim",
+  "christoomey/vim-tmux-navigator",
+  "ralismark/opsort.vim",
+  "tpope/vim-repeat",
+  "mxsdev/nvim-dap-vscode-js",
+  "christianchiarulli/harpoon",
   {
     "windwp/nvim-spectre",
     event = "BufRead",
@@ -19,7 +21,6 @@ lvim.plugins = {
       require("nvim-surround").setup()
     end
   },
-  { "christianchiarulli/harpoon" },
   {
     "0x100101/lab.nvim",
     run = "cd js && npm ci",
@@ -49,3 +50,11 @@ require("onedark").setup {
   transparent = true
 }
 lvim.colorscheme = "onedark"
+
+local mason_path = vim.fn.glob(vim.fn.stdpath "data" .. "/mason/")
+require("dap-vscode-js").setup {
+  -- node_path = "node", -- Path of node executable. Defaults to $NODE_PATH, and then "node"
+  debugger_path = mason_path .. "packages/js-debug-adapter", -- Path to vscode-js-debug installation.
+  -- debugger_cmd = { "js-debug-adapter" }, -- Command to use to launch the debug server. Takes precedence over `node_path` and `debugger_path`.
+  adapters = { "pwa-node", "pwa-chrome", "pwa-msedge", "node-terminal", "pwa-extensionHost" }, -- which adapters to register in nvim-dap
+}
