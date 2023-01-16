@@ -17,4 +17,9 @@ linters.setup {
     filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact", "vue", "svelte" }
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
   },
+  {
+    command = "sqlfluff",
+    filetypes = { "sql" }
+    ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
+  },
 }

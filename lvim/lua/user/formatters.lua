@@ -11,4 +11,12 @@ formatters.setup {
     command = "prettierd",
     filetypes = { "typescript", "typescriptreact", "javascript", "javascriptreact", "vue", "svelte" }
   },
+  {
+    command = "yamlfmt",
+    filetypes = { "yaml" }
+  },
+  {
+    command = "sql-formatter",
+    filetypes = { "sql" }
+  }
 }

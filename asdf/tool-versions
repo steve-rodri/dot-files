@@ -1,5 +1,5 @@
 nodejs lts
-ruby 2.7.2
+ruby 2.7.5
 postgres 13.0
 fzf 0.23.1
 yarn 1.22.19

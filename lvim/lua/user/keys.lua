@@ -25,6 +25,17 @@ lvim.builtin.which_key.mappings["S"] = {
   p = { "viw:lua require('spectre').open_file_search()<cr>", "File Search" }
 }
 
+lvim.builtin.which_key.mappings["a"] = {
+  name = "Code Runner",
+  s = { "<cmd>Lab code stop<cr>" },
+  r = { "<cmd>Lab code run<cr>" },
+  p = { "<cmd>Lab code panel<cr>" },
+}
+
+lvim.keys.normal_mode["<leader>as"] = "<cmd>Lab code stop<cr>"
+lvim.keys.normal_mode["<leader>ar"] = "<cmd>Lab code run<cr>"
+lvim.keys.normal_mode["<leader>ap"] = "<cmd>Lab code panel<cr>"
+
 -- lvim.keys.normal_mode["<leader>S"] = "<cmd>lua require('spectre').open()<CR>"
 -- lvim.keys.normal_mode["<leader>sw"] = "<cmd>lua require('spectre').open_visual({select_word=true})<CR>"
 -- lvim.keys.visual_mode["<leader>s"] = "<esc>:lua require('spectre').open_visual()<CR>"

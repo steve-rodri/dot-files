@@ -11,13 +11,14 @@ yabai -m config window_shadow               float
 
 # ====== Padding =======================
 
-value=10
+paddingY=10
+paddingX=10
 
-yabai -m config top_padding                 ${value}
-yabai -m config bottom_padding              ${value}
-yabai -m config left_padding                ${value}
-yabai -m config right_padding               ${value}
-yabai -m config window_gap                  ${value}
+yabai -m config top_padding                 ${paddingY}
+yabai -m config bottom_padding              ${paddingY}
+yabai -m config left_padding                ${paddingX}
+yabai -m config right_padding               ${paddingX}
+yabai -m config window_gap                  ${paddingY}
 
 # ====== Opacity =======================
 
