@@ -7,7 +7,7 @@
 - create:
     - ~/.config/
     - ~/.config/yarn/
-    - ~/.tmux/plugins/
+    - ~/.tmux
     - ~/.config/zsh/
 
 - link:
