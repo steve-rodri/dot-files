@@ -1,5 +1,5 @@
-lvim.keys.normal_mode["<S-l>"] = ":bnext<cr>"
-lvim.keys.normal_mode["<S-h>"] = ":bprevious<cr>"
+lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
+lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 lvim.keys.normal_mode["<M-j>"] = false
 lvim.keys.insert_mode["<M-j>"] = false
 lvim.keys.visual_mode["<M-j>"] = false
