@@ -1429,10 +1429,10 @@
     joi "^17.4.2"
     semver "^7.3.5"
 
-"@expo/eas-json@2.7.1":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@expo/eas-json/-/eas-json-2.7.1.tgz#3d94f437177377d5050db26ad098d7f1fdfd4ed4"
-  integrity sha512-QHgeQBwtWsGi6i8IOFB9JC5e5FlTYQgTuRFkOsvphsPmcd53rTjRxL8+vcTdha2pjUS6POSy26v2MY5t1FRbrg==
+"@expo/eas-json@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@expo/eas-json/-/eas-json-3.0.0.tgz#1b84307b14ef880e1a089c4f53e2fceed015a582"
+  integrity sha512-+Fp3rbQ+iQp+uWRUF5iQATPGiiIjpC0W4ywXNVvc5FjOKcWd4sBRxsSJaxc1ugTL3izO7DYJH+K8B8Oha5DD2w==
   dependencies:
     "@babel/code-frame" "7.18.6"
     "@expo/eas-build-job" "0.2.97"
@@ -1443,6 +1443,7 @@
     joi "17.6.4"
     log-symbols "4.1.0"
     semver "7.3.8"
+    terminal-link "2.1.1"
     tslib "2.4.0"
 
 "@expo/image-utils@0.3.20":
@@ -1503,6 +1504,15 @@
   dependencies:
     "@babel/code-frame" "~7.10.4"
     json5 "^1.0.1"
+    write-file-atomic "^2.3.0"
+
+"@expo/json-file@8.2.37":
+  version "8.2.37"
+  resolved "https://registry.yarnpkg.com/@expo/json-file/-/json-file-8.2.37.tgz#9c02d3b42134907c69cc0a027b18671b69344049"
+  integrity sha512-YaH6rVg11JoTS2P6LsW7ybS2CULjf40AbnAHw2F1eDPuheprNjARZMnyHFPkKv7GuxCy+B9GPcbOKgc4cgA80Q==
+  dependencies:
+    "@babel/code-frame" "~7.10.4"
+    json5 "^2.2.2"
     write-file-atomic "^2.3.0"
 
 "@expo/metro-config@0.3.18":
@@ -1582,12 +1592,12 @@
     base64-js "^1.2.3"
     xmlbuilder "^14.0.0"
 
-"@expo/plist@0.0.19":
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/@expo/plist/-/plist-0.0.19.tgz#820812cc9f52eb0543fac2bc57547310c205f819"
-  integrity sha512-9+GdsnLOZ475bITOSwU6MxIXukYHS3yTVCK2+cSDMyb9h2NuBwpnHFJGFUqcg9HcA6fbmyhGnNpPD3vk7zqWFQ==
+"@expo/plist@0.0.20":
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/@expo/plist/-/plist-0.0.20.tgz#a6b3124438031c02b762bad5a47b70584d3c0072"
+  integrity sha512-UXQ4LXCfTZ580LDHGJ5q62jSTwJFFJ1GqBu8duQMThiHKWbMJ+gajJh6rsB6EJ3aLUr9wcauxneL5LVRFxwBEA==
   dependencies:
-    "@xmldom/xmldom" "~0.7.6"
+    "@xmldom/xmldom" "~0.7.7"
     base64-js "^1.2.3"
     xmlbuilder "^14.0.0"
 
@@ -1704,10 +1714,10 @@
   resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-13.0.0.tgz#e2989b85e95a82bce216f88cf8fb583ab050ec95"
   integrity sha512-TI+l71+5aSKnShYclFa14Kum+hQMZ86b95SH6tQUG3qZEmLTarvWpKwqtTwQKqvlJSJrpFiSFu3eCuZokY6zWA==
 
-"@expo/webpack-config@0.17.3":
-  version "0.17.3"
-  resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.17.3.tgz#a0935b8d77c75b5d64eb79a350fb7fb905791411"
-  integrity sha512-EcnHHmMscC7mL7qGQpXoSSpOrXbyfnMErUfqaBVjMYz7I4xVvoPQqiM13v4JXnz9TnZHDxD9t7+VSa9hPJVssA==
+"@expo/webpack-config@0.17.4":
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.17.4.tgz#c2cb670a8f431dc76a645d183a38465ed235e3a7"
+  integrity sha512-vn37RDhYowfLc2oRaXhmbI/9FStjQFXPONG3yRLfwUnA4dRtfXapJUSKHJKRwOy4fBBmTrb2tthtsdb4zeWmsw==
   dependencies:
     "@babel/core" "7.9.0"
     babel-loader "8.1.0"
@@ -2638,7 +2648,7 @@
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.5.tgz#09fa51e356d07d0be200642b0e4f91d8e6dd408d"
   integrity sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A==
 
-"@xmldom/xmldom@~0.7.6":
+"@xmldom/xmldom@~0.7.7":
   version "0.7.9"
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.9.tgz#7f9278a50e737920e21b297b8a35286e9942c056"
   integrity sha512-yceMpm/xd4W2a85iqZyO09gTnHvXF6pyiWjD2jcOJs7hRoZtNNOO1eJlhHj1ixA+xip2hOyGn+LgcvLCMo5zXA==
@@ -4773,10 +4783,10 @@ create-strapi-starter@^4.1.7:
     inquirer "8.2.0"
     ora "5.4.0"
 
-create-vite@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/create-vite/-/create-vite-3.2.1.tgz#3e23dc09f1e7a3aa9b0c2f4922d1ff398b453046"
-  integrity sha512-/VGNmHzr1NhOIrd4XM4wqsdLc7C2zdtihOo9sZPKu/bY9XqWbwTG5IxevJ/z8P9w4RrqpwaHY09WH0ZPBUPCXQ==
+create-vite@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/create-vite/-/create-vite-4.0.0.tgz#e6303fa92c513cc232aabaf2d318dda1a1860a77"
+  integrity sha512-U3YwGDXbFBQd+kUbkxGVeoYotoGpkNxl1TG6nBotG+rWdub7w8YJgK7pSnaOorJieFqMe/XvdDxzUKHLQnVv/g==
 
 cross-env@^5.1.3:
   version "5.2.1"
@@ -5529,10 +5539,10 @@ duplexify@^4.0.0:
     readable-stream "^3.1.1"
     stream-shift "^1.0.0"
 
-eas-cli@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/eas-cli/-/eas-cli-2.7.1.tgz#09f7472e66c0d830893348e15f77cc4a4b7a736d"
-  integrity sha512-orS3Ht5Dh/4J/yqcLls9nj9cwcvxIIpfSt1okcYZXiwchC9nVO+5u1oesHxrlluh0lG1SZOHmDrrsFtNnXXqIQ==
+eas-cli@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/eas-cli/-/eas-cli-3.1.1.tgz#5f916b3217ed6be33cee22a9313e7ffad59052c0"
+  integrity sha512-E+mz8AkugCvSigIxXm4Go5E7kYD9zjiC3b8wqOP63EQw5aQYW2Wai7bdX85G/jdcRZ72s1y0pMrS0AxBfTV0+Q==
   dependencies:
     "@expo/apple-utils" "0.0.0-alpha.34"
     "@expo/code-signing-certificates" "0.0.3"
@@ -5540,7 +5550,7 @@ eas-cli@^2.7.1:
     "@expo/config-plugins" "5.0.1"
     "@expo/config-types" "46.0.2"
     "@expo/eas-build-job" "0.2.97"
-    "@expo/eas-json" "2.7.1"
+    "@expo/eas-json" "3.0.0"
     "@expo/json-file" "8.2.36"
     "@expo/multipart-body-parser" "1.1.0"
     "@expo/osascript" "2.0.33"
@@ -6117,10 +6127,10 @@ expo-asset@~8.6.1:
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
-expo-cli@^6.0.8:
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-6.0.8.tgz#f5027cb1bcbed637ab5c61e99bf0dac892b45092"
-  integrity sha512-ZVQ47l/wFsPgF9S68MT3mQCCq0HEH4wggnDdd3keZBHV8uhC1TvkdufOeWgbr7/uP5oKdfXEOQCXaYbJPdd69A==
+expo-cli@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-6.1.0.tgz#e24ef3cd39c8d5123127fecad6f7145e5fd72f53"
+  integrity sha512-yhbevPdwof7oyjQup/dEYbxYZCiK/vYYQVnZA3CbYxtz0TG6LcEumz1Pn5WhAwU6vGCSmKpsJ02r4O0/bwIB/Q==
   dependencies:
     "@babel/runtime" "7.9.0"
     "@expo/apple-utils" "0.0.0-alpha.31"
@@ -6128,10 +6138,10 @@ expo-cli@^6.0.8:
     "@expo/config" "6.0.24"
     "@expo/config-plugins" "4.1.5"
     "@expo/dev-server" "0.1.115"
-    "@expo/json-file" "8.2.36"
+    "@expo/json-file" "8.2.37"
     "@expo/osascript" "2.0.33"
     "@expo/package-manager" "0.0.56"
-    "@expo/plist" "0.0.19"
+    "@expo/plist" "0.0.20"
     "@expo/prebuild-config" "4.0.3"
     "@expo/spawn-async" "1.5.0"
     "@expo/xcpretty" "^4.1.0"
@@ -6177,7 +6187,7 @@ expo-cli@^6.0.8:
     url-join "4.0.0"
     uuid "^8.0.0"
     wrap-ansi "^7.0.0"
-    xdl "59.2.55"
+    xdl "59.3.0"
 
 expo-constants@~13.2.2, expo-constants@~13.2.4:
   version "13.2.4"
@@ -8944,6 +8954,11 @@ json5@^2.1.2, json5@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.1.tgz#655d50ed1e6f95ad1a3caababd2b0efda10b395c"
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
+
+json5@^2.2.2:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsonfile@^3.0.0:
   version "3.0.1"
@@ -14767,25 +14782,25 @@ xdg-basedir@^4.0.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13"
   integrity sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==
 
-xdl@59.2.55:
-  version "59.2.55"
-  resolved "https://registry.yarnpkg.com/xdl/-/xdl-59.2.55.tgz#855b0751745846643113a721410c86cf048c10c7"
-  integrity sha512-6XLpWpPFUsjH2gwpvCMRx4vJjszRonX1UxF8LpLYdZi0jZB1fvppweUYJjdQ8RaS62pEm3TBRq+JwB0RIFlFwA==
+xdl@59.3.0:
+  version "59.3.0"
+  resolved "https://registry.yarnpkg.com/xdl/-/xdl-59.3.0.tgz#d60bd59e2118c033dd669a1ae869726bb075c7c9"
+  integrity sha512-+7HeQDo13SWNCktnmggutegmWBIgF5TzKLPpaZe3qhlTXRETdNvQUbuYfaETLlcwk372jzvO7navUgxUvFrpNA==
   dependencies:
     "@expo/bunyan" "4.0.0"
     "@expo/config" "6.0.24"
     "@expo/config-plugins" "4.1.5"
     "@expo/dev-server" "0.1.115"
     "@expo/devcert" "^1.0.0"
-    "@expo/json-file" "8.2.36"
+    "@expo/json-file" "8.2.37"
     "@expo/osascript" "2.0.33"
     "@expo/package-manager" "0.0.56"
-    "@expo/plist" "0.0.19"
+    "@expo/plist" "0.0.20"
     "@expo/rudder-sdk-node" "1.1.1"
     "@expo/schemer" "1.4.4"
     "@expo/sdk-runtime-versions" "^1.0.0"
     "@expo/spawn-async" "1.5.0"
-    "@expo/webpack-config" "0.17.3"
+    "@expo/webpack-config" "0.17.4"
     axios "0.21.1"
     better-opn "^3.0.1"
     boxen "^5.0.1"
