@@ -5,6 +5,17 @@ lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 lvim.builtin.dap.active = true
 lvim.builtin.treesitter.highlight.enabled = true
+lvim.builtin.telescope.pickers = {
+  find_files = {
+    theme = "dropdown"
+  },
+  git_files = {
+    theme = "dropdown"
+  },
+  media_files = {
+    theme = "dropdown"
+  }
+}
 
 table.insert(lvim.builtin.cmp.sources, { name = "lab.quick_data", keyword_length = 4 })
 
