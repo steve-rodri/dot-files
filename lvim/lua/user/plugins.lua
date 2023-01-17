@@ -4,11 +4,14 @@ lvim.plugins = {
   "ntpeters/vim-better-whitespace",
   "theHamsta/nvim-dap-virtual-text",
   "nvim-telescope/telescope-dap.nvim",
+  "nvim-telescope/telescope-media-files.nvim",
   "christoomey/vim-tmux-navigator",
   "ralismark/opsort.vim",
   "tpope/vim-repeat",
   "mxsdev/nvim-dap-vscode-js",
   "christianchiarulli/harpoon",
+  "edluffy/hologram.nvim",
+  { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' },
   {
     "windwp/nvim-spectre",
     event = "BufRead",
@@ -51,12 +54,17 @@ require("onedark").setup {
 }
 lvim.colorscheme = "onedark"
 
+require("hologram").setup {
+  auto_display = true
+}
 
 require('ufo').setup({
   provider_selector = function()
     return { 'treesitter', 'indent' }
   end
 })
+
+require('telescope').load_extension('media_files')
 
 local mason_path = vim.fn.glob(vim.fn.stdpath "data" .. "/mason/")
 require("dap-vscode-js").setup {
