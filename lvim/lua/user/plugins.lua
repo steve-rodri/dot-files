@@ -51,6 +51,13 @@ require("onedark").setup {
 }
 lvim.colorscheme = "onedark"
 
+
+require('ufo').setup({
+  provider_selector = function()
+    return { 'treesitter', 'indent' }
+  end
+})
+
 local mason_path = vim.fn.glob(vim.fn.stdpath "data" .. "/mason/")
 require("dap-vscode-js").setup {
   -- node_path = "node", -- Path of node executable. Defaults to $NODE_PATH, and then "node"

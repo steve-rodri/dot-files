@@ -32,6 +32,11 @@ lvim.builtin.which_key.mappings["a"] = {
   p = { "<cmd>Lab code panel<cr>" },
 }
 
+lvim.builtin.which_key.mappings["z"] = {
+  o = { "require('ufo').openAllFolds" },
+  c = { "require('ufo').closeAllFolds" }
+}
+
 lvim.keys.normal_mode["<leader>as"] = "<cmd>Lab code stop<cr>"
 lvim.keys.normal_mode["<leader>ar"] = "<cmd>Lab code run<cr>"
 lvim.keys.normal_mode["<leader>ap"] = "<cmd>Lab code panel<cr>"

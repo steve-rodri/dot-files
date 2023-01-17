@@ -16,3 +16,8 @@ lvim.leader = "space"
 
 vim.opt.relativenumber = true
 vim.opt.timeoutlen = 250
+
+vim.opt.foldcolumn = "1"
+vim.opt.foldlevel = 99
+vim.opt.foldlevelstart = -1
+vim.opt.foldenable = true
