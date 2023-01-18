@@ -12,7 +12,6 @@
     "expo": "^46.0.16",
     "expo-cli": "^6.1.0",
     "firebase-tools": "^10.1.2",
-    "neovim": "^4.10.1",
     "surge": "^0.23.1",
     "yarn-upgrade-all": "^0.6.1"
   }
