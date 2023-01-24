@@ -2,3 +2,5 @@
 export ZDOTDIR=$HOME/.config/zsh
 # Add homebrew binaries
 export PATH="/usr/local/bin:$PATH"
+
+export SSH_AUTH_SOCK=~/.1password/agent.sock

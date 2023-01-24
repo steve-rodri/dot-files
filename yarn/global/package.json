@@ -6,13 +6,12 @@
     "create-react-app": "^5.0.0",
     "create-strapi-app": "^4.1.8",
     "create-strapi-starter": "^4.1.7",
-    "create-vite": "^3.2.1",
+    "create-vite": "^4.0.0",
     "detox-cli": "^19.0.0",
-    "eas-cli": "^2.7.1",
+    "eas-cli": "^3.1.1",
     "expo": "^46.0.16",
-    "expo-cli": "^6.0.8",
+    "expo-cli": "^6.1.0",
     "firebase-tools": "^10.1.2",
-    "neovim": "^4.10.1",
     "surge": "^0.23.1",
     "yarn-upgrade-all": "^0.6.1"
   }

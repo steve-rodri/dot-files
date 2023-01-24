@@ -29,7 +29,7 @@ lvim.builtin.dap.ui.config.layouts = {
       { id = "stacks", size = 0.25 },
       { id = "watches", size = 0.25 },
     },
-    size = 60,
+    size = .25,
     position = "right",
   },
   {
@@ -37,7 +37,7 @@ lvim.builtin.dap.ui.config.layouts = {
       { id = "repl", size = 0.45 },
       { id = "console", size = 0.55 },
     },
-    size = 20,
+    size = .25,
     position = "bottom",
   },
 }
