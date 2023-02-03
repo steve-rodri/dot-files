@@ -4,23 +4,24 @@ git:
   parseEmoji: true
 
 customCommands:
-  - key: '<c-r>'
-    command: 'hub browse -- "commit/{{.SelectedLocalCommit.Sha}}"'
-    context: 'commits'
-  - key: 'a'
-    command: "git {{if .SelectedFile.HasUnstagedChanges}} add {{else}} reset {{end}} {{.SelectedFile.Name | quote}}"
-    context: 'files'
-    description: 'toggle file staged'
-  - key: 'c'
-    subprocess: true
+
+  # - key: 'c'
+  #   prompts:
+  #     - type: input
+  #       title: "Gitmoji Search:"
+  #       initialValue: ''
+  #     - type: 'menuFromCommand'
+  #       title: "Choose a Gitmoji"
+  #       command: 'gitmoji --search {{ index .PromptResponses 0}} | xargs echo'
+  #   command: "gitmoji --list"
+  #   context: 'files'
+  #   loadingText: 'committing'
+  #   showOutput: true
+  - key : "c"
     command: "gitmoji --commit"
     context: 'files'
-    loadingText: 'committing'
-
-  - key: 'C'
-    command: "git commit"
-    context: 'global'
     subprocess: true
+
   - key: 'n'
     prompts:
       - type: 'menu'
@@ -41,24 +42,3 @@ customCommands:
     command: "git flow {{index .PromptResponses 0}} start {{index .PromptResponses 1}}"
     context: 'localBranches'
     loadingText: 'creating branch'
-  - key : 'r'
-    description: 'Checkout a remote branch as FETCH_HEAD'
-    command: "git fetch {{index .PromptResponses 0}} {{index .PromptResponses 1}} && git checkout FETCH_HEAD"
-    context: 'remotes'
-    prompts:
-      - type: 'input'
-        title: 'Remote:'
-        initialValue: "{{index .SelectedRemote.Name }}"
-      - type: 'menuFromCommand'
-        title: 'Remote branch:'
-        command: 'git branch  -r --list {{index .PromptResponses 0}}/*'
-        filter: '.*{{index .PromptResponses 0}}/(?P<branch>.*)'
-        valueFormat: '{{ .branch }}'
-        labelFormat: '{{ .branch | green }}'
-  - key: '<f1>'
-    command: 'git reset --soft {{.CheckedOutBranch.UpstreamRemote}}'
-    context: 'files'
-    prompts:
-      - type: 'confirm'
-        title: "Confirm:"
-        body: "Are you sure you want to reset HEAD to {{.CheckedOutBranch.UpstreamRemote}}?"
