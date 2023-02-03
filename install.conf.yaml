@@ -9,6 +9,7 @@
     - ~/.config/yarn/
     - ~/.tmux/plugins/
     - ~/.config/zsh/
+    - ~/Library/Application Support/lazygit/
 
 - link:
     ~/.config/alacritty: alacritty
@@ -23,6 +24,7 @@
     ~/.config/zsh/.zshrc: zsh/zshrc
     ~/.config/zsh/.zprofile: zsh/zprofile
     ~/.config/git: git
+    ~/Library/Application Support/lazygit/config.yml: lazygit/config.yml
     ~/.tmux/plugins: tmux/plugins
     ~/.zshenv: zsh/zshenv
     ~/.tmux.conf: tmux/tmux.conf

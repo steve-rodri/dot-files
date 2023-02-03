@@ -1,0 +1,64 @@
+gui:
+  showIcons: true
+git:
+  parseEmoji: true
+
+customCommands:
+  - key: '<c-r>'
+    command: 'hub browse -- "commit/{{.SelectedLocalCommit.Sha}}"'
+    context: 'commits'
+  - key: 'a'
+    command: "git {{if .SelectedFile.HasUnstagedChanges}} add {{else}} reset {{end}} {{.SelectedFile.Name | quote}}"
+    context: 'files'
+    description: 'toggle file staged'
+  - key: 'c'
+    subprocess: true
+    command: "gitmoji --commit"
+    context: 'files'
+    loadingText: 'committing'
+
+  - key: 'C'
+    command: "git commit"
+    context: 'global'
+    subprocess: true
+  - key: 'n'
+    prompts:
+      - type: 'menu'
+        title: 'What kind of branch is it?'
+        options:
+          - name: 'feature'
+            description: 'a feature branch'
+            value: 'feature'
+          - name: 'hotfix'
+            description: 'a hotfix branch'
+            value: 'hotfix'
+          - name: 'release'
+            description: 'a release branch'
+            value: 'release'
+      - type: 'input'
+        title: 'What is the new branch name?'
+        initialValue: ''
+    command: "git flow {{index .PromptResponses 0}} start {{index .PromptResponses 1}}"
+    context: 'localBranches'
+    loadingText: 'creating branch'
+  - key : 'r'
+    description: 'Checkout a remote branch as FETCH_HEAD'
+    command: "git fetch {{index .PromptResponses 0}} {{index .PromptResponses 1}} && git checkout FETCH_HEAD"
+    context: 'remotes'
+    prompts:
+      - type: 'input'
+        title: 'Remote:'
+        initialValue: "{{index .SelectedRemote.Name }}"
+      - type: 'menuFromCommand'
+        title: 'Remote branch:'
+        command: 'git branch  -r --list {{index .PromptResponses 0}}/*'
+        filter: '.*{{index .PromptResponses 0}}/(?P<branch>.*)'
+        valueFormat: '{{ .branch }}'
+        labelFormat: '{{ .branch | green }}'
+  - key: '<f1>'
+    command: 'git reset --soft {{.CheckedOutBranch.UpstreamRemote}}'
+    context: 'files'
+    prompts:
+      - type: 'confirm'
+        title: "Confirm:"
+        body: "Are you sure you want to reset HEAD to {{.CheckedOutBranch.UpstreamRemote}}?"
