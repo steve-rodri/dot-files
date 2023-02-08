@@ -1,0 +1,44 @@
+gui:
+  showIcons: true
+git:
+  parseEmoji: true
+
+customCommands:
+
+  # - key: 'c'
+  #   prompts:
+  #     - type: input
+  #       title: "Gitmoji Search:"
+  #       initialValue: ''
+  #     - type: 'menuFromCommand'
+  #       title: "Choose a Gitmoji"
+  #       command: 'gitmoji --search {{ index .PromptResponses 0}} | xargs echo'
+  #   command: "gitmoji --list"
+  #   context: 'files'
+  #   loadingText: 'committing'
+  #   showOutput: true
+  - key : "c"
+    command: "gitmoji --commit"
+    context: 'files'
+    subprocess: true
+
+  - key: 'n'
+    prompts:
+      - type: 'menu'
+        title: 'What kind of branch is it?'
+        options:
+          - name: 'feature'
+            description: 'a feature branch'
+            value: 'feature'
+          - name: 'hotfix'
+            description: 'a hotfix branch'
+            value: 'hotfix'
+          - name: 'release'
+            description: 'a release branch'
+            value: 'release'
+      - type: 'input'
+        title: 'What is the new branch name?'
+        initialValue: ''
+    command: "git flow {{index .PromptResponses 0}} start {{index .PromptResponses 1}}"
+    context: 'localBranches'
+    loadingText: 'creating branch'
