@@ -1,12 +1,47 @@
 local capabilities = require("lvim.lsp").common_capabilities()
 
+
+-- → eslint.alwaysShowStatus                default: false
+-- → eslint.autoFixOnSave                   default: false
+-- → eslint.codeAction.disableRuleComment
+-- → eslint.codeAction.showDocumentation
+-- → eslint.codeActionsOnSave.mode          default: "all"
+-- → eslint.codeActionsOnSave.rules         default: null
+-- → eslint.debug                           default: false
+-- → eslint.enable                          default: true
+-- → eslint.execArgv                        default: null
+-- → eslint.experimentalUseFlatConfig       default: false
+-- → eslint.format.enable                   default: false
+-- → eslint.lintTask.enable                 default: false
+-- → eslint.lintTask.options                default: "."
+-- → eslint.migration.2_x                   default: "on"
+-- → eslint.nodeEnv                         default: null
+-- → eslint.nodePath                        default: null
+-- → eslint.notebooks.rules.customizations
+-- → eslint.onIgnoredFiles                  default: "off"
+-- → eslint.options                         default: {}
+-- → eslint.packageManager                  default: "npm"
+-- → eslint.probe                           default: ["javascript","javascriptreact","typescript","typescriptreact","html","vue","markdown"]
+-- → eslint.provideLintTask                 default: false
+-- → eslint.quiet                           default: false
+-- → eslint.rules.customizations
+-- → eslint.run                             default: "onType"
+-- → eslint.runtime                         default: null
+-- → eslint.trace.server                    default: "off"
+-- → eslint.useESLintClass                  default: false
+-- → eslint.validate
+-- → eslint.workingDirectories
+
 require("lvim.lsp.manager").setup("eslint", {
   {
+    enable = true,
+    autoFixOnSave = true,
     codeActionOnSave = {
-      enable = true,
       mode = "all"
     },
-    format = true,
+    format = {
+      enable = true
+    },
   }
 })
 

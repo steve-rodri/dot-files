@@ -20,3 +20,4 @@ zplug 'zsh-users/zsh-completions'
 zplug load
 
 eval "$(direnv hook $SHELL)"
+eval "$(/opt/homebrew/bin/brew shellenv)"

@@ -12,6 +12,7 @@
     "expo": "^46.0.16",
     "expo-cli": "^6.1.0",
     "firebase-tools": "^10.1.2",
+    "gitmoji-cli": "^7.1.0",
     "surge": "^0.23.1",
     "yarn-upgrade-all": "^0.6.1"
   }

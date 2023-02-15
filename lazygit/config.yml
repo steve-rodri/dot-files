@@ -21,24 +21,3 @@ customCommands:
     command: "gitmoji --commit"
     context: 'files'
     subprocess: true
-
-  - key: 'n'
-    prompts:
-      - type: 'menu'
-        title: 'What kind of branch is it?'
-        options:
-          - name: 'feature'
-            description: 'a feature branch'
-            value: 'feature'
-          - name: 'hotfix'
-            description: 'a hotfix branch'
-            value: 'hotfix'
-          - name: 'release'
-            description: 'a release branch'
-            value: 'release'
-      - type: 'input'
-        title: 'What is the new branch name?'
-        initialValue: ''
-    command: "git flow {{index .PromptResponses 0}} start {{index .PromptResponses 1}}"
-    context: 'localBranches'
-    loadingText: 'creating branch'
