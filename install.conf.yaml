@@ -7,7 +7,6 @@
 - create:
     - ~/.config/
     - ~/.config/yarn/
-    - ~/.tmux/plugins/
     - ~/.config/zsh/
     - ~/Library/Application Support/lazygit/
 
@@ -25,7 +24,6 @@
     ~/.config/zsh/.zprofile: zsh/zprofile
     ~/.config/git: git
     ~/Library/Application Support/lazygit/config.yml: lazygit/config.yml
-    ~/.tmux/plugins: tmux/plugins
     ~/.zshenv: zsh/zshenv
     ~/.tmux.conf: tmux/tmux.conf
     ~/.hammerspoon: hammerspoon

@@ -1,27 +1,19 @@
 #!/usr/bin/env zsh
-#
-# set codesigning certificate name here (default: yabai-cert)
-export YABAI_CERT=
 
-# stop yabai
-brew services stop koekeishiya/formulae/yabai
+brew services stop yabai
 
-# reinstall yabai
-brew uninstall yabai
-
-brew install yabai --HEAD
-codesign -fs "${YABAI_CERT:-yabai-cert}" "$(brew --prefix yabai)/bin/yabai"
+brew upgrade yabai
 
 # reconfigure the scripting addition again
 sudo bash -c "cat <<EOF > /private/etc/sudoers.d/yabai
-$(whoami) ALL = (root) NOPASSWD: sha256:$(shasum -a 256 $(brew --prefix yabai)/bin/yabai) --load-sa
+$(whoami) ALL = (root) NOPASSWD: sha256:$(shasum -a 256 $(which yabai)) --load-sa
 EOF"
 
 # check System Integrity Protection
 csrutil status
 
 # load scripting addition
-sudo $(brew --prefix yabai)/bin/yabai --load-sa
+sudo $(which yabai) --load-sa
 
 # finally, start yabai
 brew services start yabai

@@ -1,7 +1,5 @@
 nodejs lts
 ruby 2.7.5
-postgres 13.0
-fzf 0.23.1
 yarn 1.22.19
 python 3.9.0 2.7.18
 neovim 0.8.0

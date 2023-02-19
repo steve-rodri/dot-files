@@ -1,9 +1,9 @@
-alias d="cd ~/.dotfiles/ && lvim ./"
+alias d="cd ~/.dot-files/ && lvim ./"
 
 # Zsh
-alias zc="cd  ~/.dotfiles/zsh/config && lvim"
-alias za="lvim ~/.dotfiles/zsh/config/aliases.zsh"
-alias zu="source ~/.dotfiles/zsh/zshrc"
+alias zc="cd  ~/.dot-files/zsh/config && lvim"
+alias za="lvim ~/.dot-files/zsh/config/aliases.zsh"
+alias zu="source ~/.dot-files/zsh/zshrc"
 
 # Home Brew
 alias b="brew"
@@ -15,8 +15,8 @@ alias hc="lvim ~/.hyper.js"
 # Vim
 alias v="lvim"
 alias vi="lvim"
-alias vc="lvim ~/.dotfiles/lvim"
-alias vic="cd ~/.dotfiles/lvim && v"
+alias vc="lvim ~/.dot-files/lvim"
+alias vic="cd ~/.dot-files/lvim && v"
 alias vim="lvim"
 
 # Git
@@ -27,7 +27,7 @@ alias gc='git commit'
 alias gco='git checkout'
 alias gd='git diff'
 alias get='git'
-alias gitconfig="vi ~/.dotfiles/git/config"
+alias gitconfig="vi ~/.dot-files/git/config"
 alias gk='gitk --all&'
 alias got='git'
 alias gpl='git pull'
@@ -49,7 +49,7 @@ alias y='yarn'
 alias ya='yarn add'
 alias yga='yarn global add'
 alias yd='yarn deploy'
-alias yp='v ~/.dotfiles/yarn/global/package.json'
+alias yp='v ~/.dot-files/yarn/global/package.json'
 alias ycra='yarn create react-app'
 alias yr='yarn remove'
 alias ys='yarn start'
