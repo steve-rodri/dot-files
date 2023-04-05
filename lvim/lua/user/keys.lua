@@ -33,6 +33,7 @@ lvim.builtin.which_key.mappings["a"] = {
 }
 
 lvim.builtin.which_key.mappings["z"] = {
+  name = "Folding",
   o = { "require('ufo').openAllFolds" },
   c = { "require('ufo').closeAllFolds" }
 }
