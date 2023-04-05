@@ -6,3 +6,4 @@ neovim 0.8.0
 lua 5.4.2
 golang 1.17.3
 java zulu-11.56.19
+postgres 15.2
