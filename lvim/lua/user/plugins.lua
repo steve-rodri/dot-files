@@ -1,6 +1,5 @@
 lvim.plugins = {
   "navarasu/onedark.nvim",
-  "GeekyAnts/native-base-vscode-snippets",
   "ntpeters/vim-better-whitespace",
   "theHamsta/nvim-dap-virtual-text",
   "nvim-telescope/telescope-dap.nvim",
@@ -11,6 +10,18 @@ lvim.plugins = {
   "mxsdev/nvim-dap-vscode-js",
   "christianchiarulli/harpoon",
   "edluffy/hologram.nvim",
+
+  {
+    'sQVe/sort.nvim',
+
+    -- Optional setup for overriding defaults.
+    config = function()
+      require("sort").setup({
+        -- Input configuration here.
+        -- Refer to the configuration section below for options.
+      })
+    end
+  },
   { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' },
   {
     "windwp/nvim-spectre",
