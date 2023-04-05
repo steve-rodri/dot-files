@@ -1,17 +1,16 @@
 # Window Customizations
 window:
-  opacity: 0.99
+  opacity: 0.95
   dimensions:
     columns: 140
     lines: 38
   padding:
     x: 10
     y: 10
-  decorations: buttonless
+  decorations: transparent
 scrolling:
   history: 10000
   multiplier: 3
-
 # Font configuration
 # FiraCode Nerd Font
 # Agave Nerd Font
@@ -19,7 +18,6 @@ scrolling:
 # JetBrainsMono Nerd Font
 # Iosevka Nerd Font
 # BlexMono Nerd Font
-
 font:
   normal:
     family: BitstreamVeraSansMono Nerd Font
@@ -50,8 +48,8 @@ use_thin_strokes: true
 draw_bold_text_with_bright_colors: true
 colors:
   primary:
-    background: "#121F31"
-    foreground: "#FFFFFF"
+    background: "#1C2121"
+    foreground: "#fefefe"
   normal:
     black: "#000000"
     red: "#C51E14"
@@ -79,11 +77,9 @@ colors:
     magenta: "#FD7CFC"
     cyan: "#68FDFE"
     white: "#FFFFFF"
-
 cursor:
   style: Block
   unfocused_hollow: true
-
   # Keybindings
   key_bindings:
-    - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+    - {key: N, mods: Control|Shift, action: SpawnNewInstance}
