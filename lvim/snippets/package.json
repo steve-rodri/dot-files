@@ -8,7 +8,19 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./javascript.json"
+        "path": "./nativebase-vscode-extension/snippets/snippets.code-snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./nativebase-vscode-extension/snippets/snippets.code-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./nativebase-vscode-extension/snippets/snippets.code-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./nativebase-vscode-extension/snippets/snippets.code-snippets.json"
       }
     ]
   }
