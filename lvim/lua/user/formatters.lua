@@ -1,6 +1,7 @@
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
-  { command = "prettier",
+  {
+    command = "prettier",
     filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact" }
   },
   {
@@ -13,7 +14,12 @@ formatters.setup {
   },
   {
     command = "beautysh",
-  }
+  },
+  {
+    command = "markdownlint",
+    filetypes = { "markdown" }
+    ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
+  },
 }
 
 --indent-size INDENT_SIZE, -i INDENT_SIZE

@@ -17,4 +17,9 @@ linters.setup {
     filetypes = { "sql" }
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
   },
+  {
+    command = "markdownlint",
+    filetypes = { "markdown" }
+    ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
+  },
 }
