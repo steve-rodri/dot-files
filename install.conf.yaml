@@ -18,6 +18,7 @@
     ~/.config/lvim: lvim
     ~/.config/yabai: yabai
     ~/.config/yarn/global: yarn/global
+    ~/.config/warpd: warpd
     ~/.config/zsh/completion: zsh/completion
     ~/.config/zsh/config: zsh/config
     ~/.config/zsh/.zshrc: zsh/zshrc
