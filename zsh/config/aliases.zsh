@@ -19,6 +19,11 @@ alias vc="lvim ~/.dot-files/lvim"
 alias vic="cd ~/.dot-files/lvim && v"
 alias vim="lvim"
 
+# Tmux
+alias t="tmux"
+alias ta="tmux a"
+alias ts="tmux new -s"
+
 # Git
 alias ga='git add'
 alias gaa='git add --all'
