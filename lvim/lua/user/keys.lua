@@ -6,7 +6,6 @@ lvim.keys.visual_mode["<M-j>"] = false
 lvim.keys.normal_mode["<M-k>"] = false
 lvim.keys.insert_mode["<M-k>"] = false
 
-
 lvim.builtin.which_key.mappings["t"] = {
   name = "Diagnostics",
   t = { "<cmd>TroubleToggle<cr>", "trouble" },
@@ -15,6 +14,14 @@ lvim.builtin.which_key.mappings["t"] = {
   q = { "<cmd>TroubleToggle quickfix<cr>", "quickfix" },
   l = { "<cmd>TroubleToggle loclist<cr>", "loclist" },
   r = { "<cmd>TroubleToggle lsp_references<cr>", "references" },
+}
+
+lvim.builtin.which_key.mappings["se"] = {
+  "<cmd>Telescope emoji<cr>", "Emoji"
+}
+
+lvim.builtin.which_key.mappings["sm"] = {
+  "<cmd>Telescope media_files<cr>", "Media"
 }
 
 lvim.builtin.which_key.mappings["S"] = {
