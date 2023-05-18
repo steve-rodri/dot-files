@@ -20,12 +20,12 @@ scrolling:
 # BlexMono Nerd Font
 font:
   normal:
-    family: BitstreamVeraSansMono Nerd Font
+    family: BitstromWera Nerd Font Mono
   bold:
-    family: BitstreamVeraSansMono Nerd Font
+    family: BitstromWera Nerd Font Mono
     style: Bold
   italic:
-    family: BitstreamVeraSansMono Nerd Font
+    family: BitstromWera Nerd Font Mono
     style: Italic
   size: 19.0
 offset:
