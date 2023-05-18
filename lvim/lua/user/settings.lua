@@ -19,11 +19,29 @@ lvim.builtin.telescope.pickers = {
 
 table.insert(lvim.builtin.cmp.sources, { name = "lab.quick_data", keyword_length = 4 })
 
-lvim.transparent_window = true
+table.insert(lvim.plugins, {
+  "zbirenbaum/copilot-cmp",
+  event = "InsertEnter",
+  dependencies = { "zbirenbaum/copilot.lua" },
+  config = function()
+    local ok, cmp = pcall(require, "copilot_cmp")
+    if ok then cmp.setup({}) end
+  end
+})
+
 lvim.format_on_save = true
 lvim.log.level = "warn"
 lvim.reload_config_on_save = true
 lvim.leader = "space"
+
+lvim.builtin.project.detection_methods = { "lsp", "pattern" }
+lvim.builtin.project.patterns = {
+  ".git",
+  "package-lock.json",
+  "yarn.lock",
+  "package.json",
+  "requirements.txt"
+}
 
 vim.opt.relativenumber = true
 vim.opt.timeoutlen = 250

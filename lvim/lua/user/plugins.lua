@@ -1,7 +1,9 @@
 lvim.plugins = {
+  "lunarvim/lunar.nvim",
   "navarasu/onedark.nvim",
   "ntpeters/vim-better-whitespace",
   "theHamsta/nvim-dap-virtual-text",
+  "thePrimeagen/harpoon",
   "nvim-telescope/telescope-dap.nvim",
   "nvim-telescope/telescope-media-files.nvim",
   "xiyaowong/telescope-emoji.nvim",
@@ -9,19 +11,25 @@ lvim.plugins = {
   "ralismark/opsort.vim",
   "tpope/vim-repeat",
   "mxsdev/nvim-dap-vscode-js",
-  "christianchiarulli/harpoon",
   "edluffy/hologram.nvim",
+  "sQVe/sort.nvim",
+  "jose-elias-alvarez/typescript.nvim",
   {
-    'sQVe/sort.nvim',
-    -- Optional setup for overriding defaults.
+    "phaazon/hop.nvim",
+    branch = "v2",
     config = function()
-      require("sort").setup({
-        -- Input configuration here.
-        -- Refer to the configuration section below for options.
-      })
+      require("hop").setup()
     end
   },
-  { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' },
+
+  {
+    "windwp/nvim-ts-autotag",
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end
+  },
+  "kevinhwang91/nvim-ufo",
+  dependencies = "kevinhwang91/promise-async",
   {
     "windwp/nvim-spectre",
     event = "BufRead",
@@ -37,12 +45,33 @@ lvim.plugins = {
   },
   {
     "0x100101/lab.nvim",
-    run = "cd js && npm ci",
+    build = "cd js && npm ci",
   },
+
   {
     "folke/trouble.nvim",
     cmd = "TroubleToggle",
   },
+
+  {
+    "folke/todo-comments.nvim",
+    dependencies = "nvim-lua/plenary.nvim",
+    config = function()
+      require("todo-comments").setup {}
+    end
+  },
+
+  {
+    "folke/persistence.nvim",
+    event = "BufReadPre",
+    config = function()
+      require("persistence").setup({
+        dir = vim.fn.expand(vim.fn.stdpath "state" .. "/sessions/"),
+        options = { "buffers", "curdir", "tabpages", "winsize" }
+      })
+    end
+  },
+
   {
     "norcalli/nvim-colorizer.lua",
     config = function()
@@ -56,6 +85,26 @@ lvim.plugins = {
         css_fn = true,   -- Enable all CSS *functions*: rgb_fn, hsl_fn
       })
     end,
+  },
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "InsertEnter",
+    config = function()
+      require("copilot").setup({
+        suggestions = { enabled = false },
+        panel = { enabled = false },
+      })
+    end
+  },
+  {
+    "AckslD/nvim-trevJ.lua",
+    config = "require('trevj').setup()",
+    init = function()
+      vim.keymap.set("n", "<leader>j", function()
+        require("trevj").format_at_cursor()
+      end)
+    end
   }
 }
 
@@ -63,20 +112,19 @@ require("onedark").setup {
   style = "deep",
   transparent = true
 }
-lvim.colorscheme = "onedark"
 
 require("hologram").setup {
   auto_display = true
 }
 
-require('ufo').setup({
+require("ufo").setup({
   provider_selector = function()
-    return { 'treesitter', 'indent' }
+    return { "treesitter", "indent" }
   end
 })
 
-require('telescope').load_extension('media_files')
-require('telescope').load_extension('emoji')
+require("telescope").load_extension("media_files")
+require("telescope").load_extension("emoji")
 
 local mason_path = vim.fn.glob(vim.fn.stdpath "data" .. "/mason/")
 require("dap-vscode-js").setup {
