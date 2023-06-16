@@ -1,6 +1,13 @@
 [user]
 	name = steve-rodri
 	email = 24379257+steve-rodri@users.noreply.github.com
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAMHfZYM1q/+mxu806/wtVoTg3ZX2nyRhKFTtml2QNwh
+[gpg]
+  format = ssh
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+[commit]
+  gpgsign = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	process = git-lfs filter-process

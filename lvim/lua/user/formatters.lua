@@ -5,6 +5,10 @@ formatters.setup {
     filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact" }
   },
   {
+    command = "black",
+    filetypes = { "python" }
+  },
+  {
     command = "yamlfmt",
     filetypes = { "yaml" }
   },

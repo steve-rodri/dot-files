@@ -291,6 +291,8 @@ cask "alfred"
 cask "android-platform-tools"
 # Menu bar icon organizer
 cask "bartender"
+# Graphical configurator for Dygma Raise keyboards
+cask "bazecor"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # App to build and share containerized applications and microservices
@@ -341,3 +343,12 @@ cask "webpquicklook"
 cask "zoom"
 # OpenJDK distribution from Azul
 cask "zulu11"
+mas "1Password for Safari", id: 1569813296
+mas "Dark Reader for Safari", id: 1438243180
+mas "GarageBand", id: 682658836
+mas "GoLinks", id: 1478821913
+mas "Harvest", id: 506189836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541

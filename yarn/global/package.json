@@ -3,6 +3,7 @@
     "@aws-amplify/cli": "^10.4.0",
     "@linear/import": "^1.5.17",
     "browser-sync": "^2.27.10",
+    "create-adonis-ts-app": "^4.2.4",
     "create-react-app": "^5.0.0",
     "create-strapi-app": "^4.1.8",
     "create-strapi-starter": "^4.1.7",

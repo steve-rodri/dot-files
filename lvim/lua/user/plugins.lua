@@ -14,6 +14,14 @@ lvim.plugins = {
   "edluffy/hologram.nvim",
   "sQVe/sort.nvim",
   "jose-elias-alvarez/typescript.nvim",
+  "nvim-treesitter/playground",
+  {
+    'akinsho/flutter-tools.nvim',
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
+  },
   {
     "phaazon/hop.nvim",
     branch = "v2",
@@ -106,11 +114,6 @@ lvim.plugins = {
       end)
     end
   }
-}
-
-require("onedark").setup {
-  style = "deep",
-  transparent = true
 }
 
 require("hologram").setup {
