@@ -2,9 +2,16 @@ gui:
   showIcons: true
 git:
   parseEmoji: true
-
+os:
+  edit: 'lvim {{filename}}'
+  editAtLine: 'lvim -c {{line}} {{filename}}'
+  editAtLineAndWait: 'lvim -c {{line}} {{filename}}'
+  editInTerminal: true
 customCommands:
-
+  - key : "c"
+    command: "gitmoji --commit"
+    context: 'files'
+    subprocess: true
   # - key: 'c'
   #   prompts:
   #     - type: input
@@ -17,7 +24,4 @@ customCommands:
   #   context: 'files'
   #   loadingText: 'committing'
   #   showOutput: true
-  - key : "c"
-    command: "gitmoji --commit"
-    context: 'files'
-    subprocess: true
+
