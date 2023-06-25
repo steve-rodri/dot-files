@@ -7,3 +7,4 @@ lua 5.4.2
 golang 1.17.3
 java zulu-11.56.19
 postgres 15.2
+php 7.4.26
