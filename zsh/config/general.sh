@@ -1,21 +1,32 @@
+#!/usr/bin/env bash
+
 # General ZSH configurations
 
 export EDITOR="lvim"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
-eval "$(direnv hook $SHELL)"
+eval "$(direnv hook "$SHELL")"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 PATH=$PATH:"/Users/steve/.local/bin"
 
-sz() { source ~/.zshrc }
+sz() {
+    source ~/.zshrc
+}
 
+first() {
+    awk '{print $1}'
+}
+second() {
+    awk '{print $2}'
+}
+sum() {
+    paste -sd+ - | bc
+}
 
-first() { awk '{print $1}' }
-second() { awk '{print $2}' }
-sum() { paste -sd+ - | bc }
-
-igrep() { grep -i $@ }
+igrep() {
+    grep -i "$@"
+}
 
 restart-postgres() {
     rm /usr/local/var/postgres/postmaster.pid && ( \
@@ -42,8 +53,8 @@ start_dev_server() {
 
 backup_home_brew() {
     CURRENT=$(pwd)
-    cd ~/.dotfiles
+    cd ~/.dotfiles || exit
     brew bundle dump -f --describe --no-upgrade
-    cd $CURRENT
+    cd "$CURRENT" || exit
     echo "Brew Bundle Successfully Created"
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Configure home directory
 export ZDOTDIR=$HOME/.config/zsh
 # Add homebrew binaries

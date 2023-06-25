@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 alias d="cd ~/.dot-files/ && lvim ./"
 
 # Zsh
@@ -22,7 +24,7 @@ alias vim="lvim"
 # Tmux
 alias t="tmux"
 alias ta="tmux a"
-alias ts="tmux new -s"
+alias tns="tmux new -s"
 
 # Git
 alias ga='git add'
@@ -48,7 +50,7 @@ alias lg="lazygit"
 alias rni="kill $(lsof -t -i:8081) && rm -rf ios/build/ && y run ios"
 
 # Yarn
-alias cra='yarn create react-app --template @chakra-ui'
+alias cra='yarn create vite --template react-ts'
 alias crna='npx react-native init'
 alias y='yarn'
 alias ya='yarn add'

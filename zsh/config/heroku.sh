@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # # compdef pdn=heroku
 # function pdn {
 #   if [[ $# -gt 0 ]]; then

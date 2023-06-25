@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Color settings
 
 # makes color constants available

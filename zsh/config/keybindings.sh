@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # handy keybindings
 bindkey "^a" beginning-of-line
 bindkey "^e" end-of-line
@@ -18,44 +20,44 @@ bindkey "^x^e" edit-command-line
 
 # Copy the most recent command to the clipboard
 function _pbcopy_last_command(){
-  history | tail -1 | sed 's/ *[0-9]* *//' | pbcopy && \
-    tmux display-message "Previous command coppied to clipboard"
+    history | tail -1 | sed 's/ *[0-9]* *//' | pbcopy && \
+        tmux display-message "Previous command coppied to clipboard"
 }
 zle -N pbcopy-last-command _pbcopy_last_command
 bindkey '^x^y' pbcopy-last-command
 
 # Git branches
 _fuzzy_git_branches() {
-  zle -U "$(
+    zle -U "$(
     git branch --color=always --sort=-committerdate | \
     grep -v '^* ' | \
     grep -v '^\s\+master' | \
     fzf-tmux --reverse --ansi --select-1 | \
     sed -E 's/^[ \t]*//'
-  )"
+    )"
 }
 zle -N fuzzy-git-branches _fuzzy_git_branches
 bindkey '^g^b' fuzzy-git-branches
 
 # Git files
 _fuzzy_git_status_files() {
-  zle -U "$(
+    zle -U "$(
     git -c color.status=always status --short | \
     fzf-tmux --ansi --reverse --no-sort | \
     cut -d ' ' -f 3
-  )"
+    )"
 }
 zle -N fuzzy-git-status-files _fuzzy_git_status_files
 bindkey '^g^f' fuzzy-git-status-files
 
 # Git files
 _fuzzy_git_shalector() {
-  commit=$(
-    git log --color=always --oneline --decorate --all -35 | \
-    fzf-tmux --ansi --reverse --no-sort
-  )
-  zle -U "$(echo $commit | cut -d ' ' -f 1)"
-  zle -M "$commit"
+    commit=$(
+        git log --color=always --oneline --decorate --all -35 | \
+            fzf-tmux --ansi --reverse --no-sort
+    )
+    zle -U "$(echo "$commit" | cut -d ' ' -f 1)"
+    zle -M "$commit"
 }
 zle -N fuzzy-git-shalector _fuzzy_git_shalector
 bindkey '^g^g' fuzzy-git-shalector
