@@ -116,6 +116,9 @@ lvim.plugins = {
   }
 }
 
+require("telescope").load_extension("media_files")
+require("telescope").load_extension("emoji")
+
 require("hologram").setup {
   auto_display = true
 }
@@ -125,9 +128,6 @@ require("ufo").setup({
     return { "treesitter", "indent" }
   end
 })
-
-require("telescope").load_extension("media_files")
-require("telescope").load_extension("emoji")
 
 local mason_path = vim.fn.glob(vim.fn.stdpath "data" .. "/mason/")
 require("dap-vscode-js").setup {

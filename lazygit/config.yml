@@ -7,21 +7,20 @@ os:
   editAtLine: 'lvim -c {{line}} {{filename}}'
   editAtLineAndWait: 'lvim -c {{line}} {{filename}}'
   editInTerminal: true
-customCommands:
-  - key : "c"
-    command: "gitmoji --commit"
-    context: 'files'
-    subprocess: true
-  # - key: 'c'
-  #   prompts:
-  #     - type: input
-  #       title: "Gitmoji Search:"
-  #       initialValue: ''
-  #     - type: 'menuFromCommand'
-  #       title: "Choose a Gitmoji"
-  #       command: 'gitmoji --search {{ index .PromptResponses 0}} | xargs echo'
-  #   command: "gitmoji --list"
-  #   context: 'files'
-  #   loadingText: 'committing'
-  #   showOutput: true
-
+# customCommands:
+#   - key: "c"
+#     command: "gitmoji --commit"
+#     context: 'files'
+#     subprocess: true
+# - key: 'c'
+#   prompts:
+#     - type: input
+#       title: "Gitmoji Search:"
+#       initialValue: ''
+#     - type: 'menuFromCommand'
+#       title: "Choose a Gitmoji"
+#       command: 'gitmoji --search {{ index .PromptResponses 0}} | xargs echo'
+#   command: "gitmoji --list"
+#   context: 'files'
+#   loadingText: 'committing'
+#   showOutput: true

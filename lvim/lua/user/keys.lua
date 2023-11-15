@@ -61,6 +61,7 @@ wk.mappings["sm"] = {
   "<cmd>Telescope media_files<cr>", "Media"
 }
 
+
 wk.mappings["S"] = {
   name = "Search and Replace",
   o = { "<cmd>lua require('spectre').open()<CR>", "Open" },
@@ -137,6 +138,7 @@ wk.mappings["t"] = {
   name = ' Telescope',
   p = { ':Telescope projects<cr>', 'Projects' }, -- requires telescope-project.nvim plugin
   r = { ':Telescope resume<cr>', 'Resume' },
+  t = { '<cmd>TodoTelescope<cr>', 'Todos' }
 }
 
 

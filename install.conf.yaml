@@ -1,15 +1,12 @@
 - defaults:
     link:
       relink: true
-
 - clean: ["~"]
-
 - create:
     - ~/.config/
     - ~/.config/yarn/
     - ~/.config/zsh/
     - ~/Library/Application Support/lazygit/
-
 - link:
     ~/.config/alacritty: alacritty
     ~/.config/colorls: colorls
@@ -24,6 +21,7 @@
     ~/.config/zsh/.zshrc: zsh/zshrc
     ~/.config/zsh/.zprofile: zsh/zprofile
     ~/.config/git: git
+    ~/.config/.bunfig.toml: bun/bunfig.toml
     ~/Library/Application Support/lazygit/config.yml: lazygit/config.yml
     ~/.zshenv: zsh/zshenv
     ~/.tmux.conf: tmux/tmux.conf

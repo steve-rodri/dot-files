@@ -21,3 +21,6 @@ zplug load
 for zsh_source in $HOME/.dot-files/zsh/config/*.sh; do
     source $zsh_source
 done
+
+# bun completions
+[ -s "/Users/steve/.bun/_bun" ] && source "/Users/steve/.bun/_bun"
