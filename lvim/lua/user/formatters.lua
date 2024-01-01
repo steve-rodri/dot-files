@@ -2,7 +2,7 @@ local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
   {
     command = "prettier",
-    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact" }
+    filetypes = { "javascript", "typescript", "javascriptreact", "typescriptreact", "php" }
   },
   {
     command = "black",
