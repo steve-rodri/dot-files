@@ -103,3 +103,7 @@ alias ha="cd /Volumes/config"
 alias ss="start_dev_server"
 
 alias format="prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx,ts,tsx}\""
+
+#FZF
+alias f="fzf --preview 'bat --style=numbers --color=always {}' | xargs -n 1 lvim"
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -l -g ""'
