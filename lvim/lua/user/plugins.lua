@@ -16,6 +16,9 @@ lvim.plugins = {
   "jose-elias-alvarez/typescript.nvim",
   "nvim-treesitter/playground",
   "github/copilot.vim",
+  "tpope/vim-dadbod",
+  "kristijanhusak/vim-dadbod-ui",
+  "kristijanhusak/vim-dadbod-completion",
   {
     'akinsho/flutter-tools.nvim',
     dependencies = {
