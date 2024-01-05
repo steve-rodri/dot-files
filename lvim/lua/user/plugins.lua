@@ -15,6 +15,7 @@ lvim.plugins = {
   "sQVe/sort.nvim",
   "jose-elias-alvarez/typescript.nvim",
   "nvim-treesitter/playground",
+  "github/copilot.vim",
   {
     'akinsho/flutter-tools.nvim',
     dependencies = {
@@ -94,17 +95,28 @@ lvim.plugins = {
       })
     end,
   },
+
   {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "InsertEnter",
+    "Exafunction/codeium.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "hrsh7th/nvim-cmp"
+    },
     config = function()
-      require("copilot").setup({
-        suggestions = { enabled = false },
-        panel = { enabled = false },
-      })
+      require("codeium").setup({})
+      table.insert(lvim.builtin.cmp.sources, { name = "codeium" })
     end
   },
+
+  {
+    "jackMort/ChatGPT.nvim",
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "nvim-lua/plenary.nvim",
+    }
+  },
+
+
   {
     "AckslD/nvim-trevJ.lua",
     config = "require('trevj').setup()",
@@ -115,6 +127,17 @@ lvim.plugins = {
     end
   }
 }
+
+require("chatgpt").setup({
+  api_key_cmd = "op read op://private/OpenAI/credential --no-newline"
+})
+
+-- local home = vim.fn.expand("$HOME")
+-- require("chatgpt").setup({
+--   api_key_cmd = "gpg --decrypt " .. home .. "/.config/lvim/openai-api-key.txt.gpg"
+-- })
+
+
 
 require("telescope").load_extension("media_files")
 require("telescope").load_extension("emoji")
@@ -128,6 +151,13 @@ require("ufo").setup({
     return { "treesitter", "indent" }
   end
 })
+
+vim.keymap.set("i", "<C-r>", 'copilot#Accept("<CR>")', {
+  expr = true,
+  replace_keycodes = false
+})
+vim.g.copilot_no_tab_map = true
+-- vim.b.copilot_enabled = false
 
 local mason_path = vim.fn.glob(vim.fn.stdpath "data" .. "/mason/")
 require("dap-vscode-js").setup {

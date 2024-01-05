@@ -123,14 +123,22 @@ wk.mappings["W"] = {
   s = { ":lua require('telescope-tabs').list_tabs()<cr>", 'Search Tabs' },
 }
 
+-- wk.mappings["G"] = {
+--   name = ' ' .. kind.icons.hint .. " Github Copilot",
+--   a = { ":lua require('copilot.suggestion').accept()<cr>", "Accept" },
+--   n = { ":lua require('copilot.suggestion').next()<cr>", "Next" },
+--   N = { ":lua require('copilot.suggestion').prev()<cr>", "Prev" },
+--   d = { ":lua require('copilot.suggestion').dismiss()<cr>", "Dismiss" },
+--   t = { ":lua require('copilot.suggestion').toggle_auto_trigger()<cr>", "Toggle Auto Trigger" },
+-- }
+
 wk.mappings["G"] = {
-  name = ' ' .. kind.icons.hint .. " Github Copilot",
-  a = { ":lua require('copilot.suggestion').accept()<cr>", "Accept" },
-  n = { ":lua require('copilot.suggestion').next()<cr>", "Next" },
-  N = { ":lua require('copilot.suggestion').prev()<cr>", "Prev" },
-  d = { ":lua require('copilot.suggestion').dismiss()<cr>", "Dismiss" },
-  t = { ":lua require('copilot.suggestion').toggle_auto_trigger()<cr>", "Toggle Auto Trigger" },
+  name = ' ' .. kind.icons.hint .. "Chat GPT",
+  p = { ":ChatGPT<cr>", "Prompt" },
+  a = { ":ChatGPTActAs<cr>", "Act As.." },
+  c = { ":ChatGPTCompleteCode<cr>", "Complete Code" },
 }
+
 
 wk.mappings['x'] = { ":xa<cr>", "Save All and Quit", }
 
