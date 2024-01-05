@@ -22,6 +22,7 @@
     ~/.config/zsh/.zprofile: zsh/zprofile
     ~/.config/git: git
     ~/.config/.bunfig.toml: bun/bunfig.toml
+    ~/.config/starship.toml: starship/starship.toml
     ~/Library/Application Support/lazygit/config.yml: lazygit/config.yml
     ~/.zshenv: zsh/zshenv
     ~/.tmux.conf: tmux/tmux.conf

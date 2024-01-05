@@ -1,0 +1,11 @@
+add_newline = false
+format = """$directory$character"""
+# palette = "catppuccin_mocha"
+right_format = """$all"""
+
+[directory]
+truncation_length = 8
+truncaction_symbol = "../"
+
+[directory.substitutions]
+# '~/code/smash/' = 'smash'
