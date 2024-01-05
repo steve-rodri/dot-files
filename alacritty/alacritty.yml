@@ -6,7 +6,7 @@ window:
     lines: 38
   padding:
     x: 10
-    y: 10
+    y: 20
   decorations: transparent
 scrolling:
   history: 10000
