@@ -2,6 +2,8 @@
 	name = steve-rodri
 	email = 24379257+steve-rodri@users.noreply.github.com
   signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAMHfZYM1q/+mxu806/wtVoTg3ZX2nyRhKFTtml2QNwh
+[url "git@github.com:"]
+  insteadOf = https://github.com/
 [gpg]
   format = ssh
 [gpg "ssh"]
