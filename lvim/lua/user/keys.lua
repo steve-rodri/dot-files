@@ -146,11 +146,6 @@ wk.mappings["t"] = {
   name = ' Telescope',
   p = { ':Telescope projects<cr>', 'Projects' }, -- requires telescope-project.nvim plugin
   r = { ':Telescope resume<cr>', 'Resume' },
-  t = { '<cmd>TodoTelescope<cr>', 'Todos' }
+  t = { ':TodoTelescope<cr>', 'Todos' },
+  s = { ':Telescope lsp_dynamic_workspace_symbols<cr>', 'Symbols' }
 }
-
-
--- lvim.keys.normal_mode["<leader>S"] = "<cmd>lua require('spectre').open()<CR>"
--- lvim.keys.normal_mode["<leader>sw"] = "<cmd>lua require('spectre').open_visual({select_word=true})<CR>"
--- lvim.keys.visual_mode["<leader>s"] = "<esc>:lua require('spectre').open_visual()<CR>"
--- lvim.keys.normal_mode["<leader>sp"] = "viw:lua require('spectre').open_file_search()<cr>"
