@@ -146,26 +146,26 @@ lvim.plugins = {
     end
   },
 
-  {
-    'nvimtools/none-ls.nvim',
-    opts = function(_, opts)
-      local nls = require('null-ls').builtins
-      opts.sources = {
-        nls.formatting.biome.with({
-          filetypes = { 'javascript', 'javascriptreact', 'json', 'jsonc', 'typescript', 'typescriptreact' },
-          args = {
-            'check',
-            '--apply-unsafe',
-            '--formatter-enabled=true',
-            '--organize-imports-enabled=true',
-            '--skip-errors',
-            '$FILENAME',
-          },
-        }),
-      }
-      return opts
-    end,
-  },
+  -- {
+  --   'nvimtools/none-ls.nvim',
+  --   opts = function(_, opts)
+  --     local nls = require('null-ls').builtins
+  --     opts.sources = {
+  --       nls.formatting.biome.with({
+  --         filetypes = { 'javascript', 'javascriptreact', 'json', 'jsonc', 'typescript', 'typescriptreact' },
+  --         args = {
+  --           'check',
+  --           '--apply-unsafe',
+  --           '--formatter-enabled=true',
+  --           '--organize-imports-enabled=true',
+  --           '--skip-errors',
+  --           '$FILENAME',
+  --         },
+  --       }),
+  --     }
+  --     return opts
+  --   end,
+  -- },
 
 }
 
