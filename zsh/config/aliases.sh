@@ -44,6 +44,7 @@ alias gk='gitk --all&'
 alias got='git'
 alias gpl='git pull'
 alias gpu='git push'
+alias gpt='git push --tags'
 alias gs='git status'
 alias gt='git tag'
 alias gx='gitx --all'
@@ -54,6 +55,7 @@ alias lg="lazygit"
 # React Native
 alias rni="kill $(lsof -t -i:8081) && rm -rf ios/build/ && y run ios"
 
+alias kp="kill_port"
 # Yarn
 alias cra='yarn create vite --template react-ts'
 alias crna='npx react-native init'

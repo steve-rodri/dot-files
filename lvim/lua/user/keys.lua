@@ -14,6 +14,9 @@ lvim.keys.normal_mode["<leader>as"] = "<cmd>Lab code stop<cr>"
 lvim.keys.normal_mode["<leader>ar"] = "<cmd>Lab code run<cr>"
 lvim.keys.normal_mode["<leader>ap"] = "<cmd>Lab code panel<cr>"
 
+vim.keymap.set("n", "<C-j>", "10jzz")
+vim.keymap.set("n", "<C-k>", "10kzz")
+
 buf.normal_mode["gr"] = {
   ":lua require('telescope.builtin').lsp_references()<cr>",
   kind.cmp_kind.Reference .. "Find references"
@@ -148,4 +151,9 @@ wk.mappings["t"] = {
   r = { ':Telescope resume<cr>', 'Resume' },
   t = { ':TodoTelescope<cr>', 'Todos' },
   s = { ':Telescope lsp_dynamic_workspace_symbols<cr>', 'Symbols' }
+}
+
+wk.mappings["D"] = {
+  name = "Database",
+  t = { ':DBUIToggle<cr>', "Toggle UI" }
 }

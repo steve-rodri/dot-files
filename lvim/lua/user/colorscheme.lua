@@ -1,11 +1,67 @@
 local themes = {
   lunar = "lunar",
-  onedark = "onedark",
+  catppuccin = "catppuccin",
+  atom = {
+    onedark = "onedark",
+  },
+  ironman_dark = "ironman_dark"
 }
+
+lvim.transparent_window = true
+lvim.colorscheme = themes.catppuccin
+lvim.builtin.lualine.options.theme = "catppuccin"
+
+require("catppuccin").setup({
+  flavour = "mocha", -- latte, frappe, macchiato, mocha
+  background = {     -- :h background
+    light = "latte",
+    dark = "mocha",
+  },
+
+  transparent_background = true, -- disables setting the background color.
+  show_end_of_buffer = false,    -- shows the '~' characters after the end of buffers
+  term_colors = false,           -- sets terminal colors (e.g. `g:terminal_color_0`)
+  dim_inactive = {
+    enabled = false,             -- dims the background color of inactive window
+    shade = "dark",
+    percentage = 0.15,           -- percentage of the shade to apply to the inactive window
+  },
+  no_italic = false,             -- Force no italic
+  no_bold = false,               -- Force no bold
+  no_underline = false,          -- Force no underline
+  styles = {                     -- Handles the styles of general hi groups (see `:h highlight-args`):
+    comments = { "italic" },     -- Change the style of comments
+    conditionals = { "italic" },
+    loops = {},
+    functions = {},
+    keywords = {},
+    strings = {},
+    variables = {},
+    numbers = {},
+    booleans = {},
+    properties = {},
+    types = {},
+    operators = {},
+  },
+  color_overrides = {},
+  custom_highlights = {},
+  integrations = {
+    cmp = true,
+    gitsigns = true,
+    nvimtree = true,
+    treesitter = true,
+    notify = false,
+    mini = {
+      enabled = true,
+      indentscope_color = "",
+    },
+    -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
+  },
+})
 
 require('onedark').setup {
   -- Main options --
-  style = 'deep',               -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+  style = 'dark',               -- Default theme style. Choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
   transparent = true,           -- Show/hide background
   term_colors = true,           -- Change terminal color as per the selected theme style
   ending_tildes = false,        -- Show the end-of-buffer tildes. By default they are hidden
@@ -37,13 +93,8 @@ require('onedark').setup {
 
   -- Plugins Config --
   diagnostics = {
-    darker = true,     -- darker colors for diagnostic
-    undercurl = true,  -- use undercurl instead of underline for diagnostics
-    background = true, -- use background color for virtual text
+    darker = true,      -- darker colors for diagnostic
+    undercurl = false,  -- use undercurl instead of underline for diagnostics
+    background = false, -- use background color for virtual text
   },
 }
-
-
-
-lvim.transparent_window = true
-lvim.colorscheme = themes.onedark

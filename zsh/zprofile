@@ -5,5 +5,7 @@ export PATH
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+eval "$(zoxide init zsh)"
+
 # Added by OrbStack: command-line tools and integration
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :

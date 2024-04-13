@@ -9,9 +9,10 @@
     - ~/Library/Application Support/lazygit/
 - link:
     ~/.config/alacritty: alacritty
+    ~/.config/wezterm: wezterm
     ~/.config/colorls: colorls
     ~/.config/karabiner: karabiner
-    ~/.config/nvim: nvim
+    # ~/.config/nvim: nvim
     ~/.config/lvim: lvim
     ~/.config/yabai: yabai
     ~/.config/yarn/global: yarn/global
@@ -26,6 +27,7 @@
     ~/Library/Application Support/lazygit/config.yml: lazygit/config.yml
     ~/.zshenv: zsh/zshenv
     ~/.tmux.conf: tmux/tmux.conf
+    ~/.tmux.reset.conf: tmux/tmux.reset.conf
     ~/.hammerspoon: hammerspoon
     ~/.tool-versions: asdf/tool-versions
     ~/.skhdrc: skhd/skhdrc

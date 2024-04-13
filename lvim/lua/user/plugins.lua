@@ -1,5 +1,6 @@
 lvim.plugins = {
   "lunarvim/lunar.nvim",
+  "i3d/vim-jimbothemes",
   "navarasu/onedark.nvim",
   "ntpeters/vim-better-whitespace",
   "theHamsta/nvim-dap-virtual-text",
@@ -15,10 +16,24 @@ lvim.plugins = {
   "sQVe/sort.nvim",
   "jose-elias-alvarez/typescript.nvim",
   "nvim-treesitter/playground",
-  "github/copilot.vim",
   "tpope/vim-dadbod",
   "kristijanhusak/vim-dadbod-ui",
   "kristijanhusak/vim-dadbod-completion",
+  "VonHeikemen/fine-cmdline.nvim",
+  "jwalton512/vim-blade",
+  {
+    "nanotee/zoxide.vim",
+    dependencies = {
+      "junegunn/fzf.vim"
+    }
+  },
+
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000
+  },
+
   {
     'akinsho/flutter-tools.nvim',
     dependencies = {
@@ -26,6 +41,7 @@ lvim.plugins = {
       'stevearc/dressing.nvim', -- optional for vim.ui.select
     },
   },
+
   {
     "phaazon/hop.nvim",
     branch = "v2",
@@ -111,13 +127,13 @@ lvim.plugins = {
     end
   },
 
-  {
-    "jackMort/ChatGPT.nvim",
-    dependencies = {
-      "MunifTanjim/nui.nvim",
-      "nvim-lua/plenary.nvim",
-    }
-  },
+  -- {
+  --   "jackMort/ChatGPT.nvim",
+  --   dependencies = {
+  --     "MunifTanjim/nui.nvim",
+  --     "nvim-lua/plenary.nvim",
+  --   }
+  -- },
 
 
   {
@@ -128,12 +144,34 @@ lvim.plugins = {
         require("trevj").format_at_cursor()
       end)
     end
-  }
+  },
+
+  {
+    'nvimtools/none-ls.nvim',
+    opts = function(_, opts)
+      local nls = require('null-ls').builtins
+      opts.sources = {
+        nls.formatting.biome.with({
+          filetypes = { 'javascript', 'javascriptreact', 'json', 'jsonc', 'typescript', 'typescriptreact' },
+          args = {
+            'check',
+            '--apply-unsafe',
+            '--formatter-enabled=true',
+            '--organize-imports-enabled=true',
+            '--skip-errors',
+            '$FILENAME',
+          },
+        }),
+      }
+      return opts
+    end,
+  },
+
 }
 
-require("chatgpt").setup({
-  api_key_cmd = "op read op://private/OpenAI/credential --no-newline"
-})
+-- require("chatgpt").setup({
+--   api_key_cmd = "security find-generic-password -w -s 'openai' -a 'neovim'"
+-- })
 
 -- local home = vim.fn.expand("$HOME")
 -- require("chatgpt").setup({
@@ -154,13 +192,6 @@ require("ufo").setup({
     return { "treesitter", "indent" }
   end
 })
-
-vim.keymap.set("i", "<C-r>", 'copilot#Accept("<CR>")', {
-  expr = true,
-  replace_keycodes = false
-})
-vim.g.copilot_no_tab_map = true
--- vim.b.copilot_enabled = false
 
 local mason_path = vim.fn.glob(vim.fn.stdpath "data" .. "/mason/")
 require("dap-vscode-js").setup {

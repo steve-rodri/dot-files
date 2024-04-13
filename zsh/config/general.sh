@@ -58,3 +58,15 @@ backup_home_brew() {
     cd "$CURRENT" || exit
     echo "Brew Bundle Successfully Created"
 }
+
+
+kill_port() {
+    PORT="$1"
+    if [ -z "$PORT" ]; then
+        echo "Error: Port not provided."
+        return 1
+    fi
+
+    kill "$(lsof -t -i:"$PORT")"
+    echo "Port killed"
+}

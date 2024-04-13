@@ -17,4 +17,8 @@ linters.setup {
     filetypes = { "markdown" }
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
   },
+  {
+    command = "phpstan",
+    filetypes = { "php" }
+  }
 }
