@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-alias d="cd ~/.dot-files/ && lvim ./"
+alias d="lvim ~/.dot-files/"
 
 # Doppler
 alias ds="doppler secrets"
