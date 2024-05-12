@@ -14,7 +14,8 @@ linters.setup {
   },
   {
     command = "markdownlint",
-    filetypes = { "markdown" }
+    filetypes = { "markdown" },
+    extra_args = { "--disable", "MD013", "MD024" }
     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
   },
   {
