@@ -70,14 +70,15 @@ alias ys='yarn start'
 
 
 # Bun
-alias b='bun'
+alias b='bun run'
+alias br='bun run'
 alias bi='bun install'
-alias bga='bun global install'
+alias bu='bun uninstall'
+alias bgi='bun global install'
 alias ba='bun add'
 alias bd='bun deploy'
 alias bcra='bun create react-app'
 alias bcea='bun create expo-app -t blank-typescript'
-alias br='bun uninstall'
 alias bs='bun start'
 
 
