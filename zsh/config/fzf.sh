@@ -11,17 +11,17 @@ fzf-open-file-or-dir() {
     -o -type f -print \
     -o -type d -print \
     -o -type l -print 2> /dev/null | sed 1d | cut -b3-"
-    local out=$(eval $cmd | fzf-tmux --exit-0)
+    local out=$(eval "$cmd" | fzf-tmux --exit-0)
 
     if [ -f "$out" ]; then
-        $EDITOR "$out" < /dev/tty
+        $EDITOR "$out" </dev/tty
     elif [ -d "$out" ]; then
-        cd "$out"
+        cd "$out" || exit
         zle reset-prompt
     fi
 }
 
-zle     -N   fzf-open-file-or-dir
+zle -N fzf-open-file-or-dir
 bindkey '^P' fzf-open-file-or-dir
 
 # # https://github.com/SidOfc/dotfiles/blob/d07fa3862ed065c2a5a7f1160ae98416bfe2e1ee/zsh/kp
@@ -37,7 +37,6 @@ bindkey '^P' fzf-open-file-or-dir
 #   echo $pid | xargs kill -${1:-9}
 #   kp
 # fi
-
 
 # # https://github.com/SidOfc/dotfiles/blob/d07fa3862ed065c2a5a7f1160ae98416bfe2e1ee/zsh/bip
 # ### BREW + FZF

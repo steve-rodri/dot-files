@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-alias d="lvim ~/.dot-files/"
+alias d="nvim ~/.dot-files/"
 
 # Doppler
 alias ds="doppler secrets"
 alias dc="doppler configs"
 
 # Zsh
-alias zc="cd  ~/.dot-files/zsh/config && lvim"
-alias za="lvim ~/.dot-files/zsh/config/aliases.sh"
+alias zc="cd  ~/.dot-files/zsh/config && nvim"
+alias za="nvim ~/.dot-files/zsh/config/aliases.sh"
 alias zu="source ~/.dot-files/zsh/zshrc"
 
 # # Home Brew
@@ -16,14 +16,14 @@ alias zu="source ~/.dot-files/zsh/zshrc"
 # alias bb="backup_home_brew"
 
 # Hyper
-alias hc="lvim ~/.hyper.js"
+alias hc="nvim ~/.hyper.js"
 
 # Vim
-alias v="lvim"
-alias vi="lvim"
-alias vc="lvim ~/.dot-files/lvim"
-alias vic="cd ~/.dot-files/lvim && v"
-alias vim="lvim"
+alias v="nvim"
+alias vi="nvim"
+alias vc="nvim ~/.dot-files/nvim"
+alias vic="cd ~/.dot-files/nvim && v"
+alias vim="nvim"
 
 # Tmux
 alias t="tmux"
@@ -49,8 +49,9 @@ alias gs='git status'
 alias gt='git tag'
 alias gx='gitx --all'
 
-# LazyGit
+# Lazy
 alias lg="lazygit"
+alias ld="lazydocker"
 
 # React Native
 alias rni="kill $(lsof -t -i:8081) && rm -rf ios/build/ && y run ios"
@@ -68,7 +69,6 @@ alias ycra='yarn create react-app'
 alias yr='yarn remove'
 alias ys='yarn start'
 
-
 # Bun
 alias b='bun run'
 alias br='bun run'
@@ -80,7 +80,6 @@ alias bd='bun deploy'
 alias bcra='bun create react-app'
 alias bcea='bun create expo-app -t blank-typescript'
 alias bs='bun start'
-
 
 # NPM
 alias nodepackages='cd ~/.asdf/installs/node/'
@@ -108,5 +107,5 @@ alias ss="start_dev_server"
 alias format="prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx,ts,tsx}\""
 
 #FZF
-alias f="fzf --preview 'bat --style=numbers --color=always {}' | xargs -n 1 lvim"
+alias f="fzf --preview 'bat --style=numbers --color=always {}' | xargs -n 1 nvim"
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -l -g ""'

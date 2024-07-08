@@ -12,7 +12,7 @@
     ~/.config/wezterm: wezterm
     ~/.config/colorls: colorls
     ~/.config/karabiner: karabiner
-    # ~/.config/nvim: nvim
+    ~/.config/nvim: nvim
     ~/.config/lvim: lvim
     ~/.config/yabai: yabai
     ~/.config/yarn/global: yarn/global

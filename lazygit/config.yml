@@ -3,9 +3,9 @@ gui:
 git:
   parseEmoji: true
 os:
-  edit: 'lvim {{filename}}'
-  editAtLine: 'lvim -c {{line}} {{filename}}'
-  editAtLineAndWait: 'lvim -c {{line}} {{filename}}'
+  edit: 'nvim {{filename}}'
+  editAtLine: 'nvim -c {{line}} {{filename}}'
+  editAtLineAndWait: 'nvim -c {{line}} {{filename}}'
   editInTerminal: true
 # customCommands:
 #   - key: "c"

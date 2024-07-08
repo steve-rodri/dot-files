@@ -2,37 +2,81 @@ lvim.plugins = {
   "lunarvim/lunar.nvim",
   "i3d/vim-jimbothemes",
   "navarasu/onedark.nvim",
-  "ntpeters/vim-better-whitespace",
-  "theHamsta/nvim-dap-virtual-text",
+
+  {
+    "OlegGulevskyy/better-ts-errors.nvim",
+    dependencies = { "MunifTanjim/nui.nvim" },
+    config = {
+      keymaps = {
+        toggle = '<leader>kk',          -- default '<leader>dd'
+        go_to_definition = '<leader>kl' -- default '<leader>dx'
+      }
+    }
+  },
   "thePrimeagen/harpoon",
-  "nvim-telescope/telescope-dap.nvim",
-  "nvim-telescope/telescope-media-files.nvim",
   "xiyaowong/telescope-emoji.nvim",
-  "christoomey/vim-tmux-navigator",
+  "nvim-telescope/telescope-media-files.nvim",
+  "nvim-telescope/telescope-dap.nvim",
   "ralismark/opsort.vim",
-  "tpope/vim-repeat",
-  "mxsdev/nvim-dap-vscode-js",
-  "edluffy/hologram.nvim",
   "sQVe/sort.nvim",
-  "jose-elias-alvarez/typescript.nvim",
-  "nvim-treesitter/playground",
   "tpope/vim-dadbod",
   "kristijanhusak/vim-dadbod-ui",
   "kristijanhusak/vim-dadbod-completion",
   "VonHeikemen/fine-cmdline.nvim",
-  "jwalton512/vim-blade",
   {
     "nanotee/zoxide.vim",
     dependencies = {
       "junegunn/fzf.vim"
     }
   },
-
   {
     "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000
   },
+  {
+    "0x100101/lab.nvim",
+    build = "cd js && npm ci",
+  },
+  {
+    "Exafunction/codeium.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "hrsh7th/nvim-cmp"
+    },
+    config = function()
+      require("codeium").setup({})
+      table.insert(lvim.builtin.cmp.sources, { name = "codeium" })
+    end
+  },
+
+  "kevinhwang91/nvim-ufo",
+  dependencies = "kevinhwang91/promise-async",
+  {
+    "windwp/nvim-spectre",
+    event = "BufRead",
+    config = function()
+      require("spectre").setup()
+    end,
+  },
+  "edluffy/hologram.nvim",
+  "tpope/vim-repeat",
+  "jwalton512/vim-blade",
+
+  "ntpeters/vim-better-whitespace",
+  "theHamsta/nvim-dap-virtual-text",
+  "christoomey/vim-tmux-navigator",
+  "mxsdev/nvim-dap-vscode-js",
+  "jose-elias-alvarez/typescript.nvim",
+  "nvim-treesitter/playground",
+
+  {
+    "karb94/neoscroll.nvim",
+    config = function()
+      require('neoscroll').setup({})
+    end
+  },
+
 
   {
     'akinsho/flutter-tools.nvim',
@@ -56,24 +100,11 @@ lvim.plugins = {
       require("nvim-ts-autotag").setup()
     end
   },
-  "kevinhwang91/nvim-ufo",
-  dependencies = "kevinhwang91/promise-async",
-  {
-    "windwp/nvim-spectre",
-    event = "BufRead",
-    config = function()
-      require("spectre").setup()
-    end,
-  },
   {
     "kylechui/nvim-surround",
     config = function()
       require("nvim-surround").setup()
     end
-  },
-  {
-    "0x100101/lab.nvim",
-    build = "cd js && npm ci",
   },
 
   {
@@ -116,16 +147,15 @@ lvim.plugins = {
   },
 
   {
-    "Exafunction/codeium.nvim",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "hrsh7th/nvim-cmp"
-    },
-    config = function()
-      require("codeium").setup({})
-      table.insert(lvim.builtin.cmp.sources, { name = "codeium" })
+    "AckslD/nvim-trevJ.lua",
+    config = "require('trevj').setup()",
+    init = function()
+      vim.keymap.set("n", "<leader>j", function()
+        require("trevj").format_at_cursor()
+      end)
     end
   },
+
 
   -- {
   --   "jackMort/ChatGPT.nvim",
@@ -136,15 +166,6 @@ lvim.plugins = {
   -- },
 
 
-  {
-    "AckslD/nvim-trevJ.lua",
-    config = "require('trevj').setup()",
-    init = function()
-      vim.keymap.set("n", "<leader>j", function()
-        require("trevj").format_at_cursor()
-      end)
-    end
-  },
 
   -- {
   --   'nvimtools/none-ls.nvim',

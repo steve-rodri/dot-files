@@ -2,7 +2,7 @@
 
 # General ZSH configurations
 
-export EDITOR="lvim"
+export EDITOR="nvim"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 eval "$(direnv hook "$SHELL")"
@@ -29,22 +29,19 @@ igrep() {
 }
 
 restart-postgres() {
-    rm /usr/local/var/postgres/postmaster.pid && ( \
-            cd ~/Library/LaunchAgents && \
-            launchctl unload homebrew.mxcl.postgresql.plist && \
-            launchctl load -w homebrew.mxcl.postgresql.plist \
-        )
+    rm /usr/local/var/postgres/postmaster.pid && (
+        cd ~/Library/LaunchAgents &&
+            launchctl unload homebrew.mxcl.postgresql.plist &&
+            launchctl load -w homebrew.mxcl.postgresql.plist
+    )
 }
 
 start_dev_server() {
-    if [ -f yarn.lock ]
-    then
+    if [ -f yarn.lock ]; then
         yarn start
-    elif [ -f package.json ]
-    then
+    elif [ -f package.json ]; then
         npm start
-    elif [ -f index.html ]
-    then
+    elif [ -f index.html ]; then
         browser-sync start --server --files '**'
     else
         echo "No package.json or index.html file found"
@@ -58,7 +55,6 @@ backup_home_brew() {
     cd "$CURRENT" || exit
     echo "Brew Bundle Successfully Created"
 }
-
 
 kill_port() {
     PORT="$1"
