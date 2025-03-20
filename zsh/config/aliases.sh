@@ -2,6 +2,8 @@
 
 alias d="nvim ~/.dot-files/"
 
+alias n="nr"
+
 # Doppler
 alias ds="doppler secrets"
 alias dc="doppler configs"
