@@ -60,14 +60,11 @@ alias rni="kill $(lsof -t -i:8081) && rm -rf ios/build/ && y run ios"
 
 alias kp="kill_port"
 # Yarn
-alias cra='yarn create vite --template react-ts'
-alias crna='npx react-native init'
 alias y='yarn'
 alias ya='yarn add'
 alias yga='yarn global add'
 alias yd='yarn deploy'
 alias yp='v ~/.dot-files/yarn/global/package.json'
-alias ycra='yarn create react-app'
 alias yr='yarn remove'
 alias ys='yarn start'
 
@@ -79,9 +76,11 @@ alias bu='bun uninstall'
 alias bgi='bun global install'
 alias ba='bun add'
 alias bd='bun deploy'
-alias bcra='bun create react-app'
-alias bcea='bun create expo-app -t blank-typescript'
 alias bs='bun start'
+
+# React
+alias cra='bun create vite --template react-ts'
+alias cea='bun create expo-app'
 
 # NPM
 alias nodepackages='cd ~/.asdf/installs/node/'
@@ -111,3 +110,5 @@ alias format="prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx,ts,tsx}\
 #FZF
 alias f="fzf --preview 'bat --style=numbers --color=always {}' | xargs -n 1 nvim"
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -l -g ""'
+
+alias ai="~/.dot-files/tmux/scripts/tmux_ai.sh"

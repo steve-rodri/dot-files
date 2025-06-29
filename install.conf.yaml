@@ -26,6 +26,8 @@
     ~/.config/starship.toml: starship/starship.toml
     ~/Library/Application Support/lazygit/config.yml: lazygit/config.yml
     ~/.zshenv: zsh/zshenv
+    ~/.zshrc: zsh/zshrc
+    ~/.zprofile: zsh/zprofile
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmux.reset.conf: tmux/tmux.reset.conf
     ~/.hammerspoon: hammerspoon
