@@ -1,2 +1,3 @@
 node_modules
-zsh/config/hass.zsh
+zsh/config/hash.zsh
+zsh/config/api-keys.sh
